@@ -2,1001 +2,1001 @@
     "1": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Final Payroll Processing",
-        "due_date": "1977-10-16",
+        "name": "IT/Security Training",
+        "due_date": "2025-12-05",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "2002-09-16 12:33:19.264973",
-        "last_updated": "2002-09-16 12:33:19.264973"
+        "created_at": "1990-05-08 18:47:09.973464",
+        "last_updated": "1990-05-08 18:47:09.973464"
     },
     "2": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Benefits Enrollment Complete",
-        "due_date": "2006-01-09",
+        "name": "Benefits Enrollment Kickoff",
+        "due_date": "1998-08-01",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "2010-12-18 16:49:46.591692",
-        "last_updated": "2010-12-18 16:49:46.591692"
+        "created_at": "2007-03-20 10:37:59.150267",
+        "last_updated": "2007-03-20 10:37:59.150267"
     },
     "3": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Final Payroll Processing",
-        "due_date": "2018-11-17",
+        "name": "Complete Background Check",
+        "due_date": "1984-12-29",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "2021-06-27 00:47:00.061965",
-        "last_updated": "2021-06-27 00:47:00.061965"
+        "status": "pending",
+        "created_at": "2009-08-20 01:58:04.750887",
+        "last_updated": "2009-08-20 01:58:04.750887"
     },
     "4": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Direct Deposit Setup",
-        "due_date": "1983-02-16",
+        "name": "Workstation Setup",
+        "due_date": "2025-04-06",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1982-04-25 05:02:13.837373",
-        "last_updated": "1982-04-25 05:02:13.837373"
+        "status": "pending",
+        "created_at": "2024-08-07 09:43:52.473987",
+        "last_updated": "2024-08-07 09:43:52.473987"
     },
     "5": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Review Employee Handbook",
-        "due_date": "1999-12-16",
+        "name": "Benefits Enrollment Complete",
+        "due_date": "2014-07-19",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "2022-05-16 20:54:26.909608",
-        "last_updated": "2022-05-16 20:54:26.909608"
+        "created_at": "1994-08-05 00:53:35.811550",
+        "last_updated": "1994-08-05 00:53:35.811550"
     },
     "6": {
         "task_id": null,
         "checklist_id": null,
-        "name": "30-Day Check-in",
-        "due_date": "1999-04-28",
+        "name": "Remove System Access",
+        "due_date": "1990-02-02",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "1974-08-04 12:46:00.302644",
-        "last_updated": "1974-08-04 12:46:00.302644"
+        "status": "completed",
+        "created_at": "2006-08-30 19:57:10.551813",
+        "last_updated": "2006-08-30 19:57:10.551813"
     },
     "7": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Archive Employee Files",
-        "due_date": "2018-05-18",
+        "name": "Sign Policies",
+        "due_date": "2011-12-22",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "1980-01-21 06:48:40.173023",
-        "last_updated": "1980-01-21 06:48:40.173023"
+        "status": "completed",
+        "created_at": "2009-02-07 05:24:34.409856",
+        "last_updated": "2009-02-07 05:24:34.409856"
     },
     "8": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Badge/ID Activation",
-        "due_date": "1997-07-18",
+        "name": "Assign Equipment",
+        "due_date": "1979-07-10",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "1989-10-24 21:04:36.632437",
-        "last_updated": "1989-10-24 21:04:36.632437"
+        "status": "completed",
+        "created_at": "2011-01-08 01:10:30.109895",
+        "last_updated": "2011-01-08 01:10:30.109895"
     },
     "9": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Manager Introduction",
-        "due_date": "2011-10-15",
+        "name": "30-Day Check-in",
+        "due_date": "1975-12-08",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "1984-06-16 21:33:18.584250",
-        "last_updated": "1984-06-16 21:33:18.584250"
+        "status": "completed",
+        "created_at": "2017-09-18 16:19:19.949530",
+        "last_updated": "2017-09-18 16:19:19.949530"
     },
     "10": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Send Exit Confirmation",
-        "due_date": "1999-07-13",
+        "name": "Collect Resignation Letter",
+        "due_date": "2001-02-22",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "2020-08-28 06:31:41.557332",
-        "last_updated": "2020-08-28 06:31:41.557332"
+        "status": "pending",
+        "created_at": "1999-05-30 17:26:42.690510",
+        "last_updated": "1999-05-30 17:26:42.690510"
     },
     "11": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Manager Introduction",
-        "due_date": "2004-09-26",
+        "name": "Account Creation & Credentials Setup",
+        "due_date": "2019-08-05",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1981-08-07 03:51:34.160773",
-        "last_updated": "1981-08-07 03:51:34.160773"
+        "status": "pending",
+        "created_at": "2011-02-01 08:35:00.480971",
+        "last_updated": "2011-02-01 08:35:00.480971"
     },
     "12": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Direct Deposit Setup",
-        "due_date": "2005-07-23",
+        "name": "Archive Employee Files",
+        "due_date": "1983-11-29",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "2013-03-17 02:52:14.890448",
-        "last_updated": "2013-03-17 02:52:14.890448"
+        "status": "pending",
+        "created_at": "2023-01-14 07:33:46.364118",
+        "last_updated": "2023-01-14 07:33:46.364118"
     },
     "13": {
         "task_id": null,
         "checklist_id": null,
-        "name": "System Access Provisioning",
-        "due_date": "1984-06-12",
+        "name": "90-Day Check-in",
+        "due_date": "1979-03-31",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "2017-08-09 05:17:01.929767",
-        "last_updated": "2017-08-09 05:17:01.929767"
+        "created_at": "2013-09-01 21:55:04.764493",
+        "last_updated": "2013-09-01 21:55:04.764493"
     },
     "14": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Exit Interview",
-        "due_date": "1978-04-15",
+        "name": "Benefits Enrollment Complete",
+        "due_date": "1995-05-03",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1985-10-03 12:29:34.047684",
-        "last_updated": "1985-10-03 12:29:34.047684"
+        "created_at": "2000-11-04 09:12:34.998279",
+        "last_updated": "2000-11-04 09:12:34.998279"
     },
     "15": {
         "task_id": null,
         "checklist_id": null,
-        "name": "HR Policy Review",
-        "due_date": "1972-08-17",
+        "name": "Disable Email",
+        "due_date": "1992-12-25",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "1982-12-16 18:02:26.521707",
-        "last_updated": "1982-12-16 18:02:26.521707"
+        "created_at": "2008-02-27 21:01:43.347438",
+        "last_updated": "2008-02-27 21:01:43.347438"
     },
     "16": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Complete Tax Forms (W-4, State)",
-        "due_date": "1973-12-29",
+        "name": "Send Exit Confirmation",
+        "due_date": "2002-03-23",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "2010-05-13 14:46:05.525159",
-        "last_updated": "2010-05-13 14:46:05.525159"
+        "status": "pending",
+        "created_at": "2013-12-02 18:05:01.147380",
+        "last_updated": "2013-12-02 18:05:01.147380"
     },
     "17": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Exit Interview",
-        "due_date": "2004-11-09",
+        "name": "Return Laptop",
+        "due_date": "2003-10-04",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "1972-10-25 14:43:03.051812",
-        "last_updated": "1972-10-25 14:43:03.051812"
+        "created_at": "1997-11-15 04:05:29.308170",
+        "last_updated": "1997-11-15 04:05:29.308170"
     },
     "18": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Complete Benefits Enrollment",
-        "due_date": "1983-08-03",
+        "name": "Benefits Enrollment Kickoff",
+        "due_date": "2013-10-24",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1986-10-12 01:08:29.648061",
-        "last_updated": "1986-10-12 01:08:29.648061"
+        "status": "pending",
+        "created_at": "1991-08-16 16:40:08.811623",
+        "last_updated": "1991-08-16 16:40:08.811623"
     },
     "19": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Collect Personal Information",
-        "due_date": "1982-01-03",
+        "name": "Payroll Setup & Bank Verification",
+        "due_date": "1972-07-24",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "1977-05-25 13:29:28.239635",
-        "last_updated": "1977-05-25 13:29:28.239635"
+        "status": "completed",
+        "created_at": "1997-12-21 15:02:27.977926",
+        "last_updated": "1997-12-21 15:02:27.977926"
     },
     "20": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Remove System Access",
-        "due_date": "1977-04-14",
+        "name": "Issue Final Payslip",
+        "due_date": "1990-10-05",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2018-03-02 01:24:59.880365",
-        "last_updated": "2018-03-02 01:24:59.880365"
+        "status": "completed",
+        "created_at": "1971-12-02 00:13:03.605279",
+        "last_updated": "1971-12-02 00:13:03.605279"
     },
     "21": {
         "task_id": null,
         "checklist_id": null,
-        "name": "First Week Tasks",
-        "due_date": "1981-08-25",
+        "name": "Review Employee Handbook",
+        "due_date": "1991-12-11",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "1979-01-16 01:46:00.232140",
-        "last_updated": "1979-01-16 01:46:00.232140"
+        "created_at": "2005-10-02 14:05:03.182788",
+        "last_updated": "2005-10-02 14:05:03.182788"
     },
     "22": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Workstation Setup",
-        "due_date": "2002-11-14",
+        "name": "I-9 Section 1 \u2013 Employee",
+        "due_date": "1998-02-11",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2019-09-28 21:26:38.554330",
-        "last_updated": "2019-09-28 21:26:38.554330"
+        "status": "completed",
+        "created_at": "2020-05-02 19:50:20.852878",
+        "last_updated": "2020-05-02 19:50:20.852878"
     },
     "23": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Complete Background Check",
-        "due_date": "2019-01-04",
+        "name": "I-9 Section 1 \u2013 Employee",
+        "due_date": "1997-06-05",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "1993-02-05 06:45:58.790342",
-        "last_updated": "1993-02-05 06:45:58.790342"
+        "created_at": "1983-08-22 00:42:21.960863",
+        "last_updated": "1983-08-22 00:42:21.960863"
     },
     "24": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Send Welcome Email",
-        "due_date": "2016-08-28",
+        "name": "Complete Background Check",
+        "due_date": "2012-03-27",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2016-05-06 05:08:04.850848",
-        "last_updated": "2016-05-06 05:08:04.850848"
+        "status": "completed",
+        "created_at": "2008-03-29 03:25:29.138877",
+        "last_updated": "2008-03-29 03:25:29.138877"
     },
     "25": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Direct Deposit Setup",
-        "due_date": "2016-06-25",
+        "name": "Remove System Access",
+        "due_date": "1973-08-30",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1982-12-11 12:45:03.365932",
-        "last_updated": "1982-12-11 12:45:03.365932"
+        "status": "pending",
+        "created_at": "1983-10-06 21:19:25.497547",
+        "last_updated": "1983-10-06 21:19:25.497547"
     },
     "26": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Email Setup",
-        "due_date": "2008-11-23",
+        "name": "Manager Introduction & Team Access Setup",
+        "due_date": "2013-12-31",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1995-06-24 05:16:19.245819",
-        "last_updated": "1995-06-24 05:16:19.245819"
+        "created_at": "1995-01-24 19:09:04.775828",
+        "last_updated": "1995-01-24 19:09:04.775828"
     },
     "27": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Collect Resignation Letter",
-        "due_date": "1970-11-20",
+        "name": "I-9 Section 2 \u2013 Employer",
+        "due_date": "1973-06-14",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1974-01-22 23:25:34.178438",
-        "last_updated": "1974-01-22 23:25:34.178438"
+        "created_at": "1997-09-18 19:42:31.730487",
+        "last_updated": "1997-09-18 19:42:31.730487"
     },
     "28": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Manager Exit Approval",
-        "due_date": "2008-03-19",
+        "name": "HR Policy Review",
+        "due_date": "1978-01-05",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "2020-07-04 17:59:16.901090",
-        "last_updated": "2020-07-04 17:59:16.901090"
+        "created_at": "2014-07-20 20:51:30.930697",
+        "last_updated": "2014-07-20 20:51:30.930697"
     },
     "29": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Send Welcome Email",
-        "due_date": "1980-07-11",
+        "name": "Complete Tax Forms (W-4, State)",
+        "due_date": "2024-11-02",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1991-11-11 12:02:55.303214",
-        "last_updated": "1991-11-11 12:02:55.303214"
+        "created_at": "1995-10-30 20:09:28.469405",
+        "last_updated": "1995-10-30 20:09:28.469405"
     },
     "30": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Email Setup",
-        "due_date": "1992-05-23",
+        "name": "Collect Personal Information",
+        "due_date": "1989-01-15",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2013-02-05 21:53:02.880554",
-        "last_updated": "2013-02-05 21:53:02.880554"
+        "status": "completed",
+        "created_at": "1974-12-07 12:43:45.165350",
+        "last_updated": "1974-12-07 12:43:45.165350"
     },
     "31": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Payroll Setup & Bank Verification",
-        "due_date": "2011-01-01",
+        "name": "Complete Tax Forms (W-4, State)",
+        "due_date": "2013-07-17",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "1978-06-20 21:16:00.291460",
-        "last_updated": "1978-06-20 21:16:00.291460"
+        "status": "completed",
+        "created_at": "2008-02-29 11:35:50.557784",
+        "last_updated": "2008-02-29 11:35:50.557784"
     },
     "32": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Final Payroll Processing",
-        "due_date": "2012-12-14",
+        "name": "Assign Equipment",
+        "due_date": "1982-08-14",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "1994-07-13 21:22:33.695243",
-        "last_updated": "1994-07-13 21:22:33.695243"
+        "created_at": "1983-10-18 02:06:21.823765",
+        "last_updated": "1983-10-18 02:06:21.823765"
     },
     "33": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Return Laptop",
-        "due_date": "2006-09-28",
+        "name": "Benefits Enrollment Complete",
+        "due_date": "1990-12-06",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1993-09-15 14:57:50.119152",
-        "last_updated": "1993-09-15 14:57:50.119152"
+        "created_at": "2001-01-06 23:08:42.939305",
+        "last_updated": "2001-01-06 23:08:42.939305"
     },
     "34": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Return Monitor",
-        "due_date": "2016-10-13",
+        "name": "I-9 Section 2 \u2013 Employer",
+        "due_date": "2003-03-04",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "2024-12-26 17:26:19.668540",
-        "last_updated": "2024-12-26 17:26:19.668540"
+        "status": "pending",
+        "created_at": "1984-01-23 20:43:19.599273",
+        "last_updated": "1984-01-23 20:43:19.599273"
     },
     "35": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Exit Interview",
-        "due_date": "1996-02-29",
+        "name": "Final Timesheet Completion",
+        "due_date": "2013-01-11",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "1988-12-29 08:33:42.811295",
-        "last_updated": "1988-12-29 08:33:42.811295"
+        "status": "completed",
+        "created_at": "2022-10-10 03:22:10.180081",
+        "last_updated": "2022-10-10 03:22:10.180081"
     },
     "36": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Sign Policies",
-        "due_date": "1972-07-17",
+        "name": "Badge/ID Activation",
+        "due_date": "1982-01-21",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "1974-11-11 21:01:35.272037",
-        "last_updated": "1974-11-11 21:01:35.272037"
+        "created_at": "1982-01-29 23:44:13.039778",
+        "last_updated": "1982-01-29 23:44:13.039778"
     },
     "37": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Safety Training",
-        "due_date": "1976-10-02",
+        "name": "Final Timesheet Completion",
+        "due_date": "1993-10-09",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1973-08-31 11:15:31.477812",
-        "last_updated": "1973-08-31 11:15:31.477812"
+        "status": "pending",
+        "created_at": "1993-07-11 16:37:51.877303",
+        "last_updated": "1993-07-11 16:37:51.877303"
     },
     "38": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Mandatory Training Assignments (Security, Compliance, Code of Conduct)",
-        "due_date": "2006-01-15",
+        "name": "30-Day Check-in",
+        "due_date": "2000-04-22",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "1980-04-13 07:42:24.598914",
-        "last_updated": "1980-04-13 07:42:24.598914"
+        "status": "completed",
+        "created_at": "1996-03-09 22:04:02.473219",
+        "last_updated": "1996-03-09 22:04:02.473219"
     },
     "39": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Review Employee Handbook",
-        "due_date": "1987-11-16",
+        "name": "Sign Policies",
+        "due_date": "1973-06-05",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2007-09-30 03:45:48.218085",
-        "last_updated": "2007-09-30 03:45:48.218085"
+        "status": "completed",
+        "created_at": "2013-04-25 16:19:41.384600",
+        "last_updated": "2013-04-25 16:19:41.384600"
     },
     "40": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Collect Resignation Letter",
-        "due_date": "2013-11-30",
+        "name": "Set 30/60/90 Day Goals",
+        "due_date": "1976-10-15",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1981-08-02 15:40:25.508938",
-        "last_updated": "1981-08-02 15:40:25.508938"
+        "status": "pending",
+        "created_at": "1994-07-16 06:44:17.613441",
+        "last_updated": "1994-07-16 06:44:17.613441"
     },
     "41": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Orientation & Welcome Session Scheduling",
-        "due_date": "1998-03-03",
+        "name": "Review Employee Handbook",
+        "due_date": "2000-10-30",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2016-05-25 16:26:34.809889",
-        "last_updated": "2016-05-25 16:26:34.809889"
+        "status": "completed",
+        "created_at": "1984-08-29 13:32:54.917719",
+        "last_updated": "1984-08-29 13:32:54.917719"
     },
     "42": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Send Welcome Email",
-        "due_date": "2013-03-10",
+        "name": "Complete Tax Forms (W-4, State)",
+        "due_date": "2016-02-08",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1985-09-28 20:47:39.346931",
-        "last_updated": "1985-09-28 20:47:39.346931"
+        "status": "pending",
+        "created_at": "2007-10-24 05:06:33.788853",
+        "last_updated": "2007-10-24 05:06:33.788853"
     },
     "43": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Benefits Enrollment Complete",
-        "due_date": "1985-04-18",
+        "name": "Send Welcome Email",
+        "due_date": "2023-09-02",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "2012-04-26 19:16:59.557600",
-        "last_updated": "2012-04-26 19:16:59.557600"
+        "created_at": "1984-07-17 11:44:06.752797",
+        "last_updated": "1984-07-17 11:44:06.752797"
     },
     "44": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Manager Exit Approval",
-        "due_date": "1971-11-19",
+        "name": "Configure Payroll Profile",
+        "due_date": "2025-07-19",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "2016-11-21 13:55:59.556614",
-        "last_updated": "2016-11-21 13:55:59.556614"
+        "created_at": "2008-02-01 08:59:39.469000",
+        "last_updated": "2008-02-01 08:59:39.469000"
     },
     "45": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Workstation Setup",
-        "due_date": "2014-10-27",
+        "name": "First Week Tasks",
+        "due_date": "2018-04-13",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2015-02-04 10:23:17.296867",
-        "last_updated": "2015-02-04 10:23:17.296867"
+        "status": "completed",
+        "created_at": "1988-08-03 02:40:48.561385",
+        "last_updated": "1988-08-03 02:40:48.561385"
     },
     "46": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Send Welcome Email",
-        "due_date": "2024-10-09",
+        "name": "Upload ID & Eligibility Documents",
+        "due_date": "1979-02-11",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "1977-02-11 20:26:08.595155",
-        "last_updated": "1977-02-11 20:26:08.595155"
+        "created_at": "2000-01-23 04:02:26.537128",
+        "last_updated": "2000-01-23 04:02:26.537128"
     },
     "47": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Sign Policies",
-        "due_date": "1980-07-30",
+        "name": "Verify Benefit Eligibility Docs",
+        "due_date": "1986-04-22",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "2016-02-09 14:15:45.233882",
-        "last_updated": "2016-02-09 14:15:45.233882"
+        "created_at": "1976-08-02 18:09:54.761173",
+        "last_updated": "1976-08-02 18:09:54.761173"
     },
     "48": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Complete Background Check",
-        "due_date": "1999-08-03",
+        "name": "Terminate Benefits",
+        "due_date": "1983-01-14",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "1984-08-24 06:53:22.811674",
-        "last_updated": "1984-08-24 06:53:22.811674"
+        "created_at": "1981-12-28 17:44:48.444454",
+        "last_updated": "1981-12-28 17:44:48.444454"
     },
     "49": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Retrieve Outstanding Expenses",
-        "due_date": "2014-12-30",
+        "name": "Send Exit Confirmation",
+        "due_date": "2002-04-12",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1982-10-21 20:33:00.895976",
-        "last_updated": "1982-10-21 20:33:00.895976"
+        "created_at": "1988-11-01 14:07:34.556606",
+        "last_updated": "1988-11-01 14:07:34.556606"
     },
     "50": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Mandatory Training Assignments (Security, Compliance, Code of Conduct)",
-        "due_date": "1971-01-01",
+        "name": "Exit Interview",
+        "due_date": "1993-09-21",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "2015-01-24 14:42:44.466079",
-        "last_updated": "2015-01-24 14:42:44.466079"
+        "created_at": "2021-03-09 17:51:22.838784",
+        "last_updated": "2021-03-09 17:51:22.838784"
     },
     "51": {
         "task_id": null,
         "checklist_id": null,
-        "name": "HR Documentation & Compliance Forms",
-        "due_date": "1987-06-20",
+        "name": "Complete Background Check",
+        "due_date": "1990-11-29",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "1981-02-06 00:15:57.228736",
-        "last_updated": "1981-02-06 00:15:57.228736"
+        "created_at": "2017-06-28 06:49:36.033205",
+        "last_updated": "2017-06-28 06:49:36.033205"
     },
     "52": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Verify Benefit Eligibility Docs",
-        "due_date": "2016-12-28",
+        "name": "IT/Security Training",
+        "due_date": "1980-02-11",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2018-05-31 05:14:59.404709",
-        "last_updated": "2018-05-31 05:14:59.404709"
+        "status": "completed",
+        "created_at": "1989-08-12 19:28:55.598151",
+        "last_updated": "1989-08-12 19:28:55.598151"
     },
     "53": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Safety Training",
-        "due_date": "2000-08-05",
+        "name": "Workstation/Workspace Preparation",
+        "due_date": "1999-06-01",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "1974-12-14 04:59:37.248163",
-        "last_updated": "1974-12-14 04:59:37.248163"
+        "status": "completed",
+        "created_at": "2008-03-26 00:16:00.647624",
+        "last_updated": "2008-03-26 00:16:00.647624"
     },
     "54": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Orientation & Welcome Session Scheduling",
-        "due_date": "1971-07-01",
+        "name": "IT/Security Training",
+        "due_date": "2018-01-07",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "2012-04-23 01:17:04.484668",
-        "last_updated": "2012-04-23 01:17:04.484668"
+        "created_at": "2017-07-06 18:35:41.621946",
+        "last_updated": "2017-07-06 18:35:41.621946"
     },
     "55": {
         "task_id": null,
         "checklist_id": null,
-        "name": "30-Day Check-in",
-        "due_date": "1986-08-14",
+        "name": "Return Company Phone",
+        "due_date": "1986-03-11",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "2007-04-07 01:23:02.232530",
-        "last_updated": "2007-04-07 01:23:02.232530"
+        "created_at": "1978-04-18 18:09:29.194748",
+        "last_updated": "1978-04-18 18:09:29.194748"
     },
     "56": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Set 30/60/90 Day Goals",
-        "due_date": "1970-06-10",
+        "name": "30-Day Check-in",
+        "due_date": "1970-07-27",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1978-12-03 11:47:18.405510",
-        "last_updated": "1978-12-03 11:47:18.405510"
+        "status": "pending",
+        "created_at": "2014-12-20 08:18:31.277565",
+        "last_updated": "2014-12-20 08:18:31.277565"
     },
     "57": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Drug Screening",
-        "due_date": "1999-07-10",
+        "name": "Payroll Setup & Bank Verification",
+        "due_date": "1984-09-05",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "2010-04-15 02:50:33.365966",
-        "last_updated": "2010-04-15 02:50:33.365966"
+        "created_at": "1987-01-17 21:08:39.885654",
+        "last_updated": "1987-01-17 21:08:39.885654"
     },
     "58": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Final Timesheet Completion",
-        "due_date": "1974-10-21",
+        "name": "Sign Policies",
+        "due_date": "1995-10-26",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1981-12-03 12:58:46.531639",
-        "last_updated": "1981-12-03 12:58:46.531639"
+        "status": "pending",
+        "created_at": "2012-11-13 14:00:37.827085",
+        "last_updated": "2012-11-13 14:00:37.827085"
     },
     "59": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Team Introduction",
-        "due_date": "2002-10-19",
+        "name": "Review Employee Handbook",
+        "due_date": "2019-05-21",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "2005-06-27 05:33:15.760056",
-        "last_updated": "2005-06-27 05:33:15.760056"
+        "status": "pending",
+        "created_at": "2011-01-26 02:29:49.081677",
+        "last_updated": "2011-01-26 02:29:49.081677"
     },
     "60": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Return Monitor",
-        "due_date": "1999-01-23",
+        "name": "IT Equipment Setup",
+        "due_date": "1986-05-24",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1976-10-11 09:47:06.736842",
-        "last_updated": "1976-10-11 09:47:06.736842"
+        "created_at": "2015-06-23 18:07:37.863730",
+        "last_updated": "2015-06-23 18:07:37.863730"
     },
     "61": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Final Timesheet Completion",
-        "due_date": "1998-12-20",
+        "name": "Direct Deposit Setup",
+        "due_date": "2002-12-28",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1972-03-27 07:07:54.494025",
-        "last_updated": "1972-03-27 07:07:54.494025"
+        "status": "pending",
+        "created_at": "2001-03-31 11:30:25.826678",
+        "last_updated": "2001-03-31 11:30:25.826678"
     },
     "62": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Orientation & Welcome Session Scheduling",
-        "due_date": "2021-09-19",
+        "name": "I-9 Section 1 \u2013 Employee",
+        "due_date": "1986-05-06",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "2017-12-21 23:12:21.005677",
-        "last_updated": "2017-12-21 23:12:21.005677"
+        "status": "pending",
+        "created_at": "2002-01-31 19:59:48.060647",
+        "last_updated": "2002-01-31 19:59:48.060647"
     },
     "63": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Set 30/60/90 Day Goals",
-        "due_date": "2013-10-15",
+        "name": "Send Welcome Email",
+        "due_date": "1994-03-27",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1982-08-18 14:43:59.465598",
-        "last_updated": "1982-08-18 14:43:59.465598"
+        "status": "pending",
+        "created_at": "1987-11-24 21:57:56.098800",
+        "last_updated": "1987-11-24 21:57:56.098800"
     },
     "64": {
         "task_id": null,
         "checklist_id": null,
-        "name": "IT Equipment Setup",
-        "due_date": "1985-02-06",
+        "name": "Final Payroll Processing",
+        "due_date": "1986-03-30",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "2013-08-28 16:28:00.712477",
-        "last_updated": "2013-08-28 16:28:00.712477"
+        "created_at": "2007-11-07 07:39:13.592545",
+        "last_updated": "2007-11-07 07:39:13.592545"
     },
     "65": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Safety Training",
-        "due_date": "2015-08-29",
+        "name": "Complete Background Check",
+        "due_date": "2020-05-18",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1979-05-27 20:24:41.250548",
-        "last_updated": "1979-05-27 20:24:41.250548"
+        "created_at": "1995-04-05 08:07:08.041779",
+        "last_updated": "1995-04-05 08:07:08.041779"
     },
     "66": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Complete Background Check",
-        "due_date": "2011-09-04",
+        "name": "Workstation Setup",
+        "due_date": "2011-05-15",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1987-06-10 16:57:51.800133",
-        "last_updated": "1987-06-10 16:57:51.800133"
+        "created_at": "2017-02-16 08:53:47.004427",
+        "last_updated": "2017-02-16 08:53:47.004427"
     },
     "67": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Disable Email",
-        "due_date": "1974-11-22",
+        "name": "Assign Equipment",
+        "due_date": "1988-11-03",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "2002-03-24 16:46:03.266881",
-        "last_updated": "2002-03-24 16:46:03.266881"
+        "created_at": "2013-04-28 01:40:33.864936",
+        "last_updated": "2013-04-28 01:40:33.864936"
     },
     "68": {
         "task_id": null,
         "checklist_id": null,
         "name": "Mandatory Training Assignments (Security, Compliance, Code of Conduct)",
-        "due_date": "2016-06-26",
+        "due_date": "2014-12-20",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1991-07-25 18:58:41.041384",
-        "last_updated": "1991-07-25 18:58:41.041384"
+        "created_at": "1978-06-03 02:12:57.971014",
+        "last_updated": "1978-06-03 02:12:57.971014"
     },
     "69": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Final Timesheet Completion",
-        "due_date": "2019-10-22",
+        "name": "Return Company Phone",
+        "due_date": "2016-05-20",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1980-05-12 19:04:43.934605",
-        "last_updated": "1980-05-12 19:04:43.934605"
+        "status": "pending",
+        "created_at": "2023-10-10 09:04:09.211903",
+        "last_updated": "2023-10-10 09:04:09.211903"
     },
     "70": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Manager Exit Approval",
-        "due_date": "1983-12-09",
+        "name": "Collect Resignation Letter",
+        "due_date": "2024-07-05",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2022-01-08 10:37:28.362314",
-        "last_updated": "2022-01-08 10:37:28.362314"
+        "status": "completed",
+        "created_at": "1994-10-04 14:23:25.552543",
+        "last_updated": "1994-10-04 14:23:25.552543"
     },
     "71": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Final Timesheet Completion",
-        "due_date": "2020-12-30",
+        "name": "90-Day Check-in",
+        "due_date": "2014-10-25",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2011-02-21 16:39:54.635191",
-        "last_updated": "2011-02-21 16:39:54.635191"
+        "status": "completed",
+        "created_at": "1983-08-30 14:57:00.893706",
+        "last_updated": "1983-08-30 14:57:00.893706"
     },
     "72": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Issue Final Payslip",
-        "due_date": "2012-09-07",
+        "name": "Manager Exit Approval",
+        "due_date": "1982-11-07",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "1982-12-13 21:48:44.028497",
-        "last_updated": "1982-12-13 21:48:44.028497"
+        "status": "completed",
+        "created_at": "2001-08-15 10:34:10.991812",
+        "last_updated": "2001-08-15 10:34:10.991812"
     },
     "73": {
         "task_id": null,
         "checklist_id": null,
-        "name": "90-Day Check-in",
-        "due_date": "1979-10-08",
+        "name": "Team Introduction",
+        "due_date": "2016-09-24",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2004-05-14 04:14:24.391348",
-        "last_updated": "2004-05-14 04:14:24.391348"
+        "status": "completed",
+        "created_at": "1980-03-28 07:28:09.467614",
+        "last_updated": "1980-03-28 07:28:09.467614"
     },
     "74": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Complete Benefits Enrollment",
-        "due_date": "2009-01-13",
+        "name": "Badge/ID Activation",
+        "due_date": "2000-12-28",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "2014-02-19 21:59:38.243187",
-        "last_updated": "2014-02-19 21:59:38.243187"
+        "created_at": "2020-08-05 00:49:28.948437",
+        "last_updated": "2020-08-05 00:49:28.948437"
     },
     "75": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Benefits Enrollment Kickoff",
-        "due_date": "1979-12-15",
+        "name": "Verify Benefit Eligibility Docs",
+        "due_date": "1981-12-04",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1997-03-16 06:49:29.843238",
-        "last_updated": "1997-03-16 06:49:29.843238"
+        "created_at": "1985-02-23 17:05:54.815078",
+        "last_updated": "1985-02-23 17:05:54.815078"
     },
     "76": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Complete Benefits Enrollment",
-        "due_date": "2006-07-29",
+        "name": "Send Welcome Email",
+        "due_date": "1971-09-12",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "2019-10-27 08:26:53.529699",
-        "last_updated": "2019-10-27 08:26:53.529699"
+        "created_at": "2023-08-16 11:07:27.456160",
+        "last_updated": "2023-08-16 11:07:27.456160"
     },
     "77": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Email Setup",
-        "due_date": "1989-11-03",
+        "name": "Badge/ID Activation",
+        "due_date": "2011-11-08",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1998-10-22 23:34:38.437370",
-        "last_updated": "1998-10-22 23:34:38.437370"
+        "created_at": "1993-06-22 05:34:11.710595",
+        "last_updated": "1993-06-22 05:34:11.710595"
     },
     "78": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Sign Policies",
-        "due_date": "1986-03-27",
+        "name": "Disable Email",
+        "due_date": "2003-07-09",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2011-03-23 23:58:30.445070",
-        "last_updated": "2011-03-23 23:58:30.445070"
+        "status": "completed",
+        "created_at": "1997-03-31 19:13:37.245047",
+        "last_updated": "1997-03-31 19:13:37.245047"
     },
     "79": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Initiate Termination Request",
-        "due_date": "2022-10-23",
+        "name": "Retrieve Outstanding Expenses",
+        "due_date": "2003-11-19",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1972-03-22 04:18:10.836245",
-        "last_updated": "1972-03-22 04:18:10.836245"
+        "status": "pending",
+        "created_at": "1979-06-15 13:42:16.307829",
+        "last_updated": "1979-06-15 13:42:16.307829"
     },
     "80": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Retrieve Outstanding Expenses",
-        "due_date": "1971-01-14",
+        "name": "HR Documentation & Compliance Forms",
+        "due_date": "1973-09-04",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1970-08-02 12:59:55.713600",
-        "last_updated": "1970-08-02 12:59:55.713600"
+        "status": "pending",
+        "created_at": "1992-07-20 02:26:11.796422",
+        "last_updated": "1992-07-20 02:26:11.796422"
     },
     "81": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Badge/ID Card Generation",
-        "due_date": "2005-10-22",
+        "name": "Email Setup",
+        "due_date": "2013-05-07",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1998-03-23 23:52:31.629597",
-        "last_updated": "1998-03-23 23:52:31.629597"
+        "created_at": "1981-05-04 04:32:56.504959",
+        "last_updated": "1981-05-04 04:32:56.504959"
     },
     "82": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Collect Personal Information",
-        "due_date": "1979-10-07",
+        "name": "Direct Deposit Setup",
+        "due_date": "2007-03-26",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1986-05-28 20:48:57.503000",
-        "last_updated": "1986-05-28 20:48:57.503000"
+        "status": "pending",
+        "created_at": "2000-04-23 21:47:56.467313",
+        "last_updated": "2000-04-23 21:47:56.467313"
     },
     "83": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Payroll Setup & Bank Verification",
-        "due_date": "1972-06-25",
+        "name": "90-Day Check-in",
+        "due_date": "2009-07-10",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2005-03-30 01:29:04.028255",
-        "last_updated": "2005-03-30 01:29:04.028255"
+        "status": "completed",
+        "created_at": "1996-08-09 09:58:18.771002",
+        "last_updated": "1996-08-09 09:58:18.771002"
     },
     "84": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Disable Email",
-        "due_date": "2015-09-15",
+        "name": "Collect Company Equipment",
+        "due_date": "2021-02-16",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2002-01-30 16:41:31.646488",
-        "last_updated": "2002-01-30 16:41:31.646488"
+        "status": "completed",
+        "created_at": "2014-11-30 19:48:40.790635",
+        "last_updated": "2014-11-30 19:48:40.790635"
     },
     "85": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Send Exit Confirmation",
-        "due_date": "1993-07-24",
+        "name": "Issue Final Payslip",
+        "due_date": "2019-01-30",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "1980-06-02 21:31:46.838369",
-        "last_updated": "1980-06-02 21:31:46.838369"
+        "status": "pending",
+        "created_at": "2020-06-30 19:03:07.939064",
+        "last_updated": "2020-06-30 19:03:07.939064"
     },
     "86": {
         "task_id": null,
         "checklist_id": null,
-        "name": "I-9 Section 2 \u2013 Employer",
-        "due_date": "1993-03-26",
+        "name": "Workstation Setup",
+        "due_date": "1978-05-05",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "2007-02-19 16:46:14.162226",
-        "last_updated": "2007-02-19 16:46:14.162226"
+        "status": "pending",
+        "created_at": "2025-04-14 13:58:06.799216",
+        "last_updated": "2025-04-14 13:58:06.799216"
     },
     "87": {
         "task_id": null,
         "checklist_id": null,
-        "name": "First Week Tasks",
-        "due_date": "2002-12-15",
+        "name": "IT/Security Training",
+        "due_date": "2020-01-16",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2016-08-03 15:06:44.228170",
-        "last_updated": "2016-08-03 15:06:44.228170"
+        "status": "completed",
+        "created_at": "1995-03-20 12:48:24.878351",
+        "last_updated": "1995-03-20 12:48:24.878351"
     },
     "88": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Send Exit Confirmation",
-        "due_date": "2011-05-03",
+        "name": "Retrieve Outstanding Expenses",
+        "due_date": "1983-02-06",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "2004-07-19 09:58:50.398341",
-        "last_updated": "2004-07-19 09:58:50.398341"
+        "status": "pending",
+        "created_at": "2003-08-21 05:49:10.345323",
+        "last_updated": "2003-08-21 05:49:10.345323"
     },
     "89": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Return Monitor",
-        "due_date": "2015-06-29",
+        "name": "Send Welcome Email",
+        "due_date": "2009-08-26",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "1986-03-10 23:42:41.639638",
-        "last_updated": "1986-03-10 23:42:41.639638"
+        "created_at": "1988-05-10 18:41:48.766142",
+        "last_updated": "1988-05-10 18:41:48.766142"
     },
     "90": {
         "task_id": null,
         "checklist_id": null,
-        "name": "30-Day Check-in",
-        "due_date": "2010-04-18",
+        "name": "Email Setup",
+        "due_date": "1974-11-07",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "2013-02-09 13:31:51.633279",
-        "last_updated": "2013-02-09 13:31:51.633279"
+        "status": "pending",
+        "created_at": "1996-01-30 22:13:40.156593",
+        "last_updated": "1996-01-30 22:13:40.156593"
     },
     "91": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Complete Tax Forms (W-4, State)",
-        "due_date": "1991-04-19",
+        "name": "Send Exit Confirmation",
+        "due_date": "1981-10-07",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "2023-05-17 10:07:44.955053",
-        "last_updated": "2023-05-17 10:07:44.955053"
+        "status": "completed",
+        "created_at": "2002-09-22 10:36:36.549022",
+        "last_updated": "2002-09-22 10:36:36.549022"
     },
     "92": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Badge/ID Card Generation",
-        "due_date": "1982-10-13",
+        "name": "System Access Provisioning",
+        "due_date": "1988-02-07",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1982-06-30 16:14:02.241609",
-        "last_updated": "1982-06-30 16:14:02.241609"
+        "created_at": "2005-05-20 06:27:13.294044",
+        "last_updated": "2005-05-20 06:27:13.294044"
     },
     "93": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Manager Introduction",
-        "due_date": "2024-01-15",
+        "name": "I-9 Section 1 \u2013 Employee",
+        "due_date": "2003-10-07",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "2006-04-18 18:46:10.363041",
-        "last_updated": "2006-04-18 18:46:10.363041"
+        "status": "pending",
+        "created_at": "2015-07-23 12:23:10.253742",
+        "last_updated": "2015-07-23 12:23:10.253742"
     },
     "94": {
         "task_id": null,
         "checklist_id": null,
-        "name": "HR Documentation & Compliance Forms",
-        "due_date": "1983-10-15",
+        "name": "Set 30/60/90 Day Goals",
+        "due_date": "1973-10-31",
         "assigned_manager_id": null,
-        "status": "completed",
-        "created_at": "2004-07-31 01:44:59.717634",
-        "last_updated": "2004-07-31 01:44:59.717634"
+        "status": "pending",
+        "created_at": "2008-02-16 00:25:12.284906",
+        "last_updated": "2008-02-16 00:25:12.284906"
     },
     "95": {
         "task_id": null,
         "checklist_id": null,
-        "name": "HR Documentation & Compliance Forms",
-        "due_date": "1972-10-30",
+        "name": "Return Laptop",
+        "due_date": "2022-10-07",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "2004-12-01 17:21:01.026628",
-        "last_updated": "2004-12-01 17:21:01.026628"
+        "created_at": "1978-04-28 11:23:37.021266",
+        "last_updated": "1978-04-28 11:23:37.021266"
     },
     "96": {
         "task_id": null,
         "checklist_id": null,
-        "name": "I-9 Section 2 \u2013 Employer",
-        "due_date": "1977-12-16",
+        "name": "Team Introduction",
+        "due_date": "1979-11-12",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "1971-08-21 18:58:33.416807",
-        "last_updated": "1971-08-21 18:58:33.416807"
+        "created_at": "2004-01-10 18:14:35.916020",
+        "last_updated": "2004-01-10 18:14:35.916020"
     },
     "97": {
         "task_id": null,
         "checklist_id": null,
-        "name": "90-Day Check-in",
-        "due_date": "1984-06-07",
+        "name": "Badge/ID Activation",
+        "due_date": "2011-10-10",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "2020-08-30 09:55:18.846098",
-        "last_updated": "2020-08-30 09:55:18.846098"
+        "created_at": "2013-05-06 07:28:09.551785",
+        "last_updated": "2013-05-06 07:28:09.551785"
     },
     "98": {
         "task_id": null,
         "checklist_id": null,
         "name": "Complete Benefits Enrollment",
-        "due_date": "1976-04-07",
+        "due_date": "1984-10-14",
         "assigned_manager_id": null,
         "status": "pending",
-        "created_at": "2009-09-12 03:50:01.655458",
-        "last_updated": "2009-09-12 03:50:01.655458"
+        "created_at": "2015-12-16 19:04:24.220105",
+        "last_updated": "2015-12-16 19:04:24.220105"
     },
     "99": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Verify I-9 Documents",
-        "due_date": "2023-06-25",
+        "name": "Badge/ID Activation",
+        "due_date": "1997-09-29",
         "assigned_manager_id": null,
-        "status": "pending",
-        "created_at": "1978-10-08 08:35:44.158833",
-        "last_updated": "1978-10-08 08:35:44.158833"
+        "status": "completed",
+        "created_at": "1973-09-19 19:51:15.600960",
+        "last_updated": "1973-09-19 19:51:15.600960"
     },
     "100": {
         "task_id": null,
         "checklist_id": null,
-        "name": "Send Welcome Email",
-        "due_date": "2015-11-29",
+        "name": "IT/Security Training",
+        "due_date": "2018-08-03",
         "assigned_manager_id": null,
         "status": "completed",
-        "created_at": "2019-05-15 02:02:56.407676",
-        "last_updated": "2019-05-15 02:02:56.407676"
+        "created_at": "1990-12-20 00:11:00.867902",
+        "last_updated": "1990-12-20 00:11:00.867902"
     }
 }

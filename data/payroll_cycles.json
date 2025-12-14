@@ -1,902 +1,902 @@
 {
     "1": {
         "cycle_id": null,
-        "start_date": "2022-01-07",
-        "end_date": "1991-06-17",
-        "frequency": "step",
-        "status": "closed",
-        "created_at": "1996-04-01 18:31:49.140095",
-        "last_updated": "1996-04-01 18:31:49.140095"
+        "start_date": "2019-09-08",
+        "end_date": "1979-04-26",
+        "frequency": "member",
+        "status": "approved",
+        "created_at": "1987-10-18 10:51:16.792495",
+        "last_updated": "1987-10-18 10:51:16.792495"
     },
     "2": {
         "cycle_id": null,
-        "start_date": "2015-12-17",
-        "end_date": "2022-07-05",
-        "frequency": "customer",
-        "status": "open",
-        "created_at": "2022-07-06 15:23:07.567264",
-        "last_updated": "2022-07-06 15:23:07.567264"
+        "start_date": "2005-01-09",
+        "end_date": "1978-08-14",
+        "frequency": "claim",
+        "status": "closed",
+        "created_at": "2024-06-30 21:55:19.942326",
+        "last_updated": "2024-06-30 21:55:19.942326"
     },
     "3": {
         "cycle_id": null,
-        "start_date": "1970-10-27",
-        "end_date": "2011-09-05",
-        "frequency": "seat",
-        "status": "approved",
-        "created_at": "2016-10-05 08:22:50.095614",
-        "last_updated": "2016-10-05 08:22:50.095614"
+        "start_date": "1970-07-24",
+        "end_date": "2023-03-31",
+        "frequency": "six",
+        "status": "closed",
+        "created_at": "1984-09-29 23:22:02.935937",
+        "last_updated": "1984-09-29 23:22:02.935937"
     },
     "4": {
         "cycle_id": null,
-        "start_date": "1994-09-10",
-        "end_date": "2001-05-01",
-        "frequency": "ground",
-        "status": "closed",
-        "created_at": "1985-03-11 23:06:49.069870",
-        "last_updated": "1985-03-11 23:06:49.069870"
+        "start_date": "2017-08-22",
+        "end_date": "1987-01-25",
+        "frequency": "call",
+        "status": "approved",
+        "created_at": "2004-07-30 13:09:29.386562",
+        "last_updated": "2004-07-30 13:09:29.386562"
     },
     "5": {
         "cycle_id": null,
-        "start_date": "2018-12-25",
-        "end_date": "2001-08-23",
-        "frequency": "modern",
-        "status": "approved",
-        "created_at": "2001-09-19 22:43:47.264356",
-        "last_updated": "2001-09-19 22:43:47.264356"
+        "start_date": "2004-01-24",
+        "end_date": "2007-07-26",
+        "frequency": "some",
+        "status": "open",
+        "created_at": "2006-11-23 00:38:39.506620",
+        "last_updated": "2006-11-23 00:38:39.506620"
     },
     "6": {
         "cycle_id": null,
-        "start_date": "2024-01-05",
-        "end_date": "2002-03-05",
-        "frequency": "note",
+        "start_date": "2001-05-23",
+        "end_date": "2003-08-27",
+        "frequency": "successful",
         "status": "open",
-        "created_at": "1975-07-15 07:33:34.693099",
-        "last_updated": "1975-07-15 07:33:34.693099"
+        "created_at": "1977-06-05 22:22:45.805163",
+        "last_updated": "1977-06-05 22:22:45.805163"
     },
     "7": {
         "cycle_id": null,
-        "start_date": "1992-03-04",
-        "end_date": "1999-04-05",
-        "frequency": "within",
+        "start_date": "2022-08-14",
+        "end_date": "1992-05-11",
+        "frequency": "development",
         "status": "approved",
-        "created_at": "2016-03-09 04:08:50.201718",
-        "last_updated": "2016-03-09 04:08:50.201718"
+        "created_at": "1975-05-05 20:22:46.689295",
+        "last_updated": "1975-05-05 20:22:46.689295"
     },
     "8": {
         "cycle_id": null,
-        "start_date": "2023-10-21",
-        "end_date": "1986-07-27",
-        "frequency": "detail",
+        "start_date": "1999-07-30",
+        "end_date": "2021-07-06",
+        "frequency": "meet",
         "status": "open",
-        "created_at": "1980-08-28 14:35:36.785809",
-        "last_updated": "1980-08-28 14:35:36.785809"
+        "created_at": "1981-08-02 04:11:35.430865",
+        "last_updated": "1981-08-02 04:11:35.430865"
     },
     "9": {
         "cycle_id": null,
-        "start_date": "2020-12-11",
-        "end_date": "1984-04-01",
-        "frequency": "significant",
-        "status": "open",
-        "created_at": "1996-10-17 07:41:00.405107",
-        "last_updated": "1996-10-17 07:41:00.405107"
+        "start_date": "2004-12-21",
+        "end_date": "2024-08-24",
+        "frequency": "finally",
+        "status": "approved",
+        "created_at": "1973-11-11 03:16:59.369939",
+        "last_updated": "1973-11-11 03:16:59.369939"
     },
     "10": {
         "cycle_id": null,
-        "start_date": "1998-08-11",
-        "end_date": "1988-08-26",
-        "frequency": "citizen",
+        "start_date": "1984-05-29",
+        "end_date": "1977-06-20",
+        "frequency": "whatever",
         "status": "open",
-        "created_at": "2021-11-01 09:54:30.970575",
-        "last_updated": "2021-11-01 09:54:30.970575"
+        "created_at": "1981-03-06 18:46:12.481103",
+        "last_updated": "1981-03-06 18:46:12.481103"
     },
     "11": {
         "cycle_id": null,
-        "start_date": "2004-01-18",
-        "end_date": "2008-02-11",
-        "frequency": "sign",
+        "start_date": "2022-09-18",
+        "end_date": "1984-11-06",
+        "frequency": "operation",
         "status": "closed",
-        "created_at": "2007-07-05 11:34:03.055291",
-        "last_updated": "2007-07-05 11:34:03.055291"
+        "created_at": "2010-11-24 01:59:11.148975",
+        "last_updated": "2010-11-24 01:59:11.148975"
     },
     "12": {
         "cycle_id": null,
-        "start_date": "1985-10-08",
-        "end_date": "1979-02-07",
-        "frequency": "election",
-        "status": "open",
-        "created_at": "2004-02-04 01:28:05.503661",
-        "last_updated": "2004-02-04 01:28:05.503661"
+        "start_date": "2012-09-01",
+        "end_date": "1987-06-08",
+        "frequency": "politics",
+        "status": "approved",
+        "created_at": "1998-02-12 15:56:34.355298",
+        "last_updated": "1998-02-12 15:56:34.355298"
     },
     "13": {
         "cycle_id": null,
-        "start_date": "1972-04-03",
-        "end_date": "2012-08-18",
-        "frequency": "happy",
+        "start_date": "2012-04-08",
+        "end_date": "2021-06-28",
+        "frequency": "affect",
         "status": "closed",
-        "created_at": "1999-01-01 09:03:32.750425",
-        "last_updated": "1999-01-01 09:03:32.750425"
+        "created_at": "2008-04-13 15:44:07.060158",
+        "last_updated": "2008-04-13 15:44:07.060158"
     },
     "14": {
         "cycle_id": null,
-        "start_date": "2018-04-20",
-        "end_date": "1993-04-06",
-        "frequency": "agree",
-        "status": "approved",
-        "created_at": "2003-08-07 17:08:14.417118",
-        "last_updated": "2003-08-07 17:08:14.417118"
+        "start_date": "2023-06-21",
+        "end_date": "2010-09-30",
+        "frequency": "our",
+        "status": "closed",
+        "created_at": "1971-10-03 20:28:32.273301",
+        "last_updated": "1971-10-03 20:28:32.273301"
     },
     "15": {
         "cycle_id": null,
-        "start_date": "2025-05-18",
-        "end_date": "2002-04-30",
-        "frequency": "arm",
-        "status": "closed",
-        "created_at": "1996-11-04 19:33:58.399954",
-        "last_updated": "1996-11-04 19:33:58.399954"
+        "start_date": "1977-06-16",
+        "end_date": "1985-03-04",
+        "frequency": "manager",
+        "status": "approved",
+        "created_at": "2014-07-04 14:17:12.232356",
+        "last_updated": "2014-07-04 14:17:12.232356"
     },
     "16": {
         "cycle_id": null,
-        "start_date": "1971-12-09",
-        "end_date": "1999-01-15",
-        "frequency": "side",
-        "status": "closed",
-        "created_at": "2000-01-24 20:22:37.125222",
-        "last_updated": "2000-01-24 20:22:37.125222"
+        "start_date": "1995-08-01",
+        "end_date": "1984-01-03",
+        "frequency": "federal",
+        "status": "open",
+        "created_at": "2010-01-04 11:47:20.208698",
+        "last_updated": "2010-01-04 11:47:20.208698"
     },
     "17": {
         "cycle_id": null,
-        "start_date": "1992-08-03",
-        "end_date": "1999-04-11",
-        "frequency": "tree",
-        "status": "closed",
-        "created_at": "2007-03-26 15:04:05.849254",
-        "last_updated": "2007-03-26 15:04:05.849254"
+        "start_date": "1997-07-07",
+        "end_date": "2004-05-05",
+        "frequency": "certain",
+        "status": "approved",
+        "created_at": "1986-08-22 04:48:47.888459",
+        "last_updated": "1986-08-22 04:48:47.888459"
     },
     "18": {
         "cycle_id": null,
-        "start_date": "2013-09-26",
-        "end_date": "1980-08-12",
-        "frequency": "decade",
-        "status": "closed",
-        "created_at": "1999-09-15 19:41:57.077650",
-        "last_updated": "1999-09-15 19:41:57.077650"
+        "start_date": "1974-04-18",
+        "end_date": "1997-03-02",
+        "frequency": "fill",
+        "status": "open",
+        "created_at": "2008-11-29 20:32:22.032182",
+        "last_updated": "2008-11-29 20:32:22.032182"
     },
     "19": {
         "cycle_id": null,
-        "start_date": "1995-09-26",
-        "end_date": "1998-07-11",
-        "frequency": "without",
+        "start_date": "2025-10-19",
+        "end_date": "1983-05-22",
+        "frequency": "food",
         "status": "approved",
-        "created_at": "1996-07-09 01:38:32.054985",
-        "last_updated": "1996-07-09 01:38:32.054985"
+        "created_at": "1980-10-13 07:26:31.951283",
+        "last_updated": "1980-10-13 07:26:31.951283"
     },
     "20": {
         "cycle_id": null,
-        "start_date": "1995-05-14",
-        "end_date": "1995-11-07",
-        "frequency": "special",
-        "status": "approved",
-        "created_at": "1982-08-04 23:38:46.099464",
-        "last_updated": "1982-08-04 23:38:46.099464"
+        "start_date": "1998-07-11",
+        "end_date": "1996-07-05",
+        "frequency": "economic",
+        "status": "closed",
+        "created_at": "2020-03-11 01:13:38.846375",
+        "last_updated": "2020-03-11 01:13:38.846375"
     },
     "21": {
         "cycle_id": null,
-        "start_date": "2012-04-16",
-        "end_date": "2024-06-11",
-        "frequency": "car",
-        "status": "closed",
-        "created_at": "1979-09-22 20:13:22.902918",
-        "last_updated": "1979-09-22 20:13:22.902918"
+        "start_date": "2004-10-29",
+        "end_date": "1997-09-20",
+        "frequency": "religious",
+        "status": "approved",
+        "created_at": "1991-04-17 01:09:58.496017",
+        "last_updated": "1991-04-17 01:09:58.496017"
     },
     "22": {
         "cycle_id": null,
-        "start_date": "2003-10-24",
-        "end_date": "1998-03-13",
-        "frequency": "simple",
+        "start_date": "1977-04-15",
+        "end_date": "2009-08-05",
+        "frequency": "wide",
         "status": "closed",
-        "created_at": "1987-03-06 02:42:45.078979",
-        "last_updated": "1987-03-06 02:42:45.078979"
+        "created_at": "1981-12-24 13:51:41.624020",
+        "last_updated": "1981-12-24 13:51:41.624020"
     },
     "23": {
         "cycle_id": null,
-        "start_date": "2009-09-21",
-        "end_date": "2004-06-02",
-        "frequency": "course",
-        "status": "closed",
-        "created_at": "2008-07-02 06:15:15.589680",
-        "last_updated": "2008-07-02 06:15:15.589680"
+        "start_date": "2024-05-30",
+        "end_date": "1978-09-01",
+        "frequency": "reflect",
+        "status": "open",
+        "created_at": "1994-12-28 23:30:46.154664",
+        "last_updated": "1994-12-28 23:30:46.154664"
     },
     "24": {
         "cycle_id": null,
-        "start_date": "1987-02-14",
-        "end_date": "2018-10-08",
-        "frequency": "five",
+        "start_date": "1978-01-03",
+        "end_date": "1989-02-10",
+        "frequency": "size",
         "status": "closed",
-        "created_at": "1994-06-26 04:36:29.110394",
-        "last_updated": "1994-06-26 04:36:29.110394"
+        "created_at": "2005-08-28 16:24:05.537374",
+        "last_updated": "2005-08-28 16:24:05.537374"
     },
     "25": {
         "cycle_id": null,
-        "start_date": "2004-08-23",
-        "end_date": "2004-11-29",
-        "frequency": "require",
+        "start_date": "2021-01-07",
+        "end_date": "2023-07-14",
+        "frequency": "he",
         "status": "approved",
-        "created_at": "1994-07-08 01:31:20.931347",
-        "last_updated": "1994-07-08 01:31:20.931347"
+        "created_at": "2024-09-06 10:38:47.642431",
+        "last_updated": "2024-09-06 10:38:47.642431"
     },
     "26": {
         "cycle_id": null,
-        "start_date": "2002-08-10",
-        "end_date": "2025-11-19",
-        "frequency": "account",
-        "status": "open",
-        "created_at": "1996-12-05 02:13:57.617896",
-        "last_updated": "1996-12-05 02:13:57.617896"
+        "start_date": "1994-03-27",
+        "end_date": "2022-12-08",
+        "frequency": "call",
+        "status": "closed",
+        "created_at": "1998-04-20 23:04:37.776749",
+        "last_updated": "1998-04-20 23:04:37.776749"
     },
     "27": {
         "cycle_id": null,
-        "start_date": "1977-08-26",
-        "end_date": "1997-04-24",
-        "frequency": "manager",
-        "status": "closed",
-        "created_at": "1993-06-30 21:12:27.154245",
-        "last_updated": "1993-06-30 21:12:27.154245"
+        "start_date": "2017-04-16",
+        "end_date": "1975-12-09",
+        "frequency": "close",
+        "status": "open",
+        "created_at": "1995-03-06 23:38:31.854791",
+        "last_updated": "1995-03-06 23:38:31.854791"
     },
     "28": {
         "cycle_id": null,
-        "start_date": "1982-07-22",
-        "end_date": "1978-06-02",
-        "frequency": "up",
-        "status": "open",
-        "created_at": "2002-11-28 18:58:23.716340",
-        "last_updated": "2002-11-28 18:58:23.716340"
+        "start_date": "2025-07-06",
+        "end_date": "2010-05-22",
+        "frequency": "health",
+        "status": "closed",
+        "created_at": "2004-07-13 23:43:13.365184",
+        "last_updated": "2004-07-13 23:43:13.365184"
     },
     "29": {
         "cycle_id": null,
-        "start_date": "2003-01-26",
-        "end_date": "1971-12-14",
-        "frequency": "surface",
-        "status": "open",
-        "created_at": "2001-12-24 08:10:08.907177",
-        "last_updated": "2001-12-24 08:10:08.907177"
+        "start_date": "1977-03-28",
+        "end_date": "1990-10-25",
+        "frequency": "drive",
+        "status": "closed",
+        "created_at": "1997-08-27 12:31:51.308512",
+        "last_updated": "1997-08-27 12:31:51.308512"
     },
     "30": {
         "cycle_id": null,
-        "start_date": "2017-03-23",
-        "end_date": "1994-09-20",
-        "frequency": "look",
-        "status": "open",
-        "created_at": "2019-10-02 21:23:22.360541",
-        "last_updated": "2019-10-02 21:23:22.360541"
+        "start_date": "2014-08-15",
+        "end_date": "2017-11-27",
+        "frequency": "special",
+        "status": "closed",
+        "created_at": "2006-07-12 04:36:06.346195",
+        "last_updated": "2006-07-12 04:36:06.346195"
     },
     "31": {
         "cycle_id": null,
-        "start_date": "2012-12-03",
-        "end_date": "1998-01-26",
-        "frequency": "six",
+        "start_date": "1999-09-17",
+        "end_date": "1998-12-07",
+        "frequency": "number",
         "status": "closed",
-        "created_at": "1991-04-09 07:34:38.349380",
-        "last_updated": "1991-04-09 07:34:38.349380"
+        "created_at": "1986-02-21 18:50:54.330965",
+        "last_updated": "1986-02-21 18:50:54.330965"
     },
     "32": {
         "cycle_id": null,
-        "start_date": "2021-01-29",
-        "end_date": "1989-07-09",
-        "frequency": "movement",
+        "start_date": "1994-04-07",
+        "end_date": "1990-05-18",
+        "frequency": "attention",
         "status": "approved",
-        "created_at": "1972-10-14 03:12:35.062916",
-        "last_updated": "1972-10-14 03:12:35.062916"
+        "created_at": "2005-06-24 18:32:51.580824",
+        "last_updated": "2005-06-24 18:32:51.580824"
     },
     "33": {
         "cycle_id": null,
-        "start_date": "2025-09-17",
-        "end_date": "1988-05-02",
-        "frequency": "by",
-        "status": "approved",
-        "created_at": "1991-11-16 00:35:42.044272",
-        "last_updated": "1991-11-16 00:35:42.044272"
+        "start_date": "1992-03-08",
+        "end_date": "1973-02-05",
+        "frequency": "but",
+        "status": "open",
+        "created_at": "2020-06-18 06:51:24.295480",
+        "last_updated": "2020-06-18 06:51:24.295480"
     },
     "34": {
         "cycle_id": null,
-        "start_date": "1979-12-26",
-        "end_date": "1983-06-09",
-        "frequency": "everything",
-        "status": "approved",
-        "created_at": "1997-09-04 19:35:05.605384",
-        "last_updated": "1997-09-04 19:35:05.605384"
+        "start_date": "2018-03-06",
+        "end_date": "2021-12-15",
+        "frequency": "help",
+        "status": "open",
+        "created_at": "1993-07-12 05:10:54.739530",
+        "last_updated": "1993-07-12 05:10:54.739530"
     },
     "35": {
         "cycle_id": null,
-        "start_date": "1974-01-10",
-        "end_date": "1992-04-25",
-        "frequency": "side",
+        "start_date": "1981-10-16",
+        "end_date": "1980-07-05",
+        "frequency": "memory",
         "status": "approved",
-        "created_at": "1993-02-15 11:38:00.567047",
-        "last_updated": "1993-02-15 11:38:00.567047"
+        "created_at": "2025-10-08 04:45:39.394570",
+        "last_updated": "2025-10-08 04:45:39.394570"
     },
     "36": {
         "cycle_id": null,
-        "start_date": "1985-10-01",
-        "end_date": "1988-09-20",
-        "frequency": "condition",
-        "status": "closed",
-        "created_at": "1973-11-18 13:04:14.873448",
-        "last_updated": "1973-11-18 13:04:14.873448"
+        "start_date": "1989-12-04",
+        "end_date": "2002-08-02",
+        "frequency": "break",
+        "status": "approved",
+        "created_at": "2000-05-19 18:40:39.018181",
+        "last_updated": "2000-05-19 18:40:39.018181"
     },
     "37": {
         "cycle_id": null,
-        "start_date": "2025-09-03",
-        "end_date": "1988-01-18",
-        "frequency": "fill",
-        "status": "approved",
-        "created_at": "2014-03-24 08:01:59.773074",
-        "last_updated": "2014-03-24 08:01:59.773074"
+        "start_date": "2013-11-22",
+        "end_date": "1990-07-30",
+        "frequency": "enter",
+        "status": "closed",
+        "created_at": "1993-03-06 23:24:49.534591",
+        "last_updated": "1993-03-06 23:24:49.534591"
     },
     "38": {
         "cycle_id": null,
-        "start_date": "2000-12-22",
-        "end_date": "1970-07-24",
-        "frequency": "brother",
-        "status": "approved",
-        "created_at": "1983-07-12 18:04:55.114368",
-        "last_updated": "1983-07-12 18:04:55.114368"
+        "start_date": "1982-07-09",
+        "end_date": "1972-03-05",
+        "frequency": "possible",
+        "status": "closed",
+        "created_at": "1999-08-11 23:14:52.301983",
+        "last_updated": "1999-08-11 23:14:52.301983"
     },
     "39": {
         "cycle_id": null,
-        "start_date": "2000-06-19",
-        "end_date": "1994-01-03",
-        "frequency": "position",
+        "start_date": "1987-08-25",
+        "end_date": "2025-07-30",
+        "frequency": "school",
         "status": "closed",
-        "created_at": "2025-11-22 16:05:14.377229",
-        "last_updated": "2025-11-22 16:05:14.377229"
+        "created_at": "1999-12-30 11:48:31.089485",
+        "last_updated": "1999-12-30 11:48:31.089485"
     },
     "40": {
         "cycle_id": null,
-        "start_date": "1975-05-31",
-        "end_date": "1976-01-29",
-        "frequency": "economic",
+        "start_date": "1973-11-13",
+        "end_date": "1990-05-09",
+        "frequency": "other",
         "status": "closed",
-        "created_at": "2016-12-04 12:53:29.501064",
-        "last_updated": "2016-12-04 12:53:29.501064"
+        "created_at": "1980-07-28 16:40:14.445683",
+        "last_updated": "1980-07-28 16:40:14.445683"
     },
     "41": {
         "cycle_id": null,
-        "start_date": "2016-08-27",
-        "end_date": "1978-10-31",
-        "frequency": "evidence",
+        "start_date": "1991-12-20",
+        "end_date": "1977-11-02",
+        "frequency": "stuff",
         "status": "approved",
-        "created_at": "1977-03-22 01:15:32.289883",
-        "last_updated": "1977-03-22 01:15:32.289883"
+        "created_at": "2010-04-29 16:16:21.282380",
+        "last_updated": "2010-04-29 16:16:21.282380"
     },
     "42": {
         "cycle_id": null,
-        "start_date": "2000-10-08",
-        "end_date": "2007-08-11",
-        "frequency": "letter",
+        "start_date": "2003-04-12",
+        "end_date": "1983-11-11",
+        "frequency": "also",
         "status": "open",
-        "created_at": "1977-07-21 08:41:45.128990",
-        "last_updated": "1977-07-21 08:41:45.128990"
+        "created_at": "1991-03-25 06:40:58.617094",
+        "last_updated": "1991-03-25 06:40:58.617094"
     },
     "43": {
         "cycle_id": null,
-        "start_date": "1978-10-16",
-        "end_date": "2008-04-18",
-        "frequency": "anything",
+        "start_date": "2015-10-09",
+        "end_date": "2019-04-11",
+        "frequency": "economy",
         "status": "open",
-        "created_at": "2001-04-14 03:56:21.990245",
-        "last_updated": "2001-04-14 03:56:21.990245"
+        "created_at": "2018-11-29 08:51:53.138903",
+        "last_updated": "2018-11-29 08:51:53.138903"
     },
     "44": {
         "cycle_id": null,
-        "start_date": "2025-09-02",
-        "end_date": "1975-02-26",
-        "frequency": "result",
-        "status": "closed",
-        "created_at": "1998-02-22 15:55:23.421962",
-        "last_updated": "1998-02-22 15:55:23.421962"
+        "start_date": "2017-12-01",
+        "end_date": "2021-05-14",
+        "frequency": "space",
+        "status": "open",
+        "created_at": "1986-06-09 21:51:41.738464",
+        "last_updated": "1986-06-09 21:51:41.738464"
     },
     "45": {
         "cycle_id": null,
-        "start_date": "1978-03-12",
-        "end_date": "1979-11-02",
-        "frequency": "body",
-        "status": "approved",
-        "created_at": "1995-01-01 15:04:27.971999",
-        "last_updated": "1995-01-01 15:04:27.971999"
+        "start_date": "2021-12-23",
+        "end_date": "2007-05-25",
+        "frequency": "maybe",
+        "status": "open",
+        "created_at": "2000-09-12 12:33:45.557185",
+        "last_updated": "2000-09-12 12:33:45.557185"
     },
     "46": {
         "cycle_id": null,
-        "start_date": "2012-10-17",
-        "end_date": "2000-07-27",
-        "frequency": "get",
-        "status": "approved",
-        "created_at": "1979-11-01 16:07:14.207787",
-        "last_updated": "1979-11-01 16:07:14.207787"
+        "start_date": "2005-07-05",
+        "end_date": "1978-06-02",
+        "frequency": "begin",
+        "status": "open",
+        "created_at": "1980-07-06 13:09:58.525953",
+        "last_updated": "1980-07-06 13:09:58.525953"
     },
     "47": {
         "cycle_id": null,
-        "start_date": "1996-09-11",
-        "end_date": "2002-09-16",
-        "frequency": "prevent",
+        "start_date": "2001-05-22",
+        "end_date": "2003-03-03",
+        "frequency": "bank",
         "status": "approved",
-        "created_at": "2022-05-03 11:56:47.111287",
-        "last_updated": "2022-05-03 11:56:47.111287"
+        "created_at": "2000-12-07 21:42:40.477721",
+        "last_updated": "2000-12-07 21:42:40.477721"
     },
     "48": {
         "cycle_id": null,
-        "start_date": "1991-08-22",
-        "end_date": "2022-08-17",
-        "frequency": "pull",
-        "status": "approved",
-        "created_at": "1976-09-30 03:57:46.842364",
-        "last_updated": "1976-09-30 03:57:46.842364"
+        "start_date": "2017-07-28",
+        "end_date": "1999-07-20",
+        "frequency": "front",
+        "status": "closed",
+        "created_at": "1976-05-10 03:06:16.444633",
+        "last_updated": "1976-05-10 03:06:16.444633"
     },
     "49": {
         "cycle_id": null,
-        "start_date": "2004-03-02",
-        "end_date": "1978-09-03",
-        "frequency": "case",
+        "start_date": "1994-09-27",
+        "end_date": "1984-07-14",
+        "frequency": "month",
         "status": "open",
-        "created_at": "2007-04-27 16:58:09.121387",
-        "last_updated": "2007-04-27 16:58:09.121387"
+        "created_at": "2000-06-07 04:12:20.696968",
+        "last_updated": "2000-06-07 04:12:20.696968"
     },
     "50": {
         "cycle_id": null,
-        "start_date": "2011-04-26",
-        "end_date": "2002-04-15",
-        "frequency": "process",
-        "status": "closed",
-        "created_at": "2017-10-31 20:19:05.578470",
-        "last_updated": "2017-10-31 20:19:05.578470"
+        "start_date": "2015-09-29",
+        "end_date": "2000-12-21",
+        "frequency": "eat",
+        "status": "open",
+        "created_at": "2000-03-17 12:12:44.072008",
+        "last_updated": "2000-03-17 12:12:44.072008"
     },
     "51": {
         "cycle_id": null,
-        "start_date": "1993-04-15",
-        "end_date": "2009-08-30",
-        "frequency": "check",
+        "start_date": "2023-09-05",
+        "end_date": "1984-04-01",
+        "frequency": "day",
         "status": "open",
-        "created_at": "1995-02-13 11:33:39.972869",
-        "last_updated": "1995-02-13 11:33:39.972869"
+        "created_at": "1985-09-05 08:57:45.461815",
+        "last_updated": "1985-09-05 08:57:45.461815"
     },
     "52": {
         "cycle_id": null,
-        "start_date": "1985-04-16",
-        "end_date": "1994-02-20",
-        "frequency": "admit",
-        "status": "open",
-        "created_at": "1974-12-22 22:07:24.273483",
-        "last_updated": "1974-12-22 22:07:24.273483"
+        "start_date": "1993-11-29",
+        "end_date": "1993-03-14",
+        "frequency": "hear",
+        "status": "approved",
+        "created_at": "2007-06-27 14:42:45.325549",
+        "last_updated": "2007-06-27 14:42:45.325549"
     },
     "53": {
         "cycle_id": null,
-        "start_date": "2003-05-17",
-        "end_date": "2000-08-01",
-        "frequency": "book",
+        "start_date": "2018-03-13",
+        "end_date": "2016-08-13",
+        "frequency": "enough",
         "status": "approved",
-        "created_at": "1996-11-20 00:17:58.993139",
-        "last_updated": "1996-11-20 00:17:58.993139"
+        "created_at": "2020-08-12 08:01:33.610153",
+        "last_updated": "2020-08-12 08:01:33.610153"
     },
     "54": {
         "cycle_id": null,
-        "start_date": "1984-11-01",
-        "end_date": "1984-04-22",
-        "frequency": "possible",
+        "start_date": "2016-06-11",
+        "end_date": "1974-03-06",
+        "frequency": "he",
         "status": "closed",
-        "created_at": "1995-08-21 09:00:23.331385",
-        "last_updated": "1995-08-21 09:00:23.331385"
+        "created_at": "2018-04-22 18:05:28.586885",
+        "last_updated": "2018-04-22 18:05:28.586885"
     },
     "55": {
         "cycle_id": null,
-        "start_date": "2017-05-29",
-        "end_date": "2022-11-27",
-        "frequency": "even",
+        "start_date": "2020-09-25",
+        "end_date": "2014-08-25",
+        "frequency": "wide",
         "status": "closed",
-        "created_at": "1998-06-18 04:11:53.906659",
-        "last_updated": "1998-06-18 04:11:53.906659"
+        "created_at": "2016-07-12 05:31:22.458584",
+        "last_updated": "2016-07-12 05:31:22.458584"
     },
     "56": {
         "cycle_id": null,
-        "start_date": "1997-03-15",
-        "end_date": "1977-11-20",
-        "frequency": "store",
-        "status": "approved",
-        "created_at": "2011-10-31 23:48:48.689673",
-        "last_updated": "2011-10-31 23:48:48.689673"
+        "start_date": "2000-03-14",
+        "end_date": "2024-11-02",
+        "frequency": "become",
+        "status": "open",
+        "created_at": "2006-10-25 21:05:35.344872",
+        "last_updated": "2006-10-25 21:05:35.344872"
     },
     "57": {
         "cycle_id": null,
-        "start_date": "1980-01-07",
-        "end_date": "2022-02-05",
-        "frequency": "oil",
-        "status": "closed",
-        "created_at": "1983-12-12 07:49:43.866993",
-        "last_updated": "1983-12-12 07:49:43.866993"
+        "start_date": "1997-05-11",
+        "end_date": "1999-06-26",
+        "frequency": "argue",
+        "status": "open",
+        "created_at": "1979-03-05 16:52:11.883140",
+        "last_updated": "1979-03-05 16:52:11.883140"
     },
     "58": {
         "cycle_id": null,
-        "start_date": "1997-04-27",
-        "end_date": "2009-07-26",
-        "frequency": "executive",
+        "start_date": "1978-05-21",
+        "end_date": "2010-01-24",
+        "frequency": "all",
         "status": "approved",
-        "created_at": "2024-07-01 04:18:21.007572",
-        "last_updated": "2024-07-01 04:18:21.007572"
+        "created_at": "1970-11-21 22:25:52.828075",
+        "last_updated": "1970-11-21 22:25:52.828075"
     },
     "59": {
         "cycle_id": null,
-        "start_date": "2022-07-16",
-        "end_date": "1980-10-03",
-        "frequency": "environment",
+        "start_date": "1995-07-11",
+        "end_date": "2024-08-16",
+        "frequency": "indicate",
         "status": "open",
-        "created_at": "2008-05-03 11:45:52.340543",
-        "last_updated": "2008-05-03 11:45:52.340543"
+        "created_at": "2006-12-24 22:19:40.655061",
+        "last_updated": "2006-12-24 22:19:40.655061"
     },
     "60": {
         "cycle_id": null,
-        "start_date": "1983-08-27",
-        "end_date": "1989-11-30",
-        "frequency": "try",
-        "status": "open",
-        "created_at": "1993-02-23 22:27:31.391336",
-        "last_updated": "1993-02-23 22:27:31.391336"
+        "start_date": "1986-10-14",
+        "end_date": "1970-06-03",
+        "frequency": "office",
+        "status": "closed",
+        "created_at": "2019-08-07 05:05:04.940788",
+        "last_updated": "2019-08-07 05:05:04.940788"
     },
     "61": {
         "cycle_id": null,
-        "start_date": "1970-07-23",
-        "end_date": "1979-07-21",
-        "frequency": "difficult",
+        "start_date": "2015-11-26",
+        "end_date": "1986-02-04",
+        "frequency": "including",
         "status": "closed",
-        "created_at": "2000-09-09 02:54:45.511845",
-        "last_updated": "2000-09-09 02:54:45.511845"
+        "created_at": "1974-05-06 00:17:04.030628",
+        "last_updated": "1974-05-06 00:17:04.030628"
     },
     "62": {
         "cycle_id": null,
-        "start_date": "1980-02-07",
-        "end_date": "1983-01-25",
-        "frequency": "couple",
-        "status": "closed",
-        "created_at": "1982-08-23 18:51:02.599695",
-        "last_updated": "1982-08-23 18:51:02.599695"
+        "start_date": "1977-08-21",
+        "end_date": "1972-05-23",
+        "frequency": "despite",
+        "status": "approved",
+        "created_at": "2009-03-22 17:12:02.944028",
+        "last_updated": "2009-03-22 17:12:02.944028"
     },
     "63": {
         "cycle_id": null,
-        "start_date": "1990-03-16",
-        "end_date": "1999-11-12",
-        "frequency": "admit",
-        "status": "open",
-        "created_at": "1970-10-10 14:32:43.744444",
-        "last_updated": "1970-10-10 14:32:43.744444"
+        "start_date": "2002-03-12",
+        "end_date": "1998-12-08",
+        "frequency": "no",
+        "status": "closed",
+        "created_at": "2023-12-05 08:40:39.655141",
+        "last_updated": "2023-12-05 08:40:39.655141"
     },
     "64": {
         "cycle_id": null,
-        "start_date": "1984-12-23",
-        "end_date": "1980-06-05",
-        "frequency": "help",
+        "start_date": "2004-03-27",
+        "end_date": "2019-12-07",
+        "frequency": "consumer",
         "status": "approved",
-        "created_at": "2022-08-08 13:25:32.566447",
-        "last_updated": "2022-08-08 13:25:32.566447"
+        "created_at": "1977-04-23 05:22:13.561343",
+        "last_updated": "1977-04-23 05:22:13.561343"
     },
     "65": {
         "cycle_id": null,
-        "start_date": "2014-05-24",
-        "end_date": "1978-05-17",
-        "frequency": "door",
+        "start_date": "1985-02-22",
+        "end_date": "1999-06-23",
+        "frequency": "still",
         "status": "closed",
-        "created_at": "2008-08-31 04:29:13.034036",
-        "last_updated": "2008-08-31 04:29:13.034036"
+        "created_at": "1984-09-22 10:35:41.106116",
+        "last_updated": "1984-09-22 10:35:41.106116"
     },
     "66": {
         "cycle_id": null,
-        "start_date": "1981-04-13",
-        "end_date": "1999-06-26",
-        "frequency": "range",
+        "start_date": "2017-08-31",
+        "end_date": "1996-07-27",
+        "frequency": "check",
         "status": "open",
-        "created_at": "2004-05-25 09:46:46.873389",
-        "last_updated": "2004-05-25 09:46:46.873389"
+        "created_at": "1982-10-26 19:36:56.145263",
+        "last_updated": "1982-10-26 19:36:56.145263"
     },
     "67": {
         "cycle_id": null,
-        "start_date": "2001-10-01",
-        "end_date": "1989-09-17",
-        "frequency": "see",
-        "status": "open",
-        "created_at": "2015-08-18 09:38:18.770433",
-        "last_updated": "2015-08-18 09:38:18.770433"
+        "start_date": "1983-02-03",
+        "end_date": "2008-04-12",
+        "frequency": "song",
+        "status": "closed",
+        "created_at": "1983-02-26 00:14:38.141941",
+        "last_updated": "1983-02-26 00:14:38.141941"
     },
     "68": {
         "cycle_id": null,
-        "start_date": "2021-12-28",
-        "end_date": "2009-07-08",
-        "frequency": "cell",
+        "start_date": "1992-06-18",
+        "end_date": "2004-11-20",
+        "frequency": "conference",
         "status": "closed",
-        "created_at": "1997-03-04 15:22:01.342314",
-        "last_updated": "1997-03-04 15:22:01.342314"
+        "created_at": "1997-04-25 09:22:22.624982",
+        "last_updated": "1997-04-25 09:22:22.624982"
     },
     "69": {
         "cycle_id": null,
-        "start_date": "1983-01-18",
-        "end_date": "1975-11-25",
-        "frequency": "reflect",
-        "status": "approved",
-        "created_at": "1993-04-10 22:01:18.478045",
-        "last_updated": "1993-04-10 22:01:18.478045"
+        "start_date": "1991-01-21",
+        "end_date": "2019-10-21",
+        "frequency": "plan",
+        "status": "closed",
+        "created_at": "1971-10-10 14:44:25.149739",
+        "last_updated": "1971-10-10 14:44:25.149739"
     },
     "70": {
         "cycle_id": null,
-        "start_date": "1991-09-26",
-        "end_date": "2025-09-29",
-        "frequency": "agreement",
-        "status": "closed",
-        "created_at": "1996-05-14 20:20:03.079622",
-        "last_updated": "1996-05-14 20:20:03.079622"
+        "start_date": "1998-01-19",
+        "end_date": "2005-02-02",
+        "frequency": "ability",
+        "status": "approved",
+        "created_at": "1992-03-12 20:15:37.504771",
+        "last_updated": "1992-03-12 20:15:37.504771"
     },
     "71": {
         "cycle_id": null,
-        "start_date": "1993-01-13",
-        "end_date": "1987-04-03",
-        "frequency": "represent",
+        "start_date": "2011-02-24",
+        "end_date": "2000-10-07",
+        "frequency": "seem",
         "status": "approved",
-        "created_at": "2017-01-18 07:29:38.584439",
-        "last_updated": "2017-01-18 07:29:38.584439"
+        "created_at": "2002-10-07 14:50:49.853565",
+        "last_updated": "2002-10-07 14:50:49.853565"
     },
     "72": {
         "cycle_id": null,
-        "start_date": "1988-10-18",
-        "end_date": "1980-06-10",
-        "frequency": "hard",
+        "start_date": "2011-06-21",
+        "end_date": "2003-04-02",
+        "frequency": "movement",
         "status": "approved",
-        "created_at": "1997-08-27 17:55:05.528847",
-        "last_updated": "1997-08-27 17:55:05.528847"
+        "created_at": "1974-07-08 01:21:12.856151",
+        "last_updated": "1974-07-08 01:21:12.856151"
     },
     "73": {
         "cycle_id": null,
-        "start_date": "1984-02-18",
-        "end_date": "1984-01-05",
-        "frequency": "deal",
-        "status": "approved",
-        "created_at": "2002-03-25 21:30:28.149955",
-        "last_updated": "2002-03-25 21:30:28.149955"
+        "start_date": "1988-12-16",
+        "end_date": "2003-11-27",
+        "frequency": "medical",
+        "status": "open",
+        "created_at": "1975-01-02 14:53:03.821679",
+        "last_updated": "1975-01-02 14:53:03.821679"
     },
     "74": {
         "cycle_id": null,
-        "start_date": "2007-04-12",
-        "end_date": "2005-07-27",
-        "frequency": "whether",
-        "status": "open",
-        "created_at": "1993-05-23 23:33:53.012818",
-        "last_updated": "1993-05-23 23:33:53.012818"
+        "start_date": "2022-09-05",
+        "end_date": "1998-05-10",
+        "frequency": "work",
+        "status": "closed",
+        "created_at": "1999-01-13 18:43:13.505527",
+        "last_updated": "1999-01-13 18:43:13.505527"
     },
     "75": {
         "cycle_id": null,
-        "start_date": "2000-04-26",
-        "end_date": "1984-12-30",
-        "frequency": "present",
-        "status": "approved",
-        "created_at": "2008-03-23 06:43:50.540224",
-        "last_updated": "2008-03-23 06:43:50.540224"
+        "start_date": "1990-12-11",
+        "end_date": "1972-08-31",
+        "frequency": "interview",
+        "status": "closed",
+        "created_at": "1976-04-08 18:24:53.374588",
+        "last_updated": "1976-04-08 18:24:53.374588"
     },
     "76": {
         "cycle_id": null,
-        "start_date": "1977-05-24",
-        "end_date": "2006-11-12",
-        "frequency": "interest",
+        "start_date": "2014-02-01",
+        "end_date": "1997-01-03",
+        "frequency": "job",
         "status": "closed",
-        "created_at": "1983-01-13 06:57:03.601059",
-        "last_updated": "1983-01-13 06:57:03.601059"
+        "created_at": "1989-08-26 19:52:12.405905",
+        "last_updated": "1989-08-26 19:52:12.405905"
     },
     "77": {
         "cycle_id": null,
-        "start_date": "1984-02-13",
-        "end_date": "1985-11-14",
-        "frequency": "author",
+        "start_date": "1973-09-27",
+        "end_date": "1982-09-01",
+        "frequency": "bed",
         "status": "open",
-        "created_at": "2005-01-04 10:04:17.835079",
-        "last_updated": "2005-01-04 10:04:17.835079"
+        "created_at": "2019-03-28 22:11:38.275709",
+        "last_updated": "2019-03-28 22:11:38.275709"
     },
     "78": {
         "cycle_id": null,
-        "start_date": "1999-08-12",
-        "end_date": "2021-05-13",
-        "frequency": "your",
+        "start_date": "1993-03-25",
+        "end_date": "2016-09-20",
+        "frequency": "although",
         "status": "approved",
-        "created_at": "2009-02-10 11:55:07.187074",
-        "last_updated": "2009-02-10 11:55:07.187074"
+        "created_at": "1995-06-18 04:51:37.170971",
+        "last_updated": "1995-06-18 04:51:37.170971"
     },
     "79": {
         "cycle_id": null,
-        "start_date": "1972-05-11",
-        "end_date": "2003-11-12",
-        "frequency": "ready",
-        "status": "open",
-        "created_at": "2003-10-19 01:11:51.637658",
-        "last_updated": "2003-10-19 01:11:51.637658"
+        "start_date": "2009-12-12",
+        "end_date": "1997-03-09",
+        "frequency": "camera",
+        "status": "closed",
+        "created_at": "2013-08-10 13:05:37.812871",
+        "last_updated": "2013-08-10 13:05:37.812871"
     },
     "80": {
         "cycle_id": null,
-        "start_date": "1980-07-10",
-        "end_date": "2014-12-18",
-        "frequency": "audience",
+        "start_date": "2006-11-03",
+        "end_date": "1978-03-20",
+        "frequency": "billion",
         "status": "closed",
-        "created_at": "1989-09-20 02:38:57.654411",
-        "last_updated": "1989-09-20 02:38:57.654411"
+        "created_at": "2001-09-06 01:37:46.351457",
+        "last_updated": "2001-09-06 01:37:46.351457"
     },
     "81": {
         "cycle_id": null,
-        "start_date": "2012-11-21",
-        "end_date": "1996-07-20",
-        "frequency": "fall",
+        "start_date": "1980-09-09",
+        "end_date": "1990-02-20",
+        "frequency": "do",
         "status": "closed",
-        "created_at": "1974-03-17 22:02:37.648605",
-        "last_updated": "1974-03-17 22:02:37.648605"
+        "created_at": "1973-08-29 14:36:43.326544",
+        "last_updated": "1973-08-29 14:36:43.326544"
     },
     "82": {
         "cycle_id": null,
-        "start_date": "1982-12-11",
-        "end_date": "1976-08-21",
-        "frequency": "analysis",
-        "status": "approved",
-        "created_at": "2015-11-01 07:27:24.613716",
-        "last_updated": "2015-11-01 07:27:24.613716"
+        "start_date": "2012-05-24",
+        "end_date": "1990-10-09",
+        "frequency": "better",
+        "status": "open",
+        "created_at": "1984-09-25 14:20:30.643637",
+        "last_updated": "1984-09-25 14:20:30.643637"
     },
     "83": {
         "cycle_id": null,
-        "start_date": "1995-09-07",
-        "end_date": "2002-08-08",
-        "frequency": "civil",
+        "start_date": "1980-02-20",
+        "end_date": "2008-01-18",
+        "frequency": "answer",
         "status": "closed",
-        "created_at": "2013-06-17 21:29:21.564705",
-        "last_updated": "2013-06-17 21:29:21.564705"
+        "created_at": "2013-03-18 19:24:47.637321",
+        "last_updated": "2013-03-18 19:24:47.637321"
     },
     "84": {
         "cycle_id": null,
-        "start_date": "2020-03-13",
-        "end_date": "1991-12-20",
-        "frequency": "traditional",
-        "status": "open",
-        "created_at": "2010-12-17 05:06:28.657237",
-        "last_updated": "2010-12-17 05:06:28.657237"
+        "start_date": "1994-01-25",
+        "end_date": "1999-08-14",
+        "frequency": "seat",
+        "status": "closed",
+        "created_at": "2017-12-30 01:56:57.012806",
+        "last_updated": "2017-12-30 01:56:57.012806"
     },
     "85": {
         "cycle_id": null,
-        "start_date": "1990-04-17",
-        "end_date": "1993-04-28",
-        "frequency": "start",
-        "status": "closed",
-        "created_at": "2005-07-06 01:30:40.021225",
-        "last_updated": "2005-07-06 01:30:40.021225"
+        "start_date": "1982-12-13",
+        "end_date": "2019-02-19",
+        "frequency": "attention",
+        "status": "open",
+        "created_at": "1981-08-24 07:58:01.552692",
+        "last_updated": "1981-08-24 07:58:01.552692"
     },
     "86": {
         "cycle_id": null,
-        "start_date": "1988-01-27",
-        "end_date": "2023-11-30",
-        "frequency": "identify",
-        "status": "closed",
-        "created_at": "2006-06-04 02:43:20.971321",
-        "last_updated": "2006-06-04 02:43:20.971321"
+        "start_date": "2019-04-23",
+        "end_date": "2013-07-12",
+        "frequency": "despite",
+        "status": "open",
+        "created_at": "1998-02-19 02:12:28.026209",
+        "last_updated": "1998-02-19 02:12:28.026209"
     },
     "87": {
         "cycle_id": null,
-        "start_date": "2017-10-17",
-        "end_date": "1985-04-06",
-        "frequency": "agent",
-        "status": "closed",
-        "created_at": "2004-02-03 10:20:35.260268",
-        "last_updated": "2004-02-03 10:20:35.260268"
+        "start_date": "2006-07-29",
+        "end_date": "2021-08-22",
+        "frequency": "mission",
+        "status": "open",
+        "created_at": "1986-01-03 03:57:24.908565",
+        "last_updated": "1986-01-03 03:57:24.908565"
     },
     "88": {
         "cycle_id": null,
-        "start_date": "1979-12-11",
-        "end_date": "2006-10-13",
-        "frequency": "nothing",
-        "status": "closed",
-        "created_at": "2017-09-11 22:03:35.156270",
-        "last_updated": "2017-09-11 22:03:35.156270"
+        "start_date": "1999-08-18",
+        "end_date": "1975-11-10",
+        "frequency": "kitchen",
+        "status": "open",
+        "created_at": "1986-03-11 23:27:09.595259",
+        "last_updated": "1986-03-11 23:27:09.595259"
     },
     "89": {
         "cycle_id": null,
-        "start_date": "2019-12-08",
-        "end_date": "1989-03-20",
-        "frequency": "ok",
+        "start_date": "1999-11-06",
+        "end_date": "1975-10-31",
+        "frequency": "hold",
         "status": "approved",
-        "created_at": "1987-03-20 14:26:15.500795",
-        "last_updated": "1987-03-20 14:26:15.500795"
+        "created_at": "1993-03-31 07:06:59.368585",
+        "last_updated": "1993-03-31 07:06:59.368585"
     },
     "90": {
         "cycle_id": null,
-        "start_date": "1992-12-31",
-        "end_date": "1973-02-22",
-        "frequency": "alone",
+        "start_date": "2012-09-27",
+        "end_date": "1973-05-24",
+        "frequency": "week",
         "status": "open",
-        "created_at": "2007-04-16 11:50:40.091376",
-        "last_updated": "2007-04-16 11:50:40.091376"
+        "created_at": "1998-12-10 10:51:57.061677",
+        "last_updated": "1998-12-10 10:51:57.061677"
     },
     "91": {
         "cycle_id": null,
-        "start_date": "2002-03-10",
-        "end_date": "1993-07-29",
-        "frequency": "fight",
+        "start_date": "1980-05-18",
+        "end_date": "2000-02-20",
+        "frequency": "skin",
         "status": "open",
-        "created_at": "1996-04-11 19:34:22.131360",
-        "last_updated": "1996-04-11 19:34:22.131360"
+        "created_at": "2011-10-03 10:08:57.442490",
+        "last_updated": "2011-10-03 10:08:57.442490"
     },
     "92": {
         "cycle_id": null,
-        "start_date": "2001-03-12",
-        "end_date": "1990-08-15",
-        "frequency": "event",
-        "status": "approved",
-        "created_at": "2017-09-12 12:40:17.202471",
-        "last_updated": "2017-09-12 12:40:17.202471"
+        "start_date": "1993-05-29",
+        "end_date": "1989-11-15",
+        "frequency": "throw",
+        "status": "closed",
+        "created_at": "1987-01-16 02:48:02.513579",
+        "last_updated": "1987-01-16 02:48:02.513579"
     },
     "93": {
         "cycle_id": null,
-        "start_date": "1988-09-14",
-        "end_date": "1991-08-24",
-        "frequency": "instead",
-        "status": "approved",
-        "created_at": "1987-12-15 03:40:20.679046",
-        "last_updated": "1987-12-15 03:40:20.679046"
+        "start_date": "1971-12-22",
+        "end_date": "1982-03-06",
+        "frequency": "evidence",
+        "status": "open",
+        "created_at": "2010-07-26 19:59:17.214085",
+        "last_updated": "2010-07-26 19:59:17.214085"
     },
     "94": {
         "cycle_id": null,
-        "start_date": "1985-07-02",
-        "end_date": "2020-10-28",
-        "frequency": "language",
+        "start_date": "2008-01-19",
+        "end_date": "2012-12-01",
+        "frequency": "rise",
         "status": "open",
-        "created_at": "2015-01-18 04:53:29.300279",
-        "last_updated": "2015-01-18 04:53:29.300279"
+        "created_at": "1976-07-01 09:31:06.904373",
+        "last_updated": "1976-07-01 09:31:06.904373"
     },
     "95": {
         "cycle_id": null,
-        "start_date": "2023-01-26",
-        "end_date": "1974-09-16",
-        "frequency": "since",
-        "status": "approved",
-        "created_at": "1974-02-15 00:13:12.206339",
-        "last_updated": "1974-02-15 00:13:12.206339"
+        "start_date": "2008-12-22",
+        "end_date": "2019-02-14",
+        "frequency": "every",
+        "status": "closed",
+        "created_at": "2015-04-25 17:29:17.287754",
+        "last_updated": "2015-04-25 17:29:17.287754"
     },
     "96": {
         "cycle_id": null,
-        "start_date": "2010-10-19",
-        "end_date": "1981-12-20",
-        "frequency": "exactly",
-        "status": "open",
-        "created_at": "1996-10-28 21:58:44.986177",
-        "last_updated": "1996-10-28 21:58:44.986177"
+        "start_date": "1989-06-24",
+        "end_date": "2008-04-24",
+        "frequency": "along",
+        "status": "approved",
+        "created_at": "1988-11-25 01:41:15.211827",
+        "last_updated": "1988-11-25 01:41:15.211827"
     },
     "97": {
         "cycle_id": null,
-        "start_date": "2005-04-09",
-        "end_date": "2001-01-27",
-        "frequency": "speech",
+        "start_date": "2017-04-08",
+        "end_date": "1995-07-29",
+        "frequency": "close",
         "status": "closed",
-        "created_at": "2016-07-23 07:10:56.577873",
-        "last_updated": "2016-07-23 07:10:56.577873"
+        "created_at": "2010-09-11 10:09:50.666530",
+        "last_updated": "2010-09-11 10:09:50.666530"
     },
     "98": {
         "cycle_id": null,
-        "start_date": "2001-05-22",
-        "end_date": "1993-01-08",
-        "frequency": "sister",
-        "status": "closed",
-        "created_at": "2011-10-11 18:42:30.007894",
-        "last_updated": "2011-10-11 18:42:30.007894"
+        "start_date": "1981-09-10",
+        "end_date": "1989-06-20",
+        "frequency": "try",
+        "status": "approved",
+        "created_at": "1991-06-21 17:28:40.208552",
+        "last_updated": "1991-06-21 17:28:40.208552"
     },
     "99": {
         "cycle_id": null,
-        "start_date": "1975-10-21",
-        "end_date": "2020-04-03",
-        "frequency": "decade",
-        "status": "approved",
-        "created_at": "2025-12-08 12:22:10.781054",
-        "last_updated": "2025-12-08 12:22:10.781054"
+        "start_date": "2010-01-25",
+        "end_date": "2011-04-10",
+        "frequency": "begin",
+        "status": "open",
+        "created_at": "1988-12-21 12:05:49.972340",
+        "last_updated": "1988-12-21 12:05:49.972340"
     },
     "100": {
         "cycle_id": null,
-        "start_date": "1988-10-09",
-        "end_date": "1982-05-28",
-        "frequency": "production",
+        "start_date": "1984-10-09",
+        "end_date": "1994-12-31",
+        "frequency": "PM",
         "status": "approved",
-        "created_at": "2018-10-23 20:44:48.525893",
-        "last_updated": "2018-10-23 20:44:48.525893"
+        "created_at": "1973-03-28 19:48:08.686264",
+        "last_updated": "1973-03-28 19:48:08.686264"
     }
 }

@@ -4,39 +4,39 @@
         "name": "Production",
         "status": "inactive",
         "head_of_department_id": null,
-        "created_at": "2007-10-21 22:23:45.281466",
-        "last_updated": "2007-10-21 22:23:45.281466"
+        "created_at": "2010-07-27 07:34:12.605657",
+        "last_updated": "2010-07-27 07:34:12.605657"
     },
     "2": {
         "department_id": "2",
-        "name": "Marketing",
-        "status": "inactive",
-        "head_of_department_id": null,
-        "created_at": "1985-12-24 20:33:14.024304",
-        "last_updated": "1985-12-24 20:33:14.024304"
-    },
-    "3": {
-        "department_id": "3",
         "name": "Production",
         "status": "active",
         "head_of_department_id": null,
-        "created_at": "1978-05-19 21:52:54.995216",
-        "last_updated": "1978-05-19 21:52:54.995216"
+        "created_at": "1977-10-29 05:41:14.158538",
+        "last_updated": "1977-10-29 05:41:14.158538"
+    },
+    "3": {
+        "department_id": "3",
+        "name": "Sales",
+        "status": "inactive",
+        "head_of_department_id": null,
+        "created_at": "1991-03-23 06:30:07.502185",
+        "last_updated": "1991-03-23 06:30:07.502185"
     },
     "4": {
         "department_id": "4",
         "name": "Sales",
-        "status": "inactive",
+        "status": "active",
         "head_of_department_id": null,
-        "created_at": "2005-08-16 07:03:07.665882",
-        "last_updated": "2005-08-16 07:03:07.665882"
+        "created_at": "2003-01-05 00:37:20.991126",
+        "last_updated": "2003-01-05 00:37:20.991126"
     },
     "5": {
         "department_id": "5",
-        "name": "Sales",
-        "status": "inactive",
+        "name": "Engineering",
+        "status": "active",
         "head_of_department_id": null,
-        "created_at": "2022-02-12 21:38:06.576674",
-        "last_updated": "2022-02-12 21:38:06.576674"
+        "created_at": "1984-04-20 11:38:14.010232",
+        "last_updated": "1984-04-20 11:38:14.010232"
     }
 }

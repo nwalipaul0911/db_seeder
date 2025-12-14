@@ -1,802 +1,802 @@
 {
     "1": {
         "deduction_rule_id": "1",
-        "deduction_type": "insurance",
-        "max_percent_of_net_pay": 588.36,
-        "created_at": "1978-12-23 21:32:05.835968",
-        "last_updated": "1978-12-23 21:32:05.835968",
-        "status": "inactive"
+        "deduction_type": "retirement",
+        "max_percent_of_net_pay": 373.56,
+        "created_at": "1988-09-13 10:26:28.858016",
+        "last_updated": "1988-09-13 10:26:28.858016",
+        "status": "active"
     },
     "2": {
         "deduction_rule_id": "2",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 461.77,
-        "created_at": "2012-09-02 07:46:26.455320",
-        "last_updated": "2012-09-02 07:46:26.455320",
-        "status": "active"
+        "deduction_type": "insurance",
+        "max_percent_of_net_pay": 678.85,
+        "created_at": "1990-11-24 02:12:30.737509",
+        "last_updated": "1990-11-24 02:12:30.737509",
+        "status": "inactive"
     },
     "3": {
         "deduction_rule_id": "3",
-        "deduction_type": "repayment_of_overpayment",
-        "max_percent_of_net_pay": 618.59,
-        "created_at": "2018-04-03 21:01:41.539398",
-        "last_updated": "2018-04-03 21:01:41.539398",
-        "status": "active"
+        "deduction_type": "insurance",
+        "max_percent_of_net_pay": 621.44,
+        "created_at": "1981-12-05 12:54:44.674079",
+        "last_updated": "1981-12-05 12:54:44.674079",
+        "status": "inactive"
     },
     "4": {
         "deduction_rule_id": "4",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 811.75,
-        "created_at": "1975-04-25 23:58:53.773456",
-        "last_updated": "1975-04-25 23:58:53.773456",
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 467.5,
+        "created_at": "2017-09-21 16:27:43.704642",
+        "last_updated": "2017-09-21 16:27:43.704642",
         "status": "active"
     },
     "5": {
         "deduction_rule_id": "5",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 438.92,
-        "created_at": "1990-08-07 05:56:48.156497",
-        "last_updated": "1990-08-07 05:56:48.156497",
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 490.92,
+        "created_at": "2017-11-06 10:23:56.941387",
+        "last_updated": "2017-11-06 10:23:56.941387",
         "status": "inactive"
     },
     "6": {
         "deduction_rule_id": "6",
         "deduction_type": "loan",
-        "max_percent_of_net_pay": 89.77,
-        "created_at": "2021-01-03 16:54:18.359563",
-        "last_updated": "2021-01-03 16:54:18.359563",
+        "max_percent_of_net_pay": 48.72,
+        "created_at": "1995-01-24 23:17:10.627421",
+        "last_updated": "1995-01-24 23:17:10.627421",
         "status": "active"
     },
     "7": {
         "deduction_rule_id": "7",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 143.3,
-        "created_at": "2021-06-26 01:34:01.198169",
-        "last_updated": "2021-06-26 01:34:01.198169",
+        "deduction_type": "retirement",
+        "max_percent_of_net_pay": 747.5,
+        "created_at": "1998-06-30 00:15:39.469554",
+        "last_updated": "1998-06-30 00:15:39.469554",
         "status": "active"
     },
     "8": {
         "deduction_rule_id": "8",
         "deduction_type": "loan",
-        "max_percent_of_net_pay": 299.46,
-        "created_at": "1982-01-25 13:01:36.204353",
-        "last_updated": "1982-01-25 13:01:36.204353",
+        "max_percent_of_net_pay": 669.93,
+        "created_at": "2008-06-24 06:37:48.040359",
+        "last_updated": "2008-06-24 06:37:48.040359",
         "status": "inactive"
     },
     "9": {
         "deduction_rule_id": "9",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 82.12,
-        "created_at": "1995-02-08 10:16:18.447208",
-        "last_updated": "1995-02-08 10:16:18.447208",
-        "status": "active"
+        "deduction_type": "repayment_of_overpayment",
+        "max_percent_of_net_pay": 104.79,
+        "created_at": "2011-01-20 11:04:32.300677",
+        "last_updated": "2011-01-20 11:04:32.300677",
+        "status": "inactive"
     },
     "10": {
         "deduction_rule_id": "10",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 498.13,
-        "created_at": "1989-06-20 21:10:41.036473",
-        "last_updated": "1989-06-20 21:10:41.036473",
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 512.37,
+        "created_at": "2007-04-15 22:45:43.147391",
+        "last_updated": "2007-04-15 22:45:43.147391",
         "status": "active"
     },
     "11": {
         "deduction_rule_id": "11",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 389.08,
-        "created_at": "2004-10-25 15:49:19.231789",
-        "last_updated": "2004-10-25 15:49:19.231789",
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 649.71,
+        "created_at": "2006-08-12 05:32:56.201984",
+        "last_updated": "2006-08-12 05:32:56.201984",
         "status": "inactive"
     },
     "12": {
         "deduction_rule_id": "12",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 508.55,
-        "created_at": "2020-05-18 12:38:56.961675",
-        "last_updated": "2020-05-18 12:38:56.961675",
+        "deduction_type": "repayment_of_overpayment",
+        "max_percent_of_net_pay": 288.07,
+        "created_at": "1986-09-12 17:28:37.931392",
+        "last_updated": "1986-09-12 17:28:37.931392",
         "status": "active"
     },
     "13": {
         "deduction_rule_id": "13",
-        "deduction_type": "benefit_contribution",
-        "max_percent_of_net_pay": 139.92,
-        "created_at": "1982-09-11 10:52:37.212808",
-        "last_updated": "1982-09-11 10:52:37.212808",
-        "status": "inactive"
+        "deduction_type": "tax",
+        "max_percent_of_net_pay": 448.45,
+        "created_at": "2019-03-22 04:17:44.627615",
+        "last_updated": "2019-03-22 04:17:44.627615",
+        "status": "active"
     },
     "14": {
         "deduction_rule_id": "14",
-        "deduction_type": "loan",
-        "max_percent_of_net_pay": 709.67,
-        "created_at": "1988-06-22 11:14:11.610943",
-        "last_updated": "1988-06-22 11:14:11.610943",
+        "deduction_type": "garnishment",
+        "max_percent_of_net_pay": 693.52,
+        "created_at": "2022-06-03 09:53:20.152891",
+        "last_updated": "2022-06-03 09:53:20.152891",
         "status": "inactive"
     },
     "15": {
         "deduction_rule_id": "15",
-        "deduction_type": "insurance",
-        "max_percent_of_net_pay": 39.52,
-        "created_at": "2000-03-24 05:31:14.099679",
-        "last_updated": "2000-03-24 05:31:14.099679",
-        "status": "inactive"
+        "deduction_type": "repayment_of_overpayment",
+        "max_percent_of_net_pay": 841.56,
+        "created_at": "1972-10-29 21:37:00.591399",
+        "last_updated": "1972-10-29 21:37:00.591399",
+        "status": "active"
     },
     "16": {
         "deduction_rule_id": "16",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 362.81,
-        "created_at": "1981-04-16 16:29:58.293479",
-        "last_updated": "1981-04-16 16:29:58.293479",
+        "deduction_type": "retirement",
+        "max_percent_of_net_pay": 459.42,
+        "created_at": "1986-06-09 02:18:35.352301",
+        "last_updated": "1986-06-09 02:18:35.352301",
         "status": "active"
     },
     "17": {
         "deduction_rule_id": "17",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 873.08,
-        "created_at": "2002-09-09 17:20:58.701154",
-        "last_updated": "2002-09-09 17:20:58.701154",
-        "status": "active"
+        "deduction_type": "garnishment",
+        "max_percent_of_net_pay": 234.48,
+        "created_at": "2008-02-11 08:39:41.073194",
+        "last_updated": "2008-02-11 08:39:41.073194",
+        "status": "inactive"
     },
     "18": {
         "deduction_rule_id": "18",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 569.87,
-        "created_at": "1982-09-03 19:31:37.368749",
-        "last_updated": "1982-09-03 19:31:37.368749",
+        "deduction_type": "tax",
+        "max_percent_of_net_pay": 580.92,
+        "created_at": "1970-10-19 19:46:55.099080",
+        "last_updated": "1970-10-19 19:46:55.099080",
         "status": "inactive"
     },
     "19": {
         "deduction_rule_id": "19",
         "deduction_type": "retirement",
-        "max_percent_of_net_pay": 54.22,
-        "created_at": "2003-06-09 12:24:34.917966",
-        "last_updated": "2003-06-09 12:24:34.917966",
+        "max_percent_of_net_pay": 936.6,
+        "created_at": "2021-05-28 22:46:09.044978",
+        "last_updated": "2021-05-28 22:46:09.044978",
         "status": "active"
     },
     "20": {
         "deduction_rule_id": "20",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 437.91,
-        "created_at": "1996-05-22 02:53:51.346920",
-        "last_updated": "1996-05-22 02:53:51.346920",
-        "status": "active"
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 628.25,
+        "created_at": "2022-07-01 12:44:14.710667",
+        "last_updated": "2022-07-01 12:44:14.710667",
+        "status": "inactive"
     },
     "21": {
         "deduction_rule_id": "21",
-        "deduction_type": "loan",
-        "max_percent_of_net_pay": 285.6,
-        "created_at": "2016-04-06 06:03:04.742440",
-        "last_updated": "2016-04-06 06:03:04.742440",
-        "status": "inactive"
+        "deduction_type": "repayment_of_overpayment",
+        "max_percent_of_net_pay": 854.61,
+        "created_at": "1996-01-28 19:43:31.631700",
+        "last_updated": "1996-01-28 19:43:31.631700",
+        "status": "active"
     },
     "22": {
         "deduction_rule_id": "22",
-        "deduction_type": "insurance",
-        "max_percent_of_net_pay": 719.86,
-        "created_at": "1970-12-05 10:12:11.470631",
-        "last_updated": "1970-12-05 10:12:11.470631",
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 573.45,
+        "created_at": "1975-06-29 04:46:23.815198",
+        "last_updated": "1975-06-29 04:46:23.815198",
         "status": "inactive"
     },
     "23": {
         "deduction_rule_id": "23",
         "deduction_type": "tax",
-        "max_percent_of_net_pay": 296.48,
-        "created_at": "1984-06-10 00:54:18.915510",
-        "last_updated": "1984-06-10 00:54:18.915510",
+        "max_percent_of_net_pay": 950.68,
+        "created_at": "2025-08-31 14:47:50.265923",
+        "last_updated": "2025-08-31 14:47:50.265923",
         "status": "active"
     },
     "24": {
         "deduction_rule_id": "24",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 664.57,
-        "created_at": "1980-08-04 16:40:28.175467",
-        "last_updated": "1980-08-04 16:40:28.175467",
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 495.64,
+        "created_at": "2016-12-03 16:34:28.290840",
+        "last_updated": "2016-12-03 16:34:28.290840",
         "status": "active"
     },
     "25": {
         "deduction_rule_id": "25",
-        "deduction_type": "loan",
-        "max_percent_of_net_pay": 251.74,
-        "created_at": "2010-02-10 22:30:15.756624",
-        "last_updated": "2010-02-10 22:30:15.756624",
+        "deduction_type": "retirement",
+        "max_percent_of_net_pay": 265.1,
+        "created_at": "1974-01-29 18:21:55.648814",
+        "last_updated": "1974-01-29 18:21:55.648814",
         "status": "active"
     },
     "26": {
         "deduction_rule_id": "26",
         "deduction_type": "repayment_of_overpayment",
-        "max_percent_of_net_pay": 643.41,
-        "created_at": "2002-07-06 05:56:05.786704",
-        "last_updated": "2002-07-06 05:56:05.786704",
+        "max_percent_of_net_pay": 604.21,
+        "created_at": "2022-06-09 09:23:19.762002",
+        "last_updated": "2022-06-09 09:23:19.762002",
         "status": "active"
     },
     "27": {
         "deduction_rule_id": "27",
         "deduction_type": "tax",
-        "max_percent_of_net_pay": 482.67,
-        "created_at": "1993-06-23 21:06:43.633750",
-        "last_updated": "1993-06-23 21:06:43.633750",
+        "max_percent_of_net_pay": 493.26,
+        "created_at": "2020-12-21 04:37:56.966619",
+        "last_updated": "2020-12-21 04:37:56.966619",
         "status": "active"
     },
     "28": {
         "deduction_rule_id": "28",
         "deduction_type": "insurance",
-        "max_percent_of_net_pay": 225.0,
-        "created_at": "1973-11-08 09:32:34.038752",
-        "last_updated": "1973-11-08 09:32:34.038752",
-        "status": "active"
+        "max_percent_of_net_pay": 226.23,
+        "created_at": "1998-09-04 12:27:37.771753",
+        "last_updated": "1998-09-04 12:27:37.771753",
+        "status": "inactive"
     },
     "29": {
         "deduction_rule_id": "29",
-        "deduction_type": "benefit_contribution",
-        "max_percent_of_net_pay": 73.84,
-        "created_at": "1989-10-31 12:29:34.285093",
-        "last_updated": "1989-10-31 12:29:34.285093",
-        "status": "active"
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 346.12,
+        "created_at": "1986-08-03 02:11:56.759126",
+        "last_updated": "1986-08-03 02:11:56.759126",
+        "status": "inactive"
     },
     "30": {
         "deduction_rule_id": "30",
-        "deduction_type": "benefit_contribution",
-        "max_percent_of_net_pay": 772.99,
-        "created_at": "2018-05-09 14:38:26.321203",
-        "last_updated": "2018-05-09 14:38:26.321203",
+        "deduction_type": "repayment_of_overpayment",
+        "max_percent_of_net_pay": 996.66,
+        "created_at": "1993-02-21 15:53:23.969200",
+        "last_updated": "1993-02-21 15:53:23.969200",
         "status": "active"
     },
     "31": {
         "deduction_rule_id": "31",
         "deduction_type": "retirement",
-        "max_percent_of_net_pay": 132.53,
-        "created_at": "2010-04-11 04:38:19.543886",
-        "last_updated": "2010-04-11 04:38:19.543886",
+        "max_percent_of_net_pay": 611.61,
+        "created_at": "1990-07-12 22:51:59.295326",
+        "last_updated": "1990-07-12 22:51:59.295326",
         "status": "active"
     },
     "32": {
         "deduction_rule_id": "32",
         "deduction_type": "tax",
-        "max_percent_of_net_pay": 486.79,
-        "created_at": "1972-01-04 17:51:04.983136",
-        "last_updated": "1972-01-04 17:51:04.983136",
+        "max_percent_of_net_pay": 569.79,
+        "created_at": "2022-05-19 07:59:17.829122",
+        "last_updated": "2022-05-19 07:59:17.829122",
         "status": "inactive"
     },
     "33": {
         "deduction_rule_id": "33",
-        "deduction_type": "repayment_of_overpayment",
-        "max_percent_of_net_pay": 726.65,
-        "created_at": "2005-01-11 08:31:30.008454",
-        "last_updated": "2005-01-11 08:31:30.008454",
-        "status": "active"
+        "deduction_type": "garnishment",
+        "max_percent_of_net_pay": 926.69,
+        "created_at": "2024-05-06 02:26:10.096058",
+        "last_updated": "2024-05-06 02:26:10.096058",
+        "status": "inactive"
     },
     "34": {
         "deduction_rule_id": "34",
-        "deduction_type": "insurance",
-        "max_percent_of_net_pay": 748.69,
-        "created_at": "2005-10-23 13:42:00.794405",
-        "last_updated": "2005-10-23 13:42:00.794405",
-        "status": "active"
+        "deduction_type": "benefit_contribution",
+        "max_percent_of_net_pay": 262.42,
+        "created_at": "1975-10-13 05:35:57.446221",
+        "last_updated": "1975-10-13 05:35:57.446221",
+        "status": "inactive"
     },
     "35": {
         "deduction_rule_id": "35",
-        "deduction_type": "loan",
-        "max_percent_of_net_pay": 994.11,
-        "created_at": "1991-10-08 01:08:27.134064",
-        "last_updated": "1991-10-08 01:08:27.134064",
+        "deduction_type": "repayment_of_overpayment",
+        "max_percent_of_net_pay": 522.69,
+        "created_at": "1972-05-17 12:41:16.922537",
+        "last_updated": "1972-05-17 12:41:16.922537",
         "status": "active"
     },
     "36": {
         "deduction_rule_id": "36",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 551.51,
-        "created_at": "2000-04-10 22:49:20.532797",
-        "last_updated": "2000-04-10 22:49:20.532797",
-        "status": "active"
+        "deduction_type": "garnishment",
+        "max_percent_of_net_pay": 507.91,
+        "created_at": "2018-04-21 09:25:52.778625",
+        "last_updated": "2018-04-21 09:25:52.778625",
+        "status": "inactive"
     },
     "37": {
         "deduction_rule_id": "37",
         "deduction_type": "insurance",
-        "max_percent_of_net_pay": 169.76,
-        "created_at": "2017-01-01 10:09:44.872622",
-        "last_updated": "2017-01-01 10:09:44.872622",
-        "status": "inactive"
+        "max_percent_of_net_pay": 680.62,
+        "created_at": "1981-03-13 15:52:02.013510",
+        "last_updated": "1981-03-13 15:52:02.013510",
+        "status": "active"
     },
     "38": {
         "deduction_rule_id": "38",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 977.25,
-        "created_at": "2024-01-09 08:08:29.086035",
-        "last_updated": "2024-01-09 08:08:29.086035",
-        "status": "active"
+        "deduction_type": "garnishment",
+        "max_percent_of_net_pay": 681.63,
+        "created_at": "1990-03-21 00:43:33.316139",
+        "last_updated": "1990-03-21 00:43:33.316139",
+        "status": "inactive"
     },
     "39": {
         "deduction_rule_id": "39",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 559.27,
-        "created_at": "1991-05-26 12:28:00.023007",
-        "last_updated": "1991-05-26 12:28:00.023007",
-        "status": "inactive"
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 237.2,
+        "created_at": "1985-01-17 16:26:35.023642",
+        "last_updated": "1985-01-17 16:26:35.023642",
+        "status": "active"
     },
     "40": {
         "deduction_rule_id": "40",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 437.53,
-        "created_at": "1994-03-24 07:09:13.301670",
-        "last_updated": "1994-03-24 07:09:13.301670",
-        "status": "active"
+        "deduction_type": "repayment_of_overpayment",
+        "max_percent_of_net_pay": 251.05,
+        "created_at": "1971-03-22 15:34:34.378473",
+        "last_updated": "1971-03-22 15:34:34.378473",
+        "status": "inactive"
     },
     "41": {
         "deduction_rule_id": "41",
-        "deduction_type": "repayment_of_overpayment",
-        "max_percent_of_net_pay": 850.38,
-        "created_at": "2008-11-20 00:15:02.395985",
-        "last_updated": "2008-11-20 00:15:02.395985",
+        "deduction_type": "garnishment",
+        "max_percent_of_net_pay": 237.77,
+        "created_at": "2015-07-14 05:26:15.827756",
+        "last_updated": "2015-07-14 05:26:15.827756",
         "status": "inactive"
     },
     "42": {
         "deduction_rule_id": "42",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 425.45,
-        "created_at": "2011-11-26 01:46:39.211635",
-        "last_updated": "2011-11-26 01:46:39.211635",
-        "status": "active"
+        "deduction_type": "repayment_of_overpayment",
+        "max_percent_of_net_pay": 385.29,
+        "created_at": "1987-02-20 00:52:29.426559",
+        "last_updated": "1987-02-20 00:52:29.426559",
+        "status": "inactive"
     },
     "43": {
         "deduction_rule_id": "43",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 599.18,
-        "created_at": "1988-08-04 20:15:41.332149",
-        "last_updated": "1988-08-04 20:15:41.332149",
+        "deduction_type": "benefit_contribution",
+        "max_percent_of_net_pay": 224.67,
+        "created_at": "2014-08-06 12:22:55.751333",
+        "last_updated": "2014-08-06 12:22:55.751333",
         "status": "active"
     },
     "44": {
         "deduction_rule_id": "44",
-        "deduction_type": "loan",
-        "max_percent_of_net_pay": 470.55,
-        "created_at": "2005-12-13 21:38:43.155444",
-        "last_updated": "2005-12-13 21:38:43.155444",
+        "deduction_type": "retirement",
+        "max_percent_of_net_pay": 326.59,
+        "created_at": "1998-01-01 06:45:22.192167",
+        "last_updated": "1998-01-01 06:45:22.192167",
         "status": "inactive"
     },
     "45": {
         "deduction_rule_id": "45",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 468.15,
-        "created_at": "2024-02-24 05:59:57.826026",
-        "last_updated": "2024-02-24 05:59:57.826026",
+        "deduction_type": "insurance",
+        "max_percent_of_net_pay": 788.88,
+        "created_at": "2016-06-01 03:10:36.023910",
+        "last_updated": "2016-06-01 03:10:36.023910",
         "status": "inactive"
     },
     "46": {
         "deduction_rule_id": "46",
-        "deduction_type": "repayment_of_overpayment",
-        "max_percent_of_net_pay": 657.71,
-        "created_at": "1987-08-27 04:02:10.322565",
-        "last_updated": "1987-08-27 04:02:10.322565",
+        "deduction_type": "tax",
+        "max_percent_of_net_pay": 46.67,
+        "created_at": "1972-09-01 08:36:53.790611",
+        "last_updated": "1972-09-01 08:36:53.790611",
         "status": "inactive"
     },
     "47": {
         "deduction_rule_id": "47",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 92.26,
-        "created_at": "2002-07-04 22:20:15.212363",
-        "last_updated": "2002-07-04 22:20:15.212363",
-        "status": "active"
+        "deduction_type": "retirement",
+        "max_percent_of_net_pay": 38.51,
+        "created_at": "2013-07-28 01:27:25.894965",
+        "last_updated": "2013-07-28 01:27:25.894965",
+        "status": "inactive"
     },
     "48": {
         "deduction_rule_id": "48",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 639.68,
-        "created_at": "1977-02-20 21:09:48.365854",
-        "last_updated": "1977-02-20 21:09:48.365854",
-        "status": "active"
+        "deduction_type": "insurance",
+        "max_percent_of_net_pay": 298.66,
+        "created_at": "1994-05-20 22:43:11.258068",
+        "last_updated": "1994-05-20 22:43:11.258068",
+        "status": "inactive"
     },
     "49": {
         "deduction_rule_id": "49",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 803.11,
-        "created_at": "1989-03-11 06:52:14.148951",
-        "last_updated": "1989-03-11 06:52:14.148951",
+        "deduction_type": "insurance",
+        "max_percent_of_net_pay": 248.95,
+        "created_at": "1993-07-15 19:36:36.755045",
+        "last_updated": "1993-07-15 19:36:36.755045",
         "status": "inactive"
     },
     "50": {
         "deduction_rule_id": "50",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 379.66,
-        "created_at": "2007-03-01 23:55:01.353533",
-        "last_updated": "2007-03-01 23:55:01.353533",
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 684.46,
+        "created_at": "2012-08-19 17:55:16.828117",
+        "last_updated": "2012-08-19 17:55:16.828117",
         "status": "inactive"
     },
     "51": {
         "deduction_rule_id": "51",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 529.5,
-        "created_at": "2010-01-17 00:13:15.088231",
-        "last_updated": "2010-01-17 00:13:15.088231",
-        "status": "active"
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 601.46,
+        "created_at": "1976-04-19 03:22:44.086132",
+        "last_updated": "1976-04-19 03:22:44.086132",
+        "status": "inactive"
     },
     "52": {
         "deduction_rule_id": "52",
-        "deduction_type": "insurance",
-        "max_percent_of_net_pay": 731.28,
-        "created_at": "1986-12-07 19:02:07.183079",
-        "last_updated": "1986-12-07 19:02:07.183079",
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 872.0,
+        "created_at": "1980-12-04 13:11:54.063074",
+        "last_updated": "1980-12-04 13:11:54.063074",
         "status": "inactive"
     },
     "53": {
         "deduction_rule_id": "53",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 976.21,
-        "created_at": "1991-05-27 04:50:44.772206",
-        "last_updated": "1991-05-27 04:50:44.772206",
-        "status": "inactive"
+        "deduction_type": "benefit_contribution",
+        "max_percent_of_net_pay": 401.43,
+        "created_at": "2007-02-13 22:51:19.540164",
+        "last_updated": "2007-02-13 22:51:19.540164",
+        "status": "active"
     },
     "54": {
         "deduction_rule_id": "54",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 993.01,
-        "created_at": "2003-11-22 15:22:34.114552",
-        "last_updated": "2003-11-22 15:22:34.114552",
+        "deduction_type": "repayment_of_overpayment",
+        "max_percent_of_net_pay": 622.38,
+        "created_at": "1993-01-09 11:49:14.635838",
+        "last_updated": "1993-01-09 11:49:14.635838",
         "status": "active"
     },
     "55": {
         "deduction_rule_id": "55",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 702.05,
-        "created_at": "1980-09-15 09:33:17.773614",
-        "last_updated": "1980-09-15 09:33:17.773614",
+        "deduction_type": "benefit_contribution",
+        "max_percent_of_net_pay": 364.05,
+        "created_at": "1971-06-11 12:10:09.326895",
+        "last_updated": "1971-06-11 12:10:09.326895",
         "status": "inactive"
     },
     "56": {
         "deduction_rule_id": "56",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 171.98,
-        "created_at": "1976-12-26 15:55:45.397256",
-        "last_updated": "1976-12-26 15:55:45.397256",
-        "status": "inactive"
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 445.52,
+        "created_at": "2011-10-07 01:07:48.207677",
+        "last_updated": "2011-10-07 01:07:48.207677",
+        "status": "active"
     },
     "57": {
         "deduction_rule_id": "57",
         "deduction_type": "repayment_of_overpayment",
-        "max_percent_of_net_pay": 775.27,
-        "created_at": "2017-09-08 21:41:18.972555",
-        "last_updated": "2017-09-08 21:41:18.972555",
-        "status": "active"
+        "max_percent_of_net_pay": 389.14,
+        "created_at": "1990-02-16 08:18:13.624058",
+        "last_updated": "1990-02-16 08:18:13.624058",
+        "status": "inactive"
     },
     "58": {
         "deduction_rule_id": "58",
-        "deduction_type": "repayment_of_overpayment",
-        "max_percent_of_net_pay": 243.57,
-        "created_at": "2019-12-14 16:08:38.344273",
-        "last_updated": "2019-12-14 16:08:38.344273",
+        "deduction_type": "retirement",
+        "max_percent_of_net_pay": 340.34,
+        "created_at": "1999-01-12 17:36:30.623765",
+        "last_updated": "1999-01-12 17:36:30.623765",
         "status": "active"
     },
     "59": {
         "deduction_rule_id": "59",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 869.83,
-        "created_at": "2005-08-21 06:37:13.334147",
-        "last_updated": "2005-08-21 06:37:13.334147",
+        "deduction_type": "repayment_of_overpayment",
+        "max_percent_of_net_pay": 14.52,
+        "created_at": "2017-01-09 16:28:54.078477",
+        "last_updated": "2017-01-09 16:28:54.078477",
         "status": "inactive"
     },
     "60": {
         "deduction_rule_id": "60",
-        "deduction_type": "benefit_contribution",
-        "max_percent_of_net_pay": 76.72,
-        "created_at": "1979-06-29 16:38:49.239268",
-        "last_updated": "1979-06-29 16:38:49.239268",
-        "status": "active"
+        "deduction_type": "repayment_of_overpayment",
+        "max_percent_of_net_pay": 76.46,
+        "created_at": "2015-01-28 17:01:55.141709",
+        "last_updated": "2015-01-28 17:01:55.141709",
+        "status": "inactive"
     },
     "61": {
         "deduction_rule_id": "61",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 820.85,
-        "created_at": "1977-05-04 11:31:04.948735",
-        "last_updated": "1977-05-04 11:31:04.948735",
+        "deduction_type": "tax",
+        "max_percent_of_net_pay": 385.09,
+        "created_at": "1972-06-04 09:41:56.718744",
+        "last_updated": "1972-06-04 09:41:56.718744",
         "status": "active"
     },
     "62": {
         "deduction_rule_id": "62",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 299.25,
-        "created_at": "1992-01-23 03:14:35.614928",
-        "last_updated": "1992-01-23 03:14:35.614928",
-        "status": "active"
+        "deduction_type": "insurance",
+        "max_percent_of_net_pay": 670.83,
+        "created_at": "2023-02-10 18:40:32.215297",
+        "last_updated": "2023-02-10 18:40:32.215297",
+        "status": "inactive"
     },
     "63": {
         "deduction_rule_id": "63",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 634.6,
-        "created_at": "2002-12-04 13:56:08.126934",
-        "last_updated": "2002-12-04 13:56:08.126934",
+        "deduction_type": "garnishment",
+        "max_percent_of_net_pay": 616.4,
+        "created_at": "1997-06-21 10:06:57.664434",
+        "last_updated": "1997-06-21 10:06:57.664434",
         "status": "active"
     },
     "64": {
         "deduction_rule_id": "64",
-        "deduction_type": "benefit_contribution",
-        "max_percent_of_net_pay": 627.71,
-        "created_at": "1987-11-05 23:16:37.988163",
-        "last_updated": "1987-11-05 23:16:37.988163",
-        "status": "inactive"
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 988.62,
+        "created_at": "2020-06-10 21:52:27.591555",
+        "last_updated": "2020-06-10 21:52:27.591555",
+        "status": "active"
     },
     "65": {
         "deduction_rule_id": "65",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 209.23,
-        "created_at": "1977-03-16 22:13:40.160401",
-        "last_updated": "1977-03-16 22:13:40.160401",
+        "deduction_type": "benefit_contribution",
+        "max_percent_of_net_pay": 428.4,
+        "created_at": "1987-04-30 07:00:11.081977",
+        "last_updated": "1987-04-30 07:00:11.081977",
         "status": "inactive"
     },
     "66": {
         "deduction_rule_id": "66",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 254.56,
-        "created_at": "2006-11-24 23:15:32.030042",
-        "last_updated": "2006-11-24 23:15:32.030042",
-        "status": "inactive"
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 199.1,
+        "created_at": "2000-11-05 17:32:36.602508",
+        "last_updated": "2000-11-05 17:32:36.602508",
+        "status": "active"
     },
     "67": {
         "deduction_rule_id": "67",
-        "deduction_type": "loan",
-        "max_percent_of_net_pay": 627.58,
-        "created_at": "2019-09-07 01:18:39.975183",
-        "last_updated": "2019-09-07 01:18:39.975183",
-        "status": "inactive"
+        "deduction_type": "tax",
+        "max_percent_of_net_pay": 476.07,
+        "created_at": "2021-10-10 07:46:00.390035",
+        "last_updated": "2021-10-10 07:46:00.390035",
+        "status": "active"
     },
     "68": {
         "deduction_rule_id": "68",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 670.94,
-        "created_at": "1974-05-21 10:00:13.162210",
-        "last_updated": "1974-05-21 10:00:13.162210",
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 978.48,
+        "created_at": "2012-06-25 12:59:59.323172",
+        "last_updated": "2012-06-25 12:59:59.323172",
         "status": "active"
     },
     "69": {
         "deduction_rule_id": "69",
-        "deduction_type": "loan",
-        "max_percent_of_net_pay": 272.83,
-        "created_at": "1979-12-17 06:45:32.780554",
-        "last_updated": "1979-12-17 06:45:32.780554",
-        "status": "active"
+        "deduction_type": "insurance",
+        "max_percent_of_net_pay": 316.88,
+        "created_at": "1987-01-03 07:10:57.248872",
+        "last_updated": "1987-01-03 07:10:57.248872",
+        "status": "inactive"
     },
     "70": {
         "deduction_rule_id": "70",
-        "deduction_type": "loan",
-        "max_percent_of_net_pay": 104.06,
-        "created_at": "2005-09-29 11:13:52.726466",
-        "last_updated": "2005-09-29 11:13:52.726466",
+        "deduction_type": "retirement",
+        "max_percent_of_net_pay": 824.04,
+        "created_at": "2014-11-13 07:21:29.135941",
+        "last_updated": "2014-11-13 07:21:29.135941",
         "status": "active"
     },
     "71": {
         "deduction_rule_id": "71",
         "deduction_type": "insurance",
-        "max_percent_of_net_pay": 710.71,
-        "created_at": "1991-04-28 15:31:22.086512",
-        "last_updated": "1991-04-28 15:31:22.086512",
-        "status": "inactive"
+        "max_percent_of_net_pay": 213.31,
+        "created_at": "1998-08-24 03:53:47.538314",
+        "last_updated": "1998-08-24 03:53:47.538314",
+        "status": "active"
     },
     "72": {
         "deduction_rule_id": "72",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 680.72,
-        "created_at": "2020-06-13 22:24:48.360811",
-        "last_updated": "2020-06-13 22:24:48.360811",
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 336.15,
+        "created_at": "1996-06-08 18:05:51.002843",
+        "last_updated": "1996-06-08 18:05:51.002843",
         "status": "active"
     },
     "73": {
         "deduction_rule_id": "73",
-        "deduction_type": "benefit_contribution",
-        "max_percent_of_net_pay": 607.97,
-        "created_at": "1985-07-31 09:19:35.978661",
-        "last_updated": "1985-07-31 09:19:35.978661",
+        "deduction_type": "garnishment",
+        "max_percent_of_net_pay": 115.36,
+        "created_at": "2015-04-18 15:54:17.810319",
+        "last_updated": "2015-04-18 15:54:17.810319",
         "status": "inactive"
     },
     "74": {
         "deduction_rule_id": "74",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 347.96,
-        "created_at": "1973-07-03 07:33:09.417706",
-        "last_updated": "1973-07-03 07:33:09.417706",
+        "deduction_type": "garnishment",
+        "max_percent_of_net_pay": 2.64,
+        "created_at": "2013-04-28 21:07:03.191315",
+        "last_updated": "2013-04-28 21:07:03.191315",
         "status": "active"
     },
     "75": {
         "deduction_rule_id": "75",
-        "deduction_type": "insurance",
-        "max_percent_of_net_pay": 291.11,
-        "created_at": "2009-01-17 13:46:04.240386",
-        "last_updated": "2009-01-17 13:46:04.240386",
-        "status": "active"
+        "deduction_type": "retirement",
+        "max_percent_of_net_pay": 809.35,
+        "created_at": "2003-12-10 13:23:24.559263",
+        "last_updated": "2003-12-10 13:23:24.559263",
+        "status": "inactive"
     },
     "76": {
         "deduction_rule_id": "76",
-        "deduction_type": "benefit_contribution",
-        "max_percent_of_net_pay": 142.75,
-        "created_at": "1973-10-03 15:58:32.539771",
-        "last_updated": "1973-10-03 15:58:32.539771",
+        "deduction_type": "tax",
+        "max_percent_of_net_pay": 452.08,
+        "created_at": "2011-05-15 03:47:54.342660",
+        "last_updated": "2011-05-15 03:47:54.342660",
         "status": "inactive"
     },
     "77": {
         "deduction_rule_id": "77",
-        "deduction_type": "insurance",
-        "max_percent_of_net_pay": 129.36,
-        "created_at": "1989-04-20 20:35:13.967588",
-        "last_updated": "1989-04-20 20:35:13.967588",
-        "status": "inactive"
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 633.18,
+        "created_at": "1982-04-26 19:49:21.703611",
+        "last_updated": "1982-04-26 19:49:21.703611",
+        "status": "active"
     },
     "78": {
         "deduction_rule_id": "78",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 180.88,
-        "created_at": "1977-10-10 12:18:26.833521",
-        "last_updated": "1977-10-10 12:18:26.833521",
+        "deduction_type": "repayment_of_overpayment",
+        "max_percent_of_net_pay": 140.97,
+        "created_at": "1992-08-30 16:10:15.531705",
+        "last_updated": "1992-08-30 16:10:15.531705",
         "status": "active"
     },
     "79": {
         "deduction_rule_id": "79",
-        "deduction_type": "repayment_of_overpayment",
-        "max_percent_of_net_pay": 551.85,
-        "created_at": "2002-03-31 06:31:29.250396",
-        "last_updated": "2002-03-31 06:31:29.250396",
-        "status": "active"
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 687.2,
+        "created_at": "1983-01-19 15:26:13.521502",
+        "last_updated": "1983-01-19 15:26:13.521502",
+        "status": "inactive"
     },
     "80": {
         "deduction_rule_id": "80",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 594.67,
-        "created_at": "1994-01-17 23:58:18.064461",
-        "last_updated": "1994-01-17 23:58:18.064461",
-        "status": "inactive"
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 770.06,
+        "created_at": "1997-02-26 13:49:15.053591",
+        "last_updated": "1997-02-26 13:49:15.053591",
+        "status": "active"
     },
     "81": {
         "deduction_rule_id": "81",
-        "deduction_type": "insurance",
-        "max_percent_of_net_pay": 315.71,
-        "created_at": "1982-08-05 07:29:18.760374",
-        "last_updated": "1982-08-05 07:29:18.760374",
-        "status": "active"
+        "deduction_type": "tax",
+        "max_percent_of_net_pay": 978.12,
+        "created_at": "1994-03-09 14:53:21.518571",
+        "last_updated": "1994-03-09 14:53:21.518571",
+        "status": "inactive"
     },
     "82": {
         "deduction_rule_id": "82",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 202.84,
-        "created_at": "1979-08-30 23:50:25.588875",
-        "last_updated": "1979-08-30 23:50:25.588875",
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 324.33,
+        "created_at": "1983-07-07 17:07:18.043108",
+        "last_updated": "1983-07-07 17:07:18.043108",
         "status": "inactive"
     },
     "83": {
         "deduction_rule_id": "83",
-        "deduction_type": "loan",
-        "max_percent_of_net_pay": 115.87,
-        "created_at": "2005-09-16 14:26:18.688871",
-        "last_updated": "2005-09-16 14:26:18.688871",
-        "status": "inactive"
+        "deduction_type": "retirement",
+        "max_percent_of_net_pay": 309.31,
+        "created_at": "1982-07-04 14:27:51.724667",
+        "last_updated": "1982-07-04 14:27:51.724667",
+        "status": "active"
     },
     "84": {
         "deduction_rule_id": "84",
         "deduction_type": "benefit_contribution",
-        "max_percent_of_net_pay": 78.39,
-        "created_at": "1999-06-22 07:59:30.757169",
-        "last_updated": "1999-06-22 07:59:30.757169",
-        "status": "active"
+        "max_percent_of_net_pay": 958.29,
+        "created_at": "1979-02-08 05:54:20.942657",
+        "last_updated": "1979-02-08 05:54:20.942657",
+        "status": "inactive"
     },
     "85": {
         "deduction_rule_id": "85",
         "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 629.14,
-        "created_at": "2010-02-26 20:21:21.579057",
-        "last_updated": "2010-02-26 20:21:21.579057",
+        "max_percent_of_net_pay": 915.18,
+        "created_at": "1970-06-27 03:53:02.539622",
+        "last_updated": "1970-06-27 03:53:02.539622",
         "status": "active"
     },
     "86": {
         "deduction_rule_id": "86",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 175.54,
-        "created_at": "2000-10-07 07:01:34.824364",
-        "last_updated": "2000-10-07 07:01:34.824364",
+        "deduction_type": "retirement",
+        "max_percent_of_net_pay": 523.45,
+        "created_at": "2000-08-29 16:29:28.942426",
+        "last_updated": "2000-08-29 16:29:28.942426",
         "status": "inactive"
     },
     "87": {
         "deduction_rule_id": "87",
-        "deduction_type": "insurance",
-        "max_percent_of_net_pay": 124.59,
-        "created_at": "1997-04-20 08:09:19.275167",
-        "last_updated": "1997-04-20 08:09:19.275167",
-        "status": "inactive"
+        "deduction_type": "tax",
+        "max_percent_of_net_pay": 20.87,
+        "created_at": "1970-05-23 13:41:53.578569",
+        "last_updated": "1970-05-23 13:41:53.578569",
+        "status": "active"
     },
     "88": {
         "deduction_rule_id": "88",
-        "deduction_type": "loan",
-        "max_percent_of_net_pay": 649.64,
-        "created_at": "2018-02-12 04:58:44.751291",
-        "last_updated": "2018-02-12 04:58:44.751291",
+        "deduction_type": "tax",
+        "max_percent_of_net_pay": 19.36,
+        "created_at": "1982-04-25 01:19:14.349762",
+        "last_updated": "1982-04-25 01:19:14.349762",
         "status": "inactive"
     },
     "89": {
         "deduction_rule_id": "89",
-        "deduction_type": "repayment_of_overpayment",
-        "max_percent_of_net_pay": 565.88,
-        "created_at": "2023-10-05 16:42:24.864018",
-        "last_updated": "2023-10-05 16:42:24.864018",
+        "deduction_type": "tax",
+        "max_percent_of_net_pay": 63.83,
+        "created_at": "1977-06-02 16:01:59.478636",
+        "last_updated": "1977-06-02 16:01:59.478636",
         "status": "active"
     },
     "90": {
         "deduction_rule_id": "90",
-        "deduction_type": "repayment_of_overpayment",
-        "max_percent_of_net_pay": 157.58,
-        "created_at": "2008-03-22 22:58:38.475908",
-        "last_updated": "2008-03-22 22:58:38.475908",
+        "deduction_type": "benefit_contribution",
+        "max_percent_of_net_pay": 481.28,
+        "created_at": "2003-06-21 07:26:35.667786",
+        "last_updated": "2003-06-21 07:26:35.667786",
         "status": "active"
     },
     "91": {
         "deduction_rule_id": "91",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 613.14,
-        "created_at": "2020-03-02 00:21:00.470580",
-        "last_updated": "2020-03-02 00:21:00.470580",
+        "deduction_type": "benefit_contribution",
+        "max_percent_of_net_pay": 96.82,
+        "created_at": "1979-08-30 15:36:49.251331",
+        "last_updated": "1979-08-30 15:36:49.251331",
         "status": "inactive"
     },
     "92": {
         "deduction_rule_id": "92",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 880.79,
-        "created_at": "2013-07-21 12:17:06.605843",
-        "last_updated": "2013-07-21 12:17:06.605843",
+        "deduction_type": "tax",
+        "max_percent_of_net_pay": 958.06,
+        "created_at": "1983-05-24 23:03:41.744378",
+        "last_updated": "1983-05-24 23:03:41.744378",
         "status": "inactive"
     },
     "93": {
         "deduction_rule_id": "93",
-        "deduction_type": "loan",
-        "max_percent_of_net_pay": 42.14,
-        "created_at": "2016-10-21 19:01:48.902558",
-        "last_updated": "2016-10-21 19:01:48.902558",
-        "status": "active"
+        "deduction_type": "insurance",
+        "max_percent_of_net_pay": 193.62,
+        "created_at": "1990-11-26 15:14:42.130282",
+        "last_updated": "1990-11-26 15:14:42.130282",
+        "status": "inactive"
     },
     "94": {
         "deduction_rule_id": "94",
-        "deduction_type": "retirement",
-        "max_percent_of_net_pay": 979.23,
-        "created_at": "2018-07-02 13:07:35.447114",
-        "last_updated": "2018-07-02 13:07:35.447114",
-        "status": "inactive"
+        "deduction_type": "garnishment",
+        "max_percent_of_net_pay": 364.37,
+        "created_at": "1980-05-15 00:36:42.622804",
+        "last_updated": "1980-05-15 00:36:42.622804",
+        "status": "active"
     },
     "95": {
         "deduction_rule_id": "95",
         "deduction_type": "insurance",
-        "max_percent_of_net_pay": 868.87,
-        "created_at": "2023-10-01 10:09:44.982632",
-        "last_updated": "2023-10-01 10:09:44.982632",
+        "max_percent_of_net_pay": 807.96,
+        "created_at": "2009-08-28 12:45:52.613315",
+        "last_updated": "2009-08-28 12:45:52.613315",
         "status": "active"
     },
     "96": {
         "deduction_rule_id": "96",
-        "deduction_type": "insurance",
-        "max_percent_of_net_pay": 899.31,
-        "created_at": "2001-11-19 00:35:27.214487",
-        "last_updated": "2001-11-19 00:35:27.214487",
+        "deduction_type": "tax",
+        "max_percent_of_net_pay": 122.96,
+        "created_at": "2019-02-13 04:04:00.023522",
+        "last_updated": "2019-02-13 04:04:00.023522",
         "status": "active"
     },
     "97": {
         "deduction_rule_id": "97",
-        "deduction_type": "tax",
-        "max_percent_of_net_pay": 782.15,
-        "created_at": "1999-05-27 01:17:12.849162",
-        "last_updated": "1999-05-27 01:17:12.849162",
+        "deduction_type": "retirement",
+        "max_percent_of_net_pay": 92.49,
+        "created_at": "2006-10-22 15:24:42.025420",
+        "last_updated": "2006-10-22 15:24:42.025420",
         "status": "active"
     },
     "98": {
         "deduction_rule_id": "98",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 24.56,
-        "created_at": "2006-05-04 16:17:55.272097",
-        "last_updated": "2006-05-04 16:17:55.272097",
+        "deduction_type": "loan",
+        "max_percent_of_net_pay": 401.56,
+        "created_at": "1991-05-30 17:33:25.191159",
+        "last_updated": "1991-05-30 17:33:25.191159",
         "status": "active"
     },
     "99": {
         "deduction_rule_id": "99",
-        "deduction_type": "garnishment",
-        "max_percent_of_net_pay": 313.62,
-        "created_at": "1998-10-25 03:06:01.842348",
-        "last_updated": "1998-10-25 03:06:01.842348",
+        "deduction_type": "insurance",
+        "max_percent_of_net_pay": 266.0,
+        "created_at": "1993-12-19 10:16:43.871870",
+        "last_updated": "1993-12-19 10:16:43.871870",
         "status": "active"
     },
     "100": {
         "deduction_rule_id": "100",
-        "deduction_type": "benefit_contribution",
-        "max_percent_of_net_pay": 987.15,
-        "created_at": "2011-02-12 11:22:50.554371",
-        "last_updated": "2011-02-12 11:22:50.554371",
+        "deduction_type": "insurance",
+        "max_percent_of_net_pay": 849.7,
+        "created_at": "2014-03-14 23:29:37.381421",
+        "last_updated": "2014-03-14 23:29:37.381421",
         "status": "active"
     }
 }
