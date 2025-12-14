@@ -1,0 +1,902 @@
+{
+    "1": {
+        "contract_id": "1",
+        "employee_id": null,
+        "document_url": "star",
+        "created_at": "2016-10-15 16:30:39.865373",
+        "is_terminated": false,
+        "termination_date": "2009-12-04",
+        "last_updated": "2016-10-15 16:30:39.865373"
+    },
+    "2": {
+        "contract_id": "2",
+        "employee_id": null,
+        "document_url": "near",
+        "created_at": "1999-09-17 22:53:05.910416",
+        "is_terminated": false,
+        "termination_date": "2016-03-08",
+        "last_updated": "1999-09-17 22:53:05.910416"
+    },
+    "3": {
+        "contract_id": "3",
+        "employee_id": null,
+        "document_url": "glass",
+        "created_at": "2023-10-05 19:08:06.409877",
+        "is_terminated": false,
+        "termination_date": "1975-03-21",
+        "last_updated": "2023-10-05 19:08:06.409877"
+    },
+    "4": {
+        "contract_id": "4",
+        "employee_id": null,
+        "document_url": "shoulder",
+        "created_at": "2025-09-02 00:03:02.282010",
+        "is_terminated": false,
+        "termination_date": "1976-12-23",
+        "last_updated": "2025-09-02 00:03:02.282010"
+    },
+    "5": {
+        "contract_id": "5",
+        "employee_id": null,
+        "document_url": "spring",
+        "created_at": "1978-01-27 12:26:34.520642",
+        "is_terminated": false,
+        "termination_date": "2018-06-24",
+        "last_updated": "1978-01-27 12:26:34.520642"
+    },
+    "6": {
+        "contract_id": "6",
+        "employee_id": null,
+        "document_url": "floor",
+        "created_at": "2004-02-20 02:44:21.070671",
+        "is_terminated": false,
+        "termination_date": "1991-05-04",
+        "last_updated": "2004-02-20 02:44:21.070671"
+    },
+    "7": {
+        "contract_id": "7",
+        "employee_id": null,
+        "document_url": "certain",
+        "created_at": "1971-06-21 07:06:23.545108",
+        "is_terminated": true,
+        "termination_date": "1997-02-12",
+        "last_updated": "1971-06-21 07:06:23.545108"
+    },
+    "8": {
+        "contract_id": "8",
+        "employee_id": null,
+        "document_url": "require",
+        "created_at": "1994-04-25 15:12:52.445072",
+        "is_terminated": false,
+        "termination_date": "1971-10-09",
+        "last_updated": "1994-04-25 15:12:52.445072"
+    },
+    "9": {
+        "contract_id": "9",
+        "employee_id": null,
+        "document_url": "low",
+        "created_at": "2021-09-18 10:47:37.850328",
+        "is_terminated": true,
+        "termination_date": "1984-11-15",
+        "last_updated": "2021-09-18 10:47:37.850328"
+    },
+    "10": {
+        "contract_id": "10",
+        "employee_id": null,
+        "document_url": "per",
+        "created_at": "1981-11-08 15:27:07.800960",
+        "is_terminated": false,
+        "termination_date": "1994-08-31",
+        "last_updated": "1981-11-08 15:27:07.800960"
+    },
+    "11": {
+        "contract_id": "11",
+        "employee_id": null,
+        "document_url": "fear",
+        "created_at": "1999-10-28 18:09:09.273989",
+        "is_terminated": true,
+        "termination_date": "1978-01-21",
+        "last_updated": "1999-10-28 18:09:09.273989"
+    },
+    "12": {
+        "contract_id": "12",
+        "employee_id": null,
+        "document_url": "effect",
+        "created_at": "1986-01-01 21:54:57.741048",
+        "is_terminated": false,
+        "termination_date": "1998-06-01",
+        "last_updated": "1986-01-01 21:54:57.741048"
+    },
+    "13": {
+        "contract_id": "13",
+        "employee_id": null,
+        "document_url": "scientist",
+        "created_at": "2012-04-27 06:30:17.075563",
+        "is_terminated": false,
+        "termination_date": "2014-10-20",
+        "last_updated": "2012-04-27 06:30:17.075563"
+    },
+    "14": {
+        "contract_id": "14",
+        "employee_id": null,
+        "document_url": "design",
+        "created_at": "2025-04-01 01:38:34.814802",
+        "is_terminated": true,
+        "termination_date": "2000-11-23",
+        "last_updated": "2025-04-01 01:38:34.814802"
+    },
+    "15": {
+        "contract_id": "15",
+        "employee_id": null,
+        "document_url": "fear",
+        "created_at": "1992-11-19 17:16:20.901923",
+        "is_terminated": false,
+        "termination_date": "1999-01-20",
+        "last_updated": "1992-11-19 17:16:20.901923"
+    },
+    "16": {
+        "contract_id": "16",
+        "employee_id": null,
+        "document_url": "rest",
+        "created_at": "1996-11-26 11:33:24.448696",
+        "is_terminated": false,
+        "termination_date": "2003-12-18",
+        "last_updated": "1996-11-26 11:33:24.448696"
+    },
+    "17": {
+        "contract_id": "17",
+        "employee_id": null,
+        "document_url": "machine",
+        "created_at": "2016-07-27 20:17:41.019633",
+        "is_terminated": true,
+        "termination_date": "2019-04-14",
+        "last_updated": "2016-07-27 20:17:41.019633"
+    },
+    "18": {
+        "contract_id": "18",
+        "employee_id": null,
+        "document_url": "value",
+        "created_at": "1985-09-10 21:52:29.906766",
+        "is_terminated": true,
+        "termination_date": "1996-08-24",
+        "last_updated": "1985-09-10 21:52:29.906766"
+    },
+    "19": {
+        "contract_id": "19",
+        "employee_id": null,
+        "document_url": "particularly",
+        "created_at": "1985-05-09 12:32:47.574030",
+        "is_terminated": false,
+        "termination_date": "2002-01-20",
+        "last_updated": "1985-05-09 12:32:47.574030"
+    },
+    "20": {
+        "contract_id": "20",
+        "employee_id": null,
+        "document_url": "wall",
+        "created_at": "1975-08-20 01:17:03.052896",
+        "is_terminated": false,
+        "termination_date": "1985-11-22",
+        "last_updated": "1975-08-20 01:17:03.052896"
+    },
+    "21": {
+        "contract_id": "21",
+        "employee_id": null,
+        "document_url": "meet",
+        "created_at": "2010-07-01 00:01:45.026100",
+        "is_terminated": false,
+        "termination_date": "1997-10-27",
+        "last_updated": "2010-07-01 00:01:45.026100"
+    },
+    "22": {
+        "contract_id": "22",
+        "employee_id": null,
+        "document_url": "whom",
+        "created_at": "1974-09-10 00:29:27.019818",
+        "is_terminated": true,
+        "termination_date": "2006-01-04",
+        "last_updated": "1974-09-10 00:29:27.019818"
+    },
+    "23": {
+        "contract_id": "23",
+        "employee_id": null,
+        "document_url": "them",
+        "created_at": "2006-01-25 16:55:32.873101",
+        "is_terminated": false,
+        "termination_date": "1993-10-01",
+        "last_updated": "2006-01-25 16:55:32.873101"
+    },
+    "24": {
+        "contract_id": "24",
+        "employee_id": null,
+        "document_url": "bill",
+        "created_at": "2005-04-27 11:01:16.506809",
+        "is_terminated": false,
+        "termination_date": "2015-12-04",
+        "last_updated": "2005-04-27 11:01:16.506809"
+    },
+    "25": {
+        "contract_id": "25",
+        "employee_id": null,
+        "document_url": "program",
+        "created_at": "2008-11-24 22:28:54.351324",
+        "is_terminated": false,
+        "termination_date": "2025-02-01",
+        "last_updated": "2008-11-24 22:28:54.351324"
+    },
+    "26": {
+        "contract_id": "26",
+        "employee_id": null,
+        "document_url": "look",
+        "created_at": "1986-01-11 01:36:37.225311",
+        "is_terminated": true,
+        "termination_date": "2021-07-25",
+        "last_updated": "1986-01-11 01:36:37.225311"
+    },
+    "27": {
+        "contract_id": "27",
+        "employee_id": null,
+        "document_url": "last",
+        "created_at": "1993-03-13 08:29:23.998298",
+        "is_terminated": false,
+        "termination_date": "2002-05-29",
+        "last_updated": "1993-03-13 08:29:23.998298"
+    },
+    "28": {
+        "contract_id": "28",
+        "employee_id": null,
+        "document_url": "loss",
+        "created_at": "1985-07-21 06:57:03.874488",
+        "is_terminated": false,
+        "termination_date": "2003-03-11",
+        "last_updated": "1985-07-21 06:57:03.874488"
+    },
+    "29": {
+        "contract_id": "29",
+        "employee_id": null,
+        "document_url": "opportunity",
+        "created_at": "1998-02-01 12:04:08.175319",
+        "is_terminated": false,
+        "termination_date": "2002-09-15",
+        "last_updated": "1998-02-01 12:04:08.175319"
+    },
+    "30": {
+        "contract_id": "30",
+        "employee_id": null,
+        "document_url": "a",
+        "created_at": "2025-10-09 01:48:53.307567",
+        "is_terminated": false,
+        "termination_date": "2007-07-12",
+        "last_updated": "2025-10-09 01:48:53.307567"
+    },
+    "31": {
+        "contract_id": "31",
+        "employee_id": null,
+        "document_url": "song",
+        "created_at": "2021-01-31 10:22:29.482610",
+        "is_terminated": false,
+        "termination_date": "2000-07-08",
+        "last_updated": "2021-01-31 10:22:29.482610"
+    },
+    "32": {
+        "contract_id": "32",
+        "employee_id": null,
+        "document_url": "nation",
+        "created_at": "1996-07-22 07:17:49.062290",
+        "is_terminated": false,
+        "termination_date": "2000-06-04",
+        "last_updated": "1996-07-22 07:17:49.062290"
+    },
+    "33": {
+        "contract_id": "33",
+        "employee_id": null,
+        "document_url": "sense",
+        "created_at": "2017-11-14 05:15:28.845231",
+        "is_terminated": false,
+        "termination_date": "1992-12-01",
+        "last_updated": "2017-11-14 05:15:28.845231"
+    },
+    "34": {
+        "contract_id": "34",
+        "employee_id": null,
+        "document_url": "hotel",
+        "created_at": "1971-10-14 22:47:21.458035",
+        "is_terminated": false,
+        "termination_date": "1988-05-03",
+        "last_updated": "1971-10-14 22:47:21.458035"
+    },
+    "35": {
+        "contract_id": "35",
+        "employee_id": null,
+        "document_url": "executive",
+        "created_at": "2017-06-07 12:30:52.678407",
+        "is_terminated": false,
+        "termination_date": "2013-09-23",
+        "last_updated": "2017-06-07 12:30:52.678407"
+    },
+    "36": {
+        "contract_id": "36",
+        "employee_id": null,
+        "document_url": "husband",
+        "created_at": "2007-03-12 06:13:26.803096",
+        "is_terminated": true,
+        "termination_date": "1972-07-12",
+        "last_updated": "2007-03-12 06:13:26.803096"
+    },
+    "37": {
+        "contract_id": "37",
+        "employee_id": null,
+        "document_url": "raise",
+        "created_at": "2012-09-03 06:46:58.300925",
+        "is_terminated": true,
+        "termination_date": "1984-06-06",
+        "last_updated": "2012-09-03 06:46:58.300925"
+    },
+    "38": {
+        "contract_id": "38",
+        "employee_id": null,
+        "document_url": "degree",
+        "created_at": "2007-04-27 04:54:41.405587",
+        "is_terminated": false,
+        "termination_date": "2023-06-03",
+        "last_updated": "2007-04-27 04:54:41.405587"
+    },
+    "39": {
+        "contract_id": "39",
+        "employee_id": null,
+        "document_url": "color",
+        "created_at": "2025-01-06 19:06:54.040008",
+        "is_terminated": false,
+        "termination_date": "1996-11-11",
+        "last_updated": "2025-01-06 19:06:54.040008"
+    },
+    "40": {
+        "contract_id": "40",
+        "employee_id": null,
+        "document_url": "pressure",
+        "created_at": "1998-08-02 14:43:54.533910",
+        "is_terminated": false,
+        "termination_date": "2017-04-15",
+        "last_updated": "1998-08-02 14:43:54.533910"
+    },
+    "41": {
+        "contract_id": "41",
+        "employee_id": null,
+        "document_url": "first",
+        "created_at": "1978-09-03 01:36:24.048247",
+        "is_terminated": false,
+        "termination_date": "1990-04-01",
+        "last_updated": "1978-09-03 01:36:24.048247"
+    },
+    "42": {
+        "contract_id": "42",
+        "employee_id": null,
+        "document_url": "save",
+        "created_at": "1976-06-11 10:53:00.628478",
+        "is_terminated": true,
+        "termination_date": "1978-09-22",
+        "last_updated": "1976-06-11 10:53:00.628478"
+    },
+    "43": {
+        "contract_id": "43",
+        "employee_id": null,
+        "document_url": "white",
+        "created_at": "2021-03-16 22:55:15.766090",
+        "is_terminated": true,
+        "termination_date": "2001-02-15",
+        "last_updated": "2021-03-16 22:55:15.766090"
+    },
+    "44": {
+        "contract_id": "44",
+        "employee_id": null,
+        "document_url": "as",
+        "created_at": "2012-05-06 11:21:08.711304",
+        "is_terminated": true,
+        "termination_date": "2006-05-25",
+        "last_updated": "2012-05-06 11:21:08.711304"
+    },
+    "45": {
+        "contract_id": "45",
+        "employee_id": null,
+        "document_url": "require",
+        "created_at": "1973-09-29 16:16:50.176914",
+        "is_terminated": false,
+        "termination_date": "2021-11-19",
+        "last_updated": "1973-09-29 16:16:50.176914"
+    },
+    "46": {
+        "contract_id": "46",
+        "employee_id": null,
+        "document_url": "lay",
+        "created_at": "1992-10-09 16:22:22.157138",
+        "is_terminated": true,
+        "termination_date": "1992-07-27",
+        "last_updated": "1992-10-09 16:22:22.157138"
+    },
+    "47": {
+        "contract_id": "47",
+        "employee_id": null,
+        "document_url": "industry",
+        "created_at": "1976-07-13 16:03:22.830490",
+        "is_terminated": false,
+        "termination_date": "1989-03-30",
+        "last_updated": "1976-07-13 16:03:22.830490"
+    },
+    "48": {
+        "contract_id": "48",
+        "employee_id": null,
+        "document_url": "country",
+        "created_at": "1970-10-17 07:08:54.232991",
+        "is_terminated": true,
+        "termination_date": "1971-09-09",
+        "last_updated": "1970-10-17 07:08:54.232991"
+    },
+    "49": {
+        "contract_id": "49",
+        "employee_id": null,
+        "document_url": "see",
+        "created_at": "2007-04-06 09:43:50.225454",
+        "is_terminated": true,
+        "termination_date": "2008-04-22",
+        "last_updated": "2007-04-06 09:43:50.225454"
+    },
+    "50": {
+        "contract_id": "50",
+        "employee_id": null,
+        "document_url": "whether",
+        "created_at": "2025-05-10 22:06:33.160747",
+        "is_terminated": true,
+        "termination_date": "2004-04-08",
+        "last_updated": "2025-05-10 22:06:33.160747"
+    },
+    "51": {
+        "contract_id": "51",
+        "employee_id": null,
+        "document_url": "boy",
+        "created_at": "1978-11-29 00:30:57.208225",
+        "is_terminated": false,
+        "termination_date": "1993-06-10",
+        "last_updated": "1978-11-29 00:30:57.208225"
+    },
+    "52": {
+        "contract_id": "52",
+        "employee_id": null,
+        "document_url": "camera",
+        "created_at": "2004-03-05 07:12:07.073165",
+        "is_terminated": false,
+        "termination_date": "1992-09-15",
+        "last_updated": "2004-03-05 07:12:07.073165"
+    },
+    "53": {
+        "contract_id": "53",
+        "employee_id": null,
+        "document_url": "health",
+        "created_at": "1974-08-08 05:33:45.430769",
+        "is_terminated": true,
+        "termination_date": "1980-11-18",
+        "last_updated": "1974-08-08 05:33:45.430769"
+    },
+    "54": {
+        "contract_id": "54",
+        "employee_id": null,
+        "document_url": "computer",
+        "created_at": "1982-06-18 22:12:07.136674",
+        "is_terminated": false,
+        "termination_date": "1982-07-10",
+        "last_updated": "1982-06-18 22:12:07.136674"
+    },
+    "55": {
+        "contract_id": "55",
+        "employee_id": null,
+        "document_url": "like",
+        "created_at": "1975-10-22 09:02:47.188003",
+        "is_terminated": true,
+        "termination_date": "1989-08-27",
+        "last_updated": "1975-10-22 09:02:47.188003"
+    },
+    "56": {
+        "contract_id": "56",
+        "employee_id": null,
+        "document_url": "easy",
+        "created_at": "2015-04-19 09:16:47.620344",
+        "is_terminated": false,
+        "termination_date": "1985-08-04",
+        "last_updated": "2015-04-19 09:16:47.620344"
+    },
+    "57": {
+        "contract_id": "57",
+        "employee_id": null,
+        "document_url": "operation",
+        "created_at": "2006-08-01 02:02:51.834398",
+        "is_terminated": false,
+        "termination_date": "2023-09-28",
+        "last_updated": "2006-08-01 02:02:51.834398"
+    },
+    "58": {
+        "contract_id": "58",
+        "employee_id": null,
+        "document_url": "rock",
+        "created_at": "2024-12-02 00:59:59.938968",
+        "is_terminated": true,
+        "termination_date": "2007-10-25",
+        "last_updated": "2024-12-02 00:59:59.938968"
+    },
+    "59": {
+        "contract_id": "59",
+        "employee_id": null,
+        "document_url": "author",
+        "created_at": "2023-10-23 18:57:41.474770",
+        "is_terminated": true,
+        "termination_date": "2003-12-01",
+        "last_updated": "2023-10-23 18:57:41.474770"
+    },
+    "60": {
+        "contract_id": "60",
+        "employee_id": null,
+        "document_url": "on",
+        "created_at": "1997-07-09 16:07:30.740621",
+        "is_terminated": false,
+        "termination_date": "2017-10-01",
+        "last_updated": "1997-07-09 16:07:30.740621"
+    },
+    "61": {
+        "contract_id": "61",
+        "employee_id": null,
+        "document_url": "record",
+        "created_at": "2007-10-14 07:20:49.367088",
+        "is_terminated": true,
+        "termination_date": "1981-02-09",
+        "last_updated": "2007-10-14 07:20:49.367088"
+    },
+    "62": {
+        "contract_id": "62",
+        "employee_id": null,
+        "document_url": "coach",
+        "created_at": "2014-03-18 21:16:56.445019",
+        "is_terminated": false,
+        "termination_date": "1989-01-12",
+        "last_updated": "2014-03-18 21:16:56.445019"
+    },
+    "63": {
+        "contract_id": "63",
+        "employee_id": null,
+        "document_url": "seem",
+        "created_at": "2002-04-29 08:01:22.617205",
+        "is_terminated": true,
+        "termination_date": "2004-04-30",
+        "last_updated": "2002-04-29 08:01:22.617205"
+    },
+    "64": {
+        "contract_id": "64",
+        "employee_id": null,
+        "document_url": "speech",
+        "created_at": "1979-10-20 14:44:28.983541",
+        "is_terminated": false,
+        "termination_date": "2022-07-08",
+        "last_updated": "1979-10-20 14:44:28.983541"
+    },
+    "65": {
+        "contract_id": "65",
+        "employee_id": null,
+        "document_url": "moment",
+        "created_at": "2017-08-05 00:17:58.493340",
+        "is_terminated": true,
+        "termination_date": "2018-05-07",
+        "last_updated": "2017-08-05 00:17:58.493340"
+    },
+    "66": {
+        "contract_id": "66",
+        "employee_id": null,
+        "document_url": "of",
+        "created_at": "1988-10-28 17:47:48.582156",
+        "is_terminated": false,
+        "termination_date": "1994-12-25",
+        "last_updated": "1988-10-28 17:47:48.582156"
+    },
+    "67": {
+        "contract_id": "67",
+        "employee_id": null,
+        "document_url": "would",
+        "created_at": "1974-05-11 18:50:13.851082",
+        "is_terminated": false,
+        "termination_date": "2014-11-21",
+        "last_updated": "1974-05-11 18:50:13.851082"
+    },
+    "68": {
+        "contract_id": "68",
+        "employee_id": null,
+        "document_url": "method",
+        "created_at": "1984-03-09 08:25:27.004714",
+        "is_terminated": true,
+        "termination_date": "1994-07-04",
+        "last_updated": "1984-03-09 08:25:27.004714"
+    },
+    "69": {
+        "contract_id": "69",
+        "employee_id": null,
+        "document_url": "trial",
+        "created_at": "2020-05-30 05:09:02.669434",
+        "is_terminated": false,
+        "termination_date": "2024-01-27",
+        "last_updated": "2020-05-30 05:09:02.669434"
+    },
+    "70": {
+        "contract_id": "70",
+        "employee_id": null,
+        "document_url": "national",
+        "created_at": "1980-08-18 20:39:22.131070",
+        "is_terminated": true,
+        "termination_date": "2005-06-20",
+        "last_updated": "1980-08-18 20:39:22.131070"
+    },
+    "71": {
+        "contract_id": "71",
+        "employee_id": null,
+        "document_url": "prove",
+        "created_at": "2001-03-08 09:43:32.903129",
+        "is_terminated": false,
+        "termination_date": "2008-12-26",
+        "last_updated": "2001-03-08 09:43:32.903129"
+    },
+    "72": {
+        "contract_id": "72",
+        "employee_id": null,
+        "document_url": "whom",
+        "created_at": "2024-01-07 01:00:42.536539",
+        "is_terminated": true,
+        "termination_date": "2020-01-31",
+        "last_updated": "2024-01-07 01:00:42.536539"
+    },
+    "73": {
+        "contract_id": "73",
+        "employee_id": null,
+        "document_url": "ago",
+        "created_at": "1999-05-23 09:47:00.284633",
+        "is_terminated": true,
+        "termination_date": "2023-05-31",
+        "last_updated": "1999-05-23 09:47:00.284633"
+    },
+    "74": {
+        "contract_id": "74",
+        "employee_id": null,
+        "document_url": "store",
+        "created_at": "1971-05-14 11:34:34.857111",
+        "is_terminated": false,
+        "termination_date": "1995-11-21",
+        "last_updated": "1971-05-14 11:34:34.857111"
+    },
+    "75": {
+        "contract_id": "75",
+        "employee_id": null,
+        "document_url": "last",
+        "created_at": "2005-04-04 14:20:36.800427",
+        "is_terminated": true,
+        "termination_date": "1988-11-19",
+        "last_updated": "2005-04-04 14:20:36.800427"
+    },
+    "76": {
+        "contract_id": "76",
+        "employee_id": null,
+        "document_url": "life",
+        "created_at": "2012-09-24 09:16:09.357068",
+        "is_terminated": false,
+        "termination_date": "1971-03-26",
+        "last_updated": "2012-09-24 09:16:09.357068"
+    },
+    "77": {
+        "contract_id": "77",
+        "employee_id": null,
+        "document_url": "lay",
+        "created_at": "2014-06-17 17:51:38.247957",
+        "is_terminated": false,
+        "termination_date": "1977-11-10",
+        "last_updated": "2014-06-17 17:51:38.247957"
+    },
+    "78": {
+        "contract_id": "78",
+        "employee_id": null,
+        "document_url": "fight",
+        "created_at": "1989-01-04 07:37:33.899582",
+        "is_terminated": true,
+        "termination_date": "1985-07-28",
+        "last_updated": "1989-01-04 07:37:33.899582"
+    },
+    "79": {
+        "contract_id": "79",
+        "employee_id": null,
+        "document_url": "ok",
+        "created_at": "2010-12-29 15:57:00.898026",
+        "is_terminated": true,
+        "termination_date": "1979-09-10",
+        "last_updated": "2010-12-29 15:57:00.898026"
+    },
+    "80": {
+        "contract_id": "80",
+        "employee_id": null,
+        "document_url": "big",
+        "created_at": "1980-07-05 05:28:24.893960",
+        "is_terminated": true,
+        "termination_date": "1997-08-20",
+        "last_updated": "1980-07-05 05:28:24.893960"
+    },
+    "81": {
+        "contract_id": "81",
+        "employee_id": null,
+        "document_url": "condition",
+        "created_at": "1979-01-24 01:46:14.204320",
+        "is_terminated": false,
+        "termination_date": "2008-04-24",
+        "last_updated": "1979-01-24 01:46:14.204320"
+    },
+    "82": {
+        "contract_id": "82",
+        "employee_id": null,
+        "document_url": "late",
+        "created_at": "2012-09-06 17:54:22.217959",
+        "is_terminated": false,
+        "termination_date": "1973-07-31",
+        "last_updated": "2012-09-06 17:54:22.217959"
+    },
+    "83": {
+        "contract_id": "83",
+        "employee_id": null,
+        "document_url": "debate",
+        "created_at": "1998-02-02 10:29:01.975952",
+        "is_terminated": true,
+        "termination_date": "2005-09-09",
+        "last_updated": "1998-02-02 10:29:01.975952"
+    },
+    "84": {
+        "contract_id": "84",
+        "employee_id": null,
+        "document_url": "assume",
+        "created_at": "1995-04-24 09:14:25.070283",
+        "is_terminated": false,
+        "termination_date": "2000-10-03",
+        "last_updated": "1995-04-24 09:14:25.070283"
+    },
+    "85": {
+        "contract_id": "85",
+        "employee_id": null,
+        "document_url": "under",
+        "created_at": "1979-10-14 13:10:27.535199",
+        "is_terminated": false,
+        "termination_date": "2003-11-11",
+        "last_updated": "1979-10-14 13:10:27.535199"
+    },
+    "86": {
+        "contract_id": "86",
+        "employee_id": null,
+        "document_url": "safe",
+        "created_at": "1971-02-21 19:57:22.697622",
+        "is_terminated": true,
+        "termination_date": "2004-01-15",
+        "last_updated": "1971-02-21 19:57:22.697622"
+    },
+    "87": {
+        "contract_id": "87",
+        "employee_id": null,
+        "document_url": "computer",
+        "created_at": "1987-11-21 08:10:17.388073",
+        "is_terminated": true,
+        "termination_date": "2014-11-30",
+        "last_updated": "1987-11-21 08:10:17.388073"
+    },
+    "88": {
+        "contract_id": "88",
+        "employee_id": null,
+        "document_url": "box",
+        "created_at": "1978-09-27 09:18:25.318334",
+        "is_terminated": false,
+        "termination_date": "2018-05-29",
+        "last_updated": "1978-09-27 09:18:25.318334"
+    },
+    "89": {
+        "contract_id": "89",
+        "employee_id": null,
+        "document_url": "short",
+        "created_at": "2000-11-18 22:52:53.015148",
+        "is_terminated": false,
+        "termination_date": "2018-03-15",
+        "last_updated": "2000-11-18 22:52:53.015148"
+    },
+    "90": {
+        "contract_id": "90",
+        "employee_id": null,
+        "document_url": "heart",
+        "created_at": "2003-09-17 11:50:35.864771",
+        "is_terminated": false,
+        "termination_date": "1977-06-20",
+        "last_updated": "2003-09-17 11:50:35.864771"
+    },
+    "91": {
+        "contract_id": "91",
+        "employee_id": null,
+        "document_url": "various",
+        "created_at": "2018-02-05 03:54:33.321336",
+        "is_terminated": true,
+        "termination_date": "1992-04-30",
+        "last_updated": "2018-02-05 03:54:33.321336"
+    },
+    "92": {
+        "contract_id": "92",
+        "employee_id": null,
+        "document_url": "choose",
+        "created_at": "2003-08-10 03:38:14.530060",
+        "is_terminated": false,
+        "termination_date": "1983-09-05",
+        "last_updated": "2003-08-10 03:38:14.530060"
+    },
+    "93": {
+        "contract_id": "93",
+        "employee_id": null,
+        "document_url": "care",
+        "created_at": "2024-03-30 19:14:35.821091",
+        "is_terminated": true,
+        "termination_date": "1986-03-30",
+        "last_updated": "2024-03-30 19:14:35.821091"
+    },
+    "94": {
+        "contract_id": "94",
+        "employee_id": null,
+        "document_url": "prevent",
+        "created_at": "2018-07-18 05:44:25.011483",
+        "is_terminated": true,
+        "termination_date": "2000-06-25",
+        "last_updated": "2018-07-18 05:44:25.011483"
+    },
+    "95": {
+        "contract_id": "95",
+        "employee_id": null,
+        "document_url": "same",
+        "created_at": "1976-10-17 19:13:42.190556",
+        "is_terminated": false,
+        "termination_date": "2020-10-08",
+        "last_updated": "1976-10-17 19:13:42.190556"
+    },
+    "96": {
+        "contract_id": "96",
+        "employee_id": null,
+        "document_url": "national",
+        "created_at": "1990-09-07 05:20:01.490130",
+        "is_terminated": false,
+        "termination_date": "1972-12-24",
+        "last_updated": "1990-09-07 05:20:01.490130"
+    },
+    "97": {
+        "contract_id": "97",
+        "employee_id": null,
+        "document_url": "north",
+        "created_at": "2014-05-08 02:25:59.539075",
+        "is_terminated": true,
+        "termination_date": "1998-10-11",
+        "last_updated": "2014-05-08 02:25:59.539075"
+    },
+    "98": {
+        "contract_id": "98",
+        "employee_id": null,
+        "document_url": "ground",
+        "created_at": "1983-04-24 09:56:38.005786",
+        "is_terminated": true,
+        "termination_date": "2018-10-31",
+        "last_updated": "1983-04-24 09:56:38.005786"
+    },
+    "99": {
+        "contract_id": "99",
+        "employee_id": null,
+        "document_url": "claim",
+        "created_at": "1999-07-27 03:56:21.356966",
+        "is_terminated": true,
+        "termination_date": "1973-06-09",
+        "last_updated": "1999-07-27 03:56:21.356966"
+    },
+    "100": {
+        "contract_id": "100",
+        "employee_id": null,
+        "document_url": "whole",
+        "created_at": "1985-12-13 05:53:27.190873",
+        "is_terminated": true,
+        "termination_date": "1987-04-02",
+        "last_updated": "1985-12-13 05:53:27.190873"
+    }
+}

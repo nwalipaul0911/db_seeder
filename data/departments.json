@@ -1,0 +1,42 @@
+{
+    "1": {
+        "department_id": "1",
+        "name": "Production",
+        "status": "inactive",
+        "head_of_department_id": null,
+        "created_at": "2007-10-21 22:23:45.281466",
+        "last_updated": "2007-10-21 22:23:45.281466"
+    },
+    "2": {
+        "department_id": "2",
+        "name": "Marketing",
+        "status": "inactive",
+        "head_of_department_id": null,
+        "created_at": "1985-12-24 20:33:14.024304",
+        "last_updated": "1985-12-24 20:33:14.024304"
+    },
+    "3": {
+        "department_id": "3",
+        "name": "Production",
+        "status": "active",
+        "head_of_department_id": null,
+        "created_at": "1978-05-19 21:52:54.995216",
+        "last_updated": "1978-05-19 21:52:54.995216"
+    },
+    "4": {
+        "department_id": "4",
+        "name": "Sales",
+        "status": "inactive",
+        "head_of_department_id": null,
+        "created_at": "2005-08-16 07:03:07.665882",
+        "last_updated": "2005-08-16 07:03:07.665882"
+    },
+    "5": {
+        "department_id": "5",
+        "name": "Sales",
+        "status": "inactive",
+        "head_of_department_id": null,
+        "created_at": "2022-02-12 21:38:06.576674",
+        "last_updated": "2022-02-12 21:38:06.576674"
+    }
+}

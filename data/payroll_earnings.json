@@ -1,0 +1,1002 @@
+{
+    "1": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 576.35,
+        "status": "require_justification",
+        "created_at": "2011-06-18 23:16:40.576205",
+        "last_updated": "2011-06-18 23:16:40.576205"
+    },
+    "2": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 440.7,
+        "status": "rejected",
+        "created_at": "1970-04-06 02:25:26.064422",
+        "last_updated": "1970-04-06 02:25:26.064422"
+    },
+    "3": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 642.48,
+        "status": "approved",
+        "created_at": "1975-12-02 11:32:39.162061",
+        "last_updated": "1975-12-02 11:32:39.162061"
+    },
+    "4": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 250.77,
+        "status": "rejected",
+        "created_at": "1986-07-18 16:07:52.375557",
+        "last_updated": "1986-07-18 16:07:52.375557"
+    },
+    "5": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 618.12,
+        "status": "pending",
+        "created_at": "2007-08-22 01:32:50.422387",
+        "last_updated": "2007-08-22 01:32:50.422387"
+    },
+    "6": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 312.66,
+        "status": "pending",
+        "created_at": "2005-11-11 23:25:56.352003",
+        "last_updated": "2005-11-11 23:25:56.352003"
+    },
+    "7": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 775.64,
+        "status": "pending",
+        "created_at": "2008-12-01 04:35:53.399093",
+        "last_updated": "2008-12-01 04:35:53.399093"
+    },
+    "8": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 697.84,
+        "status": "approved",
+        "created_at": "2008-08-15 15:32:32.620785",
+        "last_updated": "2008-08-15 15:32:32.620785"
+    },
+    "9": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 571.66,
+        "status": "rejected",
+        "created_at": "2008-03-17 01:17:02.212300",
+        "last_updated": "2008-03-17 01:17:02.212300"
+    },
+    "10": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 259.42,
+        "status": "approved",
+        "created_at": "2009-09-18 13:59:11.514498",
+        "last_updated": "2009-09-18 13:59:11.514498"
+    },
+    "11": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 616.21,
+        "status": "pending",
+        "created_at": "1989-08-31 11:55:20.335720",
+        "last_updated": "1989-08-31 11:55:20.335720"
+    },
+    "12": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 256.16,
+        "status": "rejected",
+        "created_at": "2010-04-28 16:25:27.295460",
+        "last_updated": "2010-04-28 16:25:27.295460"
+    },
+    "13": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 612.19,
+        "status": "rejected",
+        "created_at": "1985-07-16 16:40:06.770007",
+        "last_updated": "1985-07-16 16:40:06.770007"
+    },
+    "14": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 867.17,
+        "status": "rejected",
+        "created_at": "1996-05-05 19:03:16.795755",
+        "last_updated": "1996-05-05 19:03:16.795755"
+    },
+    "15": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 853.97,
+        "status": "pending",
+        "created_at": "1980-12-22 09:07:12.015151",
+        "last_updated": "1980-12-22 09:07:12.015151"
+    },
+    "16": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 324.87,
+        "status": "approved",
+        "created_at": "1973-08-19 11:14:38.958842",
+        "last_updated": "1973-08-19 11:14:38.958842"
+    },
+    "17": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 236.57,
+        "status": "require_justification",
+        "created_at": "1994-09-19 12:28:05.158201",
+        "last_updated": "1994-09-19 12:28:05.158201"
+    },
+    "18": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 709.1,
+        "status": "require_justification",
+        "created_at": "1988-02-01 17:15:45.118437",
+        "last_updated": "1988-02-01 17:15:45.118437"
+    },
+    "19": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 599.07,
+        "status": "require_justification",
+        "created_at": "1999-08-26 15:08:08.267474",
+        "last_updated": "1999-08-26 15:08:08.267474"
+    },
+    "20": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 157.7,
+        "status": "require_justification",
+        "created_at": "2002-04-17 01:31:38.022737",
+        "last_updated": "2002-04-17 01:31:38.022737"
+    },
+    "21": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 906.11,
+        "status": "require_justification",
+        "created_at": "2024-06-09 01:36:46.065419",
+        "last_updated": "2024-06-09 01:36:46.065419"
+    },
+    "22": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 384.74,
+        "status": "require_justification",
+        "created_at": "1980-10-11 09:37:32.775716",
+        "last_updated": "1980-10-11 09:37:32.775716"
+    },
+    "23": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 964.93,
+        "status": "require_justification",
+        "created_at": "2009-05-13 20:53:36.357840",
+        "last_updated": "2009-05-13 20:53:36.357840"
+    },
+    "24": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 80.33,
+        "status": "pending",
+        "created_at": "1992-05-24 08:12:19.068014",
+        "last_updated": "1992-05-24 08:12:19.068014"
+    },
+    "25": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 342.09,
+        "status": "rejected",
+        "created_at": "1978-08-22 07:13:44.201727",
+        "last_updated": "1978-08-22 07:13:44.201727"
+    },
+    "26": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 423.78,
+        "status": "pending",
+        "created_at": "1988-06-18 04:30:24.762041",
+        "last_updated": "1988-06-18 04:30:24.762041"
+    },
+    "27": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 613.72,
+        "status": "require_justification",
+        "created_at": "1978-05-15 19:15:27.922475",
+        "last_updated": "1978-05-15 19:15:27.922475"
+    },
+    "28": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 773.67,
+        "status": "require_justification",
+        "created_at": "1991-10-23 09:24:55.162497",
+        "last_updated": "1991-10-23 09:24:55.162497"
+    },
+    "29": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 191.58,
+        "status": "rejected",
+        "created_at": "1987-08-14 22:00:46.533370",
+        "last_updated": "1987-08-14 22:00:46.533370"
+    },
+    "30": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 76.12,
+        "status": "rejected",
+        "created_at": "2005-05-22 18:35:28.111193",
+        "last_updated": "2005-05-22 18:35:28.111193"
+    },
+    "31": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 548.85,
+        "status": "approved",
+        "created_at": "1991-01-10 16:41:25.759462",
+        "last_updated": "1991-01-10 16:41:25.759462"
+    },
+    "32": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 58.88,
+        "status": "pending",
+        "created_at": "2000-04-02 18:05:51.892103",
+        "last_updated": "2000-04-02 18:05:51.892103"
+    },
+    "33": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 580.63,
+        "status": "approved",
+        "created_at": "2009-10-01 19:10:28.060706",
+        "last_updated": "2009-10-01 19:10:28.060706"
+    },
+    "34": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 615.84,
+        "status": "rejected",
+        "created_at": "1970-09-23 03:39:29.240752",
+        "last_updated": "1970-09-23 03:39:29.240752"
+    },
+    "35": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 915.21,
+        "status": "rejected",
+        "created_at": "1997-05-06 22:53:30.186860",
+        "last_updated": "1997-05-06 22:53:30.186860"
+    },
+    "36": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 543.57,
+        "status": "rejected",
+        "created_at": "2009-09-15 22:44:50.056274",
+        "last_updated": "2009-09-15 22:44:50.056274"
+    },
+    "37": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 743.79,
+        "status": "pending",
+        "created_at": "1997-03-26 17:43:50.704054",
+        "last_updated": "1997-03-26 17:43:50.704054"
+    },
+    "38": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 380.16,
+        "status": "require_justification",
+        "created_at": "1995-07-12 12:41:43.411909",
+        "last_updated": "1995-07-12 12:41:43.411909"
+    },
+    "39": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 40.82,
+        "status": "require_justification",
+        "created_at": "2005-05-30 06:20:48.839983",
+        "last_updated": "2005-05-30 06:20:48.839983"
+    },
+    "40": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 908.54,
+        "status": "rejected",
+        "created_at": "2021-01-20 18:06:26.821992",
+        "last_updated": "2021-01-20 18:06:26.821992"
+    },
+    "41": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 874.74,
+        "status": "pending",
+        "created_at": "1971-04-06 00:51:58.210214",
+        "last_updated": "1971-04-06 00:51:58.210214"
+    },
+    "42": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 620.14,
+        "status": "rejected",
+        "created_at": "1981-07-03 02:28:44.313664",
+        "last_updated": "1981-07-03 02:28:44.313664"
+    },
+    "43": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 834.82,
+        "status": "approved",
+        "created_at": "2010-08-29 17:44:13.575557",
+        "last_updated": "2010-08-29 17:44:13.575557"
+    },
+    "44": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 227.15,
+        "status": "require_justification",
+        "created_at": "2019-02-06 22:55:28.225107",
+        "last_updated": "2019-02-06 22:55:28.225107"
+    },
+    "45": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 374.92,
+        "status": "require_justification",
+        "created_at": "1992-04-11 07:16:14.646784",
+        "last_updated": "1992-04-11 07:16:14.646784"
+    },
+    "46": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 864.87,
+        "status": "approved",
+        "created_at": "1982-03-22 02:00:02.947402",
+        "last_updated": "1982-03-22 02:00:02.947402"
+    },
+    "47": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 575.03,
+        "status": "pending",
+        "created_at": "2002-02-05 02:00:38.771439",
+        "last_updated": "2002-02-05 02:00:38.771439"
+    },
+    "48": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 265.47,
+        "status": "approved",
+        "created_at": "2025-05-27 08:48:00.268946",
+        "last_updated": "2025-05-27 08:48:00.268946"
+    },
+    "49": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 351.04,
+        "status": "rejected",
+        "created_at": "2009-05-22 09:07:16.307981",
+        "last_updated": "2009-05-22 09:07:16.307981"
+    },
+    "50": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 252.84,
+        "status": "rejected",
+        "created_at": "2025-09-18 06:04:35.711506",
+        "last_updated": "2025-09-18 06:04:35.711506"
+    },
+    "51": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 192.11,
+        "status": "pending",
+        "created_at": "2010-07-20 18:38:17.715254",
+        "last_updated": "2010-07-20 18:38:17.715254"
+    },
+    "52": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 456.06,
+        "status": "pending",
+        "created_at": "1970-10-18 15:45:04.152738",
+        "last_updated": "1970-10-18 15:45:04.152738"
+    },
+    "53": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 899.79,
+        "status": "require_justification",
+        "created_at": "1971-12-18 04:48:34.641692",
+        "last_updated": "1971-12-18 04:48:34.641692"
+    },
+    "54": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 389.44,
+        "status": "rejected",
+        "created_at": "1993-04-19 22:34:35.314624",
+        "last_updated": "1993-04-19 22:34:35.314624"
+    },
+    "55": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 289.71,
+        "status": "rejected",
+        "created_at": "1998-08-12 22:28:42.193128",
+        "last_updated": "1998-08-12 22:28:42.193128"
+    },
+    "56": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 69.29,
+        "status": "pending",
+        "created_at": "2000-11-23 02:00:56.165109",
+        "last_updated": "2000-11-23 02:00:56.165109"
+    },
+    "57": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 703.53,
+        "status": "pending",
+        "created_at": "1998-08-14 04:25:25.868690",
+        "last_updated": "1998-08-14 04:25:25.868690"
+    },
+    "58": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 85.0,
+        "status": "pending",
+        "created_at": "2012-09-02 05:12:21.215883",
+        "last_updated": "2012-09-02 05:12:21.215883"
+    },
+    "59": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 664.12,
+        "status": "approved",
+        "created_at": "1996-04-10 00:44:09.286517",
+        "last_updated": "1996-04-10 00:44:09.286517"
+    },
+    "60": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 245.81,
+        "status": "require_justification",
+        "created_at": "2009-10-01 23:31:38.518377",
+        "last_updated": "2009-10-01 23:31:38.518377"
+    },
+    "61": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 33.09,
+        "status": "approved",
+        "created_at": "1994-11-02 09:34:57.336705",
+        "last_updated": "1994-11-02 09:34:57.336705"
+    },
+    "62": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 39.77,
+        "status": "rejected",
+        "created_at": "1979-11-15 13:23:52.062181",
+        "last_updated": "1979-11-15 13:23:52.062181"
+    },
+    "63": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 139.14,
+        "status": "require_justification",
+        "created_at": "2025-05-03 05:23:39.931981",
+        "last_updated": "2025-05-03 05:23:39.931981"
+    },
+    "64": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 983.04,
+        "status": "pending",
+        "created_at": "1989-01-20 05:02:09.715009",
+        "last_updated": "1989-01-20 05:02:09.715009"
+    },
+    "65": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 698.02,
+        "status": "approved",
+        "created_at": "1983-06-21 04:42:31.946203",
+        "last_updated": "1983-06-21 04:42:31.946203"
+    },
+    "66": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 631.07,
+        "status": "rejected",
+        "created_at": "1993-02-11 01:49:36.055551",
+        "last_updated": "1993-02-11 01:49:36.055551"
+    },
+    "67": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 889.31,
+        "status": "require_justification",
+        "created_at": "2016-01-24 23:07:13.775880",
+        "last_updated": "2016-01-24 23:07:13.775880"
+    },
+    "68": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 252.66,
+        "status": "rejected",
+        "created_at": "2000-01-21 02:50:48.079451",
+        "last_updated": "2000-01-21 02:50:48.079451"
+    },
+    "69": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 259.9,
+        "status": "approved",
+        "created_at": "1980-11-08 19:27:18.404810",
+        "last_updated": "1980-11-08 19:27:18.404810"
+    },
+    "70": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 247.45,
+        "status": "pending",
+        "created_at": "2022-05-05 13:19:49.331957",
+        "last_updated": "2022-05-05 13:19:49.331957"
+    },
+    "71": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 695.98,
+        "status": "approved",
+        "created_at": "2006-01-03 06:34:56.271810",
+        "last_updated": "2006-01-03 06:34:56.271810"
+    },
+    "72": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 181.84,
+        "status": "approved",
+        "created_at": "1970-08-03 09:57:44.931237",
+        "last_updated": "1970-08-03 09:57:44.931237"
+    },
+    "73": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 171.86,
+        "status": "rejected",
+        "created_at": "2022-05-05 07:02:07.362513",
+        "last_updated": "2022-05-05 07:02:07.362513"
+    },
+    "74": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 203.65,
+        "status": "approved",
+        "created_at": "2003-06-21 17:43:50.735672",
+        "last_updated": "2003-06-21 17:43:50.735672"
+    },
+    "75": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 720.23,
+        "status": "require_justification",
+        "created_at": "1980-12-18 21:56:47.683949",
+        "last_updated": "1980-12-18 21:56:47.683949"
+    },
+    "76": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 554.78,
+        "status": "rejected",
+        "created_at": "1981-11-25 02:31:56.101901",
+        "last_updated": "1981-11-25 02:31:56.101901"
+    },
+    "77": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 796.73,
+        "status": "pending",
+        "created_at": "2024-01-10 15:34:40.816582",
+        "last_updated": "2024-01-10 15:34:40.816582"
+    },
+    "78": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 788.52,
+        "status": "require_justification",
+        "created_at": "1975-02-06 14:24:16.931507",
+        "last_updated": "1975-02-06 14:24:16.931507"
+    },
+    "79": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 281.05,
+        "status": "require_justification",
+        "created_at": "1994-05-24 06:46:58.090434",
+        "last_updated": "1994-05-24 06:46:58.090434"
+    },
+    "80": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 641.15,
+        "status": "approved",
+        "created_at": "2018-03-11 00:47:42.235228",
+        "last_updated": "2018-03-11 00:47:42.235228"
+    },
+    "81": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 850.88,
+        "status": "approved",
+        "created_at": "1996-05-10 02:38:17.255288",
+        "last_updated": "1996-05-10 02:38:17.255288"
+    },
+    "82": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 469.2,
+        "status": "rejected",
+        "created_at": "1974-02-13 01:25:19.315715",
+        "last_updated": "1974-02-13 01:25:19.315715"
+    },
+    "83": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 405.19,
+        "status": "rejected",
+        "created_at": "1980-06-01 08:35:58.776068",
+        "last_updated": "1980-06-01 08:35:58.776068"
+    },
+    "84": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 854.67,
+        "status": "pending",
+        "created_at": "1970-03-01 22:03:24.165471",
+        "last_updated": "1970-03-01 22:03:24.165471"
+    },
+    "85": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 455.71,
+        "status": "pending",
+        "created_at": "1983-10-31 01:56:16.683177",
+        "last_updated": "1983-10-31 01:56:16.683177"
+    },
+    "86": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 579.78,
+        "status": "approved",
+        "created_at": "1987-11-26 05:41:56.594735",
+        "last_updated": "1987-11-26 05:41:56.594735"
+    },
+    "87": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 989.67,
+        "status": "rejected",
+        "created_at": "2020-03-18 03:12:29.302885",
+        "last_updated": "2020-03-18 03:12:29.302885"
+    },
+    "88": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 299.34,
+        "status": "pending",
+        "created_at": "2008-12-15 01:01:20.617490",
+        "last_updated": "2008-12-15 01:01:20.617490"
+    },
+    "89": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 501.61,
+        "status": "approved",
+        "created_at": "2008-03-25 17:40:25.246300",
+        "last_updated": "2008-03-25 17:40:25.246300"
+    },
+    "90": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 764.84,
+        "status": "require_justification",
+        "created_at": "2002-01-31 04:54:45.452237",
+        "last_updated": "2002-01-31 04:54:45.452237"
+    },
+    "91": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 366.56,
+        "status": "approved",
+        "created_at": "1973-12-14 14:50:25.072660",
+        "last_updated": "1973-12-14 14:50:25.072660"
+    },
+    "92": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "commission",
+        "amount": 139.43,
+        "status": "pending",
+        "created_at": "2004-08-14 21:33:21.678848",
+        "last_updated": "2004-08-14 21:33:21.678848"
+    },
+    "93": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 458.85,
+        "status": "approved",
+        "created_at": "2018-06-10 22:48:39.729068",
+        "last_updated": "2018-06-10 22:48:39.729068"
+    },
+    "94": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "bonus",
+        "amount": 277.16,
+        "status": "pending",
+        "created_at": "1995-06-19 15:27:06.425406",
+        "last_updated": "1995-06-19 15:27:06.425406"
+    },
+    "95": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 434.67,
+        "status": "approved",
+        "created_at": "1984-10-13 12:00:01.423578",
+        "last_updated": "1984-10-13 12:00:01.423578"
+    },
+    "96": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 861.74,
+        "status": "pending",
+        "created_at": "2010-06-12 04:05:59.802113",
+        "last_updated": "2010-06-12 04:05:59.802113"
+    },
+    "97": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "incentive",
+        "amount": 229.85,
+        "status": "rejected",
+        "created_at": "1978-11-14 09:14:03.887367",
+        "last_updated": "1978-11-14 09:14:03.887367"
+    },
+    "98": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "payroll input",
+        "amount": 747.67,
+        "status": "pending",
+        "created_at": "1993-12-07 03:07:37.153411",
+        "last_updated": "1993-12-07 03:07:37.153411"
+    },
+    "99": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 358.73,
+        "status": "pending",
+        "created_at": "1982-07-22 16:56:25.714620",
+        "last_updated": "1982-07-22 16:56:25.714620"
+    },
+    "100": {
+        "earning_id": null,
+        "employee_id": null,
+        "cycle_id": null,
+        "earning_type": "allowance",
+        "amount": 517.41,
+        "status": "rejected",
+        "created_at": "2008-11-18 15:38:13.964337",
+        "last_updated": "2008-11-18 15:38:13.964337"
+    }
+}

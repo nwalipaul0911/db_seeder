@@ -1,0 +1,902 @@
+{
+    "1": {
+        "payslip_id": "1",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 998.24,
+        "status": "draft",
+        "created_at": "1976-06-10 13:33:47.814800",
+        "last_updated": "1976-06-10 13:33:47.814800"
+    },
+    "2": {
+        "payslip_id": "2",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 982.54,
+        "status": "updated",
+        "created_at": "1983-06-27 03:06:06.019130",
+        "last_updated": "1983-06-27 03:06:06.019130"
+    },
+    "3": {
+        "payslip_id": "3",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 579.57,
+        "status": "updated",
+        "created_at": "1978-06-18 00:12:44.905565",
+        "last_updated": "1978-06-18 00:12:44.905565"
+    },
+    "4": {
+        "payslip_id": "4",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 20.17,
+        "status": "released",
+        "created_at": "1990-07-02 12:07:59.186525",
+        "last_updated": "1990-07-02 12:07:59.186525"
+    },
+    "5": {
+        "payslip_id": "5",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 134.31,
+        "status": "updated",
+        "created_at": "2016-01-24 04:39:19.679465",
+        "last_updated": "2016-01-24 04:39:19.679465"
+    },
+    "6": {
+        "payslip_id": "6",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 311.62,
+        "status": "released",
+        "created_at": "1997-09-16 09:04:37.999766",
+        "last_updated": "1997-09-16 09:04:37.999766"
+    },
+    "7": {
+        "payslip_id": "7",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 48.39,
+        "status": "released",
+        "created_at": "1978-08-29 17:10:35.760572",
+        "last_updated": "1978-08-29 17:10:35.760572"
+    },
+    "8": {
+        "payslip_id": "8",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 33.32,
+        "status": "draft",
+        "created_at": "2013-09-17 06:02:15.235921",
+        "last_updated": "2013-09-17 06:02:15.235921"
+    },
+    "9": {
+        "payslip_id": "9",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 693.59,
+        "status": "draft",
+        "created_at": "2018-05-13 02:36:43.447012",
+        "last_updated": "2018-05-13 02:36:43.447012"
+    },
+    "10": {
+        "payslip_id": "10",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 440.19,
+        "status": "released",
+        "created_at": "2023-09-03 19:00:42.089149",
+        "last_updated": "2023-09-03 19:00:42.089149"
+    },
+    "11": {
+        "payslip_id": "11",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 178.63,
+        "status": "released",
+        "created_at": "1977-03-03 23:29:02.116803",
+        "last_updated": "1977-03-03 23:29:02.116803"
+    },
+    "12": {
+        "payslip_id": "12",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 81.58,
+        "status": "released",
+        "created_at": "2017-12-17 14:43:34.463356",
+        "last_updated": "2017-12-17 14:43:34.463356"
+    },
+    "13": {
+        "payslip_id": "13",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 223.68,
+        "status": "draft",
+        "created_at": "1988-02-20 13:08:40.766760",
+        "last_updated": "1988-02-20 13:08:40.766760"
+    },
+    "14": {
+        "payslip_id": "14",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 614.06,
+        "status": "updated",
+        "created_at": "1970-04-14 18:04:59.893325",
+        "last_updated": "1970-04-14 18:04:59.893325"
+    },
+    "15": {
+        "payslip_id": "15",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 261.3,
+        "status": "updated",
+        "created_at": "1980-01-01 04:20:02.156235",
+        "last_updated": "1980-01-01 04:20:02.156235"
+    },
+    "16": {
+        "payslip_id": "16",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 957.16,
+        "status": "draft",
+        "created_at": "1990-12-05 10:29:55.888187",
+        "last_updated": "1990-12-05 10:29:55.888187"
+    },
+    "17": {
+        "payslip_id": "17",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 171.69,
+        "status": "updated",
+        "created_at": "1997-08-02 20:00:03.028958",
+        "last_updated": "1997-08-02 20:00:03.028958"
+    },
+    "18": {
+        "payslip_id": "18",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 452.42,
+        "status": "updated",
+        "created_at": "1996-03-26 02:49:02.468772",
+        "last_updated": "1996-03-26 02:49:02.468772"
+    },
+    "19": {
+        "payslip_id": "19",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 447.97,
+        "status": "released",
+        "created_at": "2009-04-04 19:02:59.560696",
+        "last_updated": "2009-04-04 19:02:59.560696"
+    },
+    "20": {
+        "payslip_id": "20",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 161.45,
+        "status": "draft",
+        "created_at": "2003-09-01 14:46:35.008638",
+        "last_updated": "2003-09-01 14:46:35.008638"
+    },
+    "21": {
+        "payslip_id": "21",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 411.38,
+        "status": "updated",
+        "created_at": "1995-10-28 22:08:08.863996",
+        "last_updated": "1995-10-28 22:08:08.863996"
+    },
+    "22": {
+        "payslip_id": "22",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 329.81,
+        "status": "draft",
+        "created_at": "1978-10-27 19:14:58.450276",
+        "last_updated": "1978-10-27 19:14:58.450276"
+    },
+    "23": {
+        "payslip_id": "23",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 580.94,
+        "status": "draft",
+        "created_at": "1974-10-13 20:34:43.449526",
+        "last_updated": "1974-10-13 20:34:43.449526"
+    },
+    "24": {
+        "payslip_id": "24",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 615.93,
+        "status": "updated",
+        "created_at": "1995-11-03 03:45:06.002990",
+        "last_updated": "1995-11-03 03:45:06.002990"
+    },
+    "25": {
+        "payslip_id": "25",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 573.78,
+        "status": "updated",
+        "created_at": "1977-08-31 04:53:05.016660",
+        "last_updated": "1977-08-31 04:53:05.016660"
+    },
+    "26": {
+        "payslip_id": "26",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 798.99,
+        "status": "released",
+        "created_at": "1987-08-18 17:02:27.135379",
+        "last_updated": "1987-08-18 17:02:27.135379"
+    },
+    "27": {
+        "payslip_id": "27",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 574.78,
+        "status": "released",
+        "created_at": "1999-09-10 21:59:42.616455",
+        "last_updated": "1999-09-10 21:59:42.616455"
+    },
+    "28": {
+        "payslip_id": "28",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 345.82,
+        "status": "updated",
+        "created_at": "2000-10-09 03:38:39.950219",
+        "last_updated": "2000-10-09 03:38:39.950219"
+    },
+    "29": {
+        "payslip_id": "29",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 192.17,
+        "status": "updated",
+        "created_at": "2005-06-10 05:31:44.268004",
+        "last_updated": "2005-06-10 05:31:44.268004"
+    },
+    "30": {
+        "payslip_id": "30",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 53.94,
+        "status": "released",
+        "created_at": "1981-05-05 06:48:42.023989",
+        "last_updated": "1981-05-05 06:48:42.023989"
+    },
+    "31": {
+        "payslip_id": "31",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 763.13,
+        "status": "draft",
+        "created_at": "2023-08-07 16:50:25.042850",
+        "last_updated": "2023-08-07 16:50:25.042850"
+    },
+    "32": {
+        "payslip_id": "32",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 232.73,
+        "status": "draft",
+        "created_at": "2010-06-03 11:29:42.096340",
+        "last_updated": "2010-06-03 11:29:42.096340"
+    },
+    "33": {
+        "payslip_id": "33",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 587.92,
+        "status": "draft",
+        "created_at": "1991-09-06 19:23:54.191498",
+        "last_updated": "1991-09-06 19:23:54.191498"
+    },
+    "34": {
+        "payslip_id": "34",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 694.55,
+        "status": "draft",
+        "created_at": "1983-11-05 13:04:40.463857",
+        "last_updated": "1983-11-05 13:04:40.463857"
+    },
+    "35": {
+        "payslip_id": "35",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 415.58,
+        "status": "released",
+        "created_at": "2005-06-16 17:38:37.924951",
+        "last_updated": "2005-06-16 17:38:37.924951"
+    },
+    "36": {
+        "payslip_id": "36",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 770.51,
+        "status": "released",
+        "created_at": "2007-02-24 09:27:44.800480",
+        "last_updated": "2007-02-24 09:27:44.800480"
+    },
+    "37": {
+        "payslip_id": "37",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 836.89,
+        "status": "released",
+        "created_at": "2017-12-19 17:14:37.230282",
+        "last_updated": "2017-12-19 17:14:37.230282"
+    },
+    "38": {
+        "payslip_id": "38",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 160.8,
+        "status": "draft",
+        "created_at": "1993-10-14 10:43:57.632405",
+        "last_updated": "1993-10-14 10:43:57.632405"
+    },
+    "39": {
+        "payslip_id": "39",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 297.13,
+        "status": "released",
+        "created_at": "1979-03-11 13:18:53.676949",
+        "last_updated": "1979-03-11 13:18:53.676949"
+    },
+    "40": {
+        "payslip_id": "40",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 244.35,
+        "status": "updated",
+        "created_at": "2023-08-16 01:01:19.729684",
+        "last_updated": "2023-08-16 01:01:19.729684"
+    },
+    "41": {
+        "payslip_id": "41",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 932.83,
+        "status": "draft",
+        "created_at": "2005-04-17 20:06:34.686852",
+        "last_updated": "2005-04-17 20:06:34.686852"
+    },
+    "42": {
+        "payslip_id": "42",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 892.73,
+        "status": "released",
+        "created_at": "2025-02-10 08:28:55.808367",
+        "last_updated": "2025-02-10 08:28:55.808367"
+    },
+    "43": {
+        "payslip_id": "43",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 559.13,
+        "status": "released",
+        "created_at": "2005-03-30 00:48:47.520224",
+        "last_updated": "2005-03-30 00:48:47.520224"
+    },
+    "44": {
+        "payslip_id": "44",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 895.58,
+        "status": "released",
+        "created_at": "2022-03-11 15:08:53.682609",
+        "last_updated": "2022-03-11 15:08:53.682609"
+    },
+    "45": {
+        "payslip_id": "45",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 297.72,
+        "status": "draft",
+        "created_at": "2004-10-09 07:41:32.058220",
+        "last_updated": "2004-10-09 07:41:32.058220"
+    },
+    "46": {
+        "payslip_id": "46",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 694.43,
+        "status": "draft",
+        "created_at": "1970-05-05 06:48:51.505176",
+        "last_updated": "1970-05-05 06:48:51.505176"
+    },
+    "47": {
+        "payslip_id": "47",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 581.74,
+        "status": "updated",
+        "created_at": "1979-02-11 13:57:55.722367",
+        "last_updated": "1979-02-11 13:57:55.722367"
+    },
+    "48": {
+        "payslip_id": "48",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 565.87,
+        "status": "updated",
+        "created_at": "2001-01-20 04:27:58.125704",
+        "last_updated": "2001-01-20 04:27:58.125704"
+    },
+    "49": {
+        "payslip_id": "49",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 380.6,
+        "status": "draft",
+        "created_at": "2013-03-02 15:14:19.354375",
+        "last_updated": "2013-03-02 15:14:19.354375"
+    },
+    "50": {
+        "payslip_id": "50",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 207.12,
+        "status": "updated",
+        "created_at": "1981-03-04 03:06:08.650909",
+        "last_updated": "1981-03-04 03:06:08.650909"
+    },
+    "51": {
+        "payslip_id": "51",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 630.98,
+        "status": "released",
+        "created_at": "1988-09-18 23:08:55.537467",
+        "last_updated": "1988-09-18 23:08:55.537467"
+    },
+    "52": {
+        "payslip_id": "52",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 295.09,
+        "status": "released",
+        "created_at": "2025-03-23 03:14:28.940389",
+        "last_updated": "2025-03-23 03:14:28.940389"
+    },
+    "53": {
+        "payslip_id": "53",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 402.23,
+        "status": "updated",
+        "created_at": "1976-11-30 21:50:33.803225",
+        "last_updated": "1976-11-30 21:50:33.803225"
+    },
+    "54": {
+        "payslip_id": "54",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 564.77,
+        "status": "updated",
+        "created_at": "1995-08-19 12:45:34.610424",
+        "last_updated": "1995-08-19 12:45:34.610424"
+    },
+    "55": {
+        "payslip_id": "55",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 139.72,
+        "status": "draft",
+        "created_at": "2015-05-19 01:43:33.637975",
+        "last_updated": "2015-05-19 01:43:33.637975"
+    },
+    "56": {
+        "payslip_id": "56",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 494.62,
+        "status": "released",
+        "created_at": "2010-08-15 14:40:27.331046",
+        "last_updated": "2010-08-15 14:40:27.331046"
+    },
+    "57": {
+        "payslip_id": "57",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 954.09,
+        "status": "draft",
+        "created_at": "1984-10-04 05:04:58.463391",
+        "last_updated": "1984-10-04 05:04:58.463391"
+    },
+    "58": {
+        "payslip_id": "58",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 450.3,
+        "status": "released",
+        "created_at": "1997-09-03 21:12:50.246145",
+        "last_updated": "1997-09-03 21:12:50.246145"
+    },
+    "59": {
+        "payslip_id": "59",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 941.04,
+        "status": "updated",
+        "created_at": "1979-06-18 06:00:04.114541",
+        "last_updated": "1979-06-18 06:00:04.114541"
+    },
+    "60": {
+        "payslip_id": "60",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 820.57,
+        "status": "updated",
+        "created_at": "1987-01-04 06:20:52.855214",
+        "last_updated": "1987-01-04 06:20:52.855214"
+    },
+    "61": {
+        "payslip_id": "61",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 123.47,
+        "status": "released",
+        "created_at": "2010-08-20 23:56:13.050106",
+        "last_updated": "2010-08-20 23:56:13.050106"
+    },
+    "62": {
+        "payslip_id": "62",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 254.94,
+        "status": "updated",
+        "created_at": "2019-08-04 22:47:58.739545",
+        "last_updated": "2019-08-04 22:47:58.739545"
+    },
+    "63": {
+        "payslip_id": "63",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 120.04,
+        "status": "updated",
+        "created_at": "2017-10-02 07:47:21.249872",
+        "last_updated": "2017-10-02 07:47:21.249872"
+    },
+    "64": {
+        "payslip_id": "64",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 572.01,
+        "status": "updated",
+        "created_at": "2007-07-08 05:03:03.170632",
+        "last_updated": "2007-07-08 05:03:03.170632"
+    },
+    "65": {
+        "payslip_id": "65",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 65.02,
+        "status": "updated",
+        "created_at": "1984-06-10 02:11:57.417343",
+        "last_updated": "1984-06-10 02:11:57.417343"
+    },
+    "66": {
+        "payslip_id": "66",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 575.47,
+        "status": "updated",
+        "created_at": "2001-12-09 18:03:41.170188",
+        "last_updated": "2001-12-09 18:03:41.170188"
+    },
+    "67": {
+        "payslip_id": "67",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 470.43,
+        "status": "released",
+        "created_at": "2004-07-22 09:39:31.310974",
+        "last_updated": "2004-07-22 09:39:31.310974"
+    },
+    "68": {
+        "payslip_id": "68",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 49.55,
+        "status": "draft",
+        "created_at": "1977-09-09 15:42:32.211818",
+        "last_updated": "1977-09-09 15:42:32.211818"
+    },
+    "69": {
+        "payslip_id": "69",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 164.16,
+        "status": "released",
+        "created_at": "1996-02-08 02:57:48.541233",
+        "last_updated": "1996-02-08 02:57:48.541233"
+    },
+    "70": {
+        "payslip_id": "70",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 714.16,
+        "status": "released",
+        "created_at": "1982-09-28 12:00:53.903901",
+        "last_updated": "1982-09-28 12:00:53.903901"
+    },
+    "71": {
+        "payslip_id": "71",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 694.49,
+        "status": "draft",
+        "created_at": "2007-09-17 05:55:15.563800",
+        "last_updated": "2007-09-17 05:55:15.563800"
+    },
+    "72": {
+        "payslip_id": "72",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 138.79,
+        "status": "draft",
+        "created_at": "2015-03-16 04:20:48.699521",
+        "last_updated": "2015-03-16 04:20:48.699521"
+    },
+    "73": {
+        "payslip_id": "73",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 354.45,
+        "status": "released",
+        "created_at": "2016-10-02 07:23:20.928980",
+        "last_updated": "2016-10-02 07:23:20.928980"
+    },
+    "74": {
+        "payslip_id": "74",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 492.33,
+        "status": "released",
+        "created_at": "2001-08-07 13:50:11.006867",
+        "last_updated": "2001-08-07 13:50:11.006867"
+    },
+    "75": {
+        "payslip_id": "75",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 416.52,
+        "status": "updated",
+        "created_at": "1994-10-01 08:37:18.033322",
+        "last_updated": "1994-10-01 08:37:18.033322"
+    },
+    "76": {
+        "payslip_id": "76",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 896.76,
+        "status": "updated",
+        "created_at": "1976-04-26 12:05:47.162537",
+        "last_updated": "1976-04-26 12:05:47.162537"
+    },
+    "77": {
+        "payslip_id": "77",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 593.66,
+        "status": "draft",
+        "created_at": "1993-11-05 22:13:50.628034",
+        "last_updated": "1993-11-05 22:13:50.628034"
+    },
+    "78": {
+        "payslip_id": "78",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 546.38,
+        "status": "draft",
+        "created_at": "1982-10-19 06:35:50.347280",
+        "last_updated": "1982-10-19 06:35:50.347280"
+    },
+    "79": {
+        "payslip_id": "79",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 847.37,
+        "status": "updated",
+        "created_at": "2002-04-15 21:06:22.080929",
+        "last_updated": "2002-04-15 21:06:22.080929"
+    },
+    "80": {
+        "payslip_id": "80",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 689.82,
+        "status": "draft",
+        "created_at": "1973-09-09 03:52:52.293660",
+        "last_updated": "1973-09-09 03:52:52.293660"
+    },
+    "81": {
+        "payslip_id": "81",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 387.34,
+        "status": "released",
+        "created_at": "1989-10-11 16:03:04.931037",
+        "last_updated": "1989-10-11 16:03:04.931037"
+    },
+    "82": {
+        "payslip_id": "82",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 740.6,
+        "status": "updated",
+        "created_at": "1986-05-17 00:18:53.865701",
+        "last_updated": "1986-05-17 00:18:53.865701"
+    },
+    "83": {
+        "payslip_id": "83",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 58.45,
+        "status": "updated",
+        "created_at": "1985-07-18 02:12:24.853148",
+        "last_updated": "1985-07-18 02:12:24.853148"
+    },
+    "84": {
+        "payslip_id": "84",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 227.88,
+        "status": "draft",
+        "created_at": "2001-12-22 08:33:55.256991",
+        "last_updated": "2001-12-22 08:33:55.256991"
+    },
+    "85": {
+        "payslip_id": "85",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 480.78,
+        "status": "released",
+        "created_at": "1977-02-18 01:33:50.673481",
+        "last_updated": "1977-02-18 01:33:50.673481"
+    },
+    "86": {
+        "payslip_id": "86",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 742.03,
+        "status": "released",
+        "created_at": "1973-12-24 15:34:00.393221",
+        "last_updated": "1973-12-24 15:34:00.393221"
+    },
+    "87": {
+        "payslip_id": "87",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 795.79,
+        "status": "updated",
+        "created_at": "1999-09-20 08:08:38.460097",
+        "last_updated": "1999-09-20 08:08:38.460097"
+    },
+    "88": {
+        "payslip_id": "88",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 75.91,
+        "status": "draft",
+        "created_at": "2024-01-09 06:10:45.171092",
+        "last_updated": "2024-01-09 06:10:45.171092"
+    },
+    "89": {
+        "payslip_id": "89",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 286.68,
+        "status": "draft",
+        "created_at": "1973-06-11 04:38:09.807234",
+        "last_updated": "1973-06-11 04:38:09.807234"
+    },
+    "90": {
+        "payslip_id": "90",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 515.48,
+        "status": "draft",
+        "created_at": "1982-08-09 13:48:22.263009",
+        "last_updated": "1982-08-09 13:48:22.263009"
+    },
+    "91": {
+        "payslip_id": "91",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 223.25,
+        "status": "released",
+        "created_at": "1970-07-18 10:50:28.611743",
+        "last_updated": "1970-07-18 10:50:28.611743"
+    },
+    "92": {
+        "payslip_id": "92",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 959.44,
+        "status": "released",
+        "created_at": "1971-10-17 13:48:01.736884",
+        "last_updated": "1971-10-17 13:48:01.736884"
+    },
+    "93": {
+        "payslip_id": "93",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 661.27,
+        "status": "draft",
+        "created_at": "2010-09-21 09:11:15.534164",
+        "last_updated": "2010-09-21 09:11:15.534164"
+    },
+    "94": {
+        "payslip_id": "94",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 736.77,
+        "status": "released",
+        "created_at": "2002-05-07 09:54:43.683457",
+        "last_updated": "2002-05-07 09:54:43.683457"
+    },
+    "95": {
+        "payslip_id": "95",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 220.35,
+        "status": "draft",
+        "created_at": "2018-02-25 13:31:58.230485",
+        "last_updated": "2018-02-25 13:31:58.230485"
+    },
+    "96": {
+        "payslip_id": "96",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 221.32,
+        "status": "draft",
+        "created_at": "2016-10-01 21:08:17.691839",
+        "last_updated": "2016-10-01 21:08:17.691839"
+    },
+    "97": {
+        "payslip_id": "97",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 464.68,
+        "status": "draft",
+        "created_at": "2006-01-28 01:11:28.216676",
+        "last_updated": "2006-01-28 01:11:28.216676"
+    },
+    "98": {
+        "payslip_id": "98",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 746.85,
+        "status": "released",
+        "created_at": "2008-11-09 13:30:08.092150",
+        "last_updated": "2008-11-09 13:30:08.092150"
+    },
+    "99": {
+        "payslip_id": "99",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 940.89,
+        "status": "released",
+        "created_at": "1987-09-12 10:38:30.990295",
+        "last_updated": "1987-09-12 10:38:30.990295"
+    },
+    "100": {
+        "payslip_id": "100",
+        "employee_id": null,
+        "cycle_id": null,
+        "net_pay_value": 36.09,
+        "status": "updated",
+        "created_at": "1989-10-20 19:58:50.031909",
+        "last_updated": "1989-10-20 19:58:50.031909"
+    }
+}

@@ -1,0 +1,802 @@
+{
+    "1": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 837.66,
+        "is_cleared": false,
+        "created_at": "1972-07-14 03:50:42.221690",
+        "last_updated": "1972-07-14 03:50:42.221690"
+    },
+    "2": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 51.4,
+        "is_cleared": false,
+        "created_at": "1976-10-28 03:59:21.652183",
+        "last_updated": "1976-10-28 03:59:21.652183"
+    },
+    "3": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 411.36,
+        "is_cleared": true,
+        "created_at": "1992-03-17 04:47:47.901117",
+        "last_updated": "1992-03-17 04:47:47.901117"
+    },
+    "4": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 129.49,
+        "is_cleared": false,
+        "created_at": "1995-06-19 11:49:52.441687",
+        "last_updated": "1995-06-19 11:49:52.441687"
+    },
+    "5": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 808.35,
+        "is_cleared": true,
+        "created_at": "2000-02-10 18:09:28.777216",
+        "last_updated": "2000-02-10 18:09:28.777216"
+    },
+    "6": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 371.44,
+        "is_cleared": false,
+        "created_at": "1971-07-14 23:06:36.330766",
+        "last_updated": "1971-07-14 23:06:36.330766"
+    },
+    "7": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 638.54,
+        "is_cleared": true,
+        "created_at": "2008-12-19 01:36:23.638768",
+        "last_updated": "2008-12-19 01:36:23.638768"
+    },
+    "8": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 978.92,
+        "is_cleared": false,
+        "created_at": "1971-06-08 03:35:32.446324",
+        "last_updated": "1971-06-08 03:35:32.446324"
+    },
+    "9": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 762.92,
+        "is_cleared": false,
+        "created_at": "2022-12-29 17:51:45.941592",
+        "last_updated": "2022-12-29 17:51:45.941592"
+    },
+    "10": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 895.31,
+        "is_cleared": true,
+        "created_at": "1994-10-28 03:49:20.365851",
+        "last_updated": "1994-10-28 03:49:20.365851"
+    },
+    "11": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 104.17,
+        "is_cleared": false,
+        "created_at": "2003-01-21 01:24:53.305087",
+        "last_updated": "2003-01-21 01:24:53.305087"
+    },
+    "12": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 737.37,
+        "is_cleared": true,
+        "created_at": "1976-10-06 00:26:59.431435",
+        "last_updated": "1976-10-06 00:26:59.431435"
+    },
+    "13": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 188.39,
+        "is_cleared": true,
+        "created_at": "2001-01-14 16:13:03.648332",
+        "last_updated": "2001-01-14 16:13:03.648332"
+    },
+    "14": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 627.88,
+        "is_cleared": false,
+        "created_at": "1976-07-02 21:49:50.767496",
+        "last_updated": "1976-07-02 21:49:50.767496"
+    },
+    "15": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 110.07,
+        "is_cleared": false,
+        "created_at": "1998-11-24 22:03:32.334646",
+        "last_updated": "1998-11-24 22:03:32.334646"
+    },
+    "16": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 890.08,
+        "is_cleared": false,
+        "created_at": "1982-05-11 12:29:23.289587",
+        "last_updated": "1982-05-11 12:29:23.289587"
+    },
+    "17": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 447.9,
+        "is_cleared": true,
+        "created_at": "1990-12-13 02:13:08.417159",
+        "last_updated": "1990-12-13 02:13:08.417159"
+    },
+    "18": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 867.5,
+        "is_cleared": true,
+        "created_at": "1982-03-06 03:08:25.585838",
+        "last_updated": "1982-03-06 03:08:25.585838"
+    },
+    "19": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 723.31,
+        "is_cleared": false,
+        "created_at": "1974-05-19 03:16:53.837491",
+        "last_updated": "1974-05-19 03:16:53.837491"
+    },
+    "20": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 968.12,
+        "is_cleared": false,
+        "created_at": "2015-04-16 16:59:46.247432",
+        "last_updated": "2015-04-16 16:59:46.247432"
+    },
+    "21": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 894.48,
+        "is_cleared": true,
+        "created_at": "2022-07-02 07:44:29.715924",
+        "last_updated": "2022-07-02 07:44:29.715924"
+    },
+    "22": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 235.28,
+        "is_cleared": false,
+        "created_at": "1987-10-24 10:34:23.445444",
+        "last_updated": "1987-10-24 10:34:23.445444"
+    },
+    "23": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 316.9,
+        "is_cleared": false,
+        "created_at": "2007-10-12 14:36:21.097073",
+        "last_updated": "2007-10-12 14:36:21.097073"
+    },
+    "24": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 318.46,
+        "is_cleared": false,
+        "created_at": "2019-12-10 00:06:33.375459",
+        "last_updated": "2019-12-10 00:06:33.375459"
+    },
+    "25": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 105.11,
+        "is_cleared": true,
+        "created_at": "1992-06-07 10:51:53.401977",
+        "last_updated": "1992-06-07 10:51:53.401977"
+    },
+    "26": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 159.62,
+        "is_cleared": false,
+        "created_at": "2014-08-01 16:18:34.462756",
+        "last_updated": "2014-08-01 16:18:34.462756"
+    },
+    "27": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 827.28,
+        "is_cleared": false,
+        "created_at": "2023-01-25 20:59:38.428900",
+        "last_updated": "2023-01-25 20:59:38.428900"
+    },
+    "28": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 484.86,
+        "is_cleared": true,
+        "created_at": "1973-05-15 21:21:20.572478",
+        "last_updated": "1973-05-15 21:21:20.572478"
+    },
+    "29": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 891.85,
+        "is_cleared": false,
+        "created_at": "2018-05-17 00:37:10.902638",
+        "last_updated": "2018-05-17 00:37:10.902638"
+    },
+    "30": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 768.36,
+        "is_cleared": true,
+        "created_at": "1994-04-23 09:18:23.912600",
+        "last_updated": "1994-04-23 09:18:23.912600"
+    },
+    "31": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 411.16,
+        "is_cleared": true,
+        "created_at": "2003-05-26 12:48:53.512328",
+        "last_updated": "2003-05-26 12:48:53.512328"
+    },
+    "32": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 801.51,
+        "is_cleared": false,
+        "created_at": "2012-07-24 23:22:13.514210",
+        "last_updated": "2012-07-24 23:22:13.514210"
+    },
+    "33": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 174.83,
+        "is_cleared": false,
+        "created_at": "2021-03-14 10:21:43.152033",
+        "last_updated": "2021-03-14 10:21:43.152033"
+    },
+    "34": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 669.61,
+        "is_cleared": true,
+        "created_at": "2019-10-22 12:15:21.405217",
+        "last_updated": "2019-10-22 12:15:21.405217"
+    },
+    "35": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 271.38,
+        "is_cleared": false,
+        "created_at": "1974-03-02 19:26:35.098133",
+        "last_updated": "1974-03-02 19:26:35.098133"
+    },
+    "36": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 86.74,
+        "is_cleared": true,
+        "created_at": "1986-02-28 03:51:58.713172",
+        "last_updated": "1986-02-28 03:51:58.713172"
+    },
+    "37": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 8.64,
+        "is_cleared": true,
+        "created_at": "1985-01-28 08:46:42.520241",
+        "last_updated": "1985-01-28 08:46:42.520241"
+    },
+    "38": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 420.68,
+        "is_cleared": false,
+        "created_at": "1971-11-10 08:36:33.160168",
+        "last_updated": "1971-11-10 08:36:33.160168"
+    },
+    "39": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 687.88,
+        "is_cleared": true,
+        "created_at": "2005-02-25 04:31:46.984959",
+        "last_updated": "2005-02-25 04:31:46.984959"
+    },
+    "40": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 373.32,
+        "is_cleared": false,
+        "created_at": "1996-10-24 14:15:52.460713",
+        "last_updated": "1996-10-24 14:15:52.460713"
+    },
+    "41": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 393.19,
+        "is_cleared": false,
+        "created_at": "1979-08-13 08:56:40.763244",
+        "last_updated": "1979-08-13 08:56:40.763244"
+    },
+    "42": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 685.16,
+        "is_cleared": true,
+        "created_at": "2024-02-23 03:55:07.321172",
+        "last_updated": "2024-02-23 03:55:07.321172"
+    },
+    "43": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 409.4,
+        "is_cleared": false,
+        "created_at": "1977-08-19 19:27:24.841635",
+        "last_updated": "1977-08-19 19:27:24.841635"
+    },
+    "44": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 183.96,
+        "is_cleared": false,
+        "created_at": "2016-10-11 07:30:20.985309",
+        "last_updated": "2016-10-11 07:30:20.985309"
+    },
+    "45": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 941.51,
+        "is_cleared": true,
+        "created_at": "1982-12-30 15:32:37.338350",
+        "last_updated": "1982-12-30 15:32:37.338350"
+    },
+    "46": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 410.57,
+        "is_cleared": true,
+        "created_at": "1980-05-12 04:57:20.006668",
+        "last_updated": "1980-05-12 04:57:20.006668"
+    },
+    "47": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 968.29,
+        "is_cleared": false,
+        "created_at": "2019-02-19 23:07:19.278360",
+        "last_updated": "2019-02-19 23:07:19.278360"
+    },
+    "48": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 127.34,
+        "is_cleared": true,
+        "created_at": "2023-01-29 22:07:02.478327",
+        "last_updated": "2023-01-29 22:07:02.478327"
+    },
+    "49": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 25.16,
+        "is_cleared": false,
+        "created_at": "1993-09-01 03:39:26.100913",
+        "last_updated": "1993-09-01 03:39:26.100913"
+    },
+    "50": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 335.45,
+        "is_cleared": false,
+        "created_at": "2002-04-19 08:58:56.772491",
+        "last_updated": "2002-04-19 08:58:56.772491"
+    },
+    "51": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 415.29,
+        "is_cleared": false,
+        "created_at": "2015-10-19 04:20:05.661573",
+        "last_updated": "2015-10-19 04:20:05.661573"
+    },
+    "52": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 582.54,
+        "is_cleared": false,
+        "created_at": "2014-03-11 23:37:20.842905",
+        "last_updated": "2014-03-11 23:37:20.842905"
+    },
+    "53": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 128.66,
+        "is_cleared": false,
+        "created_at": "1971-06-03 02:46:11.919316",
+        "last_updated": "1971-06-03 02:46:11.919316"
+    },
+    "54": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 666.03,
+        "is_cleared": false,
+        "created_at": "1997-05-01 08:23:20.836377",
+        "last_updated": "1997-05-01 08:23:20.836377"
+    },
+    "55": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 953.53,
+        "is_cleared": false,
+        "created_at": "2014-02-05 00:11:26.550115",
+        "last_updated": "2014-02-05 00:11:26.550115"
+    },
+    "56": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 348.9,
+        "is_cleared": false,
+        "created_at": "2001-12-15 22:42:18.428010",
+        "last_updated": "2001-12-15 22:42:18.428010"
+    },
+    "57": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 569.18,
+        "is_cleared": true,
+        "created_at": "1989-11-11 01:14:22.812291",
+        "last_updated": "1989-11-11 01:14:22.812291"
+    },
+    "58": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 656.93,
+        "is_cleared": true,
+        "created_at": "1990-09-02 10:32:24.465063",
+        "last_updated": "1990-09-02 10:32:24.465063"
+    },
+    "59": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 796.84,
+        "is_cleared": true,
+        "created_at": "2006-11-25 15:58:10.478408",
+        "last_updated": "2006-11-25 15:58:10.478408"
+    },
+    "60": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 874.35,
+        "is_cleared": false,
+        "created_at": "2018-01-22 10:18:48.917579",
+        "last_updated": "2018-01-22 10:18:48.917579"
+    },
+    "61": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 705.12,
+        "is_cleared": false,
+        "created_at": "1972-06-01 18:12:03.129348",
+        "last_updated": "1972-06-01 18:12:03.129348"
+    },
+    "62": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 551.76,
+        "is_cleared": false,
+        "created_at": "2014-03-03 02:51:09.364937",
+        "last_updated": "2014-03-03 02:51:09.364937"
+    },
+    "63": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 966.79,
+        "is_cleared": true,
+        "created_at": "2024-09-30 15:13:17.459042",
+        "last_updated": "2024-09-30 15:13:17.459042"
+    },
+    "64": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 275.48,
+        "is_cleared": true,
+        "created_at": "2022-02-10 21:52:20.819708",
+        "last_updated": "2022-02-10 21:52:20.819708"
+    },
+    "65": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 850.49,
+        "is_cleared": true,
+        "created_at": "2025-01-08 14:29:23.823844",
+        "last_updated": "2025-01-08 14:29:23.823844"
+    },
+    "66": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 347.76,
+        "is_cleared": true,
+        "created_at": "2003-11-06 05:52:36.529084",
+        "last_updated": "2003-11-06 05:52:36.529084"
+    },
+    "67": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 850.42,
+        "is_cleared": true,
+        "created_at": "2013-02-26 09:58:43.071903",
+        "last_updated": "2013-02-26 09:58:43.071903"
+    },
+    "68": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 460.15,
+        "is_cleared": false,
+        "created_at": "2005-02-23 01:00:42.093781",
+        "last_updated": "2005-02-23 01:00:42.093781"
+    },
+    "69": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 221.97,
+        "is_cleared": true,
+        "created_at": "2013-11-27 01:56:13.055761",
+        "last_updated": "2013-11-27 01:56:13.055761"
+    },
+    "70": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 697.89,
+        "is_cleared": false,
+        "created_at": "2024-04-19 12:05:09.631561",
+        "last_updated": "2024-04-19 12:05:09.631561"
+    },
+    "71": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 781.05,
+        "is_cleared": false,
+        "created_at": "1995-02-18 06:55:36.795551",
+        "last_updated": "1995-02-18 06:55:36.795551"
+    },
+    "72": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 2.81,
+        "is_cleared": true,
+        "created_at": "1989-10-22 01:19:09.102056",
+        "last_updated": "1989-10-22 01:19:09.102056"
+    },
+    "73": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 383.73,
+        "is_cleared": false,
+        "created_at": "1997-06-01 12:43:26.147790",
+        "last_updated": "1997-06-01 12:43:26.147790"
+    },
+    "74": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 907.52,
+        "is_cleared": false,
+        "created_at": "1975-05-07 01:14:50.925992",
+        "last_updated": "1975-05-07 01:14:50.925992"
+    },
+    "75": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 324.01,
+        "is_cleared": true,
+        "created_at": "1984-04-27 01:21:55.591187",
+        "last_updated": "1984-04-27 01:21:55.591187"
+    },
+    "76": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 825.3,
+        "is_cleared": true,
+        "created_at": "1991-02-11 22:01:37.748507",
+        "last_updated": "1991-02-11 22:01:37.748507"
+    },
+    "77": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 462.59,
+        "is_cleared": true,
+        "created_at": "1988-04-12 00:17:18.369151",
+        "last_updated": "1988-04-12 00:17:18.369151"
+    },
+    "78": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 947.53,
+        "is_cleared": false,
+        "created_at": "2004-04-04 05:33:49.188169",
+        "last_updated": "2004-04-04 05:33:49.188169"
+    },
+    "79": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 438.58,
+        "is_cleared": false,
+        "created_at": "1972-09-05 07:50:59.628564",
+        "last_updated": "1972-09-05 07:50:59.628564"
+    },
+    "80": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 267.67,
+        "is_cleared": true,
+        "created_at": "1985-10-28 20:19:07.324837",
+        "last_updated": "1985-10-28 20:19:07.324837"
+    },
+    "81": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 100.43,
+        "is_cleared": false,
+        "created_at": "1998-06-25 22:15:45.427784",
+        "last_updated": "1998-06-25 22:15:45.427784"
+    },
+    "82": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 74.76,
+        "is_cleared": true,
+        "created_at": "2000-10-18 23:37:16.850289",
+        "last_updated": "2000-10-18 23:37:16.850289"
+    },
+    "83": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 127.7,
+        "is_cleared": true,
+        "created_at": "2004-08-10 20:43:04.733300",
+        "last_updated": "2004-08-10 20:43:04.733300"
+    },
+    "84": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 419.07,
+        "is_cleared": false,
+        "created_at": "2012-02-15 22:53:49.805482",
+        "last_updated": "2012-02-15 22:53:49.805482"
+    },
+    "85": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 243.79,
+        "is_cleared": true,
+        "created_at": "2014-02-15 14:23:34.263788",
+        "last_updated": "2014-02-15 14:23:34.263788"
+    },
+    "86": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 649.18,
+        "is_cleared": true,
+        "created_at": "2022-01-28 20:05:54.454454",
+        "last_updated": "2022-01-28 20:05:54.454454"
+    },
+    "87": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 215.92,
+        "is_cleared": false,
+        "created_at": "2019-12-07 17:31:23.165363",
+        "last_updated": "2019-12-07 17:31:23.165363"
+    },
+    "88": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 355.83,
+        "is_cleared": true,
+        "created_at": "2024-03-11 11:48:59.077152",
+        "last_updated": "2024-03-11 11:48:59.077152"
+    },
+    "89": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 619.5,
+        "is_cleared": true,
+        "created_at": "1996-08-14 01:43:44.206307",
+        "last_updated": "1996-08-14 01:43:44.206307"
+    },
+    "90": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 131.61,
+        "is_cleared": true,
+        "created_at": "2023-11-21 02:02:19.618178",
+        "last_updated": "2023-11-21 02:02:19.618178"
+    },
+    "91": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 174.02,
+        "is_cleared": true,
+        "created_at": "1993-05-27 22:55:19.274786",
+        "last_updated": "1993-05-27 22:55:19.274786"
+    },
+    "92": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 483.97,
+        "is_cleared": false,
+        "created_at": "1977-11-26 17:50:27.564481",
+        "last_updated": "1977-11-26 17:50:27.564481"
+    },
+    "93": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 815.66,
+        "is_cleared": true,
+        "created_at": "2014-01-03 15:18:12.253423",
+        "last_updated": "2014-01-03 15:18:12.253423"
+    },
+    "94": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 580.67,
+        "is_cleared": false,
+        "created_at": "1972-04-26 16:55:15.390843",
+        "last_updated": "1972-04-26 16:55:15.390843"
+    },
+    "95": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 534.27,
+        "is_cleared": false,
+        "created_at": "2013-06-24 03:48:18.485287",
+        "last_updated": "2013-06-24 03:48:18.485287"
+    },
+    "96": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 273.54,
+        "is_cleared": true,
+        "created_at": "1986-04-19 20:25:13.005805",
+        "last_updated": "1986-04-19 20:25:13.005805"
+    },
+    "97": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 184.2,
+        "is_cleared": false,
+        "created_at": "1996-04-22 14:19:19.790487",
+        "last_updated": "1996-04-22 14:19:19.790487"
+    },
+    "98": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 222.03,
+        "is_cleared": false,
+        "created_at": "2011-09-16 18:36:46.577441",
+        "last_updated": "2011-09-16 18:36:46.577441"
+    },
+    "99": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 942.53,
+        "is_cleared": false,
+        "created_at": "2003-12-02 06:16:37.096932",
+        "last_updated": "2003-12-02 06:16:37.096932"
+    },
+    "100": {
+        "settlement_id": null,
+        "employee_id": null,
+        "amount": 788.18,
+        "is_cleared": true,
+        "created_at": "1991-10-04 04:25:11.282562",
+        "last_updated": "1991-10-04 04:25:11.282562"
+    }
+}

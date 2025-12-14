@@ -1,0 +1,802 @@
+{
+    "1": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Tanner Morton",
+        "status": "damaged",
+        "created_at": "2004-05-28 19:38:26.243445",
+        "last_updated": "2004-05-28 19:38:26.243445"
+    },
+    "2": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Cindy Lindsey",
+        "status": "returned",
+        "created_at": "1980-08-15 21:33:07.067941",
+        "last_updated": "1980-08-15 21:33:07.067941"
+    },
+    "3": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Ryan Thomas MD",
+        "status": "returned",
+        "created_at": "2006-10-19 14:32:33.221952",
+        "last_updated": "2006-10-19 14:32:33.221952"
+    },
+    "4": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Heather White",
+        "status": "missing",
+        "created_at": "2017-05-20 05:10:32.544177",
+        "last_updated": "2017-05-20 05:10:32.544177"
+    },
+    "5": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Ebony Hutchinson",
+        "status": "damaged",
+        "created_at": "1982-11-13 10:47:36.752950",
+        "last_updated": "1982-11-13 10:47:36.752950"
+    },
+    "6": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Ruben Stephenson",
+        "status": "missing",
+        "created_at": "1996-06-12 10:04:50.953995",
+        "last_updated": "1996-06-12 10:04:50.953995"
+    },
+    "7": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Brett Bryant",
+        "status": "missing",
+        "created_at": "2014-09-10 11:43:32.865920",
+        "last_updated": "2014-09-10 11:43:32.865920"
+    },
+    "8": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Colin Shields",
+        "status": "missing",
+        "created_at": "2019-04-11 13:15:36.468644",
+        "last_updated": "2019-04-11 13:15:36.468644"
+    },
+    "9": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Maria Harris",
+        "status": "missing",
+        "created_at": "2004-12-30 16:12:19.274831",
+        "last_updated": "2004-12-30 16:12:19.274831"
+    },
+    "10": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Matthew Ortega",
+        "status": "returned",
+        "created_at": "1997-12-09 12:48:49.690624",
+        "last_updated": "1997-12-09 12:48:49.690624"
+    },
+    "11": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Johnny Reese",
+        "status": "returned",
+        "created_at": "2025-02-16 08:22:56.342343",
+        "last_updated": "2025-02-16 08:22:56.342343"
+    },
+    "12": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Kathleen Roberts",
+        "status": "assigned",
+        "created_at": "2017-10-21 07:23:17.346613",
+        "last_updated": "2017-10-21 07:23:17.346613"
+    },
+    "13": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "John Hicks",
+        "status": "damaged",
+        "created_at": "2014-03-28 14:12:52.032639",
+        "last_updated": "2014-03-28 14:12:52.032639"
+    },
+    "14": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Rachel Dawson",
+        "status": "damaged",
+        "created_at": "1996-02-27 20:51:17.370877",
+        "last_updated": "1996-02-27 20:51:17.370877"
+    },
+    "15": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Jerry Byrd",
+        "status": "damaged",
+        "created_at": "1979-02-20 00:37:16.547596",
+        "last_updated": "1979-02-20 00:37:16.547596"
+    },
+    "16": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Erin Sutton",
+        "status": "assigned",
+        "created_at": "2023-06-18 22:56:54.059415",
+        "last_updated": "2023-06-18 22:56:54.059415"
+    },
+    "17": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Thomas Hawkins",
+        "status": "assigned",
+        "created_at": "2017-07-21 09:58:08.119259",
+        "last_updated": "2017-07-21 09:58:08.119259"
+    },
+    "18": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Christopher Powell",
+        "status": "missing",
+        "created_at": "1975-04-17 04:38:11.235083",
+        "last_updated": "1975-04-17 04:38:11.235083"
+    },
+    "19": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Thomas Richardson",
+        "status": "damaged",
+        "created_at": "2024-07-09 23:56:56.267622",
+        "last_updated": "2024-07-09 23:56:56.267622"
+    },
+    "20": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Richard Martinez",
+        "status": "assigned",
+        "created_at": "1986-07-10 09:36:11.483664",
+        "last_updated": "1986-07-10 09:36:11.483664"
+    },
+    "21": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Calvin Henry",
+        "status": "returned",
+        "created_at": "2025-09-12 00:51:01.622331",
+        "last_updated": "2025-09-12 00:51:01.622331"
+    },
+    "22": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Eugene Lane",
+        "status": "returned",
+        "created_at": "2008-10-04 08:47:20.573143",
+        "last_updated": "2008-10-04 08:47:20.573143"
+    },
+    "23": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "James Douglas",
+        "status": "damaged",
+        "created_at": "2024-04-15 16:46:21.286260",
+        "last_updated": "2024-04-15 16:46:21.286260"
+    },
+    "24": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Mariah Wood",
+        "status": "damaged",
+        "created_at": "2022-04-16 20:48:56.614577",
+        "last_updated": "2022-04-16 20:48:56.614577"
+    },
+    "25": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Leah Campbell",
+        "status": "assigned",
+        "created_at": "1983-10-19 06:04:59.927697",
+        "last_updated": "1983-10-19 06:04:59.927697"
+    },
+    "26": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Steven Powell",
+        "status": "assigned",
+        "created_at": "1988-03-21 02:28:44.606122",
+        "last_updated": "1988-03-21 02:28:44.606122"
+    },
+    "27": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "John Curtis",
+        "status": "missing",
+        "created_at": "2014-01-23 18:32:13.613585",
+        "last_updated": "2014-01-23 18:32:13.613585"
+    },
+    "28": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Anna Allen",
+        "status": "missing",
+        "created_at": "2017-03-07 12:28:39.809360",
+        "last_updated": "2017-03-07 12:28:39.809360"
+    },
+    "29": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Timothy Murphy",
+        "status": "assigned",
+        "created_at": "1995-03-26 02:36:31.245371",
+        "last_updated": "1995-03-26 02:36:31.245371"
+    },
+    "30": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Susan Harris",
+        "status": "missing",
+        "created_at": "2018-12-06 23:17:05.431627",
+        "last_updated": "2018-12-06 23:17:05.431627"
+    },
+    "31": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "John Drake",
+        "status": "damaged",
+        "created_at": "2013-08-01 21:22:48.953946",
+        "last_updated": "2013-08-01 21:22:48.953946"
+    },
+    "32": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Kevin Rojas",
+        "status": "damaged",
+        "created_at": "1989-02-22 19:05:19.315733",
+        "last_updated": "1989-02-22 19:05:19.315733"
+    },
+    "33": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Brandy Floyd",
+        "status": "damaged",
+        "created_at": "1995-10-02 02:11:32.684813",
+        "last_updated": "1995-10-02 02:11:32.684813"
+    },
+    "34": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Vanessa Ford",
+        "status": "assigned",
+        "created_at": "1999-06-28 10:03:37.034350",
+        "last_updated": "1999-06-28 10:03:37.034350"
+    },
+    "35": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Jerry Little",
+        "status": "assigned",
+        "created_at": "1971-10-21 15:42:39.853143",
+        "last_updated": "1971-10-21 15:42:39.853143"
+    },
+    "36": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Joshua Acosta",
+        "status": "damaged",
+        "created_at": "2004-12-21 01:35:21.866810",
+        "last_updated": "2004-12-21 01:35:21.866810"
+    },
+    "37": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Lisa Merritt",
+        "status": "damaged",
+        "created_at": "2006-08-13 10:23:43.174128",
+        "last_updated": "2006-08-13 10:23:43.174128"
+    },
+    "38": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Erica Ayala",
+        "status": "assigned",
+        "created_at": "2008-11-02 22:42:27.013406",
+        "last_updated": "2008-11-02 22:42:27.013406"
+    },
+    "39": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Sara Kerr",
+        "status": "missing",
+        "created_at": "1972-04-30 08:46:12.929359",
+        "last_updated": "1972-04-30 08:46:12.929359"
+    },
+    "40": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Brooke Carson",
+        "status": "missing",
+        "created_at": "2005-12-30 12:06:40.663860",
+        "last_updated": "2005-12-30 12:06:40.663860"
+    },
+    "41": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Lori Harris",
+        "status": "damaged",
+        "created_at": "1970-04-06 04:46:02.600243",
+        "last_updated": "1970-04-06 04:46:02.600243"
+    },
+    "42": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Derek Collier",
+        "status": "assigned",
+        "created_at": "1970-01-21 15:17:57.527330",
+        "last_updated": "1970-01-21 15:17:57.527330"
+    },
+    "43": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Harold Thompson",
+        "status": "damaged",
+        "created_at": "1985-08-02 01:21:07.253095",
+        "last_updated": "1985-08-02 01:21:07.253095"
+    },
+    "44": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Logan Barajas",
+        "status": "missing",
+        "created_at": "1971-04-08 18:37:07.066129",
+        "last_updated": "1971-04-08 18:37:07.066129"
+    },
+    "45": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Brian Lucero",
+        "status": "missing",
+        "created_at": "2003-04-27 00:07:28.076927",
+        "last_updated": "2003-04-27 00:07:28.076927"
+    },
+    "46": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Christopher Baker",
+        "status": "returned",
+        "created_at": "2022-04-22 16:58:38.854895",
+        "last_updated": "2022-04-22 16:58:38.854895"
+    },
+    "47": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Mary Li",
+        "status": "returned",
+        "created_at": "1997-06-09 09:43:08.723069",
+        "last_updated": "1997-06-09 09:43:08.723069"
+    },
+    "48": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Whitney Mendez",
+        "status": "returned",
+        "created_at": "2024-10-13 02:38:05.765073",
+        "last_updated": "2024-10-13 02:38:05.765073"
+    },
+    "49": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Andrea Montgomery",
+        "status": "damaged",
+        "created_at": "2007-04-21 16:29:47.723838",
+        "last_updated": "2007-04-21 16:29:47.723838"
+    },
+    "50": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Patricia Townsend",
+        "status": "assigned",
+        "created_at": "2021-08-31 23:02:51.332013",
+        "last_updated": "2021-08-31 23:02:51.332013"
+    },
+    "51": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Sheryl Rosales",
+        "status": "missing",
+        "created_at": "2009-11-29 14:41:57.417575",
+        "last_updated": "2009-11-29 14:41:57.417575"
+    },
+    "52": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Matthew Johnson",
+        "status": "missing",
+        "created_at": "1986-07-25 15:33:22.807426",
+        "last_updated": "1986-07-25 15:33:22.807426"
+    },
+    "53": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Deborah Price",
+        "status": "missing",
+        "created_at": "2008-10-11 16:56:07.958771",
+        "last_updated": "2008-10-11 16:56:07.958771"
+    },
+    "54": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Grace Smith",
+        "status": "returned",
+        "created_at": "2007-06-10 02:31:35.077205",
+        "last_updated": "2007-06-10 02:31:35.077205"
+    },
+    "55": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Marie Vargas",
+        "status": "damaged",
+        "created_at": "1999-12-05 05:25:21.999132",
+        "last_updated": "1999-12-05 05:25:21.999132"
+    },
+    "56": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Martha Allen",
+        "status": "missing",
+        "created_at": "2002-12-21 09:35:42.351271",
+        "last_updated": "2002-12-21 09:35:42.351271"
+    },
+    "57": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Holly Walker",
+        "status": "assigned",
+        "created_at": "2023-08-07 07:25:29.295745",
+        "last_updated": "2023-08-07 07:25:29.295745"
+    },
+    "58": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Courtney Walls",
+        "status": "assigned",
+        "created_at": "2012-01-14 21:02:03.498980",
+        "last_updated": "2012-01-14 21:02:03.498980"
+    },
+    "59": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Ruth Ramos",
+        "status": "assigned",
+        "created_at": "1972-02-21 22:03:46.915716",
+        "last_updated": "1972-02-21 22:03:46.915716"
+    },
+    "60": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Michelle Lopez DVM",
+        "status": "missing",
+        "created_at": "2011-02-11 09:39:02.357589",
+        "last_updated": "2011-02-11 09:39:02.357589"
+    },
+    "61": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Phillip House",
+        "status": "damaged",
+        "created_at": "1977-10-25 09:06:36.400580",
+        "last_updated": "1977-10-25 09:06:36.400580"
+    },
+    "62": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Anita Jones",
+        "status": "returned",
+        "created_at": "1990-08-05 23:40:30.884267",
+        "last_updated": "1990-08-05 23:40:30.884267"
+    },
+    "63": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Raven Davenport",
+        "status": "damaged",
+        "created_at": "1982-10-28 15:17:42.777166",
+        "last_updated": "1982-10-28 15:17:42.777166"
+    },
+    "64": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Javier Perkins",
+        "status": "missing",
+        "created_at": "2008-09-07 22:08:11.887506",
+        "last_updated": "2008-09-07 22:08:11.887506"
+    },
+    "65": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Elizabeth Martinez",
+        "status": "damaged",
+        "created_at": "2023-08-24 10:32:11.686879",
+        "last_updated": "2023-08-24 10:32:11.686879"
+    },
+    "66": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Andrea Daniel",
+        "status": "assigned",
+        "created_at": "1997-07-25 18:21:38.857286",
+        "last_updated": "1997-07-25 18:21:38.857286"
+    },
+    "67": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Scott Collins",
+        "status": "assigned",
+        "created_at": "1970-03-19 16:26:26.626833",
+        "last_updated": "1970-03-19 16:26:26.626833"
+    },
+    "68": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Joseph Smith",
+        "status": "missing",
+        "created_at": "1983-07-27 16:45:57.507278",
+        "last_updated": "1983-07-27 16:45:57.507278"
+    },
+    "69": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Michael Ramos",
+        "status": "damaged",
+        "created_at": "1992-09-05 13:43:05.211723",
+        "last_updated": "1992-09-05 13:43:05.211723"
+    },
+    "70": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Michael Campbell",
+        "status": "assigned",
+        "created_at": "2023-07-04 17:08:26.833258",
+        "last_updated": "2023-07-04 17:08:26.833258"
+    },
+    "71": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Jon Jordan",
+        "status": "returned",
+        "created_at": "1974-04-23 23:24:02.262309",
+        "last_updated": "1974-04-23 23:24:02.262309"
+    },
+    "72": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Steven Lloyd",
+        "status": "damaged",
+        "created_at": "2025-01-19 09:31:17.331651",
+        "last_updated": "2025-01-19 09:31:17.331651"
+    },
+    "73": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Alejandra Watts",
+        "status": "damaged",
+        "created_at": "2011-12-06 19:47:47.334437",
+        "last_updated": "2011-12-06 19:47:47.334437"
+    },
+    "74": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "George Wright",
+        "status": "damaged",
+        "created_at": "1982-09-11 01:01:10.050360",
+        "last_updated": "1982-09-11 01:01:10.050360"
+    },
+    "75": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "James Coleman",
+        "status": "returned",
+        "created_at": "1979-09-05 18:24:46.293738",
+        "last_updated": "1979-09-05 18:24:46.293738"
+    },
+    "76": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Judy Buchanan",
+        "status": "assigned",
+        "created_at": "2003-05-26 03:32:20.722109",
+        "last_updated": "2003-05-26 03:32:20.722109"
+    },
+    "77": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Sabrina Williams",
+        "status": "damaged",
+        "created_at": "2015-10-15 19:57:02.276051",
+        "last_updated": "2015-10-15 19:57:02.276051"
+    },
+    "78": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Keith Hanna",
+        "status": "missing",
+        "created_at": "1998-06-18 00:36:13.378999",
+        "last_updated": "1998-06-18 00:36:13.378999"
+    },
+    "79": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Sandra Smith",
+        "status": "returned",
+        "created_at": "1973-02-03 15:57:33.130791",
+        "last_updated": "1973-02-03 15:57:33.130791"
+    },
+    "80": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Erika Mccarthy",
+        "status": "damaged",
+        "created_at": "2008-06-10 16:03:35.414526",
+        "last_updated": "2008-06-10 16:03:35.414526"
+    },
+    "81": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Maurice Lee",
+        "status": "assigned",
+        "created_at": "1978-03-29 03:05:18.534129",
+        "last_updated": "1978-03-29 03:05:18.534129"
+    },
+    "82": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Ashley Richmond",
+        "status": "damaged",
+        "created_at": "2023-12-02 20:46:10.541500",
+        "last_updated": "2023-12-02 20:46:10.541500"
+    },
+    "83": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Scott Allen",
+        "status": "missing",
+        "created_at": "2008-03-27 16:03:14.606378",
+        "last_updated": "2008-03-27 16:03:14.606378"
+    },
+    "84": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Elizabeth Brown",
+        "status": "missing",
+        "created_at": "1970-09-19 23:28:19.462540",
+        "last_updated": "1970-09-19 23:28:19.462540"
+    },
+    "85": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Kathy Tran",
+        "status": "assigned",
+        "created_at": "2015-06-06 07:04:23.681102",
+        "last_updated": "2015-06-06 07:04:23.681102"
+    },
+    "86": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Haley Marquez",
+        "status": "damaged",
+        "created_at": "1971-07-17 06:16:13.688624",
+        "last_updated": "1971-07-17 06:16:13.688624"
+    },
+    "87": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Jodi Summers",
+        "status": "missing",
+        "created_at": "1992-02-14 12:23:00.262460",
+        "last_updated": "1992-02-14 12:23:00.262460"
+    },
+    "88": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Leslie Cantrell",
+        "status": "missing",
+        "created_at": "2016-11-26 03:01:42.223956",
+        "last_updated": "2016-11-26 03:01:42.223956"
+    },
+    "89": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Ashley Robles",
+        "status": "assigned",
+        "created_at": "2007-05-18 12:08:03.354723",
+        "last_updated": "2007-05-18 12:08:03.354723"
+    },
+    "90": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Daniel Russell",
+        "status": "assigned",
+        "created_at": "2007-06-05 14:51:16.358252",
+        "last_updated": "2007-06-05 14:51:16.358252"
+    },
+    "91": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "John Shannon",
+        "status": "assigned",
+        "created_at": "1986-04-16 11:02:16.192327",
+        "last_updated": "1986-04-16 11:02:16.192327"
+    },
+    "92": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Wendy Solis",
+        "status": "returned",
+        "created_at": "1981-10-01 20:50:32.275775",
+        "last_updated": "1981-10-01 20:50:32.275775"
+    },
+    "93": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Tonya Duncan",
+        "status": "returned",
+        "created_at": "1981-01-24 13:33:12.382268",
+        "last_updated": "1981-01-24 13:33:12.382268"
+    },
+    "94": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "David Phillips",
+        "status": "damaged",
+        "created_at": "2009-11-30 20:13:31.748579",
+        "last_updated": "2009-11-30 20:13:31.748579"
+    },
+    "95": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Penny Lara",
+        "status": "missing",
+        "created_at": "1998-06-28 12:04:31.973747",
+        "last_updated": "1998-06-28 12:04:31.973747"
+    },
+    "96": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Jane Jones",
+        "status": "missing",
+        "created_at": "1987-04-19 09:52:59.420936",
+        "last_updated": "1987-04-19 09:52:59.420936"
+    },
+    "97": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Victoria Alexander",
+        "status": "missing",
+        "created_at": "2016-02-19 08:19:59.736612",
+        "last_updated": "2016-02-19 08:19:59.736612"
+    },
+    "98": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Lauren Nelson",
+        "status": "assigned",
+        "created_at": "2009-01-29 21:56:07.766059",
+        "last_updated": "2009-01-29 21:56:07.766059"
+    },
+    "99": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Dr. Michael Hancock",
+        "status": "assigned",
+        "created_at": "1976-01-17 13:13:39.247366",
+        "last_updated": "1976-01-17 13:13:39.247366"
+    },
+    "100": {
+        "asset_id": null,
+        "employee_id": null,
+        "item_name": "Tyler Gardner",
+        "status": "damaged",
+        "created_at": "2024-03-15 14:07:37.124012",
+        "last_updated": "2024-03-15 14:07:37.124012"
+    }
+}

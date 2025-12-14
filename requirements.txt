@@ -1,0 +1,4 @@
+Faker==38.2.0
+pydbml==1.2.1
+pyparsing==3.2.5
+tzdata==2025.3
