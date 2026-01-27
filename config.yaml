@@ -1,5 +1,6 @@
 Num_of_entries:
+# Specify the number of entries to generate for each table
   departments: 5
-  employees: 150
+  employees: 100
   default: 100
   

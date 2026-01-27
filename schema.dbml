@@ -1,489 +1,212 @@
-//  Employee Status & Roles 
-Enum employee_status {
-  active
-  inactive
-  on_leave
-  probation
+Enum user_role {
+  global_admin
+  space_admin
+  space_member
+  anonymous
+  guest
 }
 
-Enum department_status {
-  active
-  inactive
+Enum permission_type {
+  view
+  edit
+  admin
 }
 
-//  Onboarding/Offboarding 
-Enum task_status {
+Enum space_feature_type {
+  live_docs
+  calendars
+  whiteboard
+  databases
+  smart_links
+  folders
+  blogs
+}
+
+Enum content_state {
+  draft
+  published
+  archived
+}
+
+Enum audit_action_type {
+  create_space
+  update_space
+  delete_space
+  manage_permissions
+  grant_admin_rights
+  configure_settings
+  manage_features
+  export_space
+  import_space
+  create_page
+  update_page
+  delete_page
+  move_page
+  rename_page
+  restore_version
+  clone_page
+  publish_page
+  unpublish_page
+  archive_content
+  watch_content
+  unwatch_content
+}
+
+Enum export_format {
+  PDF
+  HTML
+  XML
+}
+
+Enum export_job_status {
   pending
-  completed
-}
-
-Enum payroll_earning_type {
-  bonus
-  incentive
-  allowance
-  "payroll input"
-  commission
-}
-
-Enum payment_method {
-  "Bank Transfer"
-  "Check"
-}
-
-Enum asset_status{
-  returned
-  missing
-  damaged
-  assigned
-}
-
-Enum onboarding_checklist {
-  // onboarding
-  "IT Equipment Setup"
-  "System Access Provisioning"
-  "HR Policy Review"
-  "Benefits Enrollment Complete"
-  "Account Creation & Credentials Setup"
-  "HR Documentation & Compliance Forms"
-  "Benefits Enrollment Kickoff"
-  "Payroll Setup & Bank Verification"
-  "Orientation & Welcome Session Scheduling"
-  "Manager Introduction & Team Access Setup"
-  "Mandatory Training Assignments (Security, Compliance, Code of Conduct)"
-  "Workstation/Workspace Preparation"
-  "Badge/ID Card Generation"
-  "Collect Personal Information"
-  "Complete Tax Forms (W-4, State)"
-  "Verify I-9 Documents"
-  "I-9 Section 1 – Employee"
-  "I-9 Section 2 – Employer"
-  "Upload ID & Eligibility Documents"
-  "Direct Deposit Setup"
-  "Review Employee Handbook"
-  "Sign Policies"
-  "Assign Equipment"
-  "Configure Payroll Profile"
-  "Complete Benefits Enrollment"
-  "Verify Benefit Eligibility Docs"
-  "Complete Background Check"
-  "Drug Screening"
-  "Send Welcome Email"
-  "Manager Introduction"
-  "Team Introduction"
-  "Required Training Assigned"
-  "Safety Training"
-  "IT/Security Training"
-  "Email Setup"
-  "Badge/ID Activation"
-  "Workstation Setup"
-  "Set 30/60/90 Day Goals"
-  "First Week Tasks"
-  "30-Day Check-in"
-  "90-Day Check-in"
-
-  // Offboarding
-  "Initiate Termination Request"
-  "Collect Resignation Letter"
-  "Manager Exit Approval"
-  "Remove System Access"
-  "Disable Email"
-  "Collect Company Equipment"
-  "Return Laptop"
-  "Return Monitor"
-  "Return Company Phone"
-  "Exit Interview"
-  "Final Timesheet Completion"
-  "Retrieve Outstanding Expenses"
-  "Terminate Benefits"
-  "Final Payroll Processing"
-  "Issue Final Payslip"
-  "Archive Employee Files"
-  "Send Exit Confirmation"
-}
-
-Enum offboarding_reason {
-  misconduct
-  security_breach
-  policy_violation
-  voluntary_resignation
-  layoff
-}
-
-//  Payroll & Benefits 
-Enum payroll_cycle_status {
-  open
-  approved
-  closed
-}
-
-Enum payroll_earning_status {
-  pending
-  approved
-  rejected
-  require_justification // For bonus > $5,000
-}
-
-Enum deduction_status {
-  valid
-  invalid_limit_exceeded
-}
-
-Enum deduction_type {
-  benefit_contribution
-  repayment_of_overpayment
-  loan
-  retirement
-  insurance
-  tax
-  garnishment
-}
-
-Enum payment_status {
-  pending
+  running
   completed
   failed
+  cancelled
 }
 
-Enum payslip_status {
-  draft
-  released
-  updated
+Enum content_format {
+  markdown
+  html
+  richtext
 }
 
-Enum benefit_enrollment_window {
-  open
-  closed
-}
-
-Enum exit_clearance_status {
-  cleared
-  pending
-}
-
-Enum document_status {
-  accepted
-  rejected
-}
-
-Enum document_type_enum {
-  "onboarding"
-  "offboarding"
-  "employee"
-  "payroll_input"
-  "payroll_earning"
-  "payroll_deduction"
-  "payslip"
-}
-
-Enum checklist_type_enum {
-  onboarding
-  offboarding
-}
-
-Enum deduction_rule_status_enum {
-  active
-  inactive
-}
-Enum role_enum {
-  admin
-  non_admin
-}
-
-Enum payroll_input_status {
-  pending
-  cancelled 
-  approved
-  locked
-}
-
-Enum department_name_enum {
-    Finance
-    Engineering
-    Sales
-    Marketing
-    Production
-    "Human Resources"
-}
-// Organization & Employee Core
-
-// SOPs: 1, 2, 3
-// Tools: get_department
-Table departments {
-  department_id varchar [pk]
-  name department_name_enum [not null, unique]
-  status department_status [not null, default: 'active']
-  head_of_department_id varchar // Links to the employee who is the head of this department
-  created_at datetime [not null]
-  last_updated datetime
-}
-
-
-
-// SOPs: 1, 2, 3, 6, 8, 10, 11, 12, 13, 14, 15, 17, 18, 19
-// Tools: create_employee, get_employee_profile, update_employee
-Table employees {
-  employee_id varchar [pk]
-  manager_id varchar // Self-referencing FK
-  department_id varchar [not null]
-  start_date date [not null]
-  full_name varchar [not null]
+Table users {
+  user_id varchar [primary key]
   email varchar [unique, not null]
-  status employee_status [not null, default: 'active']
-  tenure_months int [note: "{ \"min\": 18, \"max\": 65 }"]// Calculated field, stored for easy check (SOP 2, 6)
-  performance_rating int [note: "{ \"min\": 1, \"max\": 5 }"]// 1 to 5 (SOP 2)
-  base_salary decimal [not null]
-  location varchar
-  role role_enum
-
-  // Flags from SOPs
-  flag_financial_counseling_recommended boolean [default: false] // SOP 6
-  flag_potential_overtime_violation boolean [default: false] // SOP 8
-  flag_requires_payroll_review boolean [default: false] // SOP 8
-  flag_high_offboard_risk boolean [default: false] // SOP 17
-  flag_pending_settlement boolean [default: false] // SOP 18
-  flag_requires_finance_approval boolean [default: false] // SOP 18
+  account_id varchar
+  full_name varchar
+  global_role user_role [default: 'anonymous', not null]
   created_at datetime [not null]
-  last_updated datetime
 }
 
-Table documents {
-  document_id varcar [increment]
-  employee_id varchar [not null]
-  document_url varchar [not null]
-  title varchar
-  document_type document_type_enum [not null]
-  target_entity varchar
-  entity_type varchar
-  status document_status
-}
-
-// SOPs: 1, 19
-// Tools: create_contract, delete_contract
-Table contracts {
-  contract_id varchar [pk]
-  employee_id varchar [unique, not null] // One contract per employee
-  document_url varchar // Link to the digital contract
+Table spaces {
+  space_id varchar [primary key]
+  space_key varchar [unique, not null]
+  space_name varchar [not null]
+  space_purpose text
+  created_by_user_id varchar [not null]
   created_at datetime [not null]
-  is_terminated boolean [default: false] // SOP 19
-  termination_date date
-  last_updated datetime
+  is_deleted boolean [not null, default: false]
+  deleted_at datetime
 }
 
-// Onboarding & Offboarding
 
-// SOPs: 3, 4
-// Tools: create_onboard_checklist
-Table checklists {
-  checklist_id varchar [pk]
-  checklist_type checklist_type_enum [not null]
-  employee_id varchar [unique, not null]
-  status task_status [not null, default: 'pending'] // Overall checklist status
+Table space_features {
+  feature_id varchar [primary key]
+  space_id varchar [not null]
+  feature_type space_feature_type [not null]
+  is_enabled boolean [not null, default: true]
+}
+
+Table pages {
+  page_id varchar [primary key]
+  space_id varchar [not null]
+  parent_page_id varchar
+  title varchar [not null]
+  content_format content_format [not null, default: 'markdown']
+  current_version int [default: 1, not null]
+  // is_published has been removed, this can be checked by checking if state == 'published'
+  state content_state [not null, default: 'draft']
+  created_by_user_id varchar [not null]
+  updated_by_user_id varchar
   created_at datetime [not null]
-  last_updated datetime
+  updated_at datetime
+  is_trashed boolean [not null, default: false]
 }
 
-
-Table checklist_tasks {
-  task_id varchar [pk]
-  checklist_id varchar [not null]
-  name onboarding_checklist [not null] // e.g., "IT Equipment Setup"
-  due_date date [not null] // Set to employee start date (SOP 3)
-  assigned_manager_id varchar // Manager responsible for the task (SOP 3)
-  status task_status [not null, default: 'pending']
-  created_at datetime [not null]
-  last_updated datetime
-}
-
-// SOPs: 18
-// Tools: get_assets
-Table employee_assets {
-  asset_id varchar [pk]
-  employee_id varchar [not null]
-  item_name varchar [not null]
-  status asset_status [not null] // 'returned', 'missing', 'damaged' (SOP 18)
-  created_at datetime [not null]
-  last_updated datetime
-}
-
-// SOPs: 18
-// Tools: get_settlements
-Table finance_settlements {
-  settlement_id varchar [pk]
-  employee_id varchar [not null]
-  amount decimal [not null] // E.g., outstanding company balance
-  is_cleared boolean [default: false]
-  created_at datetime [not null]
-  last_updated datetime
-}
-
-// SOPs: 17, 18
-// Tools: create_offboard_exit, get_transition_data, update_offboard_exit
-Table exit_cases {
-  exit_case_id varchar [pk]
-  employee_id varchar [unique, not null]
-  reason offboarding_reason [not null]
-  exit_date date [not null]
-  exit_clearance_status exit_clearance_status [not null, default: 'pending'] // Updated to 'cleared' (SOP 18)
-  created_at datetime [not null]
-  last_updated datetime
-}
-
-// Benefits Management
-
-// SOPs: 5, 6
-// Tools: get_benefit_data, create_benefit_plan, update_benefit_plan
-Table benefit_plans {
-  plan_id varchar [pk]
-  name varchar [not null, unique]
-  status department_status [not null, default: 'active']
-  current_cost decimal [not null]
-  previous_year_cost decimal [not null]
-  enrollment_window benefit_enrollment_window [not null]
-  cost_variance_percent decimal // Calculated: ((Current - Previous) / Previous) * 100
-  created_at datetime [not null]
-  last_updated datetime
-}
-
-// SOPs: 6
-// Tools: create_enrollment
-Table benefit_enrollments {
-  enrollment_id varchar [pk]
-  employee_id varchar [not null]
-  plan_id varchar [not null]
-  start_date date [not null]
-  is_active boolean [default: true]
+Table page_versions {
+  version_id varchar [primary key]
+  page_id varchar [not null]
+  version_number int [not null]
+  editor_user_id varchar [not null]
+  edited_at datetime [not null]
+  content_snapshot text
 
   indexes {
-    (employee_id, plan_id) [unique]
+    (page_id, version_number) [unique]
   }
-  created_at datetime [not null]
-  last_updated datetime
 }
 
-// Payroll Processing
+Table permissions {
+  permission_id varchar [primary key]
+  space_id varchar
+  page_id varchar
+  user_id varchar
+  permission_type permission_type [not null]
+  granted_by_user_id varchar [not null]
+  granted_at datetime [not null]
+  is_active boolean [not null, default: true]
+  revoked_by_user_id varchar
+  revoked_at datetime
+  expires_at datetime
 
-// SOPs: 7, 8, 10, 13, 15, 19
-// Tools: get_payroll_data, create_payroll_cycle, update_payroll_cycle
-Table payroll_cycles {
-  cycle_id varchar [pk]
-  start_date date [not null]
-  end_date date [not null]
-  frequency varchar [not null]
-  status payroll_cycle_status [not null, default: 'open']
 
-  indexes {
-    (start_date, end_date) [unique] // SOP 7 validation
-  }
-  created_at datetime [not null]
-  last_updated datetime
+  note: "Either user_id or group_id must be non-null; both cannot be set simultaneously."
 }
 
-// SOPs: 8, 9, 10
-// Tools: create_payroll_input, update_payroll_input, get_payroll_data
-Table payroll_inputs {
-  input_id varchar [pk]
-  employee_id varchar [not null]
-  cycle_id varchar [not null]
-  hours_worked decimal [not null]
-  overtime_hours decimal [default: 0]
-  payroll_variance_percent decimal // Calculated for SOP 9
-  status payroll_input_status [not null, default: 'pending'] // Can be changed to 'review' (SOP 9)
-  issue_field varchar // e.g., 'variance exceeds 1%' (SOP 9)
-  created_at datetime [not null]
-  last_updated datetime
+Table watchers {
+  watcher_id varchar [primary key]
+  user_id varchar
+  group_id varchar
+  space_id varchar
+  page_id varchar
+  watched_at datetime [not null]
 }
 
-// SOPs: 10, 11
-// Tools: create_payroll_earning, update_payroll_earning, get_payroll_data
-Table payroll_earnings {
-  earning_id varchar [pk]
-  employee_id varchar [not null]
-  cycle_id varchar [not null]
-  earning_type payroll_earning_type [not null] // e.g., bonus, incentive, allowance
-  amount decimal [not null]
-  status payroll_earning_status [not null, default: 'pending']
-  created_at datetime [not null]
-  last_updated datetime
+Table export_jobs {
+  job_id varchar [primary key]
+  space_id varchar [not null]
+  requested_by_user_id varchar [not null]
+  requested_at datetime [not null]
+  status export_job_status [not null, default: 'pending']
+  format export_format [not null]
+  destination varchar
+  estimated_size_kb int
+  priority int [default: 0]
 }
 
-// SOPs: 12
-// Tools: get_deduction_rule
-Table deduction_rules {
-  deduction_rule_id varchar [pk]
-  deduction_type deduction_type [not null, unique]
-  max_percent_of_net_pay decimal // e.g., 0.25 for 25% (SOP 12)
-  created_at datetime [not null]
-  last_updated datetime
-  status deduction_rule_status_enum [default: "active"]
+Table audit_logs {
+  log_id varchar [primary key]
+  actor_user_id varchar [not null]
+  action_type audit_action_type [not null]
+  target_entity_type varchar [not null]
+  target_entity_id varchar [not null]
+  occurred_at datetime [not null]
+  details varchar // This can be a string because it's just a description. Doesn't hold a real value. 
 }
 
-// SOPs: 12
-// Tools: create_deduction, update_deduction
-Table deductions {
-  deduction_id varchar [pk]
-  employee_id varchar [not null]
-  cycle_id varchar
-  deduction_rule_id varchar [not null]
-  amount decimal [not null]
-  deduction_date date [not null]
-  status deduction_status [not null, default: 'valid']
-  created_at datetime [not null]
-  last_updated datetime
+Table space_config_history {
+  history_id varchar [primary key]
+  space_id varchar [not null]
+  changed_by_user_id varchar [not null]
+  changed_at datetime [not null]
+  config_version int [not null]
+  old_config varchar
+  new_config varchar
 }
 
-// SOPs: 13, 14, 15
-// Tools: create_payslip, update_payslip, get_payslip_or_payment
-Table payslips {
-  payslip_id varchar [pk]
-  employee_id varchar [not null]
-  cycle_id varchar [not null]
-  net_pay_value decimal [not null]
-  status payslip_status [not null, default: 'draft']
-  created_at datetime [not null]
 
-  indexes {
-    (employee_id, cycle_id) [unique]
-  }
-  last_updated datetime
-}
 
-// SOPs: 15, 16, 19
-// Tools: create_payment, update_payment, get_payslip_or_payment
-Table payments {
-  payment_id varchar [pk]
-  employee_id varchar [not null]
-  // cycle_id varchar // Links to the payroll cycle or exit settlement cycle
-  source_payslip_id varchar [not null] // Link to the final payslip
-  payment_method payment_method [not null]
-  amount decimal [not null]
-  status payment_status [not null, default: 'pending']
-  payment_date datetime
-  created_at datetime [not null]
-  last_updated datetime
-}
-
-// Relationships
-Ref employee_deduction_rule: deductions.deduction_rule_id > deduction_rules.deduction_rule_id
-Ref employees_manager: employees.manager_id > employees.employee_id
-Ref employees_department: employees.department_id > departments.department_id
-Ref departments_head: departments.head_of_department_id > employees.employee_id
-Ref contracts_employee: contracts.employee_id > employees.employee_id
-Ref onboarding_checklist_employee: checklists.employee_id > employees.employee_id
-Ref checklist_tasks_checklist: checklist_tasks.checklist_id > checklists.checklist_id
-Ref checklist_tasks_manager: checklist_tasks.assigned_manager_id > employees.employee_id
-Ref employee_assets_employee: employee_assets.employee_id > employees.employee_id
-Ref finance_settlements_employee: finance_settlements.employee_id > employees.employee_id
-Ref exit_cases_employee: exit_cases.employee_id > employees.employee_id
-Ref benefit_enrollments_employee: benefit_enrollments.employee_id > employees.employee_id
-Ref benefit_enrollments_plan: benefit_enrollments.plan_id > benefit_plans.plan_id
-Ref payroll_inputs_employee: payroll_inputs.employee_id > employees.employee_id
-Ref payroll_inputs_cycle: payroll_inputs.cycle_id > payroll_cycles.cycle_id
-Ref payroll_earnings_employee: payroll_earnings.employee_id > employees.employee_id
-Ref payroll_earnings_cycle: payroll_earnings.cycle_id > payroll_cycles.cycle_id
-Ref deductions_employee: deductions.employee_id > employees.employee_id
-Ref payslips_employee: payslips.employee_id > employees.employee_id
-Ref payslips_cycle: payslips.cycle_id > payroll_cycles.cycle_id
-Ref payments_employee: payments.employee_id > employees.employee_id
-Ref payments_payslip: payments.source_payslip_id > payslips.payslip_id
-Ref deduction_cycle: deductions.cycle_id > payroll_cycles.cycle_id
-Ref employee_docs : documents.employee_id > employees.employee_id
+Ref space_user_creator: spaces.created_by_user_id > users.user_id
+Ref page_space: pages.space_id > spaces.space_id
+Ref page_parent: pages.parent_page_id > pages.page_id
+Ref page_user_creator: pages.created_by_user_id > users.user_id
+Ref page_user_updater: pages.updated_by_user_id > users.user_id
+Ref page_versions_page: page_versions.page_id > pages.page_id
+Ref page_versions_editor: page_versions.editor_user_id > users.user_id
+Ref permissions_space: permissions.space_id > spaces.space_id
+Ref permissions_page: permissions.page_id > pages.page_id
+Ref permissions_user: permissions.user_id > users.user_id
+Ref permissions_revoked_by: permissions.revoked_by_user_id > users.user_id
+Ref permissions_granted_by: permissions.granted_by_user_id > users.user_id
+Ref space_features_space: space_features.space_id > spaces.space_id
+Ref audit_logs_actor: audit_logs.actor_user_id > users.user_id
+Ref export_jobs_space: export_jobs.space_id > spaces.space_id
+Ref export_jobs_user: export_jobs.requested_by_user_id > users.user_id
+Ref watchers_user: watchers.user_id > users.user_id
+Ref watchers_space: watchers.space_id > spaces.space_id
+Ref watchers_page: watchers.page_id > pages.page_id
+Ref space_config_history_space: space_config_history.space_id > spaces.space_id
+Ref space_config_history_user: space_config_history.changed_by_user_id > users.user_id
