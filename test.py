@@ -4,14 +4,14 @@ import pytest
 import glob
 from pydbml import PyDBML
 from pydbml.classes import Enum
-from main import (
+from seeder_engine.main import (
     CURRENT_VERSION_RE,
     build_fk_map,
     entity_pairs,
     is_sequence_version,
     parse_xor_from_note,
 )
-from field_types import parse_sql_type
+from seeder_engine.field_types import parse_sql_type
 from datetime import datetime
 import re
 

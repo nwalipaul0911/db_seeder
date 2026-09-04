@@ -1,0 +1,902 @@
+{
+    "1": {
+        "id": 1,
+        "admission_id": 46,
+        "bed_id": 97,
+        "assigned_by": 38,
+        "assigned_at": "2026-07-09T10:00:11.254276",
+        "released_at": "2025-01-27T11:46:05.254294",
+        "reason": "Well mother allow reason."
+    },
+    "2": {
+        "id": 2,
+        "admission_id": 30,
+        "bed_id": 93,
+        "assigned_by": 45,
+        "assigned_at": "2025-10-31T16:29:45.254554",
+        "released_at": "2025-04-20T18:56:29.254572",
+        "reason": null
+    },
+    "3": {
+        "id": 3,
+        "admission_id": 96,
+        "bed_id": 3,
+        "assigned_by": 63,
+        "assigned_at": "2025-06-24T14:20:21.254881",
+        "released_at": null,
+        "reason": "Effort hair find inside son military."
+    },
+    "4": {
+        "id": 4,
+        "admission_id": 39,
+        "bed_id": 67,
+        "assigned_by": 71,
+        "assigned_at": "2025-10-01T23:24:38.255156",
+        "released_at": "2024-09-22T00:46:35.255175",
+        "reason": "Want entire hotel make because although direction."
+    },
+    "5": {
+        "id": 5,
+        "admission_id": 98,
+        "bed_id": 15,
+        "assigned_by": 76,
+        "assigned_at": "2026-02-28T06:05:19.255448",
+        "released_at": "2025-01-21T04:07:51.255468",
+        "reason": "Four three offer lose also employee message."
+    },
+    "6": {
+        "id": 6,
+        "admission_id": 37,
+        "bed_id": 45,
+        "assigned_by": 18,
+        "assigned_at": "2025-09-01T06:27:00.255726",
+        "released_at": "2026-02-28T02:04:11.255744",
+        "reason": null
+    },
+    "7": {
+        "id": 7,
+        "admission_id": 93,
+        "bed_id": 47,
+        "assigned_by": null,
+        "assigned_at": "2026-02-20T00:53:14.255899",
+        "released_at": "2026-06-29T01:55:22.255914",
+        "reason": null
+    },
+    "8": {
+        "id": 8,
+        "admission_id": 27,
+        "bed_id": 30,
+        "assigned_by": null,
+        "assigned_at": "2026-04-21T18:59:40.256066",
+        "released_at": "2025-02-02T12:02:56.256081",
+        "reason": "Mention book simply."
+    },
+    "9": {
+        "id": 9,
+        "admission_id": 35,
+        "bed_id": 82,
+        "assigned_by": null,
+        "assigned_at": "2026-03-09T03:56:25.256297",
+        "released_at": null,
+        "reason": "Son have condition both find."
+    },
+    "10": {
+        "id": 10,
+        "admission_id": 19,
+        "bed_id": 16,
+        "assigned_by": null,
+        "assigned_at": "2026-03-11T01:11:30.256518",
+        "released_at": "2025-10-18T06:47:14.256536",
+        "reason": "Reflect through authority much brother."
+    },
+    "11": {
+        "id": 11,
+        "admission_id": 16,
+        "bed_id": 77,
+        "assigned_by": null,
+        "assigned_at": "2025-02-05T20:01:11.256753",
+        "released_at": null,
+        "reason": null
+    },
+    "12": {
+        "id": 12,
+        "admission_id": 97,
+        "bed_id": 29,
+        "assigned_by": 19,
+        "assigned_at": "2025-07-16T03:08:25.256949",
+        "released_at": "2025-02-26T21:10:36.256965",
+        "reason": null
+    },
+    "13": {
+        "id": 13,
+        "admission_id": 61,
+        "bed_id": 6,
+        "assigned_by": 11,
+        "assigned_at": "2026-08-18T16:41:11.257156",
+        "released_at": "2026-04-18T22:09:18.257172",
+        "reason": "Hit all cup heart become."
+    },
+    "14": {
+        "id": 14,
+        "admission_id": 50,
+        "bed_id": 58,
+        "assigned_by": null,
+        "assigned_at": "2025-09-28T10:54:45.257391",
+        "released_at": "2026-05-02T13:29:33.257408",
+        "reason": "Coach security against four fund piece here go."
+    },
+    "15": {
+        "id": 15,
+        "admission_id": 78,
+        "bed_id": 2,
+        "assigned_by": null,
+        "assigned_at": "2025-01-26T02:57:15.257628",
+        "released_at": null,
+        "reason": null
+    },
+    "16": {
+        "id": 16,
+        "admission_id": 4,
+        "bed_id": 89,
+        "assigned_by": null,
+        "assigned_at": "2026-05-02T08:16:01.257823",
+        "released_at": "2025-11-05T13:24:00.257861",
+        "reason": null
+    },
+    "17": {
+        "id": 17,
+        "admission_id": 89,
+        "bed_id": 80,
+        "assigned_by": 35,
+        "assigned_at": "2026-02-21T06:08:24.258102",
+        "released_at": "2025-09-06T09:18:09.258126",
+        "reason": "Compare huge wide here send."
+    },
+    "18": {
+        "id": 18,
+        "admission_id": 75,
+        "bed_id": 41,
+        "assigned_by": 86,
+        "assigned_at": "2024-12-06T12:52:58.258401",
+        "released_at": "2026-08-10T18:39:54.258419",
+        "reason": "Matter become environment agree face."
+    },
+    "19": {
+        "id": 19,
+        "admission_id": 1,
+        "bed_id": 98,
+        "assigned_by": 57,
+        "assigned_at": "2025-06-17T07:44:20.258683",
+        "released_at": "2025-05-31T03:32:10.258701",
+        "reason": null
+    },
+    "20": {
+        "id": 20,
+        "admission_id": 10,
+        "bed_id": 13,
+        "assigned_by": null,
+        "assigned_at": "2024-10-29T15:24:13.258860",
+        "released_at": "2026-07-12T23:09:34.258875",
+        "reason": "Place fire yeah summer government."
+    },
+    "21": {
+        "id": 21,
+        "admission_id": 90,
+        "bed_id": 48,
+        "assigned_by": null,
+        "assigned_at": "2025-04-19T13:18:32.259098",
+        "released_at": null,
+        "reason": "Small agreement discuss according beat over."
+    },
+    "22": {
+        "id": 22,
+        "admission_id": 76,
+        "bed_id": 56,
+        "assigned_by": 87,
+        "assigned_at": "2024-12-21T18:07:02.259376",
+        "released_at": "2025-07-17T21:43:36.259395",
+        "reason": null
+    },
+    "23": {
+        "id": 23,
+        "admission_id": 26,
+        "bed_id": 36,
+        "assigned_by": 74,
+        "assigned_at": "2024-12-28T10:13:18.259595",
+        "released_at": null,
+        "reason": "Poor case market change determine mission."
+    },
+    "24": {
+        "id": 24,
+        "admission_id": 56,
+        "bed_id": 59,
+        "assigned_by": 13,
+        "assigned_at": "2025-03-21T17:47:11.259860",
+        "released_at": "2026-02-26T17:00:34.259878",
+        "reason": "Likely environment call between tax whole knowledge the."
+    },
+    "25": {
+        "id": 25,
+        "admission_id": 51,
+        "bed_id": 23,
+        "assigned_by": 61,
+        "assigned_at": "2026-04-07T21:17:37.260206",
+        "released_at": null,
+        "reason": "Hospital morning movement probably themselves."
+    },
+    "26": {
+        "id": 26,
+        "admission_id": 5,
+        "bed_id": 61,
+        "assigned_by": null,
+        "assigned_at": "2026-09-01T06:12:02.260437",
+        "released_at": "2025-08-08T17:24:13.260455",
+        "reason": "Foot quickly late woman one else sit painting."
+    },
+    "27": {
+        "id": 27,
+        "admission_id": 9,
+        "bed_id": 90,
+        "assigned_by": 17,
+        "assigned_at": "2026-04-07T06:20:09.260713",
+        "released_at": null,
+        "reason": "Image try guess myself."
+    },
+    "28": {
+        "id": 28,
+        "admission_id": 6,
+        "bed_id": 9,
+        "assigned_by": 8,
+        "assigned_at": "2025-10-13T15:46:50.260976",
+        "released_at": "2025-06-12T05:01:39.260993",
+        "reason": "Country sound so task."
+    },
+    "29": {
+        "id": 29,
+        "admission_id": 20,
+        "bed_id": 7,
+        "assigned_by": 72,
+        "assigned_at": "2024-10-31T00:20:16.261252",
+        "released_at": null,
+        "reason": "Drive staff pick."
+    },
+    "30": {
+        "id": 30,
+        "admission_id": 22,
+        "bed_id": 34,
+        "assigned_by": 41,
+        "assigned_at": "2026-08-02T15:59:21.261516",
+        "released_at": null,
+        "reason": null
+    },
+    "31": {
+        "id": 31,
+        "admission_id": 80,
+        "bed_id": 94,
+        "assigned_by": 69,
+        "assigned_at": "2025-11-22T21:07:19.261716",
+        "released_at": null,
+        "reason": "Evening the which spend almost real common."
+    },
+    "32": {
+        "id": 32,
+        "admission_id": 88,
+        "bed_id": 78,
+        "assigned_by": 25,
+        "assigned_at": "2025-12-31T01:06:18.261978",
+        "released_at": null,
+        "reason": "Up former produce friend report figure Congress."
+    },
+    "33": {
+        "id": 33,
+        "admission_id": 53,
+        "bed_id": 55,
+        "assigned_by": 6,
+        "assigned_at": "2024-12-03T12:41:47.262264",
+        "released_at": null,
+        "reason": "Effort party hit office family structure."
+    },
+    "34": {
+        "id": 34,
+        "admission_id": 2,
+        "bed_id": 85,
+        "assigned_by": 56,
+        "assigned_at": "2025-04-24T08:49:30.262533",
+        "released_at": null,
+        "reason": "Successful recently government itself listen collection account."
+    },
+    "35": {
+        "id": 35,
+        "admission_id": 32,
+        "bed_id": 76,
+        "assigned_by": null,
+        "assigned_at": "2025-03-05T02:51:50.262757",
+        "released_at": "2025-12-25T20:45:54.262775",
+        "reason": "Born whom score."
+    },
+    "36": {
+        "id": 36,
+        "admission_id": 14,
+        "bed_id": 22,
+        "assigned_by": 79,
+        "assigned_at": "2026-02-23T08:40:41.263031",
+        "released_at": "2025-12-19T00:13:38.263049",
+        "reason": "Possible land even leave."
+    },
+    "37": {
+        "id": 37,
+        "admission_id": 73,
+        "bed_id": 17,
+        "assigned_by": 49,
+        "assigned_at": "2025-11-24T11:15:43.263314",
+        "released_at": null,
+        "reason": null
+    },
+    "38": {
+        "id": 38,
+        "admission_id": 49,
+        "bed_id": 28,
+        "assigned_by": 30,
+        "assigned_at": "2025-07-14T11:15:29.263527",
+        "released_at": "2026-03-07T01:18:09.263544",
+        "reason": "Recent five contain fine brother."
+    },
+    "39": {
+        "id": 39,
+        "admission_id": 99,
+        "bed_id": 66,
+        "assigned_by": 100,
+        "assigned_at": "2026-05-25T05:00:47.263805",
+        "released_at": "2026-05-03T19:25:06.263822",
+        "reason": "Represent nearly statement institution travel method."
+    },
+    "40": {
+        "id": 40,
+        "admission_id": 85,
+        "bed_id": 60,
+        "assigned_by": 83,
+        "assigned_at": "2024-11-13T04:46:47.264082",
+        "released_at": "2025-04-22T02:54:02.264099",
+        "reason": null
+    },
+    "41": {
+        "id": 41,
+        "admission_id": 82,
+        "bed_id": 40,
+        "assigned_by": 44,
+        "assigned_at": "2024-12-27T16:30:13.264297",
+        "released_at": null,
+        "reason": null
+    },
+    "42": {
+        "id": 42,
+        "admission_id": 7,
+        "bed_id": 84,
+        "assigned_by": 55,
+        "assigned_at": "2025-11-20T21:24:02.264495",
+        "released_at": "2026-07-02T02:03:03.264511",
+        "reason": null
+    },
+    "43": {
+        "id": 43,
+        "admission_id": 25,
+        "bed_id": 99,
+        "assigned_by": null,
+        "assigned_at": "2025-01-26T05:17:56.264667",
+        "released_at": "2026-05-24T10:30:32.264682",
+        "reason": "Responsibility rather raise animal bed actually news."
+    },
+    "44": {
+        "id": 44,
+        "admission_id": 40,
+        "bed_id": 86,
+        "assigned_by": null,
+        "assigned_at": "2025-08-04T10:56:19.264910",
+        "released_at": "2025-11-13T09:49:58.264928",
+        "reason": "By Republican exist prevent."
+    },
+    "45": {
+        "id": 45,
+        "admission_id": 12,
+        "bed_id": 46,
+        "assigned_by": 3,
+        "assigned_at": "2025-11-11T21:39:52.265240",
+        "released_at": "2025-07-10T16:38:14.265261",
+        "reason": "If avoid school American establish yourself water."
+    },
+    "46": {
+        "id": 46,
+        "admission_id": 59,
+        "bed_id": 87,
+        "assigned_by": 5,
+        "assigned_at": "2026-01-16T04:02:56.265528",
+        "released_at": "2026-04-09T13:01:22.265546",
+        "reason": null
+    },
+    "47": {
+        "id": 47,
+        "admission_id": 67,
+        "bed_id": 81,
+        "assigned_by": null,
+        "assigned_at": "2025-12-19T19:46:57.265703",
+        "released_at": null,
+        "reason": "Feeling example recognize table community relationship PM."
+    },
+    "48": {
+        "id": 48,
+        "admission_id": 71,
+        "bed_id": 42,
+        "assigned_by": 98,
+        "assigned_at": "2024-12-21T03:45:09.265968",
+        "released_at": "2025-11-14T10:09:03.265985",
+        "reason": "Finish go change you spend."
+    },
+    "49": {
+        "id": 49,
+        "admission_id": 42,
+        "bed_id": 1,
+        "assigned_by": 81,
+        "assigned_at": "2026-07-25T17:38:39.266272",
+        "released_at": "2024-12-24T05:04:22.266292",
+        "reason": "Dark degree college movement line grow if."
+    },
+    "50": {
+        "id": 50,
+        "admission_id": 70,
+        "bed_id": 72,
+        "assigned_by": 7,
+        "assigned_at": "2025-11-05T04:17:54.266556",
+        "released_at": "2026-05-06T13:43:57.266573",
+        "reason": null
+    },
+    "51": {
+        "id": 51,
+        "admission_id": 74,
+        "bed_id": 96,
+        "assigned_by": 31,
+        "assigned_at": "2025-08-07T18:33:20.266766",
+        "released_at": "2024-11-16T04:24:47.266781",
+        "reason": "Off never process answer catch those her."
+    },
+    "52": {
+        "id": 52,
+        "admission_id": 54,
+        "bed_id": 69,
+        "assigned_by": 85,
+        "assigned_at": "2026-01-07T04:07:26.267088",
+        "released_at": null,
+        "reason": "Week line still game night third rock."
+    },
+    "53": {
+        "id": 53,
+        "admission_id": 3,
+        "bed_id": 68,
+        "assigned_by": 46,
+        "assigned_at": "2024-11-19T21:03:36.267364",
+        "released_at": "2026-02-19T03:19:50.267385",
+        "reason": "Structure tend whether where."
+    },
+    "54": {
+        "id": 54,
+        "admission_id": 33,
+        "bed_id": 64,
+        "assigned_by": null,
+        "assigned_at": "2025-05-24T04:52:51.267606",
+        "released_at": "2026-04-10T10:22:17.267623",
+        "reason": null
+    },
+    "55": {
+        "id": 55,
+        "admission_id": 34,
+        "bed_id": 33,
+        "assigned_by": 20,
+        "assigned_at": "2025-03-10T10:37:10.267815",
+        "released_at": "2026-04-28T01:57:36.267830",
+        "reason": null
+    },
+    "56": {
+        "id": 56,
+        "admission_id": 72,
+        "bed_id": 35,
+        "assigned_by": 4,
+        "assigned_at": "2026-06-30T09:04:57.268029",
+        "released_at": null,
+        "reason": "So everyone usually very maintain officer break."
+    },
+    "57": {
+        "id": 57,
+        "admission_id": 68,
+        "bed_id": 27,
+        "assigned_by": null,
+        "assigned_at": "2026-02-05T04:37:48.268251",
+        "released_at": "2025-08-07T20:28:03.268268",
+        "reason": "Budget feel husband effort Republican bank."
+    },
+    "58": {
+        "id": 58,
+        "admission_id": 60,
+        "bed_id": 11,
+        "assigned_by": 16,
+        "assigned_at": "2026-06-14T02:58:53.268523",
+        "released_at": "2025-07-02T07:11:32.268540",
+        "reason": "Yourself task drop serve."
+    },
+    "59": {
+        "id": 59,
+        "admission_id": 17,
+        "bed_id": 14,
+        "assigned_by": 92,
+        "assigned_at": "2025-12-23T19:56:57.268795",
+        "released_at": null,
+        "reason": "Guy field rule few truth defense rule."
+    },
+    "60": {
+        "id": 60,
+        "admission_id": 11,
+        "bed_id": 10,
+        "assigned_by": 47,
+        "assigned_at": "2025-10-19T12:37:53.269054",
+        "released_at": null,
+        "reason": "True teach she wide continue market return."
+    },
+    "61": {
+        "id": 61,
+        "admission_id": 23,
+        "bed_id": 49,
+        "assigned_by": 12,
+        "assigned_at": "2026-07-02T20:43:58.269314",
+        "released_at": "2024-10-16T18:09:34.269331",
+        "reason": "Wife nice stuff road learn argue night."
+    },
+    "62": {
+        "id": 62,
+        "admission_id": 41,
+        "bed_id": 83,
+        "assigned_by": null,
+        "assigned_at": "2025-11-30T23:22:56.269548",
+        "released_at": "2026-01-16T06:36:28.269564",
+        "reason": "Plan future common use."
+    },
+    "63": {
+        "id": 63,
+        "admission_id": 36,
+        "bed_id": 12,
+        "assigned_by": 32,
+        "assigned_at": "2026-01-12T17:24:38.269815",
+        "released_at": null,
+        "reason": null
+    },
+    "64": {
+        "id": 64,
+        "admission_id": 87,
+        "bed_id": 73,
+        "assigned_by": 39,
+        "assigned_at": "2025-07-05T01:22:45.270012",
+        "released_at": null,
+        "reason": "Beautiful power side stock."
+    },
+    "65": {
+        "id": 65,
+        "admission_id": 83,
+        "bed_id": 25,
+        "assigned_by": 93,
+        "assigned_at": "2026-07-06T21:17:07.270359",
+        "released_at": "2024-12-14T13:24:27.270381",
+        "reason": "Why sense image occur one pass program."
+    },
+    "66": {
+        "id": 66,
+        "admission_id": 65,
+        "bed_id": 5,
+        "assigned_by": 15,
+        "assigned_at": "2026-04-06T21:23:23.270672",
+        "released_at": "2026-03-21T16:15:16.270692",
+        "reason": "Road chance involve treat such near."
+    },
+    "67": {
+        "id": 67,
+        "admission_id": 92,
+        "bed_id": 70,
+        "assigned_by": 27,
+        "assigned_at": "2025-11-17T17:42:49.270955",
+        "released_at": "2025-12-15T23:49:37.270972",
+        "reason": null
+    },
+    "68": {
+        "id": 68,
+        "admission_id": 55,
+        "bed_id": 8,
+        "assigned_by": 68,
+        "assigned_at": "2026-02-10T13:33:19.271168",
+        "released_at": "2024-10-26T17:24:47.271184",
+        "reason": "Stock position guess as film."
+    },
+    "69": {
+        "id": 69,
+        "admission_id": 45,
+        "bed_id": 43,
+        "assigned_by": 21,
+        "assigned_at": "2026-09-02T12:56:49.271467",
+        "released_at": null,
+        "reason": "Card board response stop country year line."
+    },
+    "70": {
+        "id": 70,
+        "admission_id": 44,
+        "bed_id": 71,
+        "assigned_by": 34,
+        "assigned_at": "2025-05-30T07:56:08.271739",
+        "released_at": "2025-07-13T06:29:56.271757",
+        "reason": null
+    },
+    "71": {
+        "id": 71,
+        "admission_id": 63,
+        "bed_id": 100,
+        "assigned_by": null,
+        "assigned_at": "2024-09-12T19:51:55.271915",
+        "released_at": null,
+        "reason": "Successful again another early minute article place sell."
+    },
+    "72": {
+        "id": 72,
+        "admission_id": 24,
+        "bed_id": 65,
+        "assigned_by": null,
+        "assigned_at": "2025-12-16T20:52:21.272148",
+        "released_at": null,
+        "reason": "Try relate itself space oil clearly."
+    },
+    "73": {
+        "id": 73,
+        "admission_id": 31,
+        "bed_id": 88,
+        "assigned_by": 73,
+        "assigned_at": "2026-02-06T16:21:25.272417",
+        "released_at": null,
+        "reason": "Song some relationship number threat method event."
+    },
+    "74": {
+        "id": 74,
+        "admission_id": 69,
+        "bed_id": 57,
+        "assigned_by": 59,
+        "assigned_at": "2024-12-07T18:01:27.272683",
+        "released_at": null,
+        "reason": "Order public reality man fight."
+    },
+    "75": {
+        "id": 75,
+        "admission_id": 86,
+        "bed_id": 54,
+        "assigned_by": null,
+        "assigned_at": "2025-03-29T01:58:20.272908",
+        "released_at": "2026-03-22T10:52:02.272927",
+        "reason": "Tend value compare important arrive little."
+    },
+    "76": {
+        "id": 76,
+        "admission_id": 79,
+        "bed_id": 38,
+        "assigned_by": null,
+        "assigned_at": "2026-07-07T17:54:45.273152",
+        "released_at": "2025-10-05T21:35:31.273170",
+        "reason": null
+    },
+    "77": {
+        "id": 77,
+        "admission_id": 18,
+        "bed_id": 51,
+        "assigned_by": null,
+        "assigned_at": "2024-10-15T15:37:31.273324",
+        "released_at": null,
+        "reason": null
+    },
+    "78": {
+        "id": 78,
+        "admission_id": 47,
+        "bed_id": 20,
+        "assigned_by": 80,
+        "assigned_at": "2024-11-27T16:01:47.273520",
+        "released_at": "2026-08-08T12:42:57.273537",
+        "reason": "Pull especially future first card."
+    },
+    "79": {
+        "id": 79,
+        "admission_id": 77,
+        "bed_id": 95,
+        "assigned_by": 33,
+        "assigned_at": "2024-11-01T22:55:32.273798",
+        "released_at": null,
+        "reason": null
+    },
+    "80": {
+        "id": 80,
+        "admission_id": 15,
+        "bed_id": 63,
+        "assigned_by": 90,
+        "assigned_at": "2025-10-26T01:48:29.274171",
+        "released_at": "2024-11-23T01:12:48.274194",
+        "reason": "House quality bed our civil bill young."
+    },
+    "81": {
+        "id": 81,
+        "admission_id": 52,
+        "bed_id": 75,
+        "assigned_by": 65,
+        "assigned_at": "2025-01-15T20:43:01.274884",
+        "released_at": "2025-05-26T18:07:08.274926",
+        "reason": "Marriage officer about try American."
+    },
+    "82": {
+        "id": 82,
+        "admission_id": 91,
+        "bed_id": 62,
+        "assigned_by": null,
+        "assigned_at": "2025-08-01T11:05:35.275656",
+        "released_at": "2025-03-03T11:22:09.275708",
+        "reason": "Free car chance control window."
+    },
+    "83": {
+        "id": 83,
+        "admission_id": 100,
+        "bed_id": 32,
+        "assigned_by": 82,
+        "assigned_at": "2025-01-20T05:03:09.276212",
+        "released_at": "2025-05-09T21:40:40.276254",
+        "reason": "Particularly with around by sea professional."
+    },
+    "84": {
+        "id": 84,
+        "admission_id": 62,
+        "bed_id": 37,
+        "assigned_by": 70,
+        "assigned_at": "2026-04-01T09:27:17.276542",
+        "released_at": null,
+        "reason": "Generation well he kitchen drop."
+    },
+    "85": {
+        "id": 85,
+        "admission_id": 84,
+        "bed_id": 74,
+        "assigned_by": 24,
+        "assigned_at": "2025-08-22T20:43:21.276800",
+        "released_at": "2024-10-22T00:16:33.276818",
+        "reason": "Treat serve yourself left simple election set run."
+    },
+    "86": {
+        "id": 86,
+        "admission_id": 48,
+        "bed_id": 21,
+        "assigned_by": 91,
+        "assigned_at": "2026-05-03T07:37:18.277080",
+        "released_at": "2026-07-04T14:56:28.277097",
+        "reason": "Friend item garden positive even."
+    },
+    "87": {
+        "id": 87,
+        "admission_id": 38,
+        "bed_id": 91,
+        "assigned_by": null,
+        "assigned_at": "2025-10-29T11:23:41.277312",
+        "released_at": null,
+        "reason": "Seat happy by remain customer set."
+    },
+    "88": {
+        "id": 88,
+        "admission_id": 21,
+        "bed_id": 19,
+        "assigned_by": null,
+        "assigned_at": "2025-06-02T20:59:26.277525",
+        "released_at": null,
+        "reason": null
+    },
+    "89": {
+        "id": 89,
+        "admission_id": 58,
+        "bed_id": 79,
+        "assigned_by": 62,
+        "assigned_at": "2024-09-16T01:59:12.277714",
+        "released_at": "2025-10-28T06:34:22.277730",
+        "reason": "Order agent result group study decide rich."
+    },
+    "90": {
+        "id": 90,
+        "admission_id": 13,
+        "bed_id": 92,
+        "assigned_by": null,
+        "assigned_at": "2025-11-20T20:28:25.277939",
+        "released_at": null,
+        "reason": null
+    },
+    "91": {
+        "id": 91,
+        "admission_id": 29,
+        "bed_id": 18,
+        "assigned_by": 28,
+        "assigned_at": "2025-05-16T20:32:05.278131",
+        "released_at": "2025-08-25T07:28:48.278147",
+        "reason": "Over decade carry its describe election."
+    },
+    "92": {
+        "id": 92,
+        "admission_id": 8,
+        "bed_id": 53,
+        "assigned_by": 52,
+        "assigned_at": "2025-03-06T06:17:56.278399",
+        "released_at": "2025-12-21T13:21:22.278416",
+        "reason": "Mouth great hundred significant."
+    },
+    "93": {
+        "id": 93,
+        "admission_id": 28,
+        "bed_id": 26,
+        "assigned_by": null,
+        "assigned_at": "2026-08-19T01:10:47.278626",
+        "released_at": null,
+        "reason": null
+    },
+    "94": {
+        "id": 94,
+        "admission_id": 43,
+        "bed_id": 44,
+        "assigned_by": 48,
+        "assigned_at": "2026-01-31T23:54:55.278815",
+        "released_at": "2025-08-07T00:00:46.278836",
+        "reason": "Discuss cause skill talk despite purpose control."
+    },
+    "95": {
+        "id": 95,
+        "admission_id": 94,
+        "bed_id": 52,
+        "assigned_by": 97,
+        "assigned_at": "2025-04-19T06:18:07.279088",
+        "released_at": "2025-04-24T03:10:37.279105",
+        "reason": "Debate along special response station safe research apply."
+    },
+    "96": {
+        "id": 96,
+        "admission_id": 66,
+        "bed_id": 50,
+        "assigned_by": 14,
+        "assigned_at": "2026-01-20T07:29:49.279351",
+        "released_at": null,
+        "reason": null
+    },
+    "97": {
+        "id": 97,
+        "admission_id": 95,
+        "bed_id": 4,
+        "assigned_by": 94,
+        "assigned_at": "2024-11-14T18:16:05.279555",
+        "released_at": "2025-01-21T15:05:09.279571",
+        "reason": null
+    },
+    "98": {
+        "id": 98,
+        "admission_id": 81,
+        "bed_id": 31,
+        "assigned_by": 53,
+        "assigned_at": "2025-02-03T18:59:26.279753",
+        "released_at": "2026-01-27T15:46:09.279768",
+        "reason": null
+    },
+    "99": {
+        "id": 99,
+        "admission_id": 64,
+        "bed_id": 39,
+        "assigned_by": 9,
+        "assigned_at": "2025-12-25T11:44:11.279961",
+        "released_at": null,
+        "reason": "Realize fine pressure economy to daughter knowledge."
+    },
+    "100": {
+        "id": 100,
+        "admission_id": 57,
+        "bed_id": 24,
+        "assigned_by": 58,
+        "assigned_at": "2025-06-30T04:37:04.280219",
+        "released_at": "2026-07-02T05:34:35.280236",
+        "reason": "Culture do seven radio place."
+    }
+}

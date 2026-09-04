@@ -22,7 +22,7 @@ pip install -r requirements.txt
 3. Run the seeder:
 
 ```bash
-python main.py
+python -m seeder_engine.main
 ```
 
 Rows are written to `data/<table_name>.json`.
@@ -30,7 +30,7 @@ Rows are written to `data/<table_name>.json`.
 ### Command-line options
 
 ```bash
-python main.py --schema schema.dbml --config config.yaml --output data
+python -m seeder_engine.main --schema schema.dbml --config config.yaml --output data
 ```
 
 | Flag | Default | Description |
@@ -40,8 +40,16 @@ python main.py --schema schema.dbml --config config.yaml --output data
 | `--output` | `data` | Directory for generated JSON files |
 
 ```bash
-python main.py --help
+python -m seeder_engine.main --help
 ```
+
+The browser UI can be started with:
+
+```bash
+python app.py
+```
+
+Then open `http://127.0.0.1:5000` to paste or upload DBML and generate data.
 
 ## Configuration
 
@@ -95,7 +103,7 @@ Each file is a JSON object keyed by row ID:
 After generating data, tests read `schema.dbml` and `data/` (not the CLI flags):
 
 ```bash
-python main.py --schema schema.dbml --output data
+python -m seeder_engine.main --schema schema.dbml --output data
 pytest test.py
 ```
 
@@ -113,10 +121,14 @@ Tests check:
 
 | File | Role |
 | --- | --- |
-| `main.py` | CLI, parse DBML, sort tables, generate and write JSON |
-| `field_types.py` | Column-name and SQL-type generators |
-| `datetime_generator.py` | Date and timestamp helpers |
-| `config.yaml` | Per-table row counts |
+| `seeder_engine/` | Packaged DBML parsing and data generation engine |
+| `seeder_engine/main.py` | Parse DBML, sort tables, generate and write JSON |
+| `seeder_engine/field_types.py` | Column-name and SQL-type generators |
+| `seeder_engine/datetime_generator.py` | Date and timestamp helpers |
+| `seeder_engine/config.yaml` | Default package configuration |
+| `web_app/` | Separate Flask UI package and templates |
+| `app.py` | Root launcher for the Flask UI |
+| `config.yaml` | Project-level CLI configuration |
 | `test.py` | Constraint checks against `data/` |
 | `schema.dbml` | Input schema (not committed) |
 

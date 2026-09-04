@@ -1,0 +1,1002 @@
+{
+    "1": {
+        "id": 1,
+        "room_id": 37,
+        "bed_number": "0432609310",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": false,
+        "created_at": "2025-09-17T16:11:34.686191",
+        "updated_at": "2026-01-10T19:09:28.686191"
+    },
+    "2": {
+        "id": 2,
+        "room_id": 85,
+        "bed_number": "6684335670",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-04-28T05:11:50.686410",
+        "updated_at": "2026-08-09T18:07:00.686410"
+    },
+    "3": {
+        "id": 3,
+        "room_id": 1,
+        "bed_number": "8604145456",
+        "bed_type": "employee",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-02-17T03:22:03.686697",
+        "updated_at": "2026-07-08T09:20:52.686714"
+    },
+    "4": {
+        "id": 4,
+        "room_id": 91,
+        "bed_number": "5020005347",
+        "bed_type": "far",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-03-04T09:34:18.686971",
+        "updated_at": "2026-07-19T00:28:49.686988"
+    },
+    "5": {
+        "id": 5,
+        "room_id": 99,
+        "bed_number": "9162475541",
+        "bed_type": "bill",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2024-09-23T00:16:56.687248",
+        "updated_at": "2025-08-27T06:04:26.687264"
+    },
+    "6": {
+        "id": 6,
+        "room_id": 96,
+        "bed_number": "0825559895",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-05-14T10:43:55.687465",
+        "updated_at": "2026-08-30T19:35:35.687465"
+    },
+    "7": {
+        "id": 7,
+        "room_id": 11,
+        "bed_number": "3439611291",
+        "bed_type": "analysis",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-07-02T22:56:50.687748",
+        "updated_at": "2025-08-20T23:05:13.687765"
+    },
+    "8": {
+        "id": 8,
+        "room_id": 84,
+        "bed_number": "9337118954",
+        "bed_type": "share",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2024-12-05T10:52:28.688014",
+        "updated_at": "2025-10-24T23:31:50.688031"
+    },
+    "9": {
+        "id": 9,
+        "room_id": 2,
+        "bed_number": "7382023684",
+        "bed_type": "vote",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-03-02T22:52:59.688291",
+        "updated_at": "2026-06-25T10:02:40.688305"
+    },
+    "10": {
+        "id": 10,
+        "room_id": 13,
+        "bed_number": "8557161768",
+        "bed_type": "word",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-02-19T07:12:00.688543",
+        "updated_at": "2026-03-24T21:29:14.688543"
+    },
+    "11": {
+        "id": 11,
+        "room_id": 42,
+        "bed_number": "8029424090",
+        "bed_type": "study",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-01-30T18:16:04.688818",
+        "updated_at": "2026-08-02T20:09:12.688818"
+    },
+    "12": {
+        "id": 12,
+        "room_id": 25,
+        "bed_number": "3678812786",
+        "bed_type": "or",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-05-16T23:41:09.689121",
+        "updated_at": "2026-06-26T08:42:57.689137"
+    },
+    "13": {
+        "id": 13,
+        "room_id": 77,
+        "bed_number": "6694320293",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-07-25T11:57:56.689314",
+        "updated_at": "2026-08-15T14:50:20.689330"
+    },
+    "14": {
+        "id": 14,
+        "room_id": 94,
+        "bed_number": "9087884434",
+        "bed_type": "section",
+        "is_occupied": true,
+        "is_active": true,
+        "created_at": "2024-09-08T11:15:29.689573",
+        "updated_at": "2025-11-23T09:44:37.689588"
+    },
+    "15": {
+        "id": 15,
+        "room_id": 87,
+        "bed_number": "4812308340",
+        "bed_type": "purpose",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-02-14T17:09:53.689836",
+        "updated_at": "2026-04-08T18:45:16.689853"
+    },
+    "16": {
+        "id": 16,
+        "room_id": 52,
+        "bed_number": "2424033810",
+        "bed_type": null,
+        "is_occupied": true,
+        "is_active": true,
+        "created_at": "2025-02-23T01:16:52.690035",
+        "updated_at": "2025-12-27T17:03:49.690051"
+    },
+    "17": {
+        "id": 17,
+        "room_id": 39,
+        "bed_number": "5955184269",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-06-27T20:30:45.690249",
+        "updated_at": "2026-08-20T03:25:42.690249"
+    },
+    "18": {
+        "id": 18,
+        "room_id": 69,
+        "bed_number": "4500534240",
+        "bed_type": "note",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-03-18T06:39:04.690522",
+        "updated_at": "2025-08-18T14:46:55.690522"
+    },
+    "19": {
+        "id": 19,
+        "room_id": 89,
+        "bed_number": "9164983735",
+        "bed_type": "exist",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-01-26T16:23:50.690798",
+        "updated_at": "2026-03-06T12:53:06.690798"
+    },
+    "20": {
+        "id": 20,
+        "room_id": 45,
+        "bed_number": "3962736527",
+        "bed_type": "better",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-05-17T14:18:35.691081",
+        "updated_at": "2025-12-27T06:57:03.691096"
+    },
+    "21": {
+        "id": 21,
+        "room_id": 49,
+        "bed_number": "7272239724",
+        "bed_type": "against",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-05-24T22:06:36.691344",
+        "updated_at": "2026-08-16T02:10:02.691344"
+    },
+    "22": {
+        "id": 22,
+        "room_id": 27,
+        "bed_number": "4226931216",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-04-02T04:40:08.691571",
+        "updated_at": "2026-06-25T21:09:16.691571"
+    },
+    "23": {
+        "id": 23,
+        "room_id": 46,
+        "bed_number": "3761820916",
+        "bed_type": "if",
+        "is_occupied": false,
+        "is_active": false,
+        "created_at": "2025-08-30T01:36:51.691851",
+        "updated_at": "2026-01-16T09:19:42.691851"
+    },
+    "24": {
+        "id": 24,
+        "room_id": 53,
+        "bed_number": "0100231429",
+        "bed_type": "add",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2024-11-07T05:35:44.692126",
+        "updated_at": "2026-06-20T09:39:14.692142"
+    },
+    "25": {
+        "id": 25,
+        "room_id": 47,
+        "bed_number": "0185132797",
+        "bed_type": "team",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-03-28T00:32:41.692387",
+        "updated_at": "2026-03-28T07:45:28.692403"
+    },
+    "26": {
+        "id": 26,
+        "room_id": 14,
+        "bed_number": "2457230848",
+        "bed_type": "candidate",
+        "is_occupied": true,
+        "is_active": false,
+        "created_at": "2026-04-25T00:25:38.692664",
+        "updated_at": "2026-06-05T07:57:50.692664"
+    },
+    "27": {
+        "id": 27,
+        "room_id": 7,
+        "bed_number": "0018418620",
+        "bed_type": "while",
+        "is_occupied": false,
+        "is_active": false,
+        "created_at": "2026-01-25T11:13:35.692945",
+        "updated_at": "2026-04-29T16:13:09.692961"
+    },
+    "28": {
+        "id": 28,
+        "room_id": 28,
+        "bed_number": "3036625436",
+        "bed_type": "right",
+        "is_occupied": false,
+        "is_active": false,
+        "created_at": "2024-12-17T13:13:22.693212",
+        "updated_at": "2025-08-31T12:09:08.693228"
+    },
+    "29": {
+        "id": 29,
+        "room_id": 88,
+        "bed_number": "1721314519",
+        "bed_type": "goal",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-02-01T06:43:03.693473",
+        "updated_at": "2026-04-06T16:29:30.693473"
+    },
+    "30": {
+        "id": 30,
+        "room_id": 92,
+        "bed_number": "1510922685",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-11-18T01:00:19.693714",
+        "updated_at": "2026-01-29T17:51:00.693730"
+    },
+    "31": {
+        "id": 31,
+        "room_id": 26,
+        "bed_number": "9262494514",
+        "bed_type": "whom",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-02-21T12:34:45.693976",
+        "updated_at": "2026-04-19T00:22:09.693992"
+    },
+    "32": {
+        "id": 32,
+        "room_id": 86,
+        "bed_number": "7541022526",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-02-05T20:50:03.694175",
+        "updated_at": "2026-08-25T23:52:28.694175"
+    },
+    "33": {
+        "id": 33,
+        "room_id": 66,
+        "bed_number": "7711964215",
+        "bed_type": "care",
+        "is_occupied": true,
+        "is_active": true,
+        "created_at": "2026-01-21T06:52:22.694455",
+        "updated_at": "2026-03-02T08:59:59.694455"
+    },
+    "34": {
+        "id": 34,
+        "room_id": 100,
+        "bed_number": "2655767695",
+        "bed_type": "certainly",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-06-24T02:56:18.694738",
+        "updated_at": "2026-01-25T06:53:10.694754"
+    },
+    "35": {
+        "id": 35,
+        "room_id": 70,
+        "bed_number": "3668788788",
+        "bed_type": "term",
+        "is_occupied": false,
+        "is_active": false,
+        "created_at": "2025-06-23T20:46:19.695082",
+        "updated_at": "2026-08-10T05:43:11.695102"
+    },
+    "36": {
+        "id": 36,
+        "room_id": 41,
+        "bed_number": "3619689313",
+        "bed_type": "high",
+        "is_occupied": false,
+        "is_active": false,
+        "created_at": "2026-05-13T05:42:04.695377",
+        "updated_at": "2026-05-14T12:26:55.695377"
+    },
+    "37": {
+        "id": 37,
+        "room_id": 24,
+        "bed_number": "0305872105",
+        "bed_type": "herself",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-04-10T16:09:50.695667",
+        "updated_at": "2025-08-05T08:50:54.695667"
+    },
+    "38": {
+        "id": 38,
+        "room_id": 18,
+        "bed_number": "2472863330",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-07-23T14:27:16.695891",
+        "updated_at": "2026-05-27T14:50:56.695906"
+    },
+    "39": {
+        "id": 39,
+        "room_id": 34,
+        "bed_number": "2126065019",
+        "bed_type": "back",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-02-15T05:18:05.696157",
+        "updated_at": "2025-12-07T10:38:09.696174"
+    },
+    "40": {
+        "id": 40,
+        "room_id": 17,
+        "bed_number": "7920252131",
+        "bed_type": "actually",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2024-12-12T21:26:47.696427",
+        "updated_at": "2025-11-24T00:03:31.696444"
+    },
+    "41": {
+        "id": 41,
+        "room_id": 62,
+        "bed_number": "9622728476",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-11-23T01:22:05.696631",
+        "updated_at": "2025-12-14T18:30:21.696631"
+    },
+    "42": {
+        "id": 42,
+        "room_id": 19,
+        "bed_number": "5704120092",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-07-18T22:05:22.696850",
+        "updated_at": "2026-08-23T06:14:28.696850"
+    },
+    "43": {
+        "id": 43,
+        "room_id": 72,
+        "bed_number": "8206678498",
+        "bed_type": "follow",
+        "is_occupied": true,
+        "is_active": true,
+        "created_at": "2025-09-05T17:16:44.697134",
+        "updated_at": "2026-07-10T05:11:01.697150"
+    },
+    "44": {
+        "id": 44,
+        "room_id": 56,
+        "bed_number": "3624186236",
+        "bed_type": null,
+        "is_occupied": true,
+        "is_active": true,
+        "created_at": "2026-01-01T15:00:14.697345",
+        "updated_at": "2026-01-29T22:14:21.697361"
+    },
+    "45": {
+        "id": 45,
+        "room_id": 59,
+        "bed_number": "9036289177",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-03-02T01:32:05.697578",
+        "updated_at": "2025-06-25T07:51:57.697596"
+    },
+    "46": {
+        "id": 46,
+        "room_id": 44,
+        "bed_number": "5662056341",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-08-11T20:48:25.697783",
+        "updated_at": "2026-08-28T11:28:49.697783"
+    },
+    "47": {
+        "id": 47,
+        "room_id": 51,
+        "bed_number": "1159503428",
+        "bed_type": "both",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-08-05T20:41:26.698074",
+        "updated_at": "2026-09-03T23:31:28.698074"
+    },
+    "48": {
+        "id": 48,
+        "room_id": 5,
+        "bed_number": "1390438303",
+        "bed_type": "exist",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-09-14T03:07:04.698391",
+        "updated_at": "2026-01-29T17:27:52.698407"
+    },
+    "49": {
+        "id": 49,
+        "room_id": 16,
+        "bed_number": "1990970051",
+        "bed_type": "yet",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-09-02T22:08:22.698662",
+        "updated_at": "2026-09-04T05:33:37.698662"
+    },
+    "50": {
+        "id": 50,
+        "room_id": 67,
+        "bed_number": "4054683565",
+        "bed_type": "carry",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-05-20T17:27:17.698957",
+        "updated_at": "2026-08-02T18:08:45.698957"
+    },
+    "51": {
+        "id": 51,
+        "room_id": 48,
+        "bed_number": "1568182096",
+        "bed_type": "me",
+        "is_occupied": true,
+        "is_active": true,
+        "created_at": "2025-03-21T06:03:18.699502",
+        "updated_at": "2025-09-10T04:03:09.699522"
+    },
+    "52": {
+        "id": 52,
+        "room_id": 31,
+        "bed_number": "9042271133",
+        "bed_type": "surface",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-10-31T21:22:34.699786",
+        "updated_at": "2026-02-09T00:17:34.699786"
+    },
+    "53": {
+        "id": 53,
+        "room_id": 29,
+        "bed_number": "2288985725",
+        "bed_type": null,
+        "is_occupied": true,
+        "is_active": true,
+        "created_at": "2024-12-05T01:58:46.700016",
+        "updated_at": "2025-10-13T06:33:30.700033"
+    },
+    "54": {
+        "id": 54,
+        "room_id": 3,
+        "bed_number": "4596063399",
+        "bed_type": "bad",
+        "is_occupied": false,
+        "is_active": false,
+        "created_at": "2025-06-12T22:41:37.700309",
+        "updated_at": "2025-10-11T03:58:32.700309"
+    },
+    "55": {
+        "id": 55,
+        "room_id": 64,
+        "bed_number": "2971024817",
+        "bed_type": "between",
+        "is_occupied": false,
+        "is_active": false,
+        "created_at": "2025-11-17T03:42:41.700588",
+        "updated_at": "2026-07-12T18:51:10.700588"
+    },
+    "56": {
+        "id": 56,
+        "room_id": 40,
+        "bed_number": "7524214955",
+        "bed_type": "behind",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-11-07T09:28:38.700857",
+        "updated_at": "2026-05-06T08:22:13.700873"
+    },
+    "57": {
+        "id": 57,
+        "room_id": 80,
+        "bed_number": "1274747219",
+        "bed_type": "method",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-03-20T16:15:12.701114",
+        "updated_at": "2025-04-30T17:55:23.701130"
+    },
+    "58": {
+        "id": 58,
+        "room_id": 82,
+        "bed_number": "0546692758",
+        "bed_type": null,
+        "is_occupied": true,
+        "is_active": true,
+        "created_at": "2026-04-08T09:45:44.701323",
+        "updated_at": "2026-07-04T03:02:43.701323"
+    },
+    "59": {
+        "id": 59,
+        "room_id": 23,
+        "bed_number": "9551687409",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-01-07T09:52:08.701522",
+        "updated_at": "2025-07-03T18:54:48.701536"
+    },
+    "60": {
+        "id": 60,
+        "room_id": 98,
+        "bed_number": "0380214629",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-08-24T16:48:35.701702",
+        "updated_at": "2026-08-29T23:37:22.701702"
+    },
+    "61": {
+        "id": 61,
+        "room_id": 12,
+        "bed_number": "6136715778",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2024-10-03T21:18:20.701901",
+        "updated_at": "2026-03-21T07:03:20.701915"
+    },
+    "62": {
+        "id": 62,
+        "room_id": 65,
+        "bed_number": "7112166365",
+        "bed_type": "attention",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-04-15T01:40:07.702142",
+        "updated_at": "2026-03-11T06:47:21.702158"
+    },
+    "63": {
+        "id": 63,
+        "room_id": 9,
+        "bed_number": "5597371470",
+        "bed_type": "offer",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-02-08T05:35:26.702389",
+        "updated_at": "2026-06-27T05:13:30.702404"
+    },
+    "64": {
+        "id": 64,
+        "room_id": 90,
+        "bed_number": "2723590960",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-10-10T04:57:29.702571",
+        "updated_at": "2026-03-01T01:32:31.702586"
+    },
+    "65": {
+        "id": 65,
+        "room_id": 43,
+        "bed_number": "5673030644",
+        "bed_type": "prove",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-01-26T07:56:12.702835",
+        "updated_at": "2026-03-28T11:25:42.702835"
+    },
+    "66": {
+        "id": 66,
+        "room_id": 20,
+        "bed_number": "2121461476",
+        "bed_type": "network",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-07-16T11:38:56.703109",
+        "updated_at": "2025-12-03T18:49:17.703123"
+    },
+    "67": {
+        "id": 67,
+        "room_id": 38,
+        "bed_number": "3420165423",
+        "bed_type": "happy",
+        "is_occupied": true,
+        "is_active": false,
+        "created_at": "2026-03-22T13:42:06.703366",
+        "updated_at": "2026-06-11T01:25:56.703381"
+    },
+    "68": {
+        "id": 68,
+        "room_id": 73,
+        "bed_number": "6778265960",
+        "bed_type": null,
+        "is_occupied": true,
+        "is_active": true,
+        "created_at": "2025-02-02T15:42:27.703543",
+        "updated_at": "2025-08-23T18:49:03.703556"
+    },
+    "69": {
+        "id": 69,
+        "room_id": 78,
+        "bed_number": "8931992550",
+        "bed_type": "city",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2024-11-26T06:08:45.703773",
+        "updated_at": "2025-11-12T11:07:35.703788"
+    },
+    "70": {
+        "id": 70,
+        "room_id": 8,
+        "bed_number": "7275164807",
+        "bed_type": "yes",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-10-08T05:51:09.703999",
+        "updated_at": "2026-05-05T03:28:32.703999"
+    },
+    "71": {
+        "id": 71,
+        "room_id": 83,
+        "bed_number": "2791033682",
+        "bed_type": "plant",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-06-24T10:46:52.704237",
+        "updated_at": "2025-11-15T23:43:08.704251"
+    },
+    "72": {
+        "id": 72,
+        "room_id": 58,
+        "bed_number": "6353390550",
+        "bed_type": "five",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-08-01T21:54:38.704464",
+        "updated_at": "2026-08-03T05:46:36.704464"
+    },
+    "73": {
+        "id": 73,
+        "room_id": 60,
+        "bed_number": "4817766558",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-02-22T17:43:10.704646",
+        "updated_at": "2026-02-12T08:04:03.704660"
+    },
+    "74": {
+        "id": 74,
+        "room_id": 79,
+        "bed_number": "6851276528",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-03-02T21:41:59.704818",
+        "updated_at": "2026-06-12T22:23:59.704831"
+    },
+    "75": {
+        "id": 75,
+        "room_id": 33,
+        "bed_number": "9286646491",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-06-04T07:26:12.704984",
+        "updated_at": "2026-06-11T16:35:48.704984"
+    },
+    "76": {
+        "id": 76,
+        "room_id": 71,
+        "bed_number": "1110961798",
+        "bed_type": "black",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-07-31T04:45:30.705250",
+        "updated_at": "2026-08-13T06:15:16.705250"
+    },
+    "77": {
+        "id": 77,
+        "room_id": 22,
+        "bed_number": "7890463378",
+        "bed_type": "I",
+        "is_occupied": false,
+        "is_active": false,
+        "created_at": "2026-03-31T02:15:48.705503",
+        "updated_at": "2026-05-15T16:47:48.705503"
+    },
+    "78": {
+        "id": 78,
+        "room_id": 35,
+        "bed_number": "1371576605",
+        "bed_type": "station",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-03-17T12:09:19.705758",
+        "updated_at": "2026-06-16T03:54:15.705774"
+    },
+    "79": {
+        "id": 79,
+        "room_id": 93,
+        "bed_number": "3844446306",
+        "bed_type": "alone",
+        "is_occupied": true,
+        "is_active": false,
+        "created_at": "2025-12-25T08:03:34.706002",
+        "updated_at": "2026-07-23T14:57:45.706002"
+    },
+    "80": {
+        "id": 80,
+        "room_id": 6,
+        "bed_number": "0025895529",
+        "bed_type": "law",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-08-03T03:41:16.706269",
+        "updated_at": "2026-08-31T01:03:05.706269"
+    },
+    "81": {
+        "id": 81,
+        "room_id": 54,
+        "bed_number": "3863960962",
+        "bed_type": "wrong",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-04-10T05:39:58.706526",
+        "updated_at": "2026-05-05T03:20:09.706526"
+    },
+    "82": {
+        "id": 82,
+        "room_id": 10,
+        "bed_number": "6265826312",
+        "bed_type": "mother",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-09-29T20:18:43.706781",
+        "updated_at": "2026-03-01T18:01:11.706781"
+    },
+    "83": {
+        "id": 83,
+        "room_id": 36,
+        "bed_number": "1964825311",
+        "bed_type": "agree",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-05-07T17:39:40.707033",
+        "updated_at": "2026-02-21T21:18:40.707048"
+    },
+    "84": {
+        "id": 84,
+        "room_id": 4,
+        "bed_number": "6092098196",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-05-15T08:03:56.707233",
+        "updated_at": "2025-06-12T10:15:04.707248"
+    },
+    "85": {
+        "id": 85,
+        "room_id": 63,
+        "bed_number": "0275233438",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-12-24T18:12:36.707462",
+        "updated_at": "2026-05-15T20:52:14.707462"
+    },
+    "86": {
+        "id": 86,
+        "room_id": 30,
+        "bed_number": "3640412091",
+        "bed_type": "bring",
+        "is_occupied": false,
+        "is_active": false,
+        "created_at": "2025-06-15T03:02:31.707739",
+        "updated_at": "2026-06-30T03:17:16.707754"
+    },
+    "87": {
+        "id": 87,
+        "room_id": 61,
+        "bed_number": "7911244211",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-11-25T20:54:49.707926",
+        "updated_at": "2026-02-19T09:41:03.707940"
+    },
+    "88": {
+        "id": 88,
+        "room_id": 50,
+        "bed_number": "7536170617",
+        "bed_type": "process",
+        "is_occupied": true,
+        "is_active": true,
+        "created_at": "2026-07-01T16:14:49.708182",
+        "updated_at": "2026-07-20T17:06:27.708182"
+    },
+    "89": {
+        "id": 89,
+        "room_id": 32,
+        "bed_number": "1366572240",
+        "bed_type": "well",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-07-28T23:12:36.708456",
+        "updated_at": "2025-09-27T14:40:25.708471"
+    },
+    "90": {
+        "id": 90,
+        "room_id": 55,
+        "bed_number": "2990155799",
+        "bed_type": "office",
+        "is_occupied": false,
+        "is_active": false,
+        "created_at": "2025-03-18T11:59:25.708711",
+        "updated_at": "2025-11-15T04:30:55.708727"
+    },
+    "91": {
+        "id": 91,
+        "room_id": 97,
+        "bed_number": "0284139080",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-02-18T22:05:50.708897",
+        "updated_at": "2026-05-29T16:09:49.708912"
+    },
+    "92": {
+        "id": 92,
+        "room_id": 74,
+        "bed_number": "8823513052",
+        "bed_type": "discussion",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-05-22T11:56:43.709140",
+        "updated_at": "2026-02-26T20:45:55.709140"
+    },
+    "93": {
+        "id": 93,
+        "room_id": 76,
+        "bed_number": "1244731584",
+        "bed_type": "manage",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-07-21T09:16:29.709409",
+        "updated_at": "2026-04-20T02:04:33.709409"
+    },
+    "94": {
+        "id": 94,
+        "room_id": 95,
+        "bed_number": "7686342346",
+        "bed_type": "board",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-01-22T07:51:57.709669",
+        "updated_at": "2026-08-19T10:28:27.709669"
+    },
+    "95": {
+        "id": 95,
+        "room_id": 21,
+        "bed_number": "9942376769",
+        "bed_type": "small",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2025-10-06T00:52:15.709928",
+        "updated_at": "2026-08-02T22:00:43.709928"
+    },
+    "96": {
+        "id": 96,
+        "room_id": 75,
+        "bed_number": "4591966395",
+        "bed_type": "hour",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-01-08T05:27:50.710213",
+        "updated_at": "2026-03-14T07:22:52.710213"
+    },
+    "97": {
+        "id": 97,
+        "room_id": 68,
+        "bed_number": "1720849649",
+        "bed_type": "the",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-08-10T02:33:45.710478",
+        "updated_at": "2026-08-13T22:44:05.710478"
+    },
+    "98": {
+        "id": 98,
+        "room_id": 15,
+        "bed_number": "8560125625",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-03-10T08:56:07.710675",
+        "updated_at": "2026-07-05T22:14:02.710675"
+    },
+    "99": {
+        "id": 99,
+        "room_id": 81,
+        "bed_number": "3135525105",
+        "bed_type": null,
+        "is_occupied": false,
+        "is_active": false,
+        "created_at": "2026-04-08T11:16:40.710872",
+        "updated_at": "2026-07-18T15:00:51.710872"
+    },
+    "100": {
+        "id": 100,
+        "room_id": 57,
+        "bed_number": "0537953816",
+        "bed_type": "federal",
+        "is_occupied": false,
+        "is_active": true,
+        "created_at": "2026-03-23T20:09:23.711125",
+        "updated_at": "2026-07-30T09:24:19.711125"
+    }
+}

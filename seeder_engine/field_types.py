@@ -3,7 +3,7 @@ import random
 import re
 from faker import Faker
 
-from datetime_generator import (
+from .datetime_generator import (
     generate_birth_date,
     generate_date,
     generate_timestamp,

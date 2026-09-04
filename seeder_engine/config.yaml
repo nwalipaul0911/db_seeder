@@ -1,0 +1,19 @@
+# Generic knobs. Per-table counts are optional; unknown names are ignored.
+seed: 42
+
+Num_of_entries:
+  default: 100
+
+# Chance a nullable column is left null (overridden by flag/timestamp consistency).
+null_probability: 0.35
+
+# Chance a column uses its DBML default instead of a random value.
+default_probability: 0.7
+
+# Chance a nullable self-FK is a root (no parent) rather than pointing at an earlier row.
+self_fk_root_probability: 0.35
+
+# Optional exclusive groups: exactly one column in each list is populated.
+# xor_groups:
+#   watchers:
+#     - [space_id, page_id]

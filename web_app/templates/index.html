@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DBML Data Seeder</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 32px;
+        background: #f5f7fb;
+        color: #1f2937;
+      }
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 12px;
+        padding: 24px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+      }
+      h1 {
+        margin-top: 0;
+      }
+      textarea {
+        width: 100%;
+        min-height: 360px;
+        resize: vertical;
+        padding: 14px;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        font-family: monospace;
+      }
+      .row {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        margin: 16px 0;
+      }
+      input, button {
+        padding: 10px 14px;
+        border-radius: 8px;
+        border: 1px solid #cbd5e1;
+        font-size: 14px;
+      }
+      button {
+        background: #2563eb;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      button.secondary {
+        background: #e5e7eb;
+        color: #111827;
+      }
+      .status {
+        margin-top: 18px;
+        padding: 12px 16px;
+        border-radius: 8px;
+        display: none;
+      }
+      .status.success {
+        display: block;
+        background: #ecfdf5;
+        color: #065f46;
+      }
+      .status.error {
+        display: block;
+        background: #fef2f2;
+        color: #991b1b;
+      }
+      #resultList {
+        margin-top: 16px;
+        padding: 0;
+        list-style: none;
+      }
+      .json-item {
+        margin-top: 10px;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .json-item summary {
+        padding: 12px 16px;
+        cursor: pointer;
+        font-weight: 600;
+        background: #f8fafc;
+      }
+      .json-viewer {
+        padding: 12px;
+        background: #ffffff;
+      }
+      .json-viewer textarea {
+        box-sizing: border-box;
+        width: 100%;
+        height: 320px;
+        min-height: 0;
+        resize: vertical;
+        margin-bottom: 10px;
+        background: #f8fafc;
+      }
+      .copy-button {
+        background: #0f766e;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>DBML Data Seeder</h1>
+
+      <form id="seedForm" method="POST" action="/generate">
+        <div class="row">
+          <label for="rows_per_table">Rows per table</label>
+          <input id="rows_per_table" name="rows_per_table" type="number" min="1" value="100" />
+          <label for="output_name">Folder name</label>
+          <input id="output_name" name="output_name" type="text" value="generated_data" />
+          <label for="dbml_file">DBML file</label>
+          <input id="dbml_file" name="dbml_file" type="file" accept=".dbml,text/plain" />
+        </div>
+
+        <textarea id="dbml_text" name="dbml_text" placeholder="Paste your DBML schema here..."></textarea>
+
+        <div class="row">
+          <button type="submit">Generate data</button>
+          <button class="secondary" type="button" id="loadSample">Load sample</button>
+        </div>
+      </form>
+
+      <div id="status" class="status"></div>
+      <p id="downloadContainer" hidden>
+        <a id="downloadLink" class="download-link" href="">Download all table data (.zip)</a>
+      </p>
+      <ul id="resultList"></ul>
+    </div>
+
+    <script>
+      const sample = `Table users {
+  id int [pk, increment]
+  name varchar
+  email varchar [unique]
+  created_at datetime
+}`;
+
+      document.getElementById('loadSample').addEventListener('click', function () {
+        document.getElementById('dbml_text').value = sample;
+      });
+
+      document.getElementById('seedForm').addEventListener('submit', async function (event) {
+        event.preventDefault();
+        const formData = new FormData(this);
+        const statusEl = document.getElementById('status');
+        const resultList = document.getElementById('resultList');
+
+        statusEl.className = 'status';
+        statusEl.textContent = 'Generating...';
+        statusEl.style.display = 'block';
+        document.getElementById('downloadContainer').hidden = true;
+        resultList.innerHTML = '';
+
+        try {
+          const response = await fetch('/generate', {
+            method: 'POST',
+            body: formData,
+          });
+
+          const data = await response.json();
+
+          if (!response.ok) {
+            throw new Error(data.error || 'Generation failed');
+          }
+
+          statusEl.className = 'status success';
+          statusEl.textContent = data.message;
+
+          const outputRoot = data.output_root || '';
+          const downloadContainer = document.getElementById('downloadContainer');
+          const downloadLink = document.getElementById('downloadLink');
+          downloadLink.href = `/download/${encodeURIComponent(outputRoot)}/${encodeURIComponent(data.archive_name)}`;
+          downloadContainer.hidden = false;
+
+          data.files.forEach(file => {
+            const li = document.createElement('li');
+            li.className = 'json-item';
+
+            const details = document.createElement('details');
+            const summary = document.createElement('summary');
+            summary.textContent = file;
+            details.appendChild(summary);
+
+            const viewer = document.createElement('div');
+            viewer.className = 'json-viewer';
+            const textArea = document.createElement('textarea');
+            textArea.readOnly = true;
+            textArea.setAttribute('aria-label', `${file} contents`);
+            textArea.value = 'Loading...';
+
+            const copyButton = document.createElement('button');
+            copyButton.type = 'button';
+            copyButton.className = 'copy-button';
+            copyButton.textContent = 'Copy JSON';
+            copyButton.addEventListener('click', async () => {
+              try {
+                await navigator.clipboard.writeText(textArea.value);
+                copyButton.textContent = 'Copied';
+                setTimeout(() => { copyButton.textContent = 'Copy JSON'; }, 1500);
+              } catch (error) {
+                copyButton.textContent = 'Copy failed';
+              }
+            });
+
+            viewer.appendChild(textArea);
+            viewer.appendChild(copyButton);
+            details.appendChild(viewer);
+            details.addEventListener('toggle', async () => {
+              if (!details.open || textArea.dataset.loaded) return;
+              try {
+                const response = await fetch(`/view/${encodeURIComponent(outputRoot)}/${encodeURIComponent(file)}`);
+                if (!response.ok) throw new Error('Unable to load JSON');
+                const json = await response.json();
+                textArea.value = JSON.stringify(json, null, 2);
+                textArea.dataset.loaded = 'true';
+              } catch (error) {
+                textArea.value = error.message;
+              }
+            });
+
+            li.appendChild(details);
+            resultList.appendChild(li);
+          });
+        } catch (error) {
+          statusEl.className = 'status error';
+          statusEl.textContent = error.message;
+        }
+      });
+    </script>
+  </body>
+</html>

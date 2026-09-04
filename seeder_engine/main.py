@@ -11,8 +11,8 @@ from pydbml import PyDBML
 from pydbml.classes import Enum, Table
 from argparse import ArgumentParser
 
-from datetime_generator import later_than, in_the_future, as_datetime, is_date_only
-from field_types import (
+from .datetime_generator import later_than, in_the_future, as_datetime, is_date_only
+from .field_types import (
     INTEGER_TYPES,
     configure_generators,
     generate_value,
