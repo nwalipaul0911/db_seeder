@@ -1,11 +1,11 @@
 # DB Seeder
 
-Generate realistic fake JSON data from a [DBML](https://dbml.dbdiagram.io/) schema. The seeder walks tables in foreign-key order, honors unique and composite-unique constraints, fills enums, and writes one JSON file per table.
+Generate realistic fake JSON data from [DBML](https://dbml.dbdiagram.io/), SQL DDL, or Prisma schemas. The seeder walks tables in foreign-key order, honors unique and composite-unique constraints, and writes one JSON file per table.
 
 ## Requirements
 
 - Python 3.12+
-- A `schema.dbml` file in the project root (this file is gitignored; you supply your own)
+- A schema file in DBML, SQL DDL, or Prisma format
 
 ## Setup
 
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Place your schema at `schema.dbml` (or pass another path with `--schema`).
+1. Place your schema at `schema.dbml`, `schema.sql`, or `schema.prisma` (or pass another path with `--schema`).
 2. Set how many rows to generate in `config.yaml`.
 3. Run the seeder:
 
@@ -27,11 +27,39 @@ python -m seeder_engine.main
 
 Rows are written to `data/<table_name>.json`.
 
+The web app keeps uploaded inputs and generated runs isolated:
+
+```text
+uploads/
+  schemas/<format-hash>/schema.<format>
+  runs/<format-hash>/<run-id>/
+    schema.<format>
+    manifest.json
+    <table>.json
+    generated_data.zip
+```
+
+The schema key is derived from the schema content, format, and SQL dialect. Each generation receives a unique run ID, so repeated generations never overwrite earlier output, even when they use the same output name.
+
 ### Command-line options
 
 ```bash
 python -m seeder_engine.main --schema schema.dbml --config config.yaml --output data
 ```
+
+SQL DDL is also supported:
+
+```bash
+python -m seeder_engine.main --schema schema.sql --format sql --dialect postgres --config config.yaml --output data
+```
+
+Prisma schemas are supported as well:
+
+```bash
+python -m seeder_engine.main --schema schema.prisma --format prisma --config config.yaml --output data
+```
+
+The Flask UI accepts DBML, SQL DDL, and Prisma schemas. Select the format explicitly when possible. For SQL DDL, select the matching dialect: SQLite, PostgreSQL, or MySQL.
 
 | Flag | Default | Description |
 | --- | --- | --- |
@@ -50,6 +78,17 @@ python app.py
 ```
 
 Then open `http://127.0.0.1:5000` to paste or upload DBML and generate data.
+
+In the web UI:
+
+- Paste a schema or upload a `.dbml`, `.sql`, or `.prisma` file.
+- Choose the schema format and SQL dialect, then set the rows per table.
+- Use **Validate schema** before generation to check table, enum, and reference counts.
+- Use **Generate data** to inspect each generated JSON table or download all tables as a ZIP archive.
+- Use **Seed history** to reopen data from previous runs. Each run can be downloaded, its table JSON can be viewed, or the run can be cleared individually.
+- Select multiple history entries, or use **Select all**, and choose **Clear checked history** to remove them together.
+
+Each generation receives a unique run ID and remains available until it is cleared from history.
 
 ## Configuration
 
@@ -76,7 +115,7 @@ For each column:
 | Primary key | Sequential string IDs (`"1"`, `"2"`, …) |
 | Foreign key | Random existing value from the parent table |
 | Unique FK | Distinct parent keys until they run out |
-| Enum | Random value from the DBML enum |
+| Enum | Random value from the schema enum when the adapter exposes its values |
 | Named fields | Faker values when the column name matches types such as `email`, `first_name`, `city`, `phone` |
 | Type-based | `int`, `varchar`, `date`, `timestamp`, `bool`, `uuid`, and similar SQL types |
 | Unique columns | Retried until a unused value is found |
@@ -100,11 +139,18 @@ Each file is a JSON object keyed by row ID:
 
 ## Tests
 
-After generating data, tests read `schema.dbml` and `data/` (not the CLI flags):
+After generating data, the legacy data tests read `schema.dbml` and `data/` (not the CLI flags):
 
 ```bash
 python -m seeder_engine.main --schema schema.dbml --output data
-pytest test.py
+python -m pytest test.py
+```
+
+Run the complete test suite with the project environment:
+
+```bash
+source venv/bin/activate
+python -m pytest
 ```
 
 Tests check:
@@ -125,6 +171,12 @@ Tests check:
 | `seeder_engine/main.py` | Parse DBML, sort tables, generate and write JSON |
 | `seeder_engine/field_types.py` | Column-name and SQL-type generators |
 | `seeder_engine/datetime_generator.py` | Date and timestamp helpers |
+| `seeder_engine/schema_ir.py` | Canonical schema model and adapter protocol |
+| `seeder_engine/dbml_adapter.py` | DBML-to-Schema IR adapter |
+| `seeder_engine/sql_adapter.py` | SQL DDL-to-Schema IR adapter |
+| `seeder_engine/prisma_adapter.py` | Prisma-to-Schema IR adapter |
+| `seeder_engine/schema_loader.py` | Schema format detection and adapter selection |
+| `seeder_engine/schema_validator.py` | DBML validation and schema inspection |
 | `seeder_engine/config.yaml` | Default package configuration |
 | `web_app/` | Separate Flask UI package and templates |
 | `app.py` | Root launcher for the Flask UI |
@@ -137,5 +189,7 @@ Tests check:
 - Many-to-many relationships (`<>`) are not seeded.
 - Circular foreign keys raise an error.
 - Self-referential FKs are not treated as sort dependencies; values still come from already generated rows in the same table when possible.
+- SQL DDL is parsed into the common schema model; some dialect-specific semantics, including inline MySQL enum values, SQL check enforcement, and function defaults, may not be preserved in generated JSON.
+- SQL entered in the web UI should begin with a `CREATE TABLE` statement for auto-detection. For scripts containing `CREATE DATABASE` or `USE`, select **SQL DDL** and the correct dialect explicitly.
 - Date generators currently default to “now” unless callers pass an explicit range.
 - Output is JSON files, not SQL `INSERT` statements.

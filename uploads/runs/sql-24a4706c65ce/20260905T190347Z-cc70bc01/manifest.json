@@ -1,0 +1,10 @@
+{
+  "schema_key": "sql-24a4706c65ce",
+  "run_id": "20260905T190347Z-cc70bc01",
+  "source_format": "sql",
+  "dialect": "postgres",
+  "source_path": "schemas/sql-24a4706c65ce/schema.sql",
+  "output_path": "runs/sql-24a4706c65ce/20260905T190347Z-cc70bc01",
+  "output_name": "generated_data",
+  "created_at": "2026-09-05T19:03:47.647643+00:00"
+}

@@ -1,0 +1,602 @@
+{
+    "1": {
+        "id": 1,
+        "variant_id": 69,
+        "attribute_id": 25,
+        "attribute_value_id": 1
+    },
+    "2": {
+        "id": 2,
+        "variant_id": 63,
+        "attribute_id": 4,
+        "attribute_value_id": 49
+    },
+    "3": {
+        "id": 3,
+        "variant_id": 27,
+        "attribute_id": 39,
+        "attribute_value_id": 76
+    },
+    "4": {
+        "id": 4,
+        "variant_id": 56,
+        "attribute_id": 97,
+        "attribute_value_id": 59
+    },
+    "5": {
+        "id": 5,
+        "variant_id": 71,
+        "attribute_id": 18,
+        "attribute_value_id": 62
+    },
+    "6": {
+        "id": 6,
+        "variant_id": 39,
+        "attribute_id": 16,
+        "attribute_value_id": 97
+    },
+    "7": {
+        "id": 7,
+        "variant_id": 97,
+        "attribute_id": 19,
+        "attribute_value_id": 60
+    },
+    "8": {
+        "id": 8,
+        "variant_id": 59,
+        "attribute_id": 70,
+        "attribute_value_id": 35
+    },
+    "9": {
+        "id": 9,
+        "variant_id": 12,
+        "attribute_id": 22,
+        "attribute_value_id": 38
+    },
+    "10": {
+        "id": 10,
+        "variant_id": 94,
+        "attribute_id": 17,
+        "attribute_value_id": 50
+    },
+    "11": {
+        "id": 11,
+        "variant_id": 11,
+        "attribute_id": 36,
+        "attribute_value_id": 11
+    },
+    "12": {
+        "id": 12,
+        "variant_id": 46,
+        "attribute_id": 28,
+        "attribute_value_id": 74
+    },
+    "13": {
+        "id": 13,
+        "variant_id": 48,
+        "attribute_id": 46,
+        "attribute_value_id": 68
+    },
+    "14": {
+        "id": 14,
+        "variant_id": 92,
+        "attribute_id": 78,
+        "attribute_value_id": 100
+    },
+    "15": {
+        "id": 15,
+        "variant_id": 10,
+        "attribute_id": 52,
+        "attribute_value_id": 6
+    },
+    "16": {
+        "id": 16,
+        "variant_id": 66,
+        "attribute_id": 14,
+        "attribute_value_id": 80
+    },
+    "17": {
+        "id": 17,
+        "variant_id": 47,
+        "attribute_id": 34,
+        "attribute_value_id": 86
+    },
+    "18": {
+        "id": 18,
+        "variant_id": 98,
+        "attribute_id": 6,
+        "attribute_value_id": 98
+    },
+    "19": {
+        "id": 19,
+        "variant_id": 99,
+        "attribute_id": 2,
+        "attribute_value_id": 36
+    },
+    "20": {
+        "id": 20,
+        "variant_id": 21,
+        "attribute_id": 94,
+        "attribute_value_id": 57
+    },
+    "21": {
+        "id": 21,
+        "variant_id": 34,
+        "attribute_id": 40,
+        "attribute_value_id": 40
+    },
+    "22": {
+        "id": 22,
+        "variant_id": 77,
+        "attribute_id": 31,
+        "attribute_value_id": 79
+    },
+    "23": {
+        "id": 23,
+        "variant_id": 29,
+        "attribute_id": 84,
+        "attribute_value_id": 44
+    },
+    "24": {
+        "id": 24,
+        "variant_id": 20,
+        "attribute_id": 42,
+        "attribute_value_id": 15
+    },
+    "25": {
+        "id": 25,
+        "variant_id": 86,
+        "attribute_id": 45,
+        "attribute_value_id": 2
+    },
+    "26": {
+        "id": 26,
+        "variant_id": 74,
+        "attribute_id": 12,
+        "attribute_value_id": 84
+    },
+    "27": {
+        "id": 27,
+        "variant_id": 95,
+        "attribute_id": 47,
+        "attribute_value_id": 28
+    },
+    "28": {
+        "id": 28,
+        "variant_id": 5,
+        "attribute_id": 77,
+        "attribute_value_id": 45
+    },
+    "29": {
+        "id": 29,
+        "variant_id": 65,
+        "attribute_id": 53,
+        "attribute_value_id": 63
+    },
+    "30": {
+        "id": 30,
+        "variant_id": 84,
+        "attribute_id": 96,
+        "attribute_value_id": 30
+    },
+    "31": {
+        "id": 31,
+        "variant_id": 52,
+        "attribute_id": 51,
+        "attribute_value_id": 53
+    },
+    "32": {
+        "id": 32,
+        "variant_id": 88,
+        "attribute_id": 91,
+        "attribute_value_id": 73
+    },
+    "33": {
+        "id": 33,
+        "variant_id": 62,
+        "attribute_id": 90,
+        "attribute_value_id": 54
+    },
+    "34": {
+        "id": 34,
+        "variant_id": 17,
+        "attribute_id": 50,
+        "attribute_value_id": 20
+    },
+    "35": {
+        "id": 35,
+        "variant_id": 51,
+        "attribute_id": 82,
+        "attribute_value_id": 89
+    },
+    "36": {
+        "id": 36,
+        "variant_id": 60,
+        "attribute_id": 57,
+        "attribute_value_id": 85
+    },
+    "37": {
+        "id": 37,
+        "variant_id": 22,
+        "attribute_id": 38,
+        "attribute_value_id": 93
+    },
+    "38": {
+        "id": 38,
+        "variant_id": 96,
+        "attribute_id": 35,
+        "attribute_value_id": 66
+    },
+    "39": {
+        "id": 39,
+        "variant_id": 9,
+        "attribute_id": 43,
+        "attribute_value_id": 70
+    },
+    "40": {
+        "id": 40,
+        "variant_id": 38,
+        "attribute_id": 76,
+        "attribute_value_id": 13
+    },
+    "41": {
+        "id": 41,
+        "variant_id": 80,
+        "attribute_id": 95,
+        "attribute_value_id": 46
+    },
+    "42": {
+        "id": 42,
+        "variant_id": 87,
+        "attribute_id": 87,
+        "attribute_value_id": 94
+    },
+    "43": {
+        "id": 43,
+        "variant_id": 49,
+        "attribute_id": 68,
+        "attribute_value_id": 39
+    },
+    "44": {
+        "id": 44,
+        "variant_id": 73,
+        "attribute_id": 27,
+        "attribute_value_id": 4
+    },
+    "45": {
+        "id": 45,
+        "variant_id": 30,
+        "attribute_id": 32,
+        "attribute_value_id": 55
+    },
+    "46": {
+        "id": 46,
+        "variant_id": 23,
+        "attribute_id": 100,
+        "attribute_value_id": 91
+    },
+    "47": {
+        "id": 47,
+        "variant_id": 43,
+        "attribute_id": 7,
+        "attribute_value_id": 64
+    },
+    "48": {
+        "id": 48,
+        "variant_id": 90,
+        "attribute_id": 48,
+        "attribute_value_id": 25
+    },
+    "49": {
+        "id": 49,
+        "variant_id": 79,
+        "attribute_id": 49,
+        "attribute_value_id": 43
+    },
+    "50": {
+        "id": 50,
+        "variant_id": 42,
+        "attribute_id": 63,
+        "attribute_value_id": 48
+    },
+    "51": {
+        "id": 51,
+        "variant_id": 44,
+        "attribute_id": 33,
+        "attribute_value_id": 8
+    },
+    "52": {
+        "id": 52,
+        "variant_id": 31,
+        "attribute_id": 69,
+        "attribute_value_id": 95
+    },
+    "53": {
+        "id": 53,
+        "variant_id": 25,
+        "attribute_id": 56,
+        "attribute_value_id": 82
+    },
+    "54": {
+        "id": 54,
+        "variant_id": 3,
+        "attribute_id": 54,
+        "attribute_value_id": 56
+    },
+    "55": {
+        "id": 55,
+        "variant_id": 55,
+        "attribute_id": 29,
+        "attribute_value_id": 77
+    },
+    "56": {
+        "id": 56,
+        "variant_id": 18,
+        "attribute_id": 80,
+        "attribute_value_id": 23
+    },
+    "57": {
+        "id": 57,
+        "variant_id": 89,
+        "attribute_id": 13,
+        "attribute_value_id": 88
+    },
+    "58": {
+        "id": 58,
+        "variant_id": 85,
+        "attribute_id": 61,
+        "attribute_value_id": 17
+    },
+    "59": {
+        "id": 59,
+        "variant_id": 83,
+        "attribute_id": 85,
+        "attribute_value_id": 5
+    },
+    "60": {
+        "id": 60,
+        "variant_id": 2,
+        "attribute_id": 66,
+        "attribute_value_id": 14
+    },
+    "61": {
+        "id": 61,
+        "variant_id": 50,
+        "attribute_id": 64,
+        "attribute_value_id": 87
+    },
+    "62": {
+        "id": 62,
+        "variant_id": 8,
+        "attribute_id": 8,
+        "attribute_value_id": 81
+    },
+    "63": {
+        "id": 63,
+        "variant_id": 33,
+        "attribute_id": 71,
+        "attribute_value_id": 90
+    },
+    "64": {
+        "id": 64,
+        "variant_id": 32,
+        "attribute_id": 24,
+        "attribute_value_id": 92
+    },
+    "65": {
+        "id": 65,
+        "variant_id": 68,
+        "attribute_id": 44,
+        "attribute_value_id": 37
+    },
+    "66": {
+        "id": 66,
+        "variant_id": 26,
+        "attribute_id": 74,
+        "attribute_value_id": 51
+    },
+    "67": {
+        "id": 67,
+        "variant_id": 75,
+        "attribute_id": 41,
+        "attribute_value_id": 32
+    },
+    "68": {
+        "id": 68,
+        "variant_id": 1,
+        "attribute_id": 5,
+        "attribute_value_id": 7
+    },
+    "69": {
+        "id": 69,
+        "variant_id": 16,
+        "attribute_id": 86,
+        "attribute_value_id": 99
+    },
+    "70": {
+        "id": 70,
+        "variant_id": 6,
+        "attribute_id": 15,
+        "attribute_value_id": 24
+    },
+    "71": {
+        "id": 71,
+        "variant_id": 36,
+        "attribute_id": 1,
+        "attribute_value_id": 21
+    },
+    "72": {
+        "id": 72,
+        "variant_id": 70,
+        "attribute_id": 89,
+        "attribute_value_id": 69
+    },
+    "73": {
+        "id": 73,
+        "variant_id": 28,
+        "attribute_id": 9,
+        "attribute_value_id": 26
+    },
+    "74": {
+        "id": 74,
+        "variant_id": 82,
+        "attribute_id": 20,
+        "attribute_value_id": 96
+    },
+    "75": {
+        "id": 75,
+        "variant_id": 100,
+        "attribute_id": 62,
+        "attribute_value_id": 67
+    },
+    "76": {
+        "id": 76,
+        "variant_id": 53,
+        "attribute_id": 23,
+        "attribute_value_id": 78
+    },
+    "77": {
+        "id": 77,
+        "variant_id": 37,
+        "attribute_id": 11,
+        "attribute_value_id": 10
+    },
+    "78": {
+        "id": 78,
+        "variant_id": 13,
+        "attribute_id": 81,
+        "attribute_value_id": 83
+    },
+    "79": {
+        "id": 79,
+        "variant_id": 61,
+        "attribute_id": 3,
+        "attribute_value_id": 3
+    },
+    "80": {
+        "id": 80,
+        "variant_id": 78,
+        "attribute_id": 98,
+        "attribute_value_id": 19
+    },
+    "81": {
+        "id": 81,
+        "variant_id": 15,
+        "attribute_id": 93,
+        "attribute_value_id": 47
+    },
+    "82": {
+        "id": 82,
+        "variant_id": 40,
+        "attribute_id": 65,
+        "attribute_value_id": 41
+    },
+    "83": {
+        "id": 83,
+        "variant_id": 72,
+        "attribute_id": 92,
+        "attribute_value_id": 9
+    },
+    "84": {
+        "id": 84,
+        "variant_id": 57,
+        "attribute_id": 60,
+        "attribute_value_id": 71
+    },
+    "85": {
+        "id": 85,
+        "variant_id": 41,
+        "attribute_id": 30,
+        "attribute_value_id": 34
+    },
+    "86": {
+        "id": 86,
+        "variant_id": 67,
+        "attribute_id": 73,
+        "attribute_value_id": 33
+    },
+    "87": {
+        "id": 87,
+        "variant_id": 45,
+        "attribute_id": 55,
+        "attribute_value_id": 31
+    },
+    "88": {
+        "id": 88,
+        "variant_id": 7,
+        "attribute_id": 37,
+        "attribute_value_id": 42
+    },
+    "89": {
+        "id": 89,
+        "variant_id": 76,
+        "attribute_id": 59,
+        "attribute_value_id": 58
+    },
+    "90": {
+        "id": 90,
+        "variant_id": 35,
+        "attribute_id": 83,
+        "attribute_value_id": 65
+    },
+    "91": {
+        "id": 91,
+        "variant_id": 24,
+        "attribute_id": 75,
+        "attribute_value_id": 12
+    },
+    "92": {
+        "id": 92,
+        "variant_id": 91,
+        "attribute_id": 79,
+        "attribute_value_id": 52
+    },
+    "93": {
+        "id": 93,
+        "variant_id": 14,
+        "attribute_id": 99,
+        "attribute_value_id": 27
+    },
+    "94": {
+        "id": 94,
+        "variant_id": 64,
+        "attribute_id": 10,
+        "attribute_value_id": 29
+    },
+    "95": {
+        "id": 95,
+        "variant_id": 19,
+        "attribute_id": 67,
+        "attribute_value_id": 22
+    },
+    "96": {
+        "id": 96,
+        "variant_id": 81,
+        "attribute_id": 88,
+        "attribute_value_id": 16
+    },
+    "97": {
+        "id": 97,
+        "variant_id": 58,
+        "attribute_id": 58,
+        "attribute_value_id": 61
+    },
+    "98": {
+        "id": 98,
+        "variant_id": 93,
+        "attribute_id": 21,
+        "attribute_value_id": 18
+    },
+    "99": {
+        "id": 99,
+        "variant_id": 4,
+        "attribute_id": 26,
+        "attribute_value_id": 75
+    },
+    "100": {
+        "id": 100,
+        "variant_id": 54,
+        "attribute_id": 72,
+        "attribute_value_id": 72
+    }
+}

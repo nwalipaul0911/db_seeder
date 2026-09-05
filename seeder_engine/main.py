@@ -7,8 +7,6 @@ from collections import defaultdict
 from typing import Dict, List, Optional, Tuple
 
 from faker import Faker
-from pydbml import PyDBML
-from pydbml.classes import Enum, Table
 from argparse import ArgumentParser
 
 from .datetime_generator import later_than, in_the_future, as_datetime, is_date_only
@@ -18,6 +16,8 @@ from .field_types import (
     generate_value,
     parse_sql_type,
 )
+from .schema_loader import load_schema_file
+from .schema_ir import Table
 
 # ======================================================
 # GLOBAL STATE (PER RUN)
@@ -147,6 +147,21 @@ def build_fk_map(refs):
                 "target_column": tgt_col.name,
             }
 
+    return fk_map
+
+
+def build_fk_map_from_schema(schema):
+    fk_map = {}
+    for relationship in schema.relationships:
+        if relationship.cardinality == "many-to-many":
+            continue
+        for source_column, target_column in zip(
+            relationship.source_columns, relationship.target_columns
+        ):
+            fk_map.setdefault(relationship.source_table, {})[source_column] = {
+                "target_table": relationship.target_table,
+                "target_column": target_column,
+            }
     return fk_map
 
 
@@ -688,7 +703,7 @@ def generate_column_value(
         and random.random() < config["default_probability"]
     ):
         return coerce_default(
-            column.default, col_type, isinstance(column.type, Enum)
+            column.default, col_type, column.data_type.enum_name is not None
         )
 
     if (
@@ -727,8 +742,8 @@ def generate_column_value(
             pending_uniques.append((unique_key(table_name, col_name), value))
         return value
 
-    if isinstance(column.type, Enum):
-        enum_vals = [v.name for v in enums[column.type.name].items]
+    if column.data_type.enum_name is not None:
+        enum_vals = enums[column.data_type.enum_name].values
         return random.choice(enum_vals)
 
     for _ in range(80):
@@ -776,7 +791,7 @@ def _fill_sequence_versions(entry, table, fk_map):
 def _prefer_unused_enum_fk_pairs(entry, table, fk_map, enums, pending_pairs: list):
     """Avoid repeating (parent, enum) combinations when the schema did not declare them unique."""
     fks = fk_map.get(table.name, {})
-    enum_cols = [c for c in table.columns if isinstance(c.type, Enum)]
+    enum_cols = [c for c in table.columns if c.data_type.enum_name is not None]
     fk_cols = [
         c.name
         for c in table.columns
@@ -792,7 +807,7 @@ def _prefer_unused_enum_fk_pairs(entry, table, fk_map, enums, pending_pairs: lis
             used = USED_COMPOSITE_UNIQUES.setdefault(combo_key, set())
             pair = (entry[fk_col], entry[ecol.name])
             if pair in used:
-                enum_vals = [v.name for v in enums[ecol.type.name].items]
+                enum_vals = enums[ecol.data_type.enum_name].values
                 random.shuffle(enum_vals)
                 for candidate in enum_vals:
                     alt = (entry[fk_col], candidate)
@@ -1021,19 +1036,19 @@ def sync_current_versions(tables: List[Table], fk_map, generated_data):
 # ======================================================
 
 
-def seed(schema_path, config_path, output_dir):
+def seed(schema_path, config_path, output_dir, schema_format="auto", dialect="sqlite"):
     reset_state()
 
-    dbml = PyDBML.parse_file(schema_path)
+    schema = load_schema_file(schema_path, schema_format, dialect)
     with open(config_path) as f:
         config = merge_config(yaml.safe_load(f))
 
     configure_generators(int(config.get("seed", 42)))
     Faker.seed(int(config.get("seed", 42)))
 
-    enums = {e.name: e for e in dbml.enums}
-    fk_map = build_fk_map(dbml.refs)
-    tables = topo_sort_tables(dbml.tables, fk_map)
+    enums = schema.enum_map
+    fk_map = build_fk_map_from_schema(schema)
+    tables = topo_sort_tables(list(schema.tables), fk_map)
     generated_data = {}
 
     for table in tables:
@@ -1063,8 +1078,10 @@ def main():
     parser.add_argument("--schema", type=str, default="schema.dbml")
     parser.add_argument("--config", type=str, default="config.yaml")
     parser.add_argument("--output", type=str, default="data")
+    parser.add_argument("--format", choices=("auto", "dbml", "sql", "prisma"), default="auto")
+    parser.add_argument("--dialect", choices=("sqlite", "postgres", "mysql"), default="sqlite")
     args = parser.parse_args()
-    seed(args.schema, args.config, args.output)
+    seed(args.schema, args.config, args.output, args.format, args.dialect)
 
 
 if __name__ == "__main__":

@@ -1,5 +1,3 @@
-Yes. For a **database seeding app**, I’d define “5 most used schemas” as the five input formats that give you the broadest developer coverage—not five database *models*.
-
 My recommended order is:
 
 1. **SQL DDL**

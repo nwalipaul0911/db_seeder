@@ -5,123 +5,513 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DBML Data Seeder</title>
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+      :root {
+        --ink: #172121;
+        --muted: #687373;
+        --paper: #f4f6f1;
+        --surface: #ffffff;
+        --line: #d9dfd8;
+        --soft-line: #e9ede8;
+        --accent: #e75d3f;
+        --accent-dark: #bd4029;
+        --teal: #137c72;
+        --teal-dark: #0b5c55;
+        --code: #172525;
+        --shadow: 0 24px 60px rgba(23, 33, 33, 0.10);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
       body {
-        font-family: Arial, sans-serif;
-        margin: 32px;
-        background: #f5f7fb;
-        color: #1f2937;
+        min-width: 320px;
+        margin: 0;
+        background-color: var(--paper);
+        background-image: linear-gradient(rgba(23, 33, 33, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(23, 33, 33, 0.035) 1px, transparent 1px);
+        background-size: 28px 28px;
+        color: var(--ink);
+        font-family: 'Manrope', 'Trebuchet MS', sans-serif;
       }
+
       .container {
-        max-width: 1100px;
-        margin: 0 auto;
-        background: white;
-        border-radius: 12px;
-        padding: 24px;
-        box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+        width: min(1180px, calc(100% - 32px));
+        margin: 42px auto;
+        padding: clamp(22px, 4vw, 52px);
+        background: rgba(255, 255, 255, 0.94);
+        border: 1px solid rgba(217, 223, 216, 0.9);
+        border-radius: 18px;
+        box-shadow: var(--shadow);
       }
+
+      .eyebrow {
+        margin: 0 0 10px;
+        color: var(--accent-dark);
+        font-family: 'DM Mono', monospace;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
       h1 {
-        margin-top: 0;
+        max-width: 680px;
+        margin: 0;
+        font-size: clamp(2rem, 5vw, 4.5rem);
+        line-height: 0.98;
+        letter-spacing: -0.04em;
       }
+
+      .intro {
+        max-width: 650px;
+        margin: 16px 0 38px;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.65;
+      }
+
+      form {
+        display: grid;
+        gap: 22px;
+      }
+
+      .control-grid {
+        display: grid;
+        grid-template-columns: minmax(130px, 0.7fr) minmax(180px, 1fr) minmax(220px, 1.4fr);
+        gap: 14px;
+      }
+
+      .field {
+        display: grid;
+        min-width: 0;
+        gap: 7px;
+      }
+
+      .field label {
+        color: var(--muted);
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      input,
+      select,
+      button {
+        min-width: 0;
+        min-height: 44px;
+        padding: 11px 13px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        font: inherit;
+        font-size: 13px;
+      }
+
+      input,
+      select {
+        width: 100%;
+        color: var(--ink);
+        background: var(--surface);
+      }
+
+      input:focus,
+      select:focus,
+      textarea:focus,
+      button:focus-visible {
+        outline: 3px solid rgba(231, 93, 63, 0.18);
+        outline-offset: 2px;
+        border-color: var(--accent);
+      }
+
+      button {
+        border-color: transparent;
+        background: var(--accent);
+        color: #fff;
+        cursor: pointer;
+        font-weight: 800;
+        transition: transform 150ms ease, background 150ms ease;
+      }
+
+      button:hover {
+        background: var(--accent-dark);
+        transform: translateY(-1px);
+      }
+
+      button.secondary {
+        border-color: var(--line);
+        background: var(--surface);
+        color: var(--ink);
+      }
+
+      button.secondary:hover {
+        background: #f0f3ee;
+      }
+
+      .editor {
+        display: grid;
+        gap: 10px;
+      }
+
+      .editor-header,
+      .results-header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 16px;
+      }
+
+      .editor-header h2,
+      .results-header h2 {
+        margin: 0;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+      }
+
+      .hint {
+        margin: 0;
+        color: var(--muted);
+        font-family: 'DM Mono', monospace;
+        font-size: 11px;
+      }
+
       textarea {
         width: 100%;
         min-height: 360px;
+        padding: 18px;
         resize: vertical;
-        padding: 14px;
-        border: 1px solid #cbd5e1;
-        border-radius: 8px;
-        font-family: monospace;
+        border: 1px solid #344b4a;
+        border-radius: 10px;
+        background: var(--code);
+        color: #dceae3;
+        font-family: 'DM Mono', monospace;
+        font-size: 13px;
+        line-height: 1.65;
+        tab-size: 2;
       }
-      .row {
+
+      #dbml_text::placeholder {
+        color: #7d9390;
+      }
+
+      .actions {
         display: flex;
-        gap: 16px;
-        align-items: center;
-        margin: 16px 0;
+        flex-wrap: wrap;
+        gap: 10px;
       }
-      input, button {
-        padding: 10px 14px;
-        border-radius: 8px;
-        border: 1px solid #cbd5e1;
-        font-size: 14px;
-      }
-      button {
-        background: #2563eb;
-        color: white;
-        border: none;
-        cursor: pointer;
-      }
-      button.secondary {
-        background: #e5e7eb;
-        color: #111827;
-      }
+
       .status {
-        margin-top: 18px;
-        padding: 12px 16px;
-        border-radius: 8px;
         display: none;
+        margin-top: 28px;
+        padding: 14px 16px;
+        border-left: 4px solid var(--teal);
+        border-radius: 6px;
+        font-size: 13px;
+        line-height: 1.5;
       }
+
+      .status {
+        overflow-wrap: anywhere;
+      }
+
       .status.success {
         display: block;
-        background: #ecfdf5;
-        color: #065f46;
+        background: #e8f4ef;
+        color: #075e55;
       }
+
       .status.error {
         display: block;
-        background: #fef2f2;
-        color: #991b1b;
+        border-left-color: var(--accent);
+        background: #fff0eb;
+        color: #92341f;
       }
-      #resultList {
-        margin-top: 16px;
+
+      #downloadContainer {
+        margin: 20px 0 0;
+      }
+
+      .download-link {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 10px 14px;
+        border-radius: 8px;
+        background: var(--teal);
+        color: #fff;
+        font-size: 13px;
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      .download-link:hover {
+        background: var(--teal-dark);
+      }
+
+      .results {
+        margin-top: 38px;
+        padding-top: 28px;
+        border-top: 1px solid var(--soft-line);
+      }
+
+      .history {
+        margin-top: 38px;
+        padding-top: 28px;
+        border-top: 1px solid var(--soft-line);
+      }
+
+      #historyList {
+        display: grid;
+        gap: 10px;
+        margin: 16px 0 0;
         padding: 0;
         list-style: none;
       }
-      .json-item {
-        margin-top: 10px;
-        border: 1px solid #cbd5e1;
+
+      .history-item {
+        border: 1px solid var(--line);
         border-radius: 8px;
         overflow: hidden;
       }
+
+      .history-item summary {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 12px 16px;
+        cursor: pointer;
+        background: #f6f8f4;
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      .history-meta {
+        padding: 14px 16px;
+        color: var(--muted);
+        font-family: 'DM Mono', monospace;
+        font-size: 11px;
+      }
+
+      .history-files {
+        display: grid;
+        gap: 8px;
+        margin: 12px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .history-file {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 8px 0;
+        border-top: 1px solid var(--soft-line);
+      }
+
+      .history-file a {
+        color: var(--teal-dark);
+        font-family: 'DM Mono', monospace;
+        font-size: 11px;
+        overflow-wrap: anywhere;
+      }
+
+      .history-download {
+        display: inline-block;
+        margin-top: 12px;
+        color: var(--accent-dark);
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .history-toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-top: 16px;
+      }
+
+      .history-select-all {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .history-clear {
+        min-height: 34px;
+        padding: 7px 10px;
+        background: transparent;
+        color: var(--accent-dark);
+        font-size: 11px;
+      }
+
+      .history-clear:hover {
+        background: #fff0eb;
+      }
+
+      .history-run-check {
+        flex: 0 0 auto;
+        width: 16px;
+        min-height: 16px;
+        margin: 0;
+      }
+
+      #resultList {
+        display: grid;
+        gap: 10px;
+        margin: 16px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .json-item {
+        min-width: 0;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
       .json-item summary {
         padding: 12px 16px;
         cursor: pointer;
-        font-weight: 600;
-        background: #f8fafc;
+        color: var(--ink);
+        font-family: 'DM Mono', monospace;
+        font-size: 12px;
+        font-weight: 500;
+        background: #f6f8f4;
+        overflow-wrap: anywhere;
       }
+
       .json-viewer {
         padding: 12px;
-        background: #ffffff;
+        background: var(--surface);
       }
+
       .json-viewer textarea {
-        box-sizing: border-box;
         width: 100%;
         height: 320px;
         min-height: 0;
         resize: vertical;
         margin-bottom: 10px;
-        background: #f8fafc;
+        background: #f3f6f2;
+        color: var(--ink);
+        border-color: var(--line);
       }
+
       .copy-button {
-        background: #0f766e;
+        background: var(--teal);
+      }
+
+      .copy-button:hover {
+        background: var(--teal-dark);
+      }
+
+      @media (max-width: 800px) {
+        .container {
+          width: min(100% - 20px, 680px);
+          margin: 10px auto;
+          padding: 24px 18px;
+          border-radius: 14px;
+        }
+
+        .control-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .field.file-field {
+          grid-column: 1 / -1;
+        }
+      }
+
+      @media (max-width: 520px) {
+        .control-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .field.file-field {
+          grid-column: auto;
+        }
+
+        .actions {
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+
+        .actions button {
+          width: 100%;
+        }
+
+        textarea {
+          min-height: 280px;
+          padding: 14px;
+          font-size: 12px;
+        }
+
+        .editor-header,
+        .results-header {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 5px;
+        }
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>DBML Data Seeder</h1>
+      <p class="eyebrow">Schema to synthetic data</p>
+      <h1>DB Seeder</h1>
+      <p class="intro">Paste or upload a DBML, SQL DDL, or Prisma schema. Validate it first, then generate relational JSON you can inspect or download as one archive.</p>
 
       <form id="seedForm" method="POST" action="/generate">
-        <div class="row">
-          <label for="rows_per_table">Rows per table</label>
-          <input id="rows_per_table" name="rows_per_table" type="number" min="1" value="100" />
-          <label for="output_name">Folder name</label>
-          <input id="output_name" name="output_name" type="text" value="generated_data" />
-          <label for="dbml_file">DBML file</label>
-          <input id="dbml_file" name="dbml_file" type="file" accept=".dbml,text/plain" />
+        <div class="control-grid">
+          <div class="field">
+            <label for="rows_per_table">Rows per table</label>
+            <input id="rows_per_table" name="rows_per_table" type="number" min="1" value="100" />
+          </div>
+          <div class="field">
+            <label for="output_name">Output folder</label>
+            <input id="output_name" name="output_name" type="text" value="generated_data" />
+          </div>
+          <div class="field file-field">
+            <label for="dbml_file">Schema file</label>
+            <input id="dbml_file" name="dbml_file" type="file" accept=".dbml,.sql,.prisma,text/plain" />
+          </div>
+          <div class="field">
+            <label for="schema_format">Format</label>
+            <select id="schema_format" name="schema_format">
+              <option value="auto">Auto-detect</option>
+              <option value="dbml">DBML</option>
+              <option value="sql">SQL DDL</option>
+              <option value="prisma">Prisma</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="dialect">SQL dialect</label>
+            <select id="dialect" name="dialect">
+              <option value="sqlite">SQLite</option>
+              <option value="postgres">PostgreSQL</option>
+              <option value="mysql">MySQL</option>
+            </select>
+          </div>
         </div>
 
-        <textarea id="dbml_text" name="dbml_text" placeholder="Paste your DBML schema here..."></textarea>
+        <div class="editor">
+          <div class="editor-header">
+            <h2>Schema input</h2>
+            <p class="hint">paste source or choose a file above</p>
+          </div>
+          <textarea id="dbml_text" name="dbml_text" placeholder="Paste DBML, SQL DDL, or Prisma schema here..."></textarea>
+        </div>
 
-        <div class="row">
+        <div class="actions">
           <button type="submit">Generate data</button>
+          <button class="secondary" type="button" id="validateSchema">Validate schema</button>
           <button class="secondary" type="button" id="loadSample">Load sample</button>
         </div>
       </form>
@@ -130,7 +520,24 @@
       <p id="downloadContainer" hidden>
         <a id="downloadLink" class="download-link" href="">Download all table data (.zip)</a>
       </p>
-      <ul id="resultList"></ul>
+      <section class="results" aria-live="polite">
+        <div class="results-header">
+          <h2>Generated tables</h2>
+          <p class="hint">expand a file to inspect its JSON</p>
+        </div>
+        <ul id="resultList"></ul>
+      </section>
+      <section class="history" aria-live="polite">
+        <div class="results-header">
+          <h2>Seed history</h2>
+          <p class="hint">previous runs stay available here</p>
+        </div>
+        <div class="history-toolbar">
+          <label class="history-select-all"><input id="selectAllHistory" type="checkbox" /> Select all</label>
+          <button class="history-clear" id="clearSelectedHistory" type="button">Clear checked history</button>
+        </div>
+        <ul id="historyList"></ul>
+      </section>
     </div>
 
     <script>
@@ -141,8 +548,165 @@
   created_at datetime
 }`;
 
+      function pathPart(value) {
+        return encodeURIComponent(value || '').replace(/%2F/g, '/');
+      }
+
+      function renderHistory(history) {
+        const historyList = document.getElementById('historyList');
+        document.getElementById('selectAllHistory').checked = false;
+        historyList.innerHTML = '';
+        if (!history.length) {
+          historyList.innerHTML = '<li class="hint">No seeded runs yet.</li>';
+          return;
+        }
+
+        history.forEach(run => {
+          const item = document.createElement('li');
+          item.className = 'history-item';
+          const details = document.createElement('details');
+          const summary = document.createElement('summary');
+          const checkbox = document.createElement('input');
+          checkbox.className = 'history-run-check';
+          checkbox.type = 'checkbox';
+          checkbox.dataset.schemaKey = run.schema_key;
+          checkbox.dataset.runId = run.run_id;
+          const date = new Date(run.created_at).toLocaleString();
+          const dateLabel = document.createElement('span');
+          dateLabel.textContent = date;
+          const tableCount = document.createElement('span');
+          tableCount.textContent = `${run.files.length} tables`;
+          summary.prepend(checkbox);
+          summary.append(dateLabel, tableCount);
+          details.appendChild(summary);
+
+          const meta = document.createElement('div');
+          meta.className = 'history-meta';
+          meta.textContent = `${run.source_format.toUpperCase()} · ${run.run_id}`;
+          const files = document.createElement('ul');
+          files.className = 'history-files';
+          run.files.forEach(file => {
+            const fileItem = document.createElement('li');
+            fileItem.className = 'history-file';
+            const fileLink = document.createElement('a');
+            fileLink.href = `/view/${pathPart(run.output_path)}/${pathPart(file.name)}`;
+            fileLink.target = '_blank';
+            fileLink.rel = 'noreferrer';
+            fileLink.textContent = file.name;
+            const rowCount = document.createElement('span');
+            rowCount.textContent = `${file.row_count.toLocaleString()} rows`;
+            fileItem.append(fileLink, rowCount);
+            files.appendChild(fileItem);
+          });
+          meta.appendChild(files);
+          const download = document.createElement('a');
+          download.className = 'history-download';
+          download.href = `/download/${pathPart(run.output_path)}/${pathPart(run.archive_name)}`;
+          download.textContent = 'Download this run (.zip)';
+          meta.appendChild(download);
+          const clearButton = document.createElement('button');
+          clearButton.className = 'history-clear';
+          clearButton.type = 'button';
+          clearButton.textContent = 'Clear this run';
+          clearButton.addEventListener('click', async event => {
+            event.preventDefault();
+            if (!window.confirm('Clear this seeded run?')) return;
+            await deleteHistoryRuns([{ schema_key: run.schema_key, run_id: run.run_id }]);
+          });
+          meta.appendChild(clearButton);
+          details.appendChild(meta);
+          item.appendChild(details);
+          historyList.appendChild(item);
+        });
+      }
+
+      async function loadHistory() {
+        const response = await fetch('/history');
+        if (!response.ok) throw new Error('Unable to load seed history');
+        renderHistory(await response.json());
+      }
+
+      async function deleteHistoryRuns(runs) {
+        const response = await fetch('/history/delete', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ runs }),
+        });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.error || 'Unable to clear history');
+        await loadHistory();
+      }
+
+      document.getElementById('selectAllHistory').addEventListener('change', function () {
+        document.querySelectorAll('.history-run-check').forEach(checkbox => {
+          checkbox.checked = this.checked;
+        });
+      });
+
+      document.getElementById('clearSelectedHistory').addEventListener('click', async function () {
+        const runs = [...document.querySelectorAll('.history-run-check:checked')].map(checkbox => ({
+          schema_key: checkbox.dataset.schemaKey,
+          run_id: checkbox.dataset.runId,
+        }));
+        if (!runs.length) return;
+        if (!window.confirm(`Clear ${runs.length} selected seeded run(s)?`)) return;
+        try {
+          await deleteHistoryRuns(runs);
+        } catch (error) {
+          document.getElementById('historyList').innerHTML = `<li class="status error">${error.message}</li>`;
+        }
+      });
+
+      loadHistory().catch(error => {
+        document.getElementById('historyList').innerHTML = `<li class="status error">${error.message}</li>`;
+      });
+
+      document.getElementById('dbml_file').addEventListener('change', async function () {
+        const file = this.files[0];
+        const statusEl = document.getElementById('status');
+        const schemaText = document.getElementById('dbml_text');
+        const formatSelect = document.getElementById('schema_format');
+
+        if (!file) return;
+
+        try {
+          schemaText.value = await file.text();
+          const extension = file.name.split('.').pop().toLowerCase();
+          const formatByExtension = { dbml: 'dbml', sql: 'sql', prisma: 'prisma' };
+          if (formatSelect.value === 'auto' && formatByExtension[extension]) {
+            formatSelect.value = formatByExtension[extension];
+          }
+          statusEl.className = 'status success';
+          statusEl.textContent = `Loaded ${file.name}. Review the schema, then validate or generate.`;
+          statusEl.style.display = 'block';
+        } catch (error) {
+          statusEl.className = 'status error';
+          statusEl.textContent = `Unable to read ${file.name}: ${error.message}`;
+          statusEl.style.display = 'block';
+        }
+      });
+
       document.getElementById('loadSample').addEventListener('click', function () {
         document.getElementById('dbml_text').value = sample;
+      });
+
+      document.getElementById('validateSchema').addEventListener('click', async function () {
+        const formData = new FormData(document.getElementById('seedForm'));
+        const statusEl = document.getElementById('status');
+        statusEl.className = 'status';
+        statusEl.textContent = 'Validating schema...';
+        statusEl.style.display = 'block';
+
+        try {
+          const response = await fetch('/validate', { method: 'POST', body: formData });
+          const data = await response.json();
+          if (!response.ok) throw new Error(data.error || 'Schema validation failed');
+          statusEl.className = 'status success';
+          statusEl.textContent = `Valid schema: ${data.table_count} tables, ${data.enum_count} enums, ${data.reference_count} references.`;
+        } catch (error) {
+          statusEl.className = 'status error';
+          statusEl.textContent = error.message;
+        }
       });
 
       document.getElementById('seedForm').addEventListener('submit', async function (event) {
@@ -184,7 +748,8 @@
 
             const details = document.createElement('details');
             const summary = document.createElement('summary');
-            summary.textContent = file;
+            const rowCount = data.row_counts?.[file] ?? 0;
+            summary.textContent = `${file} · ${rowCount.toLocaleString()} rows`;
             details.appendChild(summary);
 
             const viewer = document.createElement('div');
@@ -227,6 +792,7 @@
             li.appendChild(details);
             resultList.appendChild(li);
           });
+          loadHistory().catch(() => {});
         } catch (error) {
           statusEl.className = 'status error';
           statusEl.textContent = error.message;

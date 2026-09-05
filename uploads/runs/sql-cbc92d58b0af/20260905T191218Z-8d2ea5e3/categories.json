@@ -1,0 +1,702 @@
+{
+    "1": {
+        "id": 1,
+        "name": "Team-oriented high-level challenge",
+        "description": "Mission wide common fight season budget campaign reason. Film decide wonder interesting several.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "2": {
+        "id": 2,
+        "name": "Customizable asynchronous adapter",
+        "description": "Amount blue soldier message arrive budget. Analysis feeling act benefit buy.",
+        "parent_id": 1,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "3": {
+        "id": 3,
+        "name": "Robust demand-driven parallelism",
+        "description": "Provide ahead certainly second.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "4": {
+        "id": 4,
+        "name": "Grass-roots optimal hardware",
+        "description": "Talk sit party measure. Between official add describe.",
+        "parent_id": 2,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "5": {
+        "id": 5,
+        "name": "Ergonomic executive concept",
+        "description": "Wind better degree. Surface listen recently continue pull blue strong.",
+        "parent_id": null,
+        "created_at": "Interest method imagine seven fire letter."
+    },
+    "6": {
+        "id": 6,
+        "name": "Programmable client-driven methodology",
+        "description": "News American foreign break exist. Save reach subject difficult imagine world into task.",
+        "parent_id": null,
+        "created_at": "Voice happen actually purpose public how mission."
+    },
+    "7": {
+        "id": 7,
+        "name": "Synergistic attitude-oriented capability",
+        "description": "Husband opportunity big understand within ask.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "8": {
+        "id": 8,
+        "name": "Exclusive global customer loyalty",
+        "description": null,
+        "parent_id": 5,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "9": {
+        "id": 9,
+        "name": "Right-sized impactful capability",
+        "description": "Rise everything require old event smile.",
+        "parent_id": 4,
+        "created_at": "Green project wear would memory challenge."
+    },
+    "10": {
+        "id": 10,
+        "name": "Persevering bi-directional capability",
+        "description": "Market pick care between apply attention question.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "11": {
+        "id": 11,
+        "name": "Enhanced homogeneous portal",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "12": {
+        "id": 12,
+        "name": "Synergistic fresh-thinking collaboration",
+        "description": "Perhaps set produce mind man letter family marriage.",
+        "parent_id": 11,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "13": {
+        "id": 13,
+        "name": "Profit-focused empowering moratorium",
+        "description": "National weight all involve trip himself fire. Kind along computer process single those.",
+        "parent_id": 8,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "14": {
+        "id": 14,
+        "name": "Down-sized mobile Internet solution",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "15": {
+        "id": 15,
+        "name": "Devolved fault-tolerant structure",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "16": {
+        "id": 16,
+        "name": "Networked mobile task-force",
+        "description": null,
+        "parent_id": 10,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "17": {
+        "id": 17,
+        "name": "Customizable non-volatile service-desk",
+        "description": "Rate occur live take media hot manager. Pay good within fly agreement and.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "18": {
+        "id": 18,
+        "name": "Multi-lateral grid-enabled workforce",
+        "description": null,
+        "parent_id": 7,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "19": {
+        "id": 19,
+        "name": "User-centric optimal algorithm",
+        "description": "Herself into yeah in argue each. Possible or travel assume figure.",
+        "parent_id": 13,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "20": {
+        "id": 20,
+        "name": "Mandatory composite adapter",
+        "description": "Also price institution method inside after. Onto worry help hope occur space beyond.",
+        "parent_id": 12,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "21": {
+        "id": 21,
+        "name": "Synergistic demand-driven Graphical User Interface",
+        "description": null,
+        "parent_id": null,
+        "created_at": "Me share fund pass guy job market."
+    },
+    "22": {
+        "id": 22,
+        "name": "Compatible national data-warehouse",
+        "description": "Answer you I difficult sea.",
+        "parent_id": 18,
+        "created_at": "Response official option event."
+    },
+    "23": {
+        "id": 23,
+        "name": "Re-contextualized multi-tasking leverage",
+        "description": "Girl baby statement measure feel. Finish increase economy middle public natural thing.",
+        "parent_id": 22,
+        "created_at": "Reflect television officer defense while score level view."
+    },
+    "24": {
+        "id": 24,
+        "name": "Public-key reciprocal throughput",
+        "description": "Risk art customer leg drive second she. Improve team treat plant suffer environment.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "25": {
+        "id": 25,
+        "name": "Horizontal secondary complexity",
+        "description": "Door draw change agree someone financial magazine yard.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "26": {
+        "id": 26,
+        "name": "Optimized secondary alliance",
+        "description": null,
+        "parent_id": 21,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "27": {
+        "id": 27,
+        "name": "Exclusive cohesive flexibility",
+        "description": null,
+        "parent_id": 24,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "28": {
+        "id": 28,
+        "name": "Devolved 4thgeneration firmware",
+        "description": "Compare system white magazine after teacher base.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "29": {
+        "id": 29,
+        "name": "Robust exuding architecture",
+        "description": "Public though however style successful door. Same usually miss stock wear use edge.",
+        "parent_id": 19,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "30": {
+        "id": 30,
+        "name": "Cross-group disintermediate policy",
+        "description": "Forget once hope security door institution.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "31": {
+        "id": 31,
+        "name": "Digitized bi-directional conglomeration",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "32": {
+        "id": 32,
+        "name": "Extended even-keeled intranet",
+        "description": null,
+        "parent_id": 6,
+        "created_at": "Effect operation make hear we first."
+    },
+    "33": {
+        "id": 33,
+        "name": "Optimized methodical software",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "34": {
+        "id": 34,
+        "name": "Fully-configurable even-keeled toolset",
+        "description": "Little happy final population toward alone.",
+        "parent_id": 30,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "35": {
+        "id": 35,
+        "name": "User-centric stable website",
+        "description": "Education his police red total.",
+        "parent_id": 29,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "36": {
+        "id": 36,
+        "name": "Synergized bottom-line monitoring",
+        "description": "Home travel hotel within eight bed.",
+        "parent_id": 28,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "37": {
+        "id": 37,
+        "name": "Versatile disintermediate framework",
+        "description": "Trouble place these short.",
+        "parent_id": null,
+        "created_at": "Smile ever bag single man say."
+    },
+    "38": {
+        "id": 38,
+        "name": "Managed transitional interface",
+        "description": "Recognize media goal own.",
+        "parent_id": 34,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "39": {
+        "id": 39,
+        "name": "Reactive user-facing Graphic Interface",
+        "description": "Seven political contain. Social carry husband pick finish bank.",
+        "parent_id": 23,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "40": {
+        "id": 40,
+        "name": "Diverse dynamic model",
+        "description": null,
+        "parent_id": null,
+        "created_at": "Suggest rate society floor."
+    },
+    "41": {
+        "id": 41,
+        "name": "Polarized user-facing challenge",
+        "description": "Reach step son cup.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "42": {
+        "id": 42,
+        "name": "Operative holistic contingency",
+        "description": "War this difference way type positive. Director become leg energy system anyone peace outside.",
+        "parent_id": 25,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "43": {
+        "id": 43,
+        "name": "Distributed background hub",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "44": {
+        "id": 44,
+        "name": "Down-sized non-volatile capability",
+        "description": "Itself turn law purpose budget require course.",
+        "parent_id": null,
+        "created_at": "Explain management candidate task outside."
+    },
+    "45": {
+        "id": 45,
+        "name": "Horizontal upward-trending service-desk",
+        "description": "Congress society agreement wish dog late.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "46": {
+        "id": 46,
+        "name": "Fully-configurable holistic paradigm",
+        "description": "Action card follow realize. Require remain save eight believe.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "47": {
+        "id": 47,
+        "name": "Centralized actuating groupware",
+        "description": null,
+        "parent_id": 32,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "48": {
+        "id": 48,
+        "name": "Front-line methodical help-desk",
+        "description": "Remember special accept mean herself within provide car. American conference college manage fund life bed.",
+        "parent_id": null,
+        "created_at": "Item employee finish without material wind exactly."
+    },
+    "49": {
+        "id": 49,
+        "name": "Multi-lateral intermediate forecast",
+        "description": "Stop unit might job close say man wear.",
+        "parent_id": 27,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "50": {
+        "id": 50,
+        "name": "Realigned stable productivity",
+        "description": "Country approach consumer. Employee relationship job yet until American ground.",
+        "parent_id": 45,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "51": {
+        "id": 51,
+        "name": "Triple-buffered next generation matrix",
+        "description": "Both rest challenge glass data exist strong. State none production defense your above short.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "52": {
+        "id": 52,
+        "name": "Enterprise-wide intangible archive",
+        "description": "Quality thought ago race quite hour opportunity.",
+        "parent_id": 48,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "53": {
+        "id": 53,
+        "name": "Customer-focused fresh-thinking collaboration",
+        "description": null,
+        "parent_id": 40,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "54": {
+        "id": 54,
+        "name": "Assimilated attitude-oriented knowledgebase",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "55": {
+        "id": 55,
+        "name": "Triple-buffered stable matrices",
+        "description": null,
+        "parent_id": 42,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "56": {
+        "id": 56,
+        "name": "Persevering responsive flexibility",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "57": {
+        "id": 57,
+        "name": "Right-sized stable ability",
+        "description": "Prevent week foot. Can tell soon executive sometimes season natural.",
+        "parent_id": null,
+        "created_at": "High human concern whole tend become system clear."
+    },
+    "58": {
+        "id": 58,
+        "name": "Vision-oriented impactful forecast",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "59": {
+        "id": 59,
+        "name": "Stand-alone web-enabled projection",
+        "description": "Fear song save TV.",
+        "parent_id": null,
+        "created_at": "Capital program story mention majority those live none."
+    },
+    "60": {
+        "id": 60,
+        "name": "Optimized background system engine",
+        "description": "Pass its international American game less. Positive require us money positive.",
+        "parent_id": 56,
+        "created_at": "Fact join trade local."
+    },
+    "61": {
+        "id": 61,
+        "name": "Distributed clear-thinking software",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "62": {
+        "id": 62,
+        "name": "Innovative dynamic model",
+        "description": "Notice necessary true message member. Behind produce nothing effect effort bank.",
+        "parent_id": 41,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "63": {
+        "id": 63,
+        "name": "Profit-focused 3rdgeneration budgetary management",
+        "description": "Skill successful and indicate. Finish right serious last space.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "64": {
+        "id": 64,
+        "name": "Mandatory contextually-based data-warehouse",
+        "description": null,
+        "parent_id": 49,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "65": {
+        "id": 65,
+        "name": "Enterprise-wide attitude-oriented synergy",
+        "description": "The blood move accept bring. Pretty least if price.",
+        "parent_id": null,
+        "created_at": "Rise field spend pattern real white push source."
+    },
+    "66": {
+        "id": 66,
+        "name": "Cross-group clear-thinking challenge",
+        "description": "Born administration wife teacher decide.",
+        "parent_id": 54,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "67": {
+        "id": 67,
+        "name": "Streamlined client-server projection",
+        "description": null,
+        "parent_id": 9,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "68": {
+        "id": 68,
+        "name": "Front-line intermediate product",
+        "description": "Beat show challenge instead bring. School knowledge machine after.",
+        "parent_id": 35,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "69": {
+        "id": 69,
+        "name": "Organized optimal encryption",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "70": {
+        "id": 70,
+        "name": "Exclusive explicit open system",
+        "description": "Free bill summer. Woman support say other never fact.",
+        "parent_id": null,
+        "created_at": "Hundred message right very toward test discussion."
+    },
+    "71": {
+        "id": 71,
+        "name": "Centralized multi-tasking adapter",
+        "description": "Firm as throughout individual list manager voice. Large job claim risk light just.",
+        "parent_id": 64,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "72": {
+        "id": 72,
+        "name": "Profit-focused directional parallelism",
+        "description": "Table resource life third rich hospital indicate wait. Somebody son suddenly perform executive see.",
+        "parent_id": null,
+        "created_at": "Can current paper beyond indeed year field."
+    },
+    "73": {
+        "id": 73,
+        "name": "Expanded next generation application",
+        "description": "Thing ground city still thus allow.",
+        "parent_id": 16,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "74": {
+        "id": 74,
+        "name": "Cloned global Internet solution",
+        "description": "Dinner no main year size show show news.",
+        "parent_id": null,
+        "created_at": "Table them page bit."
+    },
+    "75": {
+        "id": 75,
+        "name": "Business-focused leadingedge website",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "76": {
+        "id": 76,
+        "name": "Persevering web-enabled budgetary management",
+        "description": "Participant teach big none medical cold brother day.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "77": {
+        "id": 77,
+        "name": "Multi-lateral cohesive superstructure",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "78": {
+        "id": 78,
+        "name": "Implemented tertiary intranet",
+        "description": "Run between positive free case summer keep. Shoulder according strong list expert commercial.",
+        "parent_id": 14,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "79": {
+        "id": 79,
+        "name": "Future-proofed holistic structure",
+        "description": "Picture early send morning skin case. Including important learn system some gun.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "80": {
+        "id": 80,
+        "name": "Assimilated leadingedge circuit",
+        "description": null,
+        "parent_id": null,
+        "created_at": "Response military attorney."
+    },
+    "81": {
+        "id": 81,
+        "name": "Mandatory foreground initiative",
+        "description": "Article service produce political total around.",
+        "parent_id": 33,
+        "created_at": "Woman sometimes then win information though red them."
+    },
+    "82": {
+        "id": 82,
+        "name": "Up-sized value-added functionalities",
+        "description": "Still too particular. Record land day name.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "83": {
+        "id": 83,
+        "name": "Secured solution-oriented intranet",
+        "description": null,
+        "parent_id": 31,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "84": {
+        "id": 84,
+        "name": "Total grid-enabled workforce",
+        "description": "Thing base Mr hope rest. Minute must degree memory.",
+        "parent_id": 51,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "85": {
+        "id": 85,
+        "name": "Integrated multi-state Graphical User Interface",
+        "description": "Agreement someone or.",
+        "parent_id": null,
+        "created_at": "Strategy fight institution measure rule."
+    },
+    "86": {
+        "id": 86,
+        "name": "Multi-layered empowering product",
+        "description": "Buy series walk large occur accept. Work south writer not thus physical.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "87": {
+        "id": 87,
+        "name": "Public-key radical emulation",
+        "description": "Expect size resource public research. Scene black might court sing lawyer chair.",
+        "parent_id": 85,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "88": {
+        "id": 88,
+        "name": "Optimized incremental artificial intelligence",
+        "description": "Interesting candidate Democrat back.",
+        "parent_id": 77,
+        "created_at": "Idea next single the once PM you."
+    },
+    "89": {
+        "id": 89,
+        "name": "Team-oriented mobile superstructure",
+        "description": "Certain camera represent can. Tell brother defense list second want hard.",
+        "parent_id": 52,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "90": {
+        "id": 90,
+        "name": "Decentralized real-time installation",
+        "description": "Hard face mission brother.",
+        "parent_id": 17,
+        "created_at": "Yard field magazine social central."
+    },
+    "91": {
+        "id": 91,
+        "name": "Reverse-engineered intangible application",
+        "description": "Democratic standard major business give.",
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "92": {
+        "id": 92,
+        "name": "Balanced intangible matrices",
+        "description": "Not too sit little result. Car catch PM seven project chance road become.",
+        "parent_id": null,
+        "created_at": "Professor important do house must when three save."
+    },
+    "93": {
+        "id": 93,
+        "name": "Stand-alone background concept",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "94": {
+        "id": 94,
+        "name": "Triple-buffered 4thgeneration orchestration",
+        "description": "Night buy nice court peace. Serious whatever miss seek me affect probably.",
+        "parent_id": 61,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "95": {
+        "id": 95,
+        "name": "Public-key contextually-based adapter",
+        "description": null,
+        "parent_id": 79,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "96": {
+        "id": 96,
+        "name": "Grass-roots zero tolerance database",
+        "description": "Know southern parent I and technology age join.",
+        "parent_id": null,
+        "created_at": "Agency month high before woman my."
+    },
+    "97": {
+        "id": 97,
+        "name": "Horizontal client-server contingency",
+        "description": "Child weight question arrive.",
+        "parent_id": 26,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "98": {
+        "id": 98,
+        "name": "Inverse contextually-based algorithm",
+        "description": null,
+        "parent_id": null,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "99": {
+        "id": 99,
+        "name": "Universal analyzing framework",
+        "description": "Floor include food heart. Appear dream others door.",
+        "parent_id": 65,
+        "created_at": "CURRENT_TIMESTAMP"
+    },
+    "100": {
+        "id": 100,
+        "name": "Profound web-enabled middleware",
+        "description": null,
+        "parent_id": 68,
+        "created_at": "CURRENT_TIMESTAMP"
+    }
+}

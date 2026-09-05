@@ -11,3 +11,4 @@ test_engine.py
 .ruff_cache/
 venv
 schema.dbml
+plan.md

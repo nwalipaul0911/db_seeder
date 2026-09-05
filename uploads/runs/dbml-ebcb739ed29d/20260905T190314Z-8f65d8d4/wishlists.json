@@ -1,0 +1,802 @@
+{
+    "1": {
+        "id": 1,
+        "customer_id": 72,
+        "name": "Advanced static application",
+        "is_default": false,
+        "created_at": "2025-07-11T23:11:45.687443",
+        "updated_at": "2026-01-16T02:58:58.687458"
+    },
+    "2": {
+        "id": 2,
+        "customer_id": 16,
+        "name": "Persevering systematic success",
+        "is_default": false,
+        "created_at": "2025-07-27T06:36:52.687576",
+        "updated_at": "2026-07-30T08:49:21.687590"
+    },
+    "3": {
+        "id": 3,
+        "customer_id": 4,
+        "name": "Focused high-level time-frame",
+        "is_default": false,
+        "created_at": "2025-01-18T22:03:27.687704",
+        "updated_at": "2026-04-10T19:34:53.687719"
+    },
+    "4": {
+        "id": 4,
+        "customer_id": 30,
+        "name": "Self-enabling intermediate hierarchy",
+        "is_default": false,
+        "created_at": "2026-03-22T11:52:21.687831",
+        "updated_at": "2026-07-01T11:13:09.687831"
+    },
+    "5": {
+        "id": 5,
+        "customer_id": 82,
+        "name": "Realigned coherent info-mediaries",
+        "is_default": false,
+        "created_at": "2026-02-08T08:29:29.687978",
+        "updated_at": "2026-06-28T20:43:41.687978"
+    },
+    "6": {
+        "id": 6,
+        "customer_id": 89,
+        "name": "Assimilated multimedia conglomeration",
+        "is_default": false,
+        "created_at": "2025-10-14T21:26:38.688122",
+        "updated_at": "2026-06-27T03:32:37.688122"
+    },
+    "7": {
+        "id": 7,
+        "customer_id": 76,
+        "name": "Mandatory contextually-based secured line",
+        "is_default": false,
+        "created_at": "2026-06-10T23:20:47.688268",
+        "updated_at": "2026-07-14T10:30:57.688268"
+    },
+    "8": {
+        "id": 8,
+        "customer_id": 56,
+        "name": "Operative disintermediate superstructure",
+        "is_default": true,
+        "created_at": "2024-12-25T11:37:53.688413",
+        "updated_at": "2026-08-07T15:11:07.688426"
+    },
+    "9": {
+        "id": 9,
+        "customer_id": 97,
+        "name": "Phased optimizing firmware",
+        "is_default": false,
+        "created_at": "2025-08-09T01:09:48.688540",
+        "updated_at": "2025-09-01T07:17:01.688540"
+    },
+    "10": {
+        "id": 10,
+        "customer_id": 77,
+        "name": "Triple-buffered zero-defect website",
+        "is_default": true,
+        "created_at": "2025-07-18T08:44:51.688683",
+        "updated_at": "2025-12-08T11:59:53.688696"
+    },
+    "11": {
+        "id": 11,
+        "customer_id": 49,
+        "name": "Cloned client-server middleware",
+        "is_default": false,
+        "created_at": "2024-12-28T17:06:17.688808",
+        "updated_at": "2025-08-09T01:06:51.688822"
+    },
+    "12": {
+        "id": 12,
+        "customer_id": 95,
+        "name": "Virtual multi-state info-mediaries",
+        "is_default": false,
+        "created_at": "2026-05-07T11:25:57.689132",
+        "updated_at": "2026-07-20T17:42:13.689132"
+    },
+    "13": {
+        "id": 13,
+        "customer_id": 83,
+        "name": "Optimized optimal benchmark",
+        "is_default": false,
+        "created_at": "2025-07-18T21:41:05.689291",
+        "updated_at": "2026-01-08T10:40:57.689306"
+    },
+    "14": {
+        "id": 14,
+        "customer_id": 11,
+        "name": "Cross-group clear-thinking service-desk",
+        "is_default": true,
+        "created_at": "2024-09-17T10:25:38.689448",
+        "updated_at": "2025-11-16T04:39:16.689464"
+    },
+    "15": {
+        "id": 15,
+        "customer_id": 68,
+        "name": "De-engineered dedicated utilization",
+        "is_default": true,
+        "created_at": "2026-02-09T19:15:31.689586",
+        "updated_at": "2026-06-12T23:49:29.689600"
+    },
+    "16": {
+        "id": 16,
+        "customer_id": 22,
+        "name": "Down-sized asynchronous firmware",
+        "is_default": false,
+        "created_at": "2025-11-23T17:43:01.689810",
+        "updated_at": "2026-01-09T09:55:52.689810"
+    },
+    "17": {
+        "id": 17,
+        "customer_id": 38,
+        "name": "Self-enabling stable concept",
+        "is_default": false,
+        "created_at": "2025-07-12T11:48:38.689956",
+        "updated_at": "2025-10-31T09:45:03.689969"
+    },
+    "18": {
+        "id": 18,
+        "customer_id": 24,
+        "name": "Inverse cohesive workforce",
+        "is_default": false,
+        "created_at": "2026-05-17T07:51:20.690082",
+        "updated_at": "2026-07-16T16:01:18.690082"
+    },
+    "19": {
+        "id": 19,
+        "customer_id": 79,
+        "name": "Multi-tiered attitude-oriented benchmark",
+        "is_default": false,
+        "created_at": "2026-08-05T02:30:54.690221",
+        "updated_at": "2026-08-06T12:49:54.690221"
+    },
+    "20": {
+        "id": 20,
+        "customer_id": 27,
+        "name": "Reduced mobile utilization",
+        "is_default": false,
+        "created_at": "2025-02-26T14:46:15.690359",
+        "updated_at": "2025-03-03T16:11:18.690359"
+    },
+    "21": {
+        "id": 21,
+        "customer_id": 81,
+        "name": "Stand-alone needs-based open system",
+        "is_default": false,
+        "created_at": "2025-07-06T06:43:34.690496",
+        "updated_at": "2026-08-11T14:04:45.690509"
+    },
+    "22": {
+        "id": 22,
+        "customer_id": 60,
+        "name": "Digitized full-range workforce",
+        "is_default": false,
+        "created_at": "2024-10-18T16:08:29.690621",
+        "updated_at": "2024-12-05T13:03:52.690640"
+    },
+    "23": {
+        "id": 23,
+        "customer_id": 61,
+        "name": "Secured fault-tolerant infrastructure",
+        "is_default": false,
+        "created_at": "2024-11-03T03:12:47.690754",
+        "updated_at": "2024-11-07T21:59:41.690768"
+    },
+    "24": {
+        "id": 24,
+        "customer_id": 32,
+        "name": "Virtual well-modulated functionalities",
+        "is_default": false,
+        "created_at": "2026-06-07T12:20:07.690883",
+        "updated_at": "2026-08-29T11:20:52.690883"
+    },
+    "25": {
+        "id": 25,
+        "customer_id": 5,
+        "name": "Organized empowering product",
+        "is_default": false,
+        "created_at": "2024-10-27T06:31:47.691020",
+        "updated_at": "2025-06-24T06:07:46.691034"
+    },
+    "26": {
+        "id": 26,
+        "customer_id": 91,
+        "name": "Self-enabling encompassing implementation",
+        "is_default": false,
+        "created_at": "2026-01-22T08:57:58.691144",
+        "updated_at": "2026-02-22T11:35:37.691144"
+    },
+    "27": {
+        "id": 27,
+        "customer_id": 48,
+        "name": "Multi-layered tangible data-warehouse",
+        "is_default": false,
+        "created_at": "2024-11-01T15:54:27.691281",
+        "updated_at": "2026-07-04T03:17:29.691295"
+    },
+    "28": {
+        "id": 28,
+        "customer_id": 54,
+        "name": "Enterprise-wide holistic software",
+        "is_default": false,
+        "created_at": "2025-07-19T13:49:48.691405",
+        "updated_at": "2026-04-29T18:00:57.691419"
+    },
+    "29": {
+        "id": 29,
+        "customer_id": 31,
+        "name": "Intuitive even-keeled forecast",
+        "is_default": true,
+        "created_at": "2026-07-15T00:20:30.691533",
+        "updated_at": "2026-08-27T01:20:15.691533"
+    },
+    "30": {
+        "id": 30,
+        "customer_id": 71,
+        "name": "Compatible bifurcated model",
+        "is_default": false,
+        "created_at": "2024-10-14T21:41:55.691670",
+        "updated_at": "2026-03-26T19:48:00.691684"
+    },
+    "31": {
+        "id": 31,
+        "customer_id": 65,
+        "name": "Cross-platform zero administration solution",
+        "is_default": false,
+        "created_at": "2025-04-11T03:54:30.691794",
+        "updated_at": "2025-04-24T05:25:01.691794"
+    },
+    "32": {
+        "id": 32,
+        "customer_id": 93,
+        "name": "Public-key static task-force",
+        "is_default": false,
+        "created_at": "2025-12-14T23:09:39.691931",
+        "updated_at": "2026-05-15T17:06:10.691931"
+    },
+    "33": {
+        "id": 33,
+        "customer_id": 28,
+        "name": "Total global artificial intelligence",
+        "is_default": false,
+        "created_at": "2025-08-20T14:29:18.692067",
+        "updated_at": "2026-07-25T13:46:06.692081"
+    },
+    "34": {
+        "id": 34,
+        "customer_id": 23,
+        "name": "Extended homogeneous knowledge user",
+        "is_default": false,
+        "created_at": "2026-02-09T07:44:05.692196",
+        "updated_at": "2026-04-03T14:28:02.692196"
+    },
+    "35": {
+        "id": 35,
+        "customer_id": 64,
+        "name": "Ergonomic multimedia adapter",
+        "is_default": false,
+        "created_at": "2026-05-19T04:17:10.692334",
+        "updated_at": "2026-08-22T17:36:40.692334"
+    },
+    "36": {
+        "id": 36,
+        "customer_id": 94,
+        "name": "Synergized global circuit",
+        "is_default": true,
+        "created_at": "2025-01-08T20:47:10.692481",
+        "updated_at": "2025-11-19T00:16:20.692494"
+    },
+    "37": {
+        "id": 37,
+        "customer_id": 12,
+        "name": "Centralized demand-driven neural-net",
+        "is_default": false,
+        "created_at": "2024-09-23T11:51:59.692610",
+        "updated_at": "2025-07-11T09:52:10.692623"
+    },
+    "38": {
+        "id": 38,
+        "customer_id": 96,
+        "name": "Stand-alone secondary moratorium",
+        "is_default": false,
+        "created_at": "2025-10-25T05:53:11.692734",
+        "updated_at": "2025-11-20T07:50:43.692734"
+    },
+    "39": {
+        "id": 39,
+        "customer_id": 18,
+        "name": "Cross-platform system-worthy parallelism",
+        "is_default": false,
+        "created_at": "2025-08-24T08:44:16.692869",
+        "updated_at": "2025-09-28T00:01:10.692869"
+    },
+    "40": {
+        "id": 40,
+        "customer_id": 99,
+        "name": "Extended leadingedge success",
+        "is_default": false,
+        "created_at": "2026-08-30T06:21:33.693006",
+        "updated_at": "2026-09-03T14:35:57.693006"
+    },
+    "41": {
+        "id": 41,
+        "customer_id": 70,
+        "name": "Optimized multimedia framework",
+        "is_default": true,
+        "created_at": "2025-05-31T14:29:39.693151",
+        "updated_at": "2026-08-18T04:09:53.693164"
+    },
+    "42": {
+        "id": 42,
+        "customer_id": 41,
+        "name": "Vision-oriented bandwidth-monitored monitoring",
+        "is_default": false,
+        "created_at": "2025-11-02T21:43:34.693276",
+        "updated_at": "2026-08-26T23:41:46.693290"
+    },
+    "43": {
+        "id": 43,
+        "customer_id": 8,
+        "name": "Vision-oriented even-keeled methodology",
+        "is_default": false,
+        "created_at": "2025-02-11T23:59:04.693400",
+        "updated_at": "2026-06-27T16:43:47.693413"
+    },
+    "44": {
+        "id": 44,
+        "customer_id": 17,
+        "name": "Configurable empowering implementation",
+        "is_default": false,
+        "created_at": "2024-11-05T21:09:48.693525",
+        "updated_at": "2025-12-18T03:25:52.693539"
+    },
+    "45": {
+        "id": 45,
+        "customer_id": 19,
+        "name": "Synchronized client-driven concept",
+        "is_default": false,
+        "created_at": "2024-12-02T07:26:37.693692",
+        "updated_at": "2025-02-22T20:06:23.693709"
+    },
+    "46": {
+        "id": 46,
+        "customer_id": 86,
+        "name": "Assimilated asynchronous firmware",
+        "is_default": false,
+        "created_at": "2026-06-08T18:17:19.693822",
+        "updated_at": "2026-08-12T18:38:47.693822"
+    },
+    "47": {
+        "id": 47,
+        "customer_id": 39,
+        "name": "Switchable multi-state encryption",
+        "is_default": false,
+        "created_at": "2025-09-25T21:28:05.693960",
+        "updated_at": "2025-11-04T00:20:03.693973"
+    },
+    "48": {
+        "id": 48,
+        "customer_id": 63,
+        "name": "Exclusive dynamic Graphic Interface",
+        "is_default": false,
+        "created_at": "2024-12-09T00:34:58.694273",
+        "updated_at": "2025-01-31T17:07:43.694295"
+    },
+    "49": {
+        "id": 49,
+        "customer_id": 26,
+        "name": "Future-proofed analyzing attitude",
+        "is_default": false,
+        "created_at": "2026-07-30T04:57:52.694425",
+        "updated_at": "2026-08-25T16:09:20.694425"
+    },
+    "50": {
+        "id": 50,
+        "customer_id": 37,
+        "name": "Customizable contextually-based intranet",
+        "is_default": false,
+        "created_at": "2025-12-10T02:04:49.694572",
+        "updated_at": "2026-02-13T14:25:07.694572"
+    },
+    "51": {
+        "id": 51,
+        "customer_id": 73,
+        "name": "Down-sized needs-based database",
+        "is_default": false,
+        "created_at": "2024-12-24T05:42:34.694714",
+        "updated_at": "2026-07-09T00:28:16.694728"
+    },
+    "52": {
+        "id": 52,
+        "customer_id": 50,
+        "name": "Networked 24/7 customer loyalty",
+        "is_default": false,
+        "created_at": "2024-10-09T05:39:20.694840",
+        "updated_at": "2026-06-02T18:38:15.694855"
+    },
+    "53": {
+        "id": 53,
+        "customer_id": 10,
+        "name": "Adaptive multimedia matrices",
+        "is_default": false,
+        "created_at": "2025-04-15T00:22:36.694966",
+        "updated_at": "2025-10-15T17:11:47.694966"
+    },
+    "54": {
+        "id": 54,
+        "customer_id": 57,
+        "name": "Vision-oriented hybrid frame",
+        "is_default": false,
+        "created_at": "2025-03-19T02:44:22.695104",
+        "updated_at": "2026-06-14T01:39:58.695118"
+    },
+    "55": {
+        "id": 55,
+        "customer_id": 13,
+        "name": "Persistent mission-critical analyzer",
+        "is_default": false,
+        "created_at": "2025-10-25T17:55:30.695237",
+        "updated_at": "2025-12-19T19:20:51.695237"
+    },
+    "56": {
+        "id": 56,
+        "customer_id": 62,
+        "name": "Upgradable object-oriented access",
+        "is_default": false,
+        "created_at": "2026-02-06T02:59:13.695380",
+        "updated_at": "2026-04-13T06:28:04.695380"
+    },
+    "57": {
+        "id": 57,
+        "customer_id": 29,
+        "name": "Operative stable secured line",
+        "is_default": false,
+        "created_at": "2026-06-15T14:09:19.695516",
+        "updated_at": "2026-08-16T15:16:44.695516"
+    },
+    "58": {
+        "id": 58,
+        "customer_id": 9,
+        "name": "Polarized intermediate benchmark",
+        "is_default": true,
+        "created_at": "2024-11-24T07:46:19.695661",
+        "updated_at": "2026-01-06T19:46:27.695702"
+    },
+    "59": {
+        "id": 59,
+        "customer_id": 35,
+        "name": "Quality-focused disintermediate time-frame",
+        "is_default": false,
+        "created_at": "2026-08-29T15:25:33.695819",
+        "updated_at": "2026-08-31T17:24:50.695819"
+    },
+    "60": {
+        "id": 60,
+        "customer_id": 88,
+        "name": "Persistent homogeneous circuit",
+        "is_default": false,
+        "created_at": "2026-03-30T09:01:14.695956",
+        "updated_at": "2026-06-12T07:40:00.695970"
+    },
+    "61": {
+        "id": 61,
+        "customer_id": 78,
+        "name": "User-centric real-time hub",
+        "is_default": false,
+        "created_at": "2025-03-06T11:36:16.696084",
+        "updated_at": "2026-04-17T11:55:57.696097"
+    },
+    "62": {
+        "id": 62,
+        "customer_id": 67,
+        "name": "Adaptive mission-critical instruction set",
+        "is_default": true,
+        "created_at": "2026-07-17T06:15:49.696211",
+        "updated_at": "2026-08-09T20:33:48.696211"
+    },
+    "63": {
+        "id": 63,
+        "customer_id": 20,
+        "name": "Streamlined mission-critical solution",
+        "is_default": true,
+        "created_at": "2025-11-01T23:50:51.696351",
+        "updated_at": "2026-02-17T04:43:35.696365"
+    },
+    "64": {
+        "id": 64,
+        "customer_id": 52,
+        "name": "Cloned scalable instruction set",
+        "is_default": false,
+        "created_at": "2025-05-26T17:36:57.696475",
+        "updated_at": "2026-08-14T08:23:53.696475"
+    },
+    "65": {
+        "id": 65,
+        "customer_id": 80,
+        "name": "Enterprise-wide bandwidth-monitored methodology",
+        "is_default": true,
+        "created_at": "2025-09-23T14:59:53.696615",
+        "updated_at": "2026-05-09T00:50:34.696628"
+    },
+    "66": {
+        "id": 66,
+        "customer_id": 100,
+        "name": "Digitized 6thgeneration forecast",
+        "is_default": false,
+        "created_at": "2025-07-15T16:26:36.696742",
+        "updated_at": "2026-02-16T14:03:59.696755"
+    },
+    "67": {
+        "id": 67,
+        "customer_id": 21,
+        "name": "Quality-focused multi-tasking model",
+        "is_default": false,
+        "created_at": "2026-03-03T15:04:45.696865",
+        "updated_at": "2026-05-20T19:36:28.696865"
+    },
+    "68": {
+        "id": 68,
+        "customer_id": 92,
+        "name": "Object-based next generation application",
+        "is_default": false,
+        "created_at": "2025-07-17T11:22:48.697001",
+        "updated_at": "2025-10-13T09:26:40.697014"
+    },
+    "69": {
+        "id": 69,
+        "customer_id": 34,
+        "name": "Switchable exuding benchmark",
+        "is_default": true,
+        "created_at": "2025-06-16T09:45:22.697137",
+        "updated_at": "2026-04-22T16:02:19.697151"
+    },
+    "70": {
+        "id": 70,
+        "customer_id": 1,
+        "name": "Profit-focused human-resource orchestration",
+        "is_default": false,
+        "created_at": "2024-12-26T09:30:06.697262",
+        "updated_at": "2026-05-22T04:29:04.697262"
+    },
+    "71": {
+        "id": 71,
+        "customer_id": 85,
+        "name": "Face-to-face 6thgeneration definition",
+        "is_default": false,
+        "created_at": "2025-02-26T18:00:20.697398",
+        "updated_at": "2026-01-07T12:43:29.697411"
+    },
+    "72": {
+        "id": 72,
+        "customer_id": 43,
+        "name": "Synchronized cohesive info-mediaries",
+        "is_default": false,
+        "created_at": "2025-01-07T12:04:37.697522",
+        "updated_at": "2025-11-09T00:46:43.697522"
+    },
+    "73": {
+        "id": 73,
+        "customer_id": 69,
+        "name": "Innovative solution-oriented groupware",
+        "is_default": false,
+        "created_at": "2024-09-17T08:32:43.697680",
+        "updated_at": "2026-05-02T13:43:34.697694"
+    },
+    "74": {
+        "id": 74,
+        "customer_id": 42,
+        "name": "Open-architected eco-centric pricing structure",
+        "is_default": false,
+        "created_at": "2025-08-19T06:00:03.697805",
+        "updated_at": "2026-09-03T16:05:44.697819"
+    },
+    "75": {
+        "id": 75,
+        "customer_id": 7,
+        "name": "Optimized maximized framework",
+        "is_default": false,
+        "created_at": "2025-07-17T08:35:01.697934",
+        "updated_at": "2025-11-22T03:01:56.697948"
+    },
+    "76": {
+        "id": 76,
+        "customer_id": 15,
+        "name": "Customer-focused optimizing pricing structure",
+        "is_default": true,
+        "created_at": "2024-11-01T08:16:24.698062",
+        "updated_at": "2025-11-23T01:08:58.698075"
+    },
+    "77": {
+        "id": 77,
+        "customer_id": 25,
+        "name": "Configurable impactful alliance",
+        "is_default": false,
+        "created_at": "2025-07-11T22:00:54.698185",
+        "updated_at": "2025-08-26T14:02:19.698203"
+    },
+    "78": {
+        "id": 78,
+        "customer_id": 84,
+        "name": "Inverse transitional software",
+        "is_default": false,
+        "created_at": "2025-03-07T12:51:27.698317",
+        "updated_at": "2025-08-05T19:06:34.698331"
+    },
+    "79": {
+        "id": 79,
+        "customer_id": 87,
+        "name": "Versatile discrete portal",
+        "is_default": false,
+        "created_at": "2025-04-18T03:45:09.698440",
+        "updated_at": "2026-05-07T06:44:38.698454"
+    },
+    "80": {
+        "id": 80,
+        "customer_id": 74,
+        "name": "Synergized 3rdgeneration info-mediaries",
+        "is_default": true,
+        "created_at": "2024-12-13T09:09:30.698566",
+        "updated_at": "2026-07-30T19:25:50.698580"
+    },
+    "81": {
+        "id": 81,
+        "customer_id": 3,
+        "name": "Function-based non-volatile alliance",
+        "is_default": true,
+        "created_at": "2025-12-19T21:10:33.698693",
+        "updated_at": "2026-02-25T04:00:55.698707"
+    },
+    "82": {
+        "id": 82,
+        "customer_id": 45,
+        "name": "Re-contextualized uniform strategy",
+        "is_default": false,
+        "created_at": "2025-11-01T00:55:45.698816",
+        "updated_at": "2026-08-07T08:15:22.698816"
+    },
+    "83": {
+        "id": 83,
+        "customer_id": 47,
+        "name": "Versatile mobile project",
+        "is_default": false,
+        "created_at": "2025-04-20T12:51:38.698952",
+        "updated_at": "2026-01-22T10:33:33.698965"
+    },
+    "84": {
+        "id": 84,
+        "customer_id": 36,
+        "name": "Advanced discrete framework",
+        "is_default": false,
+        "created_at": "2025-12-20T05:12:44.699073",
+        "updated_at": "2026-08-14T00:18:27.699073"
+    },
+    "85": {
+        "id": 85,
+        "customer_id": 14,
+        "name": "De-engineered global protocol",
+        "is_default": false,
+        "created_at": "2025-04-14T02:06:22.699209",
+        "updated_at": "2025-06-02T04:29:24.699223"
+    },
+    "86": {
+        "id": 86,
+        "customer_id": 53,
+        "name": "Customizable tertiary policy",
+        "is_default": false,
+        "created_at": "2025-10-05T01:11:25.699468",
+        "updated_at": "2026-08-15T17:21:19.699468"
+    },
+    "87": {
+        "id": 87,
+        "customer_id": 90,
+        "name": "Organized systemic application",
+        "is_default": false,
+        "created_at": "2024-11-16T00:49:36.699645",
+        "updated_at": "2025-06-10T01:51:29.699660"
+    },
+    "88": {
+        "id": 88,
+        "customer_id": 33,
+        "name": "Decentralized neutral architecture",
+        "is_default": false,
+        "created_at": "2025-11-02T08:22:10.699778",
+        "updated_at": "2026-04-25T04:06:35.699778"
+    },
+    "89": {
+        "id": 89,
+        "customer_id": 55,
+        "name": "User-centric holistic open architecture",
+        "is_default": false,
+        "created_at": "2025-10-29T16:46:38.699919",
+        "updated_at": "2026-04-26T05:15:12.699933"
+    },
+    "90": {
+        "id": 90,
+        "customer_id": 98,
+        "name": "Re-engineered bandwidth-monitored core",
+        "is_default": false,
+        "created_at": "2026-09-01T05:17:35.700045",
+        "updated_at": "2026-09-03T23:07:17.700045"
+    },
+    "91": {
+        "id": 91,
+        "customer_id": 46,
+        "name": "Object-based needs-based circuit",
+        "is_default": false,
+        "created_at": "2024-11-05T09:55:39.700183",
+        "updated_at": "2025-12-26T18:17:42.700197"
+    },
+    "92": {
+        "id": 92,
+        "customer_id": 6,
+        "name": "Reduced hybrid Local Area Network",
+        "is_default": false,
+        "created_at": "2025-09-25T05:37:34.700311",
+        "updated_at": "2025-12-23T23:19:48.700324"
+    },
+    "93": {
+        "id": 93,
+        "customer_id": 75,
+        "name": "Advanced maximized focus group",
+        "is_default": false,
+        "created_at": "2024-12-31T06:42:39.700434",
+        "updated_at": "2026-07-03T12:08:06.700447"
+    },
+    "94": {
+        "id": 94,
+        "customer_id": 58,
+        "name": "Enhanced bottom-line groupware",
+        "is_default": false,
+        "created_at": "2025-08-10T20:20:36.700565",
+        "updated_at": "2025-10-03T16:57:07.700583"
+    },
+    "95": {
+        "id": 95,
+        "customer_id": 51,
+        "name": "Fully-configurable asymmetric policy",
+        "is_default": true,
+        "created_at": "2026-06-17T23:42:14.700698",
+        "updated_at": "2026-06-30T13:25:55.700698"
+    },
+    "96": {
+        "id": 96,
+        "customer_id": 44,
+        "name": "Fully-configurable scalable infrastructure",
+        "is_default": false,
+        "created_at": "2025-02-05T04:37:19.700833",
+        "updated_at": "2025-09-24T11:09:03.700847"
+    },
+    "97": {
+        "id": 97,
+        "customer_id": 2,
+        "name": "Upgradable client-driven time-frame",
+        "is_default": false,
+        "created_at": "2026-02-17T05:18:15.700959",
+        "updated_at": "2026-02-17T11:24:21.700959"
+    },
+    "98": {
+        "id": 98,
+        "customer_id": 59,
+        "name": "Mandatory composite initiative",
+        "is_default": false,
+        "created_at": "2026-02-17T19:46:11.701093",
+        "updated_at": "2026-05-21T01:15:33.701093"
+    },
+    "99": {
+        "id": 99,
+        "customer_id": 66,
+        "name": "Adaptive client-driven conglomeration",
+        "is_default": false,
+        "created_at": "2025-04-03T00:40:38.701226",
+        "updated_at": "2026-07-23T16:44:55.701239"
+    },
+    "100": {
+        "id": 100,
+        "customer_id": 40,
+        "name": "Customizable interactive orchestration",
+        "is_default": false,
+        "created_at": "2026-07-11T20:47:09.701346",
+        "updated_at": "2026-08-18T17:54:42.701346"
+    }
+}

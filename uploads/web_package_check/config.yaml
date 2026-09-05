@@ -1,6 +1,0 @@
-seed: 42
-null_probability: 0.35
-default_probability: 0.7
-self_fk_root_probability: 0.35
-Num_of_entries:
-  default: 1
