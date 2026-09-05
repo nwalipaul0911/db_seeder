@@ -18,6 +18,9 @@ from .field_types import (
 )
 from .schema_loader import load_schema_file
 from .schema_ir import Table
+from .logging_config import configure_logging, get_logger
+
+logger = get_logger(__name__)
 
 # ======================================================
 # GLOBAL STATE (PER RUN)
@@ -949,8 +952,9 @@ def seed_table(table: Table, enums, fk_map, generated_data, entries, config):
             break
 
         if not success:
-            print(
-                f"Warning: Failed to generate unique row for {table.name} after 100 attempts."
+            logger.warning(
+                "Failed to generate unique row for table %s after 100 attempts",
+                table.name,
             )
 
     generated_data[table.name] = table_data
@@ -1037,6 +1041,15 @@ def sync_current_versions(tables: List[Table], fk_map, generated_data):
 
 
 def seed(schema_path, config_path, output_dir, schema_format="auto", dialect="sqlite"):
+    configure_logging()
+    logger.info(
+        "Starting seed: schema=%s config=%s output=%s format=%s dialect=%s",
+        schema_path,
+        config_path,
+        output_dir,
+        schema_format,
+        dialect,
+    )
     reset_state()
 
     schema = load_schema_file(schema_path, schema_format, dialect)
@@ -1049,6 +1062,7 @@ def seed(schema_path, config_path, output_dir, schema_format="auto", dialect="sq
     enums = schema.enum_map
     fk_map = build_fk_map_from_schema(schema)
     tables = topo_sort_tables(list(schema.tables), fk_map)
+    logger.info("Loaded schema with %d tables and %d relationships", len(tables), len(schema.relationships))
     generated_data = {}
 
     for table in tables:
@@ -1063,6 +1077,7 @@ def seed(schema_path, config_path, output_dir, schema_format="auto", dialect="sq
             entries=entries,
             config=config,
         )
+        logger.info("Generated %d rows for table %s", len(generated_data[table.name]), table.name)
 
     fill_entity_refs(tables, generated_data)
     sync_current_versions(tables, fk_map, generated_data)
@@ -1070,10 +1085,12 @@ def seed(schema_path, config_path, output_dir, schema_format="auto", dialect="sq
     for name, rows in generated_data.items():
         save_json(name, rows, output_dir)
 
+    logger.info("Seed completed: %d tables written to %s", len(generated_data), output_dir)
     return generated_data
 
 
 def main():
+    configure_logging()
     parser = ArgumentParser()
     parser.add_argument("--schema", type=str, default="schema.dbml")
     parser.add_argument("--config", type=str, default="config.yaml")
@@ -1081,7 +1098,11 @@ def main():
     parser.add_argument("--format", choices=("auto", "dbml", "sql", "prisma"), default="auto")
     parser.add_argument("--dialect", choices=("sqlite", "postgres", "mysql"), default="sqlite")
     args = parser.parse_args()
-    seed(args.schema, args.config, args.output, args.format, args.dialect)
+    try:
+        seed(args.schema, args.config, args.output, args.format, args.dialect)
+    except Exception:
+        logger.exception("Seed failed")
+        raise
 
 
 if __name__ == "__main__":

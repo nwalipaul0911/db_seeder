@@ -4,6 +4,9 @@ from collections import defaultdict
 from typing import Any
 
 from .schema_loader import load_schema
+from .logging_config import get_logger
+
+logger = get_logger(__name__)
 
 
 class SchemaValidationError(ValueError):
@@ -67,6 +70,7 @@ def validate_schema(
     try:
         schema = load_schema(schema_text, source_format, dialect)
     except Exception as exc:
+        logger.exception("Schema parsing failed: format=%s dialect=%s", source_format, dialect)
         raise SchemaValidationError(f"DBML parse failed: {exc}") from exc
 
     table_names = [table.name for table in schema.tables]
@@ -114,7 +118,7 @@ def validate_schema(
 
     _check_circular_dependencies(known_tables, foreign_keys)
 
-    return {
+    result = {
         "valid": True,
         "table_count": len(schema.tables),
         "enum_count": len(schema.enums),
@@ -123,6 +127,14 @@ def validate_schema(
         "foreign_keys": foreign_keys,
         "enums": [enum.name for enum in schema.enums],
     }
+    logger.info(
+        "Schema validated: format=%s dialect=%s tables=%d references=%d",
+        source_format,
+        dialect,
+        result["table_count"],
+        result["reference_count"],
+    )
+    return result
 
 
 def validate_dbml(dbml_text: str) -> dict[str, Any]:

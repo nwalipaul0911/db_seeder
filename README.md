@@ -79,6 +79,18 @@ python app.py
 
 Then open `http://127.0.0.1:5000` to paste or upload DBML and generate data.
 
+## Logging
+
+The CLI, schema adapters, validator, seeder, and Flask web app write logs to the console and to `logs/seeder.log`. The file uses rotation with up to three 5 MB backups. The `logs/` directory is created automatically.
+
+Use environment variables to adjust logging without changing code:
+
+```bash
+SEEDER_LOG_LEVEL=DEBUG SEEDER_LOG_FILE=/tmp/db-seeder.log python app.py
+```
+
+Supported levels include `DEBUG`, `INFO`, `WARNING`, and `ERROR`. Generation failures include a traceback in the log file while the web UI continues to show a concise error message.
+
 In the web UI:
 
 - Paste a schema or upload a `.dbml`, `.sql`, or `.prisma` file.

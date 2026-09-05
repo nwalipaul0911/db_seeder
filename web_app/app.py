@@ -17,11 +17,15 @@ from seeder_engine.schema_validator import (
     SchemaValidationError,
     validate_schema as validate_input_schema,
 )
+from seeder_engine.logging_config import configure_logging, get_logger
+
+logger = get_logger(__name__)
 
 PACKAGE_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = PACKAGE_DIR.parent
 
 app = Flask(__name__, template_folder=str(PACKAGE_DIR / "templates"))
+configure_logging(PROJECT_DIR / "logs")
 app.config["UPLOAD_FOLDER"] = os.path.join(PROJECT_DIR, "uploads")
 os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
 
@@ -114,6 +118,7 @@ def seed_history():
             manifest["archive_name"] = "generated_data.zip"
             history.append(manifest)
         except (OSError, ValueError, TypeError):
+            logger.warning("Skipping unreadable history manifest %s", manifest_path, exc_info=True)
             continue
 
     history.sort(key=lambda run: run.get("created_at", ""), reverse=True)
@@ -141,8 +146,10 @@ def history_run_directory(schema_key: str, run_id: str):
 def delete_history_run(schema_key, run_id):
     run_dir = history_run_directory(schema_key, run_id)
     if run_dir is None:
+        logger.warning("History run not found for deletion: schema=%s run=%s", schema_key, run_id)
         return jsonify({"error": "History run not found."}), 404
     shutil.rmtree(run_dir)
+    logger.info("Deleted history run: schema=%s run=%s", schema_key, run_id)
     return jsonify({"message": "History run deleted."})
 
 
@@ -165,6 +172,7 @@ def delete_history_runs():
         if run_dir is not None:
             shutil.rmtree(run_dir)
             deleted += 1
+            logger.info("Deleted history run: schema=%s run=%s", schema_key, run_id)
     return jsonify({"message": f"Deleted {deleted} history run(s).", "deleted": deleted})
 
 
@@ -180,6 +188,7 @@ def validate_schema():
     try:
         return jsonify(validate_input_schema(schema_text, source_format, dialect))
     except SchemaValidationError as exc:
+        logger.warning("Schema validation rejected request: %s", exc)
         return jsonify({"valid": False, "error": str(exc)}), 400
 
 
@@ -206,6 +215,7 @@ def generate_data():
     try:
         validate_input_schema(dbml_text, schema_format, dialect)
     except SchemaValidationError as exc:
+        logger.warning("Generation validation rejected request: %s", exc)
         return jsonify({"error": str(exc)}), 400
 
     try:
@@ -230,6 +240,7 @@ def generate_data():
         }
         (session_dir / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
     except Exception as exc:
+        logger.exception("Web generation failed")
         return jsonify({"error": f"Schema generation failed: {exc}"}), 400
 
     relative_root = os.path.relpath(session_dir, Path(app.config["UPLOAD_FOLDER"]))

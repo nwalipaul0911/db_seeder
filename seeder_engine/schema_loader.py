@@ -6,9 +6,13 @@ from .dbml_adapter import DBMLAdapter
 from .schema_ir import Schema
 from .sql_adapter import SQLAdapter
 from .prisma_adapter import PrismaAdapter
+from .logging_config import get_logger
+
+logger = get_logger(__name__)
 
 
 def adapter_for_source(source: str, source_format: str = "auto", dialect: str = "sqlite"):
+    logger.debug("Selecting adapter: requested_format=%s dialect=%s", source_format, dialect)
     if source_format == "dbml":
         return DBMLAdapter()
     if source_format == "sql":
@@ -33,6 +37,7 @@ def load_schema(source: str, source_format: str = "auto", dialect: str = "sqlite
 
 def load_schema_file(path: str | Path, source_format: str = "auto", dialect: str = "sqlite") -> Schema:
     schema_path = Path(path)
+    logger.info("Loading schema file %s", schema_path)
     detected_format = source_format
     if detected_format == "auto":
         suffix = schema_path.suffix.lower()
