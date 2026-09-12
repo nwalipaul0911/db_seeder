@@ -5,6 +5,7 @@ import json
 import yaml
 from collections import defaultdict
 from typing import Dict, List, Optional, Tuple
+from uuid import UUID
 
 from faker import Faker
 from argparse import ArgumentParser
@@ -16,6 +17,7 @@ from .field_types import (
     generate_value,
     parse_sql_type,
 )
+from .datetime_generator import generate_timestamp
 from .schema_loader import load_schema_file
 from .schema_ir import Table
 from .logging_config import configure_logging, get_logger
@@ -203,6 +205,27 @@ def save_json(name, data, output_dir="data"):
         json.dump(data, f, indent=4)
 
 
+def validate_generated_native_types(schema, generated_data):
+    """Reject output that cannot represent declared native JSON-compatible types."""
+    for table in schema.tables:
+        columns = {column.name: column for column in table.columns}
+        for row in generated_data.get(table.name, {}).values():
+            for name, column in columns.items():
+                if name not in row or row[name] is None:
+                    continue
+                value = row[name]
+                base = column_base_type(column)
+                if base == "uuid":
+                    try:
+                        UUID(str(value))
+                    except (ValueError, TypeError, AttributeError) as exc:
+                        raise ValueError(f"{table.name}.{name} is not a valid UUID") from exc
+                if column.data_type.is_array and not isinstance(value, list):
+                    raise ValueError(f"{table.name}.{name} must be emitted as an array")
+                if base in {"json", "jsonb"} and not isinstance(value, (dict, list)):
+                    raise ValueError(f"{table.name}.{name} must be emitted as JSON")
+
+
 def index_columns(index) -> List[str]:
     return [s.name for s in getattr(index, "subjects", []) if hasattr(s, "name")]
 
@@ -245,6 +268,38 @@ def coerce_default(value, col_type: str, is_enum: bool):
         except ValueError:
             return value
     return text
+
+
+def evaluate_default(value, column):
+    """Convert supported schema defaults into values suitable for JSON output."""
+    if value is None:
+        return None
+    if isinstance(value, (bool, int, float, list, dict)):
+        return value
+
+    text = str(value).strip()
+    normalized = text.strip("'\"").strip().lower()
+    base = column_base_type(column)
+    if normalized in {"now()", "current_timestamp", "current_timestamp()", "localtimestamp"}:
+        return generate_timestamp()
+    if normalized in {"gen_random_uuid()", "uuid_generate_v4()", "uuid()", "cuid()"}:
+        return generate_value(column.name, "uuid")
+    if base in {"json", "jsonb"}:
+        json_text = re.sub(r"^cast\((.*)\s+as\s+jsonb\)$", r"\1", normalized, flags=re.I)
+        json_text = json_text.replace("::jsonb", "").strip().strip("'")
+        try:
+            return json.loads(json_text)
+        except (TypeError, json.JSONDecodeError):
+            return {}
+    if getattr(column.data_type, "is_array", False):
+        array_text = normalized.replace("::text[]", "").replace("::varchar[]", "").strip()
+        if array_text in {"{}", "array[]", "array[]::text[]"}:
+            return []
+        try:
+            return json.loads(array_text)
+        except (TypeError, json.JSONDecodeError):
+            return []
+    return coerce_default(value, str(column.type), column.data_type.enum_name is not None)
 
 
 def parse_xor_from_note(note) -> List[Tuple[str, str]]:
@@ -697,6 +752,8 @@ def generate_column_value(
     if column.pk:
         if column_base_type(column) in INTEGER_TYPES:
             return int(row_id)
+        if column_base_type(column) == "uuid":
+            return generate_value(col_name, "uuid")
         return row_id
 
     # Schema default, used most of the time for non-unique columns.
@@ -705,9 +762,7 @@ def generate_column_value(
         and not column.unique
         and random.random() < config["default_probability"]
     ):
-        return coerce_default(
-            column.default, col_type, column.data_type.enum_name is not None
-        )
+        return evaluate_default(column.default, column)
 
     if (
         not force
@@ -747,10 +802,15 @@ def generate_column_value(
 
     if column.data_type.enum_name is not None:
         enum_vals = enums[column.data_type.enum_name].values
+        if column.data_type.is_array:
+            return [random.choice(enum_vals) for _ in range(random.randint(1, 3))]
         return random.choice(enum_vals)
 
+    if column.data_type.enum_values:
+        return random.choice(column.data_type.enum_values)
+
     for _ in range(80):
-        val = generate_value(col_name, col_type)
+        val = generate_value(col_name, column.data_type)
         if not column.unique:
             return val
         ukey = unique_key(table_name, col_name)
@@ -842,7 +902,7 @@ def seed_table(table: Table, enums, fk_map, generated_data, entries, config):
             aborted = False
 
             for column in table.columns:
-                if is_sequence_version(column.name):
+                if is_sequence_version(column.name) or (column.generated and not column.pk):
                     continue
                 value = generate_column_value(
                     column,
@@ -1081,6 +1141,7 @@ def seed(schema_path, config_path, output_dir, schema_format="auto", dialect="sq
 
     fill_entity_refs(tables, generated_data)
     sync_current_versions(tables, fk_map, generated_data)
+    validate_generated_native_types(schema, generated_data)
 
     for name, rows in generated_data.items():
         save_json(name, rows, output_dir)

@@ -9,6 +9,9 @@ class DataType:
     name: str
     parameters: tuple[Any, ...] = ()
     enum_name: str | None = None
+    is_array: bool = False
+    element_type: str | None = None
+    enum_values: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)

@@ -184,6 +184,10 @@ class SQLAdapter:
                 default = self._sql(constraint.this)
             elif isinstance(constraint, exp.CheckColumnConstraint):
                 checks.append({"type": "check", "expression": self._sql(constraint.this), "column": definition.name})
+        generated = any(
+            type(item.args.get("kind")).__name__ == "ComputedColumnConstraint"
+            for item in constraints
+        )
         return Column(
             name=definition.name,
             data_type=self._parse_type(definition.args["kind"]),
@@ -191,13 +195,32 @@ class SQLAdapter:
             nullable=not (primary_key or not_null),
             default=default,
             unique=unique,
-            generated=False,
+            generated=generated,
         ), checks
 
     def _parse_type(self, data_type) -> DataType:
+        if data_type.this == exp.DType.ARRAY:
+            element = data_type.expressions[0] if data_type.expressions else None
+            element_name = (
+                element.this.name.lower()
+                if element is not None and hasattr(element.this, "name")
+                else "text"
+            )
+            return DataType(
+                name="array",
+                is_array=True,
+                element_type=element_name,
+            )
         if data_type.this == exp.DType.USERDEFINED:
             user_type = data_type.args.get("kind")
             return DataType(name="enum", enum_name=self._name(user_type))
+        if data_type.this == exp.DType.ENUM:
+            values = tuple(
+                literal.this.strip("'")
+                for literal in data_type.expressions or []
+                if isinstance(literal, exp.Literal) and literal.is_string
+            )
+            return DataType(name="enum", enum_values=values)
         name = data_type.this.name.lower() if hasattr(data_type.this, "name") else str(data_type.this).lower()
         parameters = tuple(
             int(parameter.this.this)

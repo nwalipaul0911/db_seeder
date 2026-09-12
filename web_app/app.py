@@ -2,6 +2,7 @@ import os
 import json
 import hashlib
 import shutil
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 from uuid import uuid4
@@ -55,7 +56,7 @@ def create_run_directories(schema_text: str, schema_format: str, dialect: str):
     return schema_key, run_id, schema_dir, output_dir
 
 
-def build_runtime_config(rows_per_table: int):
+def build_runtime_config(rows_per_table: int, overrides=None):
     config = {
         "seed": 42,
         "null_probability": 0.35,
@@ -63,15 +64,23 @@ def build_runtime_config(rows_per_table: int):
         "self_fk_root_probability": 0.35,
         "Num_of_entries": {"default": int(rows_per_table)},
     }
+    if isinstance(overrides, dict):
+        for key in ("seed", "null_probability", "default_probability", "self_fk_root_probability"):
+            if key in overrides:
+                config[key] = overrides[key]
+        if isinstance(overrides.get("Num_of_entries"), dict):
+            config["Num_of_entries"].update(overrides["Num_of_entries"])
+        if isinstance(overrides.get("xor_groups"), dict):
+            config["xor_groups"] = overrides["xor_groups"]
     return config
 
 
-def generate_from_schema(schema_text: str, rows_per_table: int, output_dir: Path, schema_format: str, dialect: str):
+def generate_from_schema(schema_text: str, rows_per_table: int, output_dir: Path, schema_format: str, dialect: str, config_overrides=None):
     output_dir.mkdir(parents=True, exist_ok=True)
     resolved_format = adapter_for_source(schema_text, schema_format, dialect).source_format
     config_path = output_dir / "config.yaml"
     with open(config_path, "w", encoding="utf-8") as f:
-        yaml.safe_dump(build_runtime_config(rows_per_table), f, sort_keys=False)
+        yaml.safe_dump(build_runtime_config(rows_per_table, config_overrides), f, sort_keys=False)
 
     schema_path = output_dir / schema_filename(resolved_format)
     schema_path.write_text(schema_text, encoding="utf-8")
@@ -87,6 +96,23 @@ def generate_from_schema(schema_text: str, rows_per_table: int, output_dir: Path
         for json_file in json_files
     }
     return [json_file.name for json_file in json_files], archive_path.name, row_counts
+
+
+def cleanup_history(current_run=None):
+    runs_root = Path(app.config["UPLOAD_FOLDER"]) / "runs"
+    if not runs_root.exists():
+        return
+    max_runs = int(os.environ.get("SEEDER_MAX_RUNS", "100"))
+    manifests = sorted(
+        runs_root.glob("*/*/manifest.json"),
+        key=lambda path: path.stat().st_mtime,
+        reverse=True,
+    )
+    for manifest_path in manifests[max_runs:]:
+        run_dir = manifest_path.parent
+        if current_run is not None and run_dir == current_run:
+            continue
+        shutil.rmtree(run_dir, ignore_errors=True)
 
 
 @app.route("/")
@@ -200,6 +226,15 @@ def generate_data():
     uploaded_file = request.files.get("dbml_file")
     rows_per_table = request.form.get("rows_per_table", "100")
     output_name = request.form.get("output_name", "generated_data")
+    config_overrides = {}
+    config_text = (request.form.get("config_json") or "").strip()
+    if config_text:
+        try:
+            config_overrides = json.loads(config_text)
+            if not isinstance(config_overrides, dict):
+                raise ValueError("Configuration must be a JSON object.")
+        except (TypeError, ValueError, json.JSONDecodeError) as exc:
+            return jsonify({"error": f"Invalid advanced configuration: {exc}"}), 400
 
     try:
         rows_per_table = max(1, int(rows_per_table))
@@ -226,7 +261,7 @@ def generate_data():
         source_path = schema_dir / schema_filename(resolved_format)
         source_path.write_text(dbml_text, encoding="utf-8")
         files, archive_name, row_counts = generate_from_schema(
-            dbml_text, rows_per_table, session_dir, resolved_format, dialect
+            dbml_text, rows_per_table, session_dir, resolved_format, dialect, config_overrides
         )
         manifest = {
             "schema_key": schema_key,
@@ -239,9 +274,11 @@ def generate_data():
             "created_at": datetime.now(timezone.utc).isoformat(),
         }
         (session_dir / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+        cleanup_history(session_dir)
     except Exception as exc:
-        logger.exception("Web generation failed")
-        return jsonify({"error": f"Schema generation failed: {exc}"}), 400
+        error_id = uuid4().hex[:12]
+        logger.exception("Web generation failed (error_id=%s)", error_id)
+        return jsonify({"error": "Schema generation failed.", "error_id": error_id}), 400
 
     relative_root = os.path.relpath(session_dir, Path(app.config["UPLOAD_FOLDER"]))
     return jsonify({
@@ -305,4 +342,8 @@ def upload_dbml():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    app.run(
+        debug=os.environ.get("FLASK_DEBUG", "0").lower() in {"1", "true", "yes"},
+        host="0.0.0.0",
+        port=5000,
+    )

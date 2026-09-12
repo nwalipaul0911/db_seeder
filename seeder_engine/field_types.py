@@ -343,10 +343,18 @@ def _identifier_value(col_name: str):
     return None
 
 
-def generate_value(col_name: str, col_type: str):
+def generate_value(col_name: str, col_type):
     """Produce a value from column name and SQL type. Unique-ness is handled by the seeder."""
     n = _normalize(col_name)
-    base, params = parse_sql_type(col_type)
+    is_array = bool(getattr(col_type, "is_array", False))
+    if is_array:
+        element_type = getattr(col_type, "element_type", None) or getattr(col_type, "name", "text")
+        return [generate_value(col_name, element_type) for _ in range(random.randint(1, 3))]
+    enum_values = getattr(col_type, "enum_values", ())
+    if enum_values:
+        return random.choice(enum_values)
+    type_name = getattr(col_type, "name", col_type)
+    base, params = parse_sql_type(str(type_name))
     scale = params[1] if len(params) >= 2 else (params[0] if base in {"decimal", "numeric"} and len(params) == 1 else None)
 
     if "birth" in n.split("_") and base in DATE_TYPES:

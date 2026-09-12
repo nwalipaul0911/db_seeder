@@ -100,7 +100,7 @@ In the web UI:
 - Use **Seed history** to reopen data from previous runs. Each run can be downloaded, its table JSON can be viewed, or the run can be cleared individually.
 - Select multiple history entries, or use **Select all**, and choose **Clear checked history** to remove them together.
 
-Each generation receives a unique run ID and remains available until it is cleared from history.
+Each generation receives a unique run ID. History is bounded by `SEEDER_MAX_RUNS` (100 by default) and can also be cleared manually.
 
 ## Configuration
 
@@ -115,6 +115,7 @@ Num_of_entries:
 
 - Keys match DBML table names.
 - Tables not listed use `default` (100 if omitted).
+- The web UI accepts optional advanced JSON configuration for per-table counts and `xor_groups`.
 
 ## How data is generated
 
@@ -124,12 +125,14 @@ For each column:
 
 | Rule | Behavior |
 | --- | --- |
-| Primary key | Sequential string IDs (`"1"`, `"2"`, …) |
+| Primary key | Integer keys use row IDs; UUID keys use generated UUID4 values |
 | Foreign key | Random existing value from the parent table |
 | Unique FK | Distinct parent keys until they run out |
 | Enum | Random value from the schema enum when the adapter exposes its values |
 | Named fields | Faker values when the column name matches types such as `email`, `first_name`, `city`, `phone` |
 | Type-based | `int`, `varchar`, `date`, `timestamp`, `bool`, `uuid`, and similar SQL types |
+| Native values | JSON/JSONB values and SQL array values are emitted as JSON-compatible objects/lists; supported SQL defaults are evaluated |
+| Generated columns | Computed columns are omitted; identity/autoincrement keys remain available for relational generation |
 | Unique columns | Retried until a unused value is found |
 | Composite unique indexes | Whole row retried (up to 100 attempts) until the combination is unique |
 

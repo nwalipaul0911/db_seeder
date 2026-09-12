@@ -1,0 +1,902 @@
+{
+    "1": {
+        "id": 1,
+        "marketplace_id": 26,
+        "customer_id": null,
+        "query": "could-theory-lay",
+        "result_count": 127,
+        "filters": "Serious everything example need.",
+        "searched_at": "2026-07-28T06:09:16.141983"
+    },
+    "2": {
+        "id": 2,
+        "marketplace_id": 99,
+        "customer_id": 77,
+        "query": "believe-same",
+        "result_count": 68,
+        "filters": "Police traditional party brother reason occur feel.",
+        "searched_at": "2025-10-16T08:54:46.142318"
+    },
+    "3": {
+        "id": 3,
+        "marketplace_id": 58,
+        "customer_id": 50,
+        "query": "wear-everyone-among",
+        "result_count": 67,
+        "filters": "Yard my network year.",
+        "searched_at": "2026-01-13T12:23:34.142626"
+    },
+    "4": {
+        "id": 4,
+        "marketplace_id": 35,
+        "customer_id": 98,
+        "query": "western-between",
+        "result_count": null,
+        "filters": "Trip opportunity benefit bank certain special.",
+        "searched_at": "2026-01-09T21:35:48.142915"
+    },
+    "5": {
+        "id": 5,
+        "marketplace_id": 98,
+        "customer_id": null,
+        "query": "the-during-order",
+        "result_count": 65,
+        "filters": "Yeah owner his it.",
+        "searched_at": "2026-01-24T23:33:44.143184"
+    },
+    "6": {
+        "id": 6,
+        "marketplace_id": 5,
+        "customer_id": 17,
+        "query": "lead-race",
+        "result_count": null,
+        "filters": "Child off until still newspaper.",
+        "searched_at": "2025-03-15T07:01:42.143471"
+    },
+    "7": {
+        "id": 7,
+        "marketplace_id": 61,
+        "customer_id": 80,
+        "query": "despite-set-meet",
+        "result_count": 144,
+        "filters": "Though morning feel drug rest.",
+        "searched_at": "2026-02-18T09:51:44.143780"
+    },
+    "8": {
+        "id": 8,
+        "marketplace_id": 73,
+        "customer_id": 42,
+        "query": "effort-follow",
+        "result_count": 165,
+        "filters": "Picture foot same act wonder conference large.",
+        "searched_at": "2025-05-25T07:22:53.144080"
+    },
+    "9": {
+        "id": 9,
+        "marketplace_id": 4,
+        "customer_id": null,
+        "query": "street-century",
+        "result_count": 90,
+        "filters": null,
+        "searched_at": "2026-07-14T04:21:02.144289"
+    },
+    "10": {
+        "id": 10,
+        "marketplace_id": 7,
+        "customer_id": 65,
+        "query": "structure-base-long",
+        "result_count": 96,
+        "filters": null,
+        "searched_at": "2025-02-23T13:03:56.144540"
+    },
+    "11": {
+        "id": 11,
+        "marketplace_id": 30,
+        "customer_id": 51,
+        "query": "democratic-teach",
+        "result_count": 149,
+        "filters": null,
+        "searched_at": "2026-03-23T08:03:36.144788"
+    },
+    "12": {
+        "id": 12,
+        "marketplace_id": 87,
+        "customer_id": null,
+        "query": "institution-cold",
+        "result_count": 98,
+        "filters": null,
+        "searched_at": "2026-04-06T20:58:36.145002"
+    },
+    "13": {
+        "id": 13,
+        "marketplace_id": 77,
+        "customer_id": null,
+        "query": "any-thought-girl-he",
+        "result_count": 200,
+        "filters": null,
+        "searched_at": "2025-02-27T19:34:13.145224"
+    },
+    "14": {
+        "id": 14,
+        "marketplace_id": 67,
+        "customer_id": null,
+        "query": "coach-language-life",
+        "result_count": 71,
+        "filters": null,
+        "searched_at": "2024-09-09T20:33:10.145436"
+    },
+    "15": {
+        "id": 15,
+        "marketplace_id": 56,
+        "customer_id": null,
+        "query": "police-child-fall",
+        "result_count": 181,
+        "filters": null,
+        "searched_at": "2024-10-01T14:37:30.145646"
+    },
+    "16": {
+        "id": 16,
+        "marketplace_id": 47,
+        "customer_id": null,
+        "query": "thousand-real",
+        "result_count": 37,
+        "filters": "Push reflect early letter house.",
+        "searched_at": "2025-10-15T00:54:00.145992"
+    },
+    "17": {
+        "id": 17,
+        "marketplace_id": 36,
+        "customer_id": 62,
+        "query": "open-serious-main",
+        "result_count": 111,
+        "filters": null,
+        "searched_at": "2026-08-01T18:52:04.146253"
+    },
+    "18": {
+        "id": 18,
+        "marketplace_id": 45,
+        "customer_id": 66,
+        "query": "second-method",
+        "result_count": null,
+        "filters": "Safe they money story team.",
+        "searched_at": "2026-02-28T01:35:26.146566"
+    },
+    "19": {
+        "id": 19,
+        "marketplace_id": 63,
+        "customer_id": 5,
+        "query": "base-suddenly",
+        "result_count": null,
+        "filters": "Whose kind media lose marriage Mrs try.",
+        "searched_at": "2024-12-23T20:32:22.146932"
+    },
+    "20": {
+        "id": 20,
+        "marketplace_id": 79,
+        "customer_id": null,
+        "query": "because-area",
+        "result_count": 159,
+        "filters": "Kitchen relate tax.",
+        "searched_at": "2024-12-04T09:55:25.147306"
+    },
+    "21": {
+        "id": 21,
+        "marketplace_id": 52,
+        "customer_id": 8,
+        "query": "company-picture",
+        "result_count": 195,
+        "filters": "Whatever herself consumer see beyond first determine program.",
+        "searched_at": "2026-06-06T07:48:41.147669"
+    },
+    "22": {
+        "id": 22,
+        "marketplace_id": 12,
+        "customer_id": null,
+        "query": "apply-chance-affect",
+        "result_count": null,
+        "filters": null,
+        "searched_at": "2025-09-23T20:08:08.147931"
+    },
+    "23": {
+        "id": 23,
+        "marketplace_id": 72,
+        "customer_id": null,
+        "query": "again-everything",
+        "result_count": 29,
+        "filters": "Least bill attorney.",
+        "searched_at": "2025-12-16T00:27:54.148350"
+    },
+    "24": {
+        "id": 24,
+        "marketplace_id": 53,
+        "customer_id": null,
+        "query": "physical-stand",
+        "result_count": null,
+        "filters": "Economic read lead write conference.",
+        "searched_at": "2025-12-12T13:58:11.148898"
+    },
+    "25": {
+        "id": 25,
+        "marketplace_id": 81,
+        "customer_id": 93,
+        "query": "his-left-newspaper",
+        "result_count": 133,
+        "filters": null,
+        "searched_at": "2025-03-11T04:37:46.149343"
+    },
+    "26": {
+        "id": 26,
+        "marketplace_id": 3,
+        "customer_id": 37,
+        "query": "black-film-pressure",
+        "result_count": null,
+        "filters": "Song fish bad decide decade.",
+        "searched_at": "2025-08-22T04:20:40.149847"
+    },
+    "27": {
+        "id": 27,
+        "marketplace_id": 65,
+        "customer_id": null,
+        "query": "at-recently-base",
+        "result_count": 136,
+        "filters": "Rest memory hard kitchen.",
+        "searched_at": "2026-07-04T22:46:06.150211"
+    },
+    "28": {
+        "id": 28,
+        "marketplace_id": 59,
+        "customer_id": null,
+        "query": "down-type-benefit",
+        "result_count": 89,
+        "filters": "Local reason rich respond would.",
+        "searched_at": "2026-04-28T18:40:59.150593"
+    },
+    "29": {
+        "id": 29,
+        "marketplace_id": 31,
+        "customer_id": 27,
+        "query": "room-main-face-our",
+        "result_count": 8,
+        "filters": "Toward late increase agree.",
+        "searched_at": "2026-07-09T09:06:22.150922"
+    },
+    "30": {
+        "id": 30,
+        "marketplace_id": 95,
+        "customer_id": 67,
+        "query": "money-early",
+        "result_count": 16,
+        "filters": "Want relationship record young.",
+        "searched_at": "2026-01-16T05:33:25.151233"
+    },
+    "31": {
+        "id": 31,
+        "marketplace_id": 100,
+        "customer_id": 19,
+        "query": "light-different",
+        "result_count": 154,
+        "filters": null,
+        "searched_at": "2026-07-26T17:20:42.151496"
+    },
+    "32": {
+        "id": 32,
+        "marketplace_id": 75,
+        "customer_id": 33,
+        "query": "different-eat-these",
+        "result_count": 33,
+        "filters": null,
+        "searched_at": "2025-09-02T11:16:08.151756"
+    },
+    "33": {
+        "id": 33,
+        "marketplace_id": 43,
+        "customer_id": 92,
+        "query": "medical-talk",
+        "result_count": 77,
+        "filters": "Base those accept.",
+        "searched_at": "2024-11-27T10:03:09.152058"
+    },
+    "34": {
+        "id": 34,
+        "marketplace_id": 37,
+        "customer_id": 39,
+        "query": "recent-upon-yet",
+        "result_count": 129,
+        "filters": "Commercial choose still woman pattern citizen ten.",
+        "searched_at": "2025-05-26T15:04:15.152371"
+    },
+    "35": {
+        "id": 35,
+        "marketplace_id": 96,
+        "customer_id": 2,
+        "query": "she-research-war",
+        "result_count": 17,
+        "filters": "Work indeed decade.",
+        "searched_at": "2026-01-09T14:21:07.152724"
+    },
+    "36": {
+        "id": 36,
+        "marketplace_id": 80,
+        "customer_id": 59,
+        "query": "i-good-expect",
+        "result_count": null,
+        "filters": null,
+        "searched_at": "2025-08-06T17:54:53.152992"
+    },
+    "37": {
+        "id": 37,
+        "marketplace_id": 49,
+        "customer_id": null,
+        "query": "room-personal-last",
+        "result_count": null,
+        "filters": "Apply trip finish be wear economic.",
+        "searched_at": "2025-02-15T01:22:01.153297"
+    },
+    "38": {
+        "id": 38,
+        "marketplace_id": 76,
+        "customer_id": 49,
+        "query": "occur-seven",
+        "result_count": 188,
+        "filters": null,
+        "searched_at": "2025-02-08T07:03:07.153580"
+    },
+    "39": {
+        "id": 39,
+        "marketplace_id": 84,
+        "customer_id": null,
+        "query": "they-factor-them",
+        "result_count": null,
+        "filters": "Ask news table yes.",
+        "searched_at": "2025-06-08T16:18:11.153951"
+    },
+    "40": {
+        "id": 40,
+        "marketplace_id": 41,
+        "customer_id": null,
+        "query": "alone-floor-group",
+        "result_count": 85,
+        "filters": "Thus second two remain.",
+        "searched_at": "2026-02-26T20:33:56.154284"
+    },
+    "41": {
+        "id": 41,
+        "marketplace_id": 69,
+        "customer_id": null,
+        "query": "owner-yet",
+        "result_count": null,
+        "filters": null,
+        "searched_at": "2024-12-18T06:25:36.154490"
+    },
+    "42": {
+        "id": 42,
+        "marketplace_id": 44,
+        "customer_id": null,
+        "query": "popular-which-wall",
+        "result_count": null,
+        "filters": null,
+        "searched_at": "2024-12-09T05:57:40.154696"
+    },
+    "43": {
+        "id": 43,
+        "marketplace_id": 93,
+        "customer_id": 85,
+        "query": "tax-product",
+        "result_count": null,
+        "filters": "Store character image sister.",
+        "searched_at": "2025-07-08T17:33:29.154991"
+    },
+    "44": {
+        "id": 44,
+        "marketplace_id": 89,
+        "customer_id": 41,
+        "query": "successful-visit",
+        "result_count": 22,
+        "filters": "Someone wonder manager machine join.",
+        "searched_at": "2026-04-09T21:10:22.155294"
+    },
+    "45": {
+        "id": 45,
+        "marketplace_id": 51,
+        "customer_id": null,
+        "query": "appear-throw",
+        "result_count": 69,
+        "filters": "Tree successful forward change line.",
+        "searched_at": "2025-04-04T08:13:50.155556"
+    },
+    "46": {
+        "id": 46,
+        "marketplace_id": 6,
+        "customer_id": 99,
+        "query": "across-third",
+        "result_count": 191,
+        "filters": "Conference husband end arm.",
+        "searched_at": "2024-09-27T10:43:26.155859"
+    },
+    "47": {
+        "id": 47,
+        "marketplace_id": 19,
+        "customer_id": 7,
+        "query": "performance-under",
+        "result_count": 96,
+        "filters": "Increase body rock man table they school.",
+        "searched_at": "2026-06-26T23:17:48.156161"
+    },
+    "48": {
+        "id": 48,
+        "marketplace_id": 85,
+        "customer_id": 26,
+        "query": "collection-moment",
+        "result_count": 160,
+        "filters": "Body break no still best area who.",
+        "searched_at": "2024-12-14T07:23:16.156463"
+    },
+    "49": {
+        "id": 49,
+        "marketplace_id": 90,
+        "customer_id": 36,
+        "query": "against-your-bag",
+        "result_count": 167,
+        "filters": null,
+        "searched_at": "2024-12-19T01:40:18.156725"
+    },
+    "50": {
+        "id": 50,
+        "marketplace_id": 68,
+        "customer_id": 74,
+        "query": "money-remain-stock",
+        "result_count": 57,
+        "filters": null,
+        "searched_at": "2025-12-19T04:23:09.156981"
+    },
+    "51": {
+        "id": 51,
+        "marketplace_id": 17,
+        "customer_id": 68,
+        "query": "give-health-whether",
+        "result_count": 103,
+        "filters": "News husband scene.",
+        "searched_at": "2024-09-11T08:08:27.157293"
+    },
+    "52": {
+        "id": 52,
+        "marketplace_id": 24,
+        "customer_id": null,
+        "query": "i-to-gas-very-any",
+        "result_count": 152,
+        "filters": null,
+        "searched_at": "2025-06-10T04:39:40.157529"
+    },
+    "53": {
+        "id": 53,
+        "marketplace_id": 28,
+        "customer_id": 12,
+        "query": "experience-similar",
+        "result_count": 175,
+        "filters": "Total town everything case.",
+        "searched_at": "2026-08-27T20:04:34.157903"
+    },
+    "54": {
+        "id": 54,
+        "marketplace_id": 18,
+        "customer_id": null,
+        "query": "window-ever-space",
+        "result_count": null,
+        "filters": "Management pick morning art get analysis.",
+        "searched_at": "2025-12-26T01:33:44.158171"
+    },
+    "55": {
+        "id": 55,
+        "marketplace_id": 40,
+        "customer_id": null,
+        "query": "get-tell-candidate",
+        "result_count": 84,
+        "filters": null,
+        "searched_at": "2025-04-23T19:17:22.158471"
+    },
+    "56": {
+        "id": 56,
+        "marketplace_id": 15,
+        "customer_id": null,
+        "query": "left-relationship",
+        "result_count": 137,
+        "filters": null,
+        "searched_at": "2024-10-09T02:50:55.158680"
+    },
+    "57": {
+        "id": 57,
+        "marketplace_id": 50,
+        "customer_id": 24,
+        "query": "really-just-spend",
+        "result_count": 15,
+        "filters": null,
+        "searched_at": "2026-07-20T01:46:36.158934"
+    },
+    "58": {
+        "id": 58,
+        "marketplace_id": 14,
+        "customer_id": 9,
+        "query": "cost-item-mrs",
+        "result_count": 15,
+        "filters": "Water know fall effort in nor measure far.",
+        "searched_at": "2025-06-05T01:04:46.159241"
+    },
+    "59": {
+        "id": 59,
+        "marketplace_id": 39,
+        "customer_id": 88,
+        "query": "two-what-within",
+        "result_count": null,
+        "filters": "Wish process bad president analysis movement.",
+        "searched_at": "2025-08-19T06:57:28.159541"
+    },
+    "60": {
+        "id": 60,
+        "marketplace_id": 74,
+        "customer_id": 44,
+        "query": "week-evidence",
+        "result_count": 135,
+        "filters": "Growth line public difficult security skill.",
+        "searched_at": "2025-01-03T15:06:06.159843"
+    },
+    "61": {
+        "id": 61,
+        "marketplace_id": 34,
+        "customer_id": 70,
+        "query": "include-item-since",
+        "result_count": 84,
+        "filters": null,
+        "searched_at": "2026-06-15T10:01:01.160099"
+    },
+    "62": {
+        "id": 62,
+        "marketplace_id": 13,
+        "customer_id": 11,
+        "query": "result-anyone-form",
+        "result_count": 125,
+        "filters": null,
+        "searched_at": "2026-02-17T20:09:53.160354"
+    },
+    "63": {
+        "id": 63,
+        "marketplace_id": 27,
+        "customer_id": 90,
+        "query": "campaign-tree",
+        "result_count": null,
+        "filters": "Follow ahead management add.",
+        "searched_at": "2026-07-02T13:42:13.160644"
+    },
+    "64": {
+        "id": 64,
+        "marketplace_id": 21,
+        "customer_id": 91,
+        "query": "rise-theory-truth",
+        "result_count": 130,
+        "filters": null,
+        "searched_at": "2026-07-17T05:28:58.160899"
+    },
+    "65": {
+        "id": 65,
+        "marketplace_id": 64,
+        "customer_id": 52,
+        "query": "happen-sometimes",
+        "result_count": 199,
+        "filters": "Thing accept large list economy medical wind.",
+        "searched_at": "2025-10-22T08:33:44.161200"
+    },
+    "66": {
+        "id": 66,
+        "marketplace_id": 11,
+        "customer_id": null,
+        "query": "him-loss-leave",
+        "result_count": null,
+        "filters": null,
+        "searched_at": "2024-10-20T12:02:53.161405"
+    },
+    "67": {
+        "id": 67,
+        "marketplace_id": 94,
+        "customer_id": null,
+        "query": "next-process-later",
+        "result_count": 187,
+        "filters": "Lot animal into capital begin risk sometimes.",
+        "searched_at": "2026-01-03T20:32:19.161685"
+    },
+    "68": {
+        "id": 68,
+        "marketplace_id": 62,
+        "customer_id": 29,
+        "query": "cost-on-song-early",
+        "result_count": 117,
+        "filters": "Ten else action play somebody book citizen weight.",
+        "searched_at": "2026-02-15T06:56:38.162060"
+    },
+    "69": {
+        "id": 69,
+        "marketplace_id": 66,
+        "customer_id": null,
+        "query": "skill-himself",
+        "result_count": 76,
+        "filters": "Movement cultural west less win size approach.",
+        "searched_at": "2025-04-15T15:54:14.162340"
+    },
+    "70": {
+        "id": 70,
+        "marketplace_id": 55,
+        "customer_id": 97,
+        "query": "need-resource-part",
+        "result_count": 84,
+        "filters": "Reach and or space.",
+        "searched_at": "2025-10-10T07:06:29.162673"
+    },
+    "71": {
+        "id": 71,
+        "marketplace_id": 57,
+        "customer_id": null,
+        "query": "system-few-rise",
+        "result_count": null,
+        "filters": "There hospital same mouth team ahead computer similar.",
+        "searched_at": "2025-04-22T11:07:33.163053"
+    },
+    "72": {
+        "id": 72,
+        "marketplace_id": 2,
+        "customer_id": null,
+        "query": "guess-someone",
+        "result_count": null,
+        "filters": "Article democratic benefit address.",
+        "searched_at": "2026-07-01T13:52:42.163313"
+    },
+    "73": {
+        "id": 73,
+        "marketplace_id": 42,
+        "customer_id": 43,
+        "query": "operation-notice",
+        "result_count": null,
+        "filters": "Group statement although attorney.",
+        "searched_at": "2026-03-04T19:31:47.163630"
+    },
+    "74": {
+        "id": 74,
+        "marketplace_id": 92,
+        "customer_id": 23,
+        "query": "international-two",
+        "result_count": 86,
+        "filters": "Response same huge drive.",
+        "searched_at": "2024-11-08T06:31:26.163932"
+    },
+    "75": {
+        "id": 75,
+        "marketplace_id": 8,
+        "customer_id": 82,
+        "query": "assume-draw-week",
+        "result_count": null,
+        "filters": null,
+        "searched_at": "2025-08-15T12:59:59.164210"
+    },
+    "76": {
+        "id": 76,
+        "marketplace_id": 97,
+        "customer_id": null,
+        "query": "within-green",
+        "result_count": 116,
+        "filters": "Those performance fish hot together send.",
+        "searched_at": "2026-09-04T02:56:15.164471"
+    },
+    "77": {
+        "id": 77,
+        "marketplace_id": 60,
+        "customer_id": null,
+        "query": "least-season-job",
+        "result_count": 47,
+        "filters": "Image source girl teacher type second history.",
+        "searched_at": "2026-07-23T21:04:34.164739"
+    },
+    "78": {
+        "id": 78,
+        "marketplace_id": 91,
+        "customer_id": null,
+        "query": "arm-cause-statement",
+        "result_count": null,
+        "filters": "Wonder heart major unit speak.",
+        "searched_at": "2026-07-02T05:45:49.164995"
+    },
+    "79": {
+        "id": 79,
+        "marketplace_id": 32,
+        "customer_id": 95,
+        "query": "present-choose",
+        "result_count": 124,
+        "filters": "Their growth source yes trial hit.",
+        "searched_at": "2025-12-31T01:33:24.165293"
+    },
+    "80": {
+        "id": 80,
+        "marketplace_id": 9,
+        "customer_id": null,
+        "query": "executive-affect",
+        "result_count": null,
+        "filters": null,
+        "searched_at": "2025-05-23T21:13:35.165490"
+    },
+    "81": {
+        "id": 81,
+        "marketplace_id": 48,
+        "customer_id": 34,
+        "query": "leg-operation-such",
+        "result_count": 80,
+        "filters": "Standard state town television marriage best style.",
+        "searched_at": "2026-04-04T10:47:27.165883"
+    },
+    "82": {
+        "id": 82,
+        "marketplace_id": 71,
+        "customer_id": 31,
+        "query": "who-decision",
+        "result_count": 28,
+        "filters": "Throughout senior word policy join.",
+        "searched_at": "2024-12-20T19:29:20.166184"
+    },
+    "83": {
+        "id": 83,
+        "marketplace_id": 25,
+        "customer_id": 46,
+        "query": "future-notice-final",
+        "result_count": 169,
+        "filters": "Yeah whose drive represent speak.",
+        "searched_at": "2024-12-09T00:54:18.166492"
+    },
+    "84": {
+        "id": 84,
+        "marketplace_id": 22,
+        "customer_id": null,
+        "query": "organization-during",
+        "result_count": 88,
+        "filters": "Everybody artist reduce.",
+        "searched_at": "2026-09-01T07:02:10.166752"
+    },
+    "85": {
+        "id": 85,
+        "marketplace_id": 29,
+        "customer_id": 57,
+        "query": "form-think-rate",
+        "result_count": 160,
+        "filters": "Ability move recent weight market although.",
+        "searched_at": "2024-09-25T00:18:47.167057"
+    },
+    "86": {
+        "id": 86,
+        "marketplace_id": 38,
+        "customer_id": null,
+        "query": "fact-other-training",
+        "result_count": 199,
+        "filters": "Like perhaps accept executive third.",
+        "searched_at": "2025-09-25T01:42:05.167324"
+    },
+    "87": {
+        "id": 87,
+        "marketplace_id": 16,
+        "customer_id": 55,
+        "query": "approach-prove-then",
+        "result_count": 17,
+        "filters": "Section start around like call pressure.",
+        "searched_at": "2026-06-05T10:49:22.167632"
+    },
+    "88": {
+        "id": 88,
+        "marketplace_id": 46,
+        "customer_id": 89,
+        "query": "part-agent",
+        "result_count": 71,
+        "filters": null,
+        "searched_at": "2026-08-13T20:43:46.167878"
+    },
+    "89": {
+        "id": 89,
+        "marketplace_id": 86,
+        "customer_id": 6,
+        "query": "time-lose-large",
+        "result_count": null,
+        "filters": "Box could rate should fly piece.",
+        "searched_at": "2025-05-28T02:56:04.168172"
+    },
+    "90": {
+        "id": 90,
+        "marketplace_id": 82,
+        "customer_id": null,
+        "query": "apply-watch-too-by",
+        "result_count": null,
+        "filters": "Nation week trouble foreign lot total meet a.",
+        "searched_at": "2025-05-27T23:36:51.168472"
+    },
+    "91": {
+        "id": 91,
+        "marketplace_id": 54,
+        "customer_id": 22,
+        "query": "fear-couple-memory",
+        "result_count": 109,
+        "filters": "Him member may.",
+        "searched_at": "2026-02-06T05:51:40.168820"
+    },
+    "92": {
+        "id": 92,
+        "marketplace_id": 23,
+        "customer_id": null,
+        "query": "step-able-light",
+        "result_count": 169,
+        "filters": "Fire contain have cause movie authority.",
+        "searched_at": "2026-07-09T07:43:07.169090"
+    },
+    "93": {
+        "id": 93,
+        "marketplace_id": 83,
+        "customer_id": 10,
+        "query": "thousand-hope-water",
+        "result_count": 157,
+        "filters": "Country church life begin.",
+        "searched_at": "2024-09-14T21:10:21.169406"
+    },
+    "94": {
+        "id": 94,
+        "marketplace_id": 20,
+        "customer_id": 83,
+        "query": "left-on-mrs-matter",
+        "result_count": null,
+        "filters": "Add guess decade tend second build.",
+        "searched_at": "2026-04-21T11:25:23.169749"
+    },
+    "95": {
+        "id": 95,
+        "marketplace_id": 88,
+        "customer_id": null,
+        "query": "nice-prove-example",
+        "result_count": null,
+        "filters": "Agency security start big against require station.",
+        "searched_at": "2025-06-23T15:51:00.170026"
+    },
+    "96": {
+        "id": 96,
+        "marketplace_id": 33,
+        "customer_id": 79,
+        "query": "mind-evening",
+        "result_count": null,
+        "filters": null,
+        "searched_at": "2026-01-07T20:56:40.170259"
+    },
+    "97": {
+        "id": 97,
+        "marketplace_id": 78,
+        "customer_id": 35,
+        "query": "wish-analysis-face",
+        "result_count": 99,
+        "filters": "Attack into page study democratic sign.",
+        "searched_at": "2026-05-06T11:16:36.170565"
+    },
+    "98": {
+        "id": 98,
+        "marketplace_id": 70,
+        "customer_id": 40,
+        "query": "material-investment",
+        "result_count": 172,
+        "filters": "Certainly similar no throw on large memory study.",
+        "searched_at": "2024-10-06T20:07:55.170865"
+    },
+    "99": {
+        "id": 99,
+        "marketplace_id": 10,
+        "customer_id": 3,
+        "query": "degree-and-our",
+        "result_count": 9,
+        "filters": "Purpose condition data any.",
+        "searched_at": "2026-05-15T11:52:07.171170"
+    },
+    "100": {
+        "id": 100,
+        "marketplace_id": 1,
+        "customer_id": 16,
+        "query": "approach-hit-itself",
+        "result_count": null,
+        "filters": "Specific keep chance stop summer data.",
+        "searched_at": "2025-01-21T09:04:05.171465"
+    }
+}

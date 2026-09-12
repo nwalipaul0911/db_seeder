@@ -38,7 +38,7 @@ class PrismaAdapter:
                 "constraints": [],
                 "relation_specs": [],
             }
-            for line in body.splitlines():
+            for line in self._logical_lines(body):
                 line = line.strip()
                 if not line:
                     continue
@@ -137,6 +137,25 @@ class PrismaAdapter:
         return re.sub(r"(?m)//.*$", "", source)
 
     @staticmethod
+    def _logical_lines(body: str) -> list[str]:
+        lines = []
+        current = ""
+        depth = 0
+        for raw_line in body.splitlines():
+            line = raw_line.strip()
+            if not line:
+                continue
+            current = f"{current} {line}".strip()
+            depth += line.count("(") - line.count(")")
+            if depth <= 0:
+                lines.append(current)
+                current = ""
+                depth = 0
+        if current:
+            lines.append(current)
+        return lines
+
+    @staticmethod
     def _enum_values(body: str) -> tuple[str, ...]:
         values = []
         for line in body.splitlines():
@@ -163,9 +182,18 @@ class PrismaAdapter:
         if base_type not in scalar_types and base_type not in enum_names:
             return None
         data_type = (
-            DataType(name="enum", enum_name=base_type)
+            DataType(
+                name="enum",
+                enum_name=base_type,
+                is_array=is_list,
+                element_type="enum" if is_list else None,
+            )
             if base_type in enum_names
-            else DataType(name=scalar_types[base_type])
+            else DataType(
+                name=scalar_types[base_type],
+                is_array=is_list,
+                element_type=scalar_types[base_type] if is_list else None,
+            )
         )
         primary_key = any(name == "id" for name, _ in attributes)
         unique = any(name == "unique" for name, _ in attributes)
@@ -173,12 +201,12 @@ class PrismaAdapter:
         default = None
         for attribute_name, argument in attributes:
             if attribute_name == "default":
-                if argument in {"autoincrement()", "uuid()", "cuid()", "now()"}:
+                if argument in {"autoincrement()"}:
                     generated = True
+                elif argument in {"uuid()", "cuid()", "now()"}:
+                    default = argument
                 else:
                     default = self._literal(argument)
-        if is_list:
-            return None, attributes
         return Column(
             name=name,
             data_type=data_type,
@@ -241,8 +269,21 @@ class PrismaAdapter:
     @staticmethod
     def _attributes(text: str) -> list[tuple[str, str | None]]:
         attributes = []
-        for match in re.finditer(r"@(\w+)(?:\((.*?)\))?", text):
-            attributes.append((match.group(1), match.group(2)))
+        for match in re.finditer(r"@(\w+)", text):
+            start = match.end()
+            if start >= len(text) or text[start] != "(":
+                attributes.append((match.group(1), None))
+                continue
+            depth = 0
+            end = start
+            for end in range(start, len(text)):
+                if text[end] == "(":
+                    depth += 1
+                elif text[end] == ")":
+                    depth -= 1
+                    if depth == 0:
+                        break
+            attributes.append((match.group(1), text[start + 1:end]))
         return attributes
 
     @staticmethod

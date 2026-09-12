@@ -1,0 +1,2211 @@
+{
+    "1": {
+        "id": "1",
+        "sellerId": "8",
+        "categoryId": 69,
+        "sku": "SKU-44869",
+        "name": "Multi-lateral reciprocal focus group",
+        "description": null,
+        "price": 5388.15,
+        "quantity": 0,
+        "weightKg": 29.64,
+        "status": "DRAFT",
+        "attributes": {
+            "response": false,
+            "someone": true
+        },
+        "images": [
+            "job-old-step-onto",
+            "country-hospital",
+            "one-member"
+        ],
+        "createdAt": "2026-07-15T15:40:11.080394",
+        "updatedAt": "2024-12-23T00:19:39.080449"
+    },
+    "2": {
+        "id": "2",
+        "sellerId": "33",
+        "categoryId": null,
+        "sku": "SKU-49562",
+        "name": "Switchable bottom-line synergy",
+        "description": null,
+        "price": 2476.3,
+        "quantity": 101,
+        "weightKg": 58.17,
+        "status": "DRAFT",
+        "attributes": {
+            "drug": "likely",
+            "stay": true,
+            "color": true,
+            "difficult": false,
+            "institution": "stock"
+        },
+        "images": [
+            "ground-suddenly-oil",
+            "same-return-seat",
+            "college-improve"
+        ],
+        "createdAt": "2025-09-02T00:54:15.081907",
+        "updatedAt": "2026-01-17T01:04:34.081951"
+    },
+    "3": {
+        "id": "3",
+        "sellerId": "88",
+        "categoryId": 9,
+        "sku": "SKU-01279",
+        "name": "Optional background architecture",
+        "description": "He participant right us husband.",
+        "price": 3977.76,
+        "quantity": 55,
+        "weightKg": 32.96,
+        "status": "DRAFT",
+        "attributes": {
+            "reality": false,
+            "few": "seek",
+            "picture": "art"
+        },
+        "images": [
+            "young-staff-ten",
+            "push-miss-leg",
+            "defense-to-realize"
+        ],
+        "createdAt": "2025-09-02T22:00:57.083744",
+        "updatedAt": "2024-09-23T14:17:50.083796"
+    },
+    "4": {
+        "id": "4",
+        "sellerId": "17",
+        "categoryId": 22,
+        "sku": "SKU-84309",
+        "name": "Profound multi-state standardization",
+        "description": "College already dream a church you sister good.",
+        "price": 7.76,
+        "quantity": 52,
+        "weightKg": 91.03,
+        "status": "OUT_OF_STOCK",
+        "attributes": null,
+        "images": [
+            "indicate-into-peace",
+            "national"
+        ],
+        "createdAt": "2025-06-17T21:47:36.085323",
+        "updatedAt": "2025-03-24T10:23:07.085478"
+    },
+    "5": {
+        "id": "5",
+        "sellerId": "12",
+        "categoryId": 87,
+        "sku": "SKU-11848",
+        "name": "Reduced grid-enabled hardware",
+        "description": null,
+        "price": 3964.02,
+        "quantity": 0,
+        "weightKg": 24.18,
+        "status": "DRAFT",
+        "attributes": {
+            "team": false,
+            "draw": 10
+        },
+        "images": [
+            "day-look-wonder",
+            "paper-above-every",
+            "investment-move"
+        ],
+        "createdAt": "2026-02-21T02:35:15.087022",
+        "updatedAt": "2025-08-22T15:26:19.087157"
+    },
+    "6": {
+        "id": "6",
+        "sellerId": "2",
+        "categoryId": null,
+        "sku": "SKU-81845",
+        "name": "Customizable multimedia extranet",
+        "description": null,
+        "price": 1206.82,
+        "quantity": 178,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": {
+            "under": true,
+            "tax": true
+        },
+        "images": [
+            "paper-enough-rule"
+        ],
+        "createdAt": "2026-06-04T17:04:04.088314",
+        "updatedAt": "2026-04-18T22:40:11.088363"
+    },
+    "7": {
+        "id": "7",
+        "sellerId": "22",
+        "categoryId": 91,
+        "sku": "SKU-69735",
+        "name": "Vision-oriented logistical software",
+        "description": null,
+        "price": 5305.55,
+        "quantity": 0,
+        "weightKg": 44.57,
+        "status": "ACTIVE",
+        "attributes": {
+            "magazine": "watch",
+            "peace": 13,
+            "ahead": "meet",
+            "but": false,
+            "author": false
+        },
+        "images": [
+            "property-story",
+            "research-science"
+        ],
+        "createdAt": "2025-03-22T09:51:49.089501",
+        "updatedAt": "2025-04-14T01:50:31.089544"
+    },
+    "8": {
+        "id": "8",
+        "sellerId": "90",
+        "categoryId": null,
+        "sku": "SKU-56588",
+        "name": "Advanced tangible firmware",
+        "description": "Behavior purpose start away use.",
+        "price": 6000.48,
+        "quantity": 0,
+        "weightKg": 69.36,
+        "status": "OUT_OF_STOCK",
+        "attributes": null,
+        "images": [
+            "maybe-former-health",
+            "wall-painting-exist",
+            "your-skin-result"
+        ],
+        "createdAt": "2026-04-14T19:36:24.090807",
+        "updatedAt": "2025-07-12T05:33:32.090861"
+    },
+    "9": {
+        "id": "9",
+        "sellerId": "44",
+        "categoryId": 33,
+        "sku": "SKU-37333",
+        "name": "Fundamental demand-driven emulation",
+        "description": "Student green single build bad.",
+        "price": 1128.32,
+        "quantity": 0,
+        "weightKg": 53.3,
+        "status": "OUT_OF_STOCK",
+        "attributes": {
+            "record": false,
+            "positive": 47,
+            "south": false
+        },
+        "images": [
+            "number-and-thus"
+        ],
+        "createdAt": "2024-11-02T09:41:21.092015",
+        "updatedAt": "2024-09-21T15:55:08.092060"
+    },
+    "10": {
+        "id": "10",
+        "sellerId": "40",
+        "categoryId": null,
+        "sku": "SKU-59579",
+        "name": "Grass-roots mobile contingency",
+        "description": "Huge seek campaign moment institution. Allow girl team simply lead build million.",
+        "price": 9486.85,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "ARCHIVED",
+        "attributes": {
+            "four": 11,
+            "across": "actually",
+            "represent": "develop",
+            "hundred": 66,
+            "blood": true
+        },
+        "images": [
+            "high-position",
+            "event-culture"
+        ],
+        "createdAt": "2026-04-26T18:19:11.093697",
+        "updatedAt": "2026-06-21T03:29:30.093832"
+    },
+    "11": {
+        "id": "11",
+        "sellerId": "94",
+        "categoryId": 10,
+        "sku": "SKU-43479",
+        "name": "Mandatory high-level contingency",
+        "description": null,
+        "price": 4375.42,
+        "quantity": 62,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": {
+            "moment": "language",
+            "develop": 40,
+            "school": "soldier",
+            "hotel": 91,
+            "too": "institution"
+        },
+        "images": [
+            "far-little-couple"
+        ],
+        "createdAt": "2025-06-07T05:50:34.095443",
+        "updatedAt": "2025-10-22T04:19:02.095535"
+    },
+    "12": {
+        "id": "12",
+        "sellerId": "75",
+        "categoryId": 100,
+        "sku": "SKU-29314",
+        "name": "Front-line next generation Internet solution",
+        "description": null,
+        "price": 3719.32,
+        "quantity": 69,
+        "weightKg": 12.69,
+        "status": "OUT_OF_STOCK",
+        "attributes": {
+            "total": "I",
+            "deal": "child",
+            "such": false,
+            "citizen": true
+        },
+        "images": [
+            "sure-act-control"
+        ],
+        "createdAt": "2025-11-25T06:18:51.096652",
+        "updatedAt": "2025-01-18T13:41:07.096697"
+    },
+    "13": {
+        "id": "13",
+        "sellerId": "56",
+        "categoryId": null,
+        "sku": "SKU-72885",
+        "name": "Pre-emptive exuding extranet",
+        "description": "Answer between clear democratic effect stuff benefit. Employee growth newspaper special general in.",
+        "price": 8942.79,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "have-trip-respond"
+        ],
+        "createdAt": "2025-09-12T09:07:12.097361",
+        "updatedAt": "2025-06-20T15:48:16.097401"
+    },
+    "14": {
+        "id": "14",
+        "sellerId": "59",
+        "categoryId": 26,
+        "sku": "SKU-39982",
+        "name": "Vision-oriented executive help-desk",
+        "description": "Maintain say threat high expert place certain. Political up instead partner.",
+        "price": 8574.99,
+        "quantity": 0,
+        "weightKg": 74.33,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "interview-time-what",
+            "base-color-gun"
+        ],
+        "createdAt": "2025-05-17T10:48:50.098373",
+        "updatedAt": "2025-04-09T15:24:20.098413"
+    },
+    "15": {
+        "id": "15",
+        "sellerId": "13",
+        "categoryId": 18,
+        "sku": "SKU-55449",
+        "name": "Stand-alone hybrid flexibility",
+        "description": "Security minute late cold take by. Product wait red bag cold.",
+        "price": 9019.51,
+        "quantity": 0,
+        "weightKg": 98.16,
+        "status": "DRAFT",
+        "attributes": {
+            "board": true,
+            "attack": "write",
+            "unit": false,
+            "official": true
+        },
+        "images": [
+            "agree-spend"
+        ],
+        "createdAt": "2026-05-13T07:03:55.099745",
+        "updatedAt": "2025-05-05T00:04:15.099839"
+    },
+    "16": {
+        "id": "16",
+        "sellerId": "95",
+        "categoryId": null,
+        "sku": "SKU-81149",
+        "name": "Distributed attitude-oriented projection",
+        "description": "Director scene kitchen call money. Agreement professional team foot.",
+        "price": 9718.61,
+        "quantity": 199,
+        "weightKg": null,
+        "status": "ACTIVE",
+        "attributes": null,
+        "images": [
+            "maybe-manage-truth",
+            "worry-expert"
+        ],
+        "createdAt": "2025-11-05T13:55:30.101138",
+        "updatedAt": "2025-06-07T00:35:47.101186"
+    },
+    "17": {
+        "id": "17",
+        "sellerId": "98",
+        "categoryId": 2,
+        "sku": "SKU-72829",
+        "name": "Right-sized logistical product",
+        "description": "Model police finally girl music source. Film include choose action model serve.",
+        "price": 15.62,
+        "quantity": 0,
+        "weightKg": 72.99,
+        "status": "DRAFT",
+        "attributes": {
+            "century": false,
+            "few": 8,
+            "nor": true
+        },
+        "images": [
+            "rise-win-million"
+        ],
+        "createdAt": "2025-03-09T17:45:08.102172",
+        "updatedAt": "2026-08-08T21:26:29.102213"
+    },
+    "18": {
+        "id": "18",
+        "sellerId": "79",
+        "categoryId": 55,
+        "sku": "SKU-74064",
+        "name": "Right-sized discrete utilization",
+        "description": "Health in night house clear say hope.",
+        "price": 7479.25,
+        "quantity": 0,
+        "weightKg": 64.08,
+        "status": "DRAFT",
+        "attributes": {
+            "human": 56,
+            "everyone": true
+        },
+        "images": [
+            "knowledge-process",
+            "nation-south-such"
+        ],
+        "createdAt": "2026-08-31T05:27:50.103827",
+        "updatedAt": "2026-05-25T23:05:54.103877"
+    },
+    "19": {
+        "id": "19",
+        "sellerId": "62",
+        "categoryId": 49,
+        "sku": "SKU-94484",
+        "name": "Open-source content-based architecture",
+        "description": null,
+        "price": 2720.29,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "court-century"
+        ],
+        "createdAt": "2025-05-12T20:47:44.104572",
+        "updatedAt": "2025-07-23T16:44:02.104615"
+    },
+    "20": {
+        "id": "20",
+        "sellerId": "21",
+        "categoryId": 34,
+        "sku": "SKU-17974",
+        "name": "Total regional matrix",
+        "description": "Affect anyone movement control bill especially.",
+        "price": 4634.0,
+        "quantity": 24,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": {
+            "senior": true,
+            "short": "across"
+        },
+        "images": [
+            "early-believe-city",
+            "minute-director",
+            "kitchen-forget"
+        ],
+        "createdAt": "2025-06-14T06:18:59.105825",
+        "updatedAt": "2025-07-15T17:19:22.105867"
+    },
+    "21": {
+        "id": "21",
+        "sellerId": "81",
+        "categoryId": null,
+        "sku": "SKU-75705",
+        "name": "Configurable web-enabled circuit",
+        "description": null,
+        "price": 8201.08,
+        "quantity": 0,
+        "weightKg": 85.61,
+        "status": "DRAFT",
+        "attributes": {
+            "arrive": "exactly",
+            "stand": "including"
+        },
+        "images": [
+            "away-of-many-course"
+        ],
+        "createdAt": "2026-05-10T12:56:24.106721",
+        "updatedAt": "2025-03-02T14:32:31.106764"
+    },
+    "22": {
+        "id": "22",
+        "sellerId": "24",
+        "categoryId": null,
+        "sku": "SKU-46013",
+        "name": "Networked zero administration intranet",
+        "description": "Current same behind.",
+        "price": 6863.17,
+        "quantity": 22,
+        "weightKg": 26.62,
+        "status": "DRAFT",
+        "attributes": {
+            "reduce": false,
+            "material": "improve",
+            "responsibility": "forget"
+        },
+        "images": [
+            "would-future-cold"
+        ],
+        "createdAt": "2024-10-20T06:44:45.107665",
+        "updatedAt": "2025-01-19T10:20:11.107702"
+    },
+    "23": {
+        "id": "23",
+        "sellerId": "93",
+        "categoryId": 61,
+        "sku": "SKU-08814",
+        "name": "Polarized scalable framework",
+        "description": "Thought tell design both plan foot.",
+        "price": 3827.91,
+        "quantity": 0,
+        "weightKg": 90.92,
+        "status": "DRAFT",
+        "attributes": {
+            "computer": 5,
+            "fact": true,
+            "call": false
+        },
+        "images": [
+            "strategy-eight-act",
+            "party-step-rock-may",
+            "pick-clear-hot"
+        ],
+        "createdAt": "2024-11-18T02:02:20.110442",
+        "updatedAt": "2025-04-16T06:11:35.110519"
+    },
+    "24": {
+        "id": "24",
+        "sellerId": "64",
+        "categoryId": null,
+        "sku": "SKU-13271",
+        "name": "Synergized regional Graphical User Interface",
+        "description": null,
+        "price": 8846.64,
+        "quantity": 0,
+        "weightKg": 80.41,
+        "status": "ARCHIVED",
+        "attributes": {
+            "word": false,
+            "process": true,
+            "as": true,
+            "quite": "class"
+        },
+        "images": [
+            "science-not-strong",
+            "car-method-early"
+        ],
+        "createdAt": "2024-10-03T17:02:48.112003",
+        "updatedAt": "2026-08-07T17:03:23.112051"
+    },
+    "25": {
+        "id": "25",
+        "sellerId": "47",
+        "categoryId": null,
+        "sku": "SKU-85730",
+        "name": "Team-oriented homogeneous help-desk",
+        "description": "Together magazine join far recent.",
+        "price": 5294.79,
+        "quantity": 60,
+        "weightKg": 10.91,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "customer-our",
+            "of-happen-game-sign",
+            "face-trip-theory"
+        ],
+        "createdAt": "2025-02-28T08:55:09.113745",
+        "updatedAt": "2025-12-02T02:28:10.113819"
+    },
+    "26": {
+        "id": "26",
+        "sellerId": "66",
+        "categoryId": 29,
+        "sku": "SKU-82182",
+        "name": "Organized explicit firmware",
+        "description": null,
+        "price": 5925.6,
+        "quantity": 179,
+        "weightKg": 59.56,
+        "status": "OUT_OF_STOCK",
+        "attributes": {
+            "number": 73,
+            "long": true,
+            "stand": false
+        },
+        "images": [
+            "move-hundred"
+        ],
+        "createdAt": "2025-03-10T15:12:16.115435",
+        "updatedAt": "2025-12-22T06:35:53.115508"
+    },
+    "27": {
+        "id": "27",
+        "sellerId": "38",
+        "categoryId": null,
+        "sku": "SKU-20959",
+        "name": "Front-line fresh-thinking success",
+        "description": "Standard couple raise she child executive important.",
+        "price": 3318.01,
+        "quantity": 0,
+        "weightKg": 34.74,
+        "status": "DRAFT",
+        "attributes": {
+            "fund": "bring",
+            "big": 19,
+            "reason": "audience",
+            "animal": true
+        },
+        "images": [
+            "writer-carry-could"
+        ],
+        "createdAt": "2026-02-07T05:58:00.117162",
+        "updatedAt": "2025-07-15T05:13:35.117215"
+    },
+    "28": {
+        "id": "28",
+        "sellerId": "18",
+        "categoryId": null,
+        "sku": "SKU-03173",
+        "name": "Cross-platform 5thgeneration orchestration",
+        "description": null,
+        "price": 9758.63,
+        "quantity": 112,
+        "weightKg": 96.11,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "quality-think",
+            "really-might-never",
+            "science-performance"
+        ],
+        "createdAt": "2026-09-02T09:43:13.118263",
+        "updatedAt": "2025-12-31T15:09:19.118306"
+    },
+    "29": {
+        "id": "29",
+        "sellerId": "63",
+        "categoryId": null,
+        "sku": "SKU-05391",
+        "name": "Advanced demand-driven projection",
+        "description": "Life police guess sea. State some around pay more same.",
+        "price": 1754.34,
+        "quantity": 0,
+        "weightKg": 13.61,
+        "status": "ARCHIVED",
+        "attributes": {
+            "they": true,
+            "bank": 79
+        },
+        "images": [
+            "direction-natural",
+            "blood-share-during",
+            "image-customer-data"
+        ],
+        "createdAt": "2026-09-08T11:55:00.119596",
+        "updatedAt": "2025-10-01T08:21:02.119639"
+    },
+    "30": {
+        "id": "30",
+        "sellerId": "28",
+        "categoryId": null,
+        "sku": "SKU-39288",
+        "name": "Operative value-added benchmark",
+        "description": null,
+        "price": 3468.75,
+        "quantity": 0,
+        "weightKg": 96.34,
+        "status": "OUT_OF_STOCK",
+        "attributes": {
+            "space": 27,
+            "part": "help",
+            "represent": true,
+            "scientist": "reduce"
+        },
+        "images": [
+            "late-use-body"
+        ],
+        "createdAt": "2026-04-02T23:09:20.120450",
+        "updatedAt": "2025-08-02T21:41:38.120488"
+    },
+    "31": {
+        "id": "31",
+        "sellerId": "32",
+        "categoryId": 77,
+        "sku": "SKU-28685",
+        "name": "Switchable cohesive monitoring",
+        "description": "Value total nearly you suddenly include. Step food drive nation heart nearly.",
+        "price": 3512.96,
+        "quantity": 0,
+        "weightKg": 79.08,
+        "status": "DRAFT",
+        "attributes": {
+            "size": false,
+            "here": "local",
+            "line": "industry"
+        },
+        "images": [
+            "a-she-already-feel",
+            "admit-national"
+        ],
+        "createdAt": "2024-12-01T07:00:26.121737",
+        "updatedAt": "2024-11-07T13:59:11.121780"
+    },
+    "32": {
+        "id": "32",
+        "sellerId": "65",
+        "categoryId": null,
+        "sku": "SKU-40433",
+        "name": "Intuitive 3rdgeneration throughput",
+        "description": "Memory number occur behind leave choose enter.",
+        "price": 7320.12,
+        "quantity": 0,
+        "weightKg": 10.22,
+        "status": "DRAFT",
+        "attributes": {
+            "visit": "pass",
+            "enjoy": 56,
+            "establish": false,
+            "first": "best",
+            "own": true
+        },
+        "images": [
+            "outside-whose"
+        ],
+        "createdAt": "2025-07-25T20:19:13.122681",
+        "updatedAt": "2026-03-06T11:28:45.122717"
+    },
+    "33": {
+        "id": "33",
+        "sellerId": "50",
+        "categoryId": 48,
+        "sku": "SKU-15727",
+        "name": "Team-oriented tangible orchestration",
+        "description": null,
+        "price": 497.3,
+        "quantity": 0,
+        "weightKg": 16.21,
+        "status": "DRAFT",
+        "attributes": {
+            "ten": false,
+            "beyond": "physical",
+            "quality": 4,
+            "always": true
+        },
+        "images": [
+            "system-part-i-bar"
+        ],
+        "createdAt": "2024-12-09T16:01:59.123694",
+        "updatedAt": "2025-05-08T10:54:53.123734"
+    },
+    "34": {
+        "id": "34",
+        "sellerId": "76",
+        "categoryId": 43,
+        "sku": "SKU-05566",
+        "name": "Decentralized zero administration emulation",
+        "description": null,
+        "price": 5441.72,
+        "quantity": 0,
+        "weightKg": 37.57,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "small-read-time",
+            "without-activity"
+        ],
+        "createdAt": "2026-06-23T03:04:11.124543",
+        "updatedAt": "2025-04-07T13:08:57.124581"
+    },
+    "35": {
+        "id": "35",
+        "sellerId": "10",
+        "categoryId": null,
+        "sku": "SKU-60480",
+        "name": "Intuitive needs-based open system",
+        "description": "Maybe determine anything rule hotel knowledge.",
+        "price": 967.93,
+        "quantity": 0,
+        "weightKg": 41.98,
+        "status": "ACTIVE",
+        "attributes": {
+            "physical": false,
+            "mother": false,
+            "doctor": 74,
+            "figure": true,
+            "indeed": false
+        },
+        "images": [
+            "cause-great",
+            "maybe-owner-skill",
+            "official-inside"
+        ],
+        "createdAt": "2025-11-28T15:06:07.126163",
+        "updatedAt": "2026-08-11T08:29:23.126210"
+    },
+    "36": {
+        "id": "36",
+        "sellerId": "30",
+        "categoryId": null,
+        "sku": "SKU-16862",
+        "name": "Virtual client-driven matrices",
+        "description": "Maintain present cultural pattern save. Drug entire involve range office.",
+        "price": 1729.62,
+        "quantity": 55,
+        "weightKg": 13.49,
+        "status": "DRAFT",
+        "attributes": {
+            "budget": 26,
+            "job": true,
+            "history": "happen",
+            "cut": false,
+            "guy": false
+        },
+        "images": [
+            "reality-agent",
+            "focus-condition",
+            "practice-term"
+        ],
+        "createdAt": "2025-04-13T11:32:50.129476",
+        "updatedAt": "2025-10-19T14:28:50.129560"
+    },
+    "37": {
+        "id": "37",
+        "sellerId": "91",
+        "categoryId": 3,
+        "sku": "SKU-79270",
+        "name": "Focused dedicated software",
+        "description": "Serious table both approach. Unit than star add really born late age.",
+        "price": 6230.96,
+        "quantity": 0,
+        "weightKg": 42.03,
+        "status": "DRAFT",
+        "attributes": {
+            "determine": "sister",
+            "note": true
+        },
+        "images": [
+            "democrat-office",
+            "social-evening"
+        ],
+        "createdAt": "2026-02-01T12:55:03.131324",
+        "updatedAt": "2025-09-23T02:44:50.131375"
+    },
+    "38": {
+        "id": "38",
+        "sellerId": "57",
+        "categoryId": 7,
+        "sku": "SKU-79206",
+        "name": "Reduced stable moderator",
+        "description": null,
+        "price": 4030.34,
+        "quantity": 0,
+        "weightKg": 40.77,
+        "status": "DRAFT",
+        "attributes": {
+            "animal": false,
+            "conference": true,
+            "federal": true
+        },
+        "images": [
+            "strategy-same",
+            "experience-argue"
+        ],
+        "createdAt": "2026-06-27T14:35:22.132411",
+        "updatedAt": "2025-09-27T19:14:13.132512"
+    },
+    "39": {
+        "id": "39",
+        "sellerId": "86",
+        "categoryId": 19,
+        "sku": "SKU-01645",
+        "name": "Customer-focused 3rdgeneration frame",
+        "description": "Woman meet report tough machine. Mother cost may leader unit again easy morning.",
+        "price": 2280.35,
+        "quantity": 0,
+        "weightKg": 77.63,
+        "status": "DRAFT",
+        "attributes": {
+            "goal": false,
+            "increase": false
+        },
+        "images": [
+            "close-affect-hand",
+            "he-hear-process",
+            "eat-more-fact-task"
+        ],
+        "createdAt": "2025-10-17T03:04:30.134101",
+        "updatedAt": "2026-07-16T12:21:53.134147"
+    },
+    "40": {
+        "id": "40",
+        "sellerId": "39",
+        "categoryId": 85,
+        "sku": "SKU-46084",
+        "name": "Face-to-face coherent Graphical User Interface",
+        "description": "Because him whether partner. Rather individual of interview fine painting last capital.",
+        "price": 657.1,
+        "quantity": 104,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "read-certainly"
+        ],
+        "createdAt": "2025-03-23T17:37:35.134908",
+        "updatedAt": "2024-10-06T15:16:47.134946"
+    },
+    "41": {
+        "id": "41",
+        "sellerId": "49",
+        "categoryId": null,
+        "sku": "SKU-83248",
+        "name": "Devolved intermediate throughput",
+        "description": "True fish newspaper we brother fish they.",
+        "price": 1991.9,
+        "quantity": 0,
+        "weightKg": 40.3,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "short-all-southern",
+            "up-job-its-floor"
+        ],
+        "createdAt": "2025-01-26T21:11:26.135900",
+        "updatedAt": "2026-07-19T01:43:42.135942"
+    },
+    "42": {
+        "id": "42",
+        "sellerId": "52",
+        "categoryId": 62,
+        "sku": "SKU-42312",
+        "name": "Enterprise-wide 4thgeneration task-force",
+        "description": null,
+        "price": 8376.7,
+        "quantity": 0,
+        "weightKg": 9.95,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "population-practice",
+            "police-our-position",
+            "pick-each-during"
+        ],
+        "createdAt": "2025-02-24T09:58:43.138431",
+        "updatedAt": "2026-07-08T16:30:05.138532"
+    },
+    "43": {
+        "id": "43",
+        "sellerId": "25",
+        "categoryId": 39,
+        "sku": "SKU-05172",
+        "name": "Profit-focused real-time leverage",
+        "description": null,
+        "price": 4095.66,
+        "quantity": 0,
+        "weightKg": 76.99,
+        "status": "DRAFT",
+        "attributes": {
+            "seem": "rate",
+            "hour": true,
+            "together": true
+        },
+        "images": [
+            "million-matter",
+            "common-data-draw",
+            "issue-south"
+        ],
+        "createdAt": "2026-01-23T04:20:19.141526",
+        "updatedAt": "2025-04-12T20:13:09.141599"
+    },
+    "44": {
+        "id": "44",
+        "sellerId": "48",
+        "categoryId": 64,
+        "sku": "SKU-46333",
+        "name": "Cloned context-sensitive intranet",
+        "description": "Reach term thought into simply part station. Hour voice occur movie political region.",
+        "price": 2182.87,
+        "quantity": 0,
+        "weightKg": 62.74,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "american-near-boy",
+            "loss-the-understand",
+            "understand-else"
+        ],
+        "createdAt": "2026-06-24T21:56:19.143570",
+        "updatedAt": "2025-06-28T14:56:21.143638"
+    },
+    "45": {
+        "id": "45",
+        "sellerId": "68",
+        "categoryId": 53,
+        "sku": "SKU-86086",
+        "name": "Programmable well-modulated product",
+        "description": null,
+        "price": 1081.94,
+        "quantity": 0,
+        "weightKg": 64.42,
+        "status": "OUT_OF_STOCK",
+        "attributes": {
+            "appear": 25,
+            "film": 67,
+            "information": false,
+            "fly": true
+        },
+        "images": [
+            "their-feeling-main",
+            "knowledge-financial",
+            "wide-arm-road"
+        ],
+        "createdAt": "2024-09-30T17:18:41.146640",
+        "updatedAt": "2026-02-02T00:20:34.146743"
+    },
+    "46": {
+        "id": "46",
+        "sellerId": "58",
+        "categoryId": 50,
+        "sku": "SKU-27718",
+        "name": "Customizable contextually-based time-frame",
+        "description": "Career including late condition opportunity Republican dark. Bed food possible represent clearly run before.",
+        "price": 4046.58,
+        "quantity": 150,
+        "weightKg": 57.63,
+        "status": "DRAFT",
+        "attributes": {
+            "seat": false,
+            "protect": true,
+            "bed": true
+        },
+        "images": [
+            "second-if-short"
+        ],
+        "createdAt": "2026-07-23T17:50:16.148837",
+        "updatedAt": "2025-11-18T13:17:19.148916"
+    },
+    "47": {
+        "id": "47",
+        "sellerId": "19",
+        "categoryId": null,
+        "sku": "SKU-89268",
+        "name": "Multi-tiered 6thgeneration throughput",
+        "description": "Not process change than condition Republican.",
+        "price": 7409.45,
+        "quantity": 144,
+        "weightKg": 19.12,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "kind-foot-for-show"
+        ],
+        "createdAt": "2025-03-03T09:55:30.149930",
+        "updatedAt": "2026-04-11T23:52:09.149975"
+    },
+    "48": {
+        "id": "48",
+        "sellerId": "36",
+        "categoryId": 65,
+        "sku": "SKU-74212",
+        "name": "Exclusive 24hour process improvement",
+        "description": "Learn talk myself.",
+        "price": 5856.12,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": {
+            "accept": 61,
+            "us": "minute"
+        },
+        "images": [
+            "economy-director",
+            "receive-maybe-long",
+            "letter-base-plant"
+        ],
+        "createdAt": "2025-04-30T16:32:42.155134",
+        "updatedAt": "2025-07-28T19:40:05.155500"
+    },
+    "49": {
+        "id": "49",
+        "sellerId": "5",
+        "categoryId": 30,
+        "sku": "SKU-03849",
+        "name": "Self-enabling next generation database",
+        "description": null,
+        "price": 2003.77,
+        "quantity": 0,
+        "weightKg": 90.76,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "appear-crime-choose",
+            "read-happy-although",
+            "too-alone-region"
+        ],
+        "createdAt": "2024-11-12T17:13:32.158473",
+        "updatedAt": "2025-09-24T15:57:23.158578"
+    },
+    "50": {
+        "id": "50",
+        "sellerId": "43",
+        "categoryId": 36,
+        "sku": "SKU-94510",
+        "name": "Customer-focused intangible conglomeration",
+        "description": null,
+        "price": 581.08,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "ACTIVE",
+        "attributes": {
+            "color": false,
+            "feel": false
+        },
+        "images": [
+            "recent-role-scene",
+            "page-store-or-cost"
+        ],
+        "createdAt": "2025-09-16T18:10:37.161163",
+        "updatedAt": "2025-07-05T16:19:36.161253"
+    },
+    "51": {
+        "id": "51",
+        "sellerId": "1",
+        "categoryId": null,
+        "sku": "SKU-95014",
+        "name": "Inverse holistic implementation",
+        "description": null,
+        "price": 3731.64,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "ACTIVE",
+        "attributes": null,
+        "images": [
+            "ten-author-son-late"
+        ],
+        "createdAt": "2025-03-23T05:11:24.162210",
+        "updatedAt": "2025-03-05T16:41:21.162261"
+    },
+    "52": {
+        "id": "52",
+        "sellerId": "92",
+        "categoryId": 63,
+        "sku": "SKU-81472",
+        "name": "Decentralized system-worthy focus group",
+        "description": null,
+        "price": 3836.12,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "OUT_OF_STOCK",
+        "attributes": {
+            "girl": true,
+            "job": 56,
+            "determine": 46,
+            "article": false
+        },
+        "images": [
+            "owner-show"
+        ],
+        "createdAt": "2026-03-29T18:12:00.163211",
+        "updatedAt": "2024-12-21T20:38:37.163253"
+    },
+    "53": {
+        "id": "53",
+        "sellerId": "29",
+        "categoryId": 96,
+        "sku": "SKU-81794",
+        "name": "Optimized real-time functionalities",
+        "description": null,
+        "price": 3666.55,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "OUT_OF_STOCK",
+        "attributes": {
+            "event": "never",
+            "paper": "price"
+        },
+        "images": [
+            "health-within-carry",
+            "order-model-nature",
+            "project-modern-mind"
+        ],
+        "createdAt": "2024-10-18T09:57:26.165029",
+        "updatedAt": "2026-02-28T16:39:29.165103"
+    },
+    "54": {
+        "id": "54",
+        "sellerId": "15",
+        "categoryId": 76,
+        "sku": "SKU-29343",
+        "name": "Adaptive bottom-line algorithm",
+        "description": null,
+        "price": 2528.13,
+        "quantity": 53,
+        "weightKg": 63.4,
+        "status": "DRAFT",
+        "attributes": {
+            "make": 80,
+            "style": "buy",
+            "sing": "thus",
+            "despite": "successful"
+        },
+        "images": [
+            "power-join-job"
+        ],
+        "createdAt": "2025-12-27T23:24:26.166481",
+        "updatedAt": "2025-02-13T02:23:21.166527"
+    },
+    "55": {
+        "id": "55",
+        "sellerId": "41",
+        "categoryId": 41,
+        "sku": "SKU-55830",
+        "name": "Sharable dedicated solution",
+        "description": "So film media food accept.",
+        "price": 4098.15,
+        "quantity": 0,
+        "weightKg": 91.13,
+        "status": "DRAFT",
+        "attributes": {
+            "rich": "goal",
+            "growth": "individual",
+            "shake": false
+        },
+        "images": [
+            "power-air-there"
+        ],
+        "createdAt": "2026-05-09T10:12:46.167894",
+        "updatedAt": "2025-10-13T09:40:11.167967"
+    },
+    "56": {
+        "id": "56",
+        "sellerId": "9",
+        "categoryId": 20,
+        "sku": "SKU-35577",
+        "name": "Automated secondary challenge",
+        "description": "Physical throughout Mr friend. Until argue minute north question new.",
+        "price": 6443.72,
+        "quantity": 0,
+        "weightKg": 27.15,
+        "status": "DRAFT",
+        "attributes": {
+            "after": true,
+            "participant": true
+        },
+        "images": [
+            "glass-successful",
+            "view-stuff-health"
+        ],
+        "createdAt": "2024-11-23T17:41:26.172735",
+        "updatedAt": "2026-07-04T03:09:52.173066"
+    },
+    "57": {
+        "id": "57",
+        "sellerId": "6",
+        "categoryId": null,
+        "sku": "SKU-24056",
+        "name": "Self-enabling national concept",
+        "description": null,
+        "price": 6472.34,
+        "quantity": 0,
+        "weightKg": 95.55,
+        "status": "DRAFT",
+        "attributes": {
+            "own": 44,
+            "improve": false,
+            "physical": false,
+            "treatment": false
+        },
+        "images": [
+            "society-foot-season",
+            "forward-security",
+            "expert-job-before"
+        ],
+        "createdAt": "2026-05-25T05:59:26.178373",
+        "updatedAt": "2025-08-04T12:35:27.178479"
+    },
+    "58": {
+        "id": "58",
+        "sellerId": "99",
+        "categoryId": 37,
+        "sku": "SKU-35743",
+        "name": "Progressive exuding conglomeration",
+        "description": null,
+        "price": 6962.0,
+        "quantity": 0,
+        "weightKg": 16.78,
+        "status": "DRAFT",
+        "attributes": {
+            "brother": false,
+            "still": true,
+            "star": "defense",
+            "white": 88,
+            "life": false
+        },
+        "images": [
+            "ago-successful"
+        ],
+        "createdAt": "2025-08-19T05:48:30.180829",
+        "updatedAt": "2024-10-16T15:46:37.180924"
+    },
+    "59": {
+        "id": "59",
+        "sellerId": "14",
+        "categoryId": null,
+        "sku": "SKU-82357",
+        "name": "Upgradable multi-tasking function",
+        "description": null,
+        "price": 7045.98,
+        "quantity": 0,
+        "weightKg": 58.09,
+        "status": "DRAFT",
+        "attributes": {
+            "stand": "generation",
+            "character": 56,
+            "try": true,
+            "term": false
+        },
+        "images": [
+            "name-require-cause"
+        ],
+        "createdAt": "2025-11-18T15:04:54.183196",
+        "updatedAt": "2026-08-04T20:01:46.183258"
+    },
+    "60": {
+        "id": "60",
+        "sellerId": "97",
+        "categoryId": null,
+        "sku": "SKU-07681",
+        "name": "Adaptive fault-tolerant analyzer",
+        "description": "Four threat billion she. Against serve police decide customer.",
+        "price": 1570.12,
+        "quantity": 127,
+        "weightKg": 8.41,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "few-factor-no-from",
+            "let-remain-buy"
+        ],
+        "createdAt": "2025-03-02T22:20:28.185734",
+        "updatedAt": "2025-11-12T12:46:19.185834"
+    },
+    "61": {
+        "id": "61",
+        "sellerId": "70",
+        "categoryId": 25,
+        "sku": "SKU-22410",
+        "name": "Secured next generation migration",
+        "description": null,
+        "price": 4442.44,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "blue-design-occur",
+            "often-from"
+        ],
+        "createdAt": "2024-09-24T18:01:53.188623",
+        "updatedAt": "2024-11-29T16:12:03.188717"
+    },
+    "62": {
+        "id": "62",
+        "sellerId": "72",
+        "categoryId": 66,
+        "sku": "SKU-24932",
+        "name": "Compatible fault-tolerant pricing structure",
+        "description": "Kitchen candidate likely push black approach interview. Relate through picture real.",
+        "price": 8259.26,
+        "quantity": 159,
+        "weightKg": 89.12,
+        "status": "DRAFT",
+        "attributes": {
+            "like": true,
+            "heart": 7,
+            "go": true,
+            "decade": false,
+            "son": true
+        },
+        "images": [
+            "table-none-bar-win",
+            "south-make-out",
+            "better-tax-suffer"
+        ],
+        "createdAt": "2024-11-25T15:08:54.190421",
+        "updatedAt": "2026-04-23T17:32:26.190469"
+    },
+    "63": {
+        "id": "63",
+        "sellerId": "45",
+        "categoryId": null,
+        "sku": "SKU-71747",
+        "name": "Phased discrete definition",
+        "description": "Election guy contain true form team foot maintain.",
+        "price": 6336.98,
+        "quantity": 141,
+        "weightKg": 70.51,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "attention-may"
+        ],
+        "createdAt": "2026-04-10T16:11:49.191179",
+        "updatedAt": "2026-03-25T09:37:38.191311"
+    },
+    "64": {
+        "id": "64",
+        "sellerId": "77",
+        "categoryId": null,
+        "sku": "SKU-57724",
+        "name": "Visionary grid-enabled portal",
+        "description": "Meet if research blood. Power society mouth husband including per nature.",
+        "price": 1876.25,
+        "quantity": 101,
+        "weightKg": null,
+        "status": "ACTIVE",
+        "attributes": {
+            "meet": false,
+            "attorney": "grow"
+        },
+        "images": [
+            "detail-teach-rule",
+            "lawyer-still-learn"
+        ],
+        "createdAt": "2025-12-12T16:26:25.192597",
+        "updatedAt": "2025-10-07T13:42:53.192642"
+    },
+    "65": {
+        "id": "65",
+        "sellerId": "27",
+        "categoryId": 1,
+        "sku": "SKU-58321",
+        "name": "User-centric transitional orchestration",
+        "description": "Option leg never state. Final image our rate.",
+        "price": 486.67,
+        "quantity": 150,
+        "weightKg": 51.32,
+        "status": "ACTIVE",
+        "attributes": {
+            "pick": 94,
+            "ten": false,
+            "generation": true
+        },
+        "images": [
+            "quite-recent-ask",
+            "director-technology",
+            "very-partner-weight"
+        ],
+        "createdAt": "2025-08-02T03:16:02.196122",
+        "updatedAt": "2025-12-27T23:15:21.196231"
+    },
+    "66": {
+        "id": "66",
+        "sellerId": "53",
+        "categoryId": null,
+        "sku": "SKU-02278",
+        "name": "Implemented human-resource pricing structure",
+        "description": "Crime race first now tree fight wall. Response trip wrong old particularly member.",
+        "price": 9704.95,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": {
+            "throw": true,
+            "together": 92,
+            "assume": 26,
+            "wear": true
+        },
+        "images": [
+            "argue-a-score",
+            "tend-her-break",
+            "father-tree-allow"
+        ],
+        "createdAt": "2026-02-15T04:44:43.199462",
+        "updatedAt": "2024-12-22T23:58:15.199570"
+    },
+    "67": {
+        "id": "67",
+        "sellerId": "37",
+        "categoryId": 80,
+        "sku": "SKU-69656",
+        "name": "Open-architected homogeneous Internet solution",
+        "description": "Production little could his under. Child young prove care author administration.",
+        "price": 7103.82,
+        "quantity": 144,
+        "weightKg": 57.49,
+        "status": "DRAFT",
+        "attributes": {
+            "set": "value",
+            "message": "really",
+            "leave": false,
+            "become": "certain"
+        },
+        "images": [
+            "quality-sure-just",
+            "lose-wall-story",
+            "pm-wonder-large"
+        ],
+        "createdAt": "2025-04-06T07:37:35.202262",
+        "updatedAt": "2026-04-16T15:15:11.202371"
+    },
+    "68": {
+        "id": "68",
+        "sellerId": "35",
+        "categoryId": 79,
+        "sku": "SKU-27868",
+        "name": "Organized human-resource help-desk",
+        "description": null,
+        "price": 8393.98,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": {
+            "draw": 14,
+            "language": false,
+            "account": true,
+            "moment": "throw",
+            "side": false
+        },
+        "images": [
+            "seem-more-exist",
+            "with-office-part"
+        ],
+        "createdAt": "2026-02-25T02:53:22.205583",
+        "updatedAt": "2025-05-11T19:05:00.205880"
+    },
+    "69": {
+        "id": "69",
+        "sellerId": "11",
+        "categoryId": null,
+        "sku": "SKU-00975",
+        "name": "Customizable optimal matrices",
+        "description": null,
+        "price": 6206.0,
+        "quantity": 114,
+        "weightKg": 91.24,
+        "status": "OUT_OF_STOCK",
+        "attributes": {
+            "rock": 100,
+            "change": false,
+            "side": "new"
+        },
+        "images": [
+            "town-social-start"
+        ],
+        "createdAt": "2026-04-04T21:39:56.210774",
+        "updatedAt": "2025-10-15T01:35:25.210879"
+    },
+    "70": {
+        "id": "70",
+        "sellerId": "16",
+        "categoryId": 52,
+        "sku": "SKU-78189",
+        "name": "Cross-group dynamic leverage",
+        "description": null,
+        "price": 2643.13,
+        "quantity": 0,
+        "weightKg": 1.56,
+        "status": "DRAFT",
+        "attributes": {
+            "professor": true,
+            "record": "relate"
+        },
+        "images": [
+            "bank-return",
+            "notice-success",
+            "forget-position"
+        ],
+        "createdAt": "2026-02-07T01:19:07.218798",
+        "updatedAt": "2025-05-02T20:43:24.218870"
+    },
+    "71": {
+        "id": "71",
+        "sellerId": "67",
+        "categoryId": 70,
+        "sku": "SKU-58077",
+        "name": "Profound methodical orchestration",
+        "description": "Good within far cold reason our. Risk nor article list college.",
+        "price": 7840.53,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "approach-realize",
+            "table-sing-probably",
+            "few-memory"
+        ],
+        "createdAt": "2025-11-06T18:32:19.221615",
+        "updatedAt": "2025-11-02T01:51:59.221733"
+    },
+    "72": {
+        "id": "72",
+        "sellerId": "55",
+        "categoryId": null,
+        "sku": "SKU-28144",
+        "name": "De-engineered reciprocal focus group",
+        "description": null,
+        "price": 2134.32,
+        "quantity": 0,
+        "weightKg": 22.63,
+        "status": "ARCHIVED",
+        "attributes": {
+            "face": true,
+            "even": 58
+        },
+        "images": [
+            "site-brother-pm",
+            "where-perhaps",
+            "city-reason-likely"
+        ],
+        "createdAt": "2026-01-06T09:31:29.224630",
+        "updatedAt": "2025-03-19T08:03:30.224703"
+    },
+    "73": {
+        "id": "73",
+        "sellerId": "4",
+        "categoryId": 40,
+        "sku": "SKU-24372",
+        "name": "Progressive 5thgeneration Graphical User Interface",
+        "description": "Other start study sell.",
+        "price": 7962.27,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": {
+            "itself": false,
+            "identify": "economy",
+            "recent": 38,
+            "she": "public"
+        },
+        "images": [
+            "computer-develop"
+        ],
+        "createdAt": "2026-05-04T14:29:34.226749",
+        "updatedAt": "2025-11-02T19:22:06.226861"
+    },
+    "74": {
+        "id": "74",
+        "sellerId": "78",
+        "categoryId": null,
+        "sku": "SKU-50410",
+        "name": "Down-sized maximized initiative",
+        "description": null,
+        "price": 6703.68,
+        "quantity": 176,
+        "weightKg": 11.29,
+        "status": "DRAFT",
+        "attributes": {
+            "maybe": 96,
+            "soldier": false,
+            "no": true,
+            "hundred": "result"
+        },
+        "images": [
+            "season-in-matter"
+        ],
+        "createdAt": "2026-05-20T20:01:39.233412",
+        "updatedAt": "2025-03-25T14:41:46.233541"
+    },
+    "75": {
+        "id": "75",
+        "sellerId": "80",
+        "categoryId": null,
+        "sku": "SKU-28604",
+        "name": "Organized homogeneous service-desk",
+        "description": "Raise American truth PM what it truth. Friend environment better pressure hospital.",
+        "price": 9109.95,
+        "quantity": 0,
+        "weightKg": 41.04,
+        "status": "DRAFT",
+        "attributes": {
+            "spring": "Republican",
+            "so": "effort"
+        },
+        "images": [
+            "similar-remember",
+            "speech-day-nature",
+            "research-road"
+        ],
+        "createdAt": "2026-03-09T08:10:43.236858",
+        "updatedAt": "2026-07-01T19:20:24.236956"
+    },
+    "76": {
+        "id": "76",
+        "sellerId": "20",
+        "categoryId": 67,
+        "sku": "SKU-58001",
+        "name": "Advanced incremental attitude",
+        "description": null,
+        "price": 7869.13,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "ARCHIVED",
+        "attributes": {
+            "network": 61,
+            "reveal": 69
+        },
+        "images": [
+            "have-discuss-share"
+        ],
+        "createdAt": "2026-05-22T19:40:05.238984",
+        "updatedAt": "2026-05-23T08:58:53.239068"
+    },
+    "77": {
+        "id": "77",
+        "sellerId": "83",
+        "categoryId": null,
+        "sku": "SKU-43009",
+        "name": "Cross-group analyzing policy",
+        "description": "Point remain build task candidate prevent tonight not.",
+        "price": 2981.27,
+        "quantity": 187,
+        "weightKg": 95.78,
+        "status": "DRAFT",
+        "attributes": {
+            "crime": "war",
+            "bring": false,
+            "create": "environment"
+        },
+        "images": [
+            "financial-manage",
+            "would-bag-purpose"
+        ],
+        "createdAt": "2026-04-09T20:03:24.241301",
+        "updatedAt": "2026-08-13T18:06:57.241355"
+    },
+    "78": {
+        "id": "78",
+        "sellerId": "61",
+        "categoryId": null,
+        "sku": "SKU-46542",
+        "name": "Vision-oriented asynchronous focus group",
+        "description": "Home you election spend concern attorney.",
+        "price": 8514.74,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "without-deep-poor"
+        ],
+        "createdAt": "2026-05-25T01:32:04.242157",
+        "updatedAt": "2025-11-25T13:53:31.242203"
+    },
+    "79": {
+        "id": "79",
+        "sellerId": "7",
+        "categoryId": 73,
+        "sku": "SKU-27128",
+        "name": "Visionary intermediate data-warehouse",
+        "description": "Tree resource billion authority. Road since affect marriage present a also.",
+        "price": 5497.1,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": {
+            "in": true,
+            "civil": 17,
+            "girl": true,
+            "include": "paper",
+            "about": true
+        },
+        "images": [
+            "second-yard-spend",
+            "mean-least"
+        ],
+        "createdAt": "2026-01-02T16:14:47.243800",
+        "updatedAt": "2026-02-05T03:18:45.243873"
+    },
+    "80": {
+        "id": "80",
+        "sellerId": "60",
+        "categoryId": 16,
+        "sku": "SKU-18306",
+        "name": "Team-oriented zero-defect matrices",
+        "description": "Movement yard four field area young positive.",
+        "price": 3645.57,
+        "quantity": 0,
+        "weightKg": 1.48,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "history-nor-tonight",
+            "be-thought-machine",
+            "space-figure-raise"
+        ],
+        "createdAt": "2025-04-13T20:28:36.245651",
+        "updatedAt": "2026-06-25T11:34:38.245734"
+    },
+    "81": {
+        "id": "81",
+        "sellerId": "73",
+        "categoryId": null,
+        "sku": "SKU-28063",
+        "name": "Innovative tangible info-mediaries",
+        "description": "Read main those just country along agent you.",
+        "price": 8778.98,
+        "quantity": 0,
+        "weightKg": 31.24,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "edge-middle-improve",
+            "structure-now",
+            "foot-money-none"
+        ],
+        "createdAt": "2025-04-16T21:51:03.247843",
+        "updatedAt": "2026-07-09T22:22:24.247957"
+    },
+    "82": {
+        "id": "82",
+        "sellerId": "34",
+        "categoryId": 24,
+        "sku": "SKU-70050",
+        "name": "Mandatory zero tolerance success",
+        "description": null,
+        "price": 8863.47,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": {
+            "and": false,
+            "by": 99
+        },
+        "images": [
+            "necessary-low-yard"
+        ],
+        "createdAt": "2025-11-07T01:47:35.250341",
+        "updatedAt": "2026-08-06T07:53:47.250423"
+    },
+    "83": {
+        "id": "83",
+        "sellerId": "100",
+        "categoryId": 98,
+        "sku": "SKU-82931",
+        "name": "Automated user-facing circuit",
+        "description": null,
+        "price": 3925.59,
+        "quantity": 151,
+        "weightKg": 29.81,
+        "status": "DRAFT",
+        "attributes": {
+            "middle": "ready",
+            "after": 85,
+            "what": 79,
+            "present": 97,
+            "eight": 58
+        },
+        "images": [
+            "range-case-address"
+        ],
+        "createdAt": "2025-11-24T10:18:03.252485",
+        "updatedAt": "2026-02-05T03:08:44.252549"
+    },
+    "84": {
+        "id": "84",
+        "sellerId": "42",
+        "categoryId": 68,
+        "sku": "SKU-04179",
+        "name": "Down-sized optimizing architecture",
+        "description": "Market sometimes determine source.",
+        "price": 405.16,
+        "quantity": 60,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "last-green-talk"
+        ],
+        "createdAt": "2026-05-18T16:40:59.253473",
+        "updatedAt": "2025-06-18T13:00:15.253520"
+    },
+    "85": {
+        "id": "85",
+        "sellerId": "85",
+        "categoryId": 60,
+        "sku": "SKU-65198",
+        "name": "Devolved fresh-thinking utilization",
+        "description": "Or friend building.",
+        "price": 400.01,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "OUT_OF_STOCK",
+        "attributes": {
+            "chance": 75,
+            "just": false,
+            "same": "hope",
+            "on": true
+        },
+        "images": [
+            "leg-either-wish",
+            "amount-cell-black"
+        ],
+        "createdAt": "2025-03-03T01:56:02.256636",
+        "updatedAt": "2025-10-17T00:39:30.256821"
+    },
+    "86": {
+        "id": "86",
+        "sellerId": "54",
+        "categoryId": 47,
+        "sku": "SKU-96207",
+        "name": "Configurable 24hour ability",
+        "description": "Religious order exist really.",
+        "price": 4821.62,
+        "quantity": 0,
+        "weightKg": 14.76,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "structure-spring",
+            "role-card-design",
+            "push-experience"
+        ],
+        "createdAt": "2025-01-05T15:28:30.259666",
+        "updatedAt": "2025-02-03T02:57:54.259851"
+    },
+    "87": {
+        "id": "87",
+        "sellerId": "26",
+        "categoryId": 97,
+        "sku": "SKU-76329",
+        "name": "Team-oriented 5thgeneration policy",
+        "description": "Partner because step feeling industry newspaper court.",
+        "price": 6611.44,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": {
+            "next": 27,
+            "present": false,
+            "travel": 3,
+            "notice": 6,
+            "discuss": 74
+        },
+        "images": [
+            "speech-produce"
+        ],
+        "createdAt": "2024-10-11T09:21:41.262398",
+        "updatedAt": "2026-08-03T20:27:46.262462"
+    },
+    "88": {
+        "id": "88",
+        "sellerId": "84",
+        "categoryId": null,
+        "sku": "SKU-34031",
+        "name": "Distributed systemic leverage",
+        "description": null,
+        "price": 9224.55,
+        "quantity": 0,
+        "weightKg": 96.96,
+        "status": "DRAFT",
+        "attributes": {
+            "modern": 11,
+            "collection": false,
+            "win": 62,
+            "arm": false
+        },
+        "images": [
+            "himself-feel",
+            "learn-enter-good",
+            "support-voice-son"
+        ],
+        "createdAt": "2025-12-07T12:06:07.264357",
+        "updatedAt": "2026-06-10T05:08:47.264414"
+    },
+    "89": {
+        "id": "89",
+        "sellerId": "31",
+        "categoryId": 78,
+        "sku": "SKU-01082",
+        "name": "Diverse zero tolerance algorithm",
+        "description": null,
+        "price": 7242.14,
+        "quantity": 0,
+        "weightKg": 59.47,
+        "status": "DRAFT",
+        "attributes": {
+            "memory": 3,
+            "business": false
+        },
+        "images": [
+            "want-easy-set-light"
+        ],
+        "createdAt": "2025-01-26T18:10:48.266405",
+        "updatedAt": "2025-09-15T13:38:07.266498"
+    },
+    "90": {
+        "id": "90",
+        "sellerId": "89",
+        "categoryId": 83,
+        "sku": "SKU-95635",
+        "name": "Focused zero-defect budgetary management",
+        "description": "Better scene thank heart determine. One approach job democratic participant concern health.",
+        "price": 1176.05,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": {
+            "lot": false,
+            "daughter": "project",
+            "her": false,
+            "degree": false,
+            "care": false
+        },
+        "images": [
+            "role-outside-as",
+            "century-bring"
+        ],
+        "createdAt": "2026-04-09T19:22:38.268514",
+        "updatedAt": "2026-08-17T02:30:24.268574"
+    },
+    "91": {
+        "id": "91",
+        "sellerId": "96",
+        "categoryId": null,
+        "sku": "SKU-77625",
+        "name": "Face-to-face explicit portal",
+        "description": null,
+        "price": 4771.94,
+        "quantity": 0,
+        "weightKg": 29.04,
+        "status": "ARCHIVED",
+        "attributes": null,
+        "images": [
+            "close-strategy"
+        ],
+        "createdAt": "2026-05-17T02:41:33.269497",
+        "updatedAt": "2024-09-16T11:24:24.269541"
+    },
+    "92": {
+        "id": "92",
+        "sellerId": "87",
+        "categoryId": null,
+        "sku": "SKU-92983",
+        "name": "Cross-group incremental model",
+        "description": null,
+        "price": 6545.81,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": null,
+        "images": [
+            "middle-training",
+            "perhaps-material",
+            "maintain-family"
+        ],
+        "createdAt": "2025-04-01T21:49:47.270825",
+        "updatedAt": "2026-07-07T00:42:57.270917"
+    },
+    "93": {
+        "id": "93",
+        "sellerId": "74",
+        "categoryId": 92,
+        "sku": "SKU-63356",
+        "name": "Reduced directional parallelism",
+        "description": null,
+        "price": 6806.38,
+        "quantity": 106,
+        "weightKg": 56.2,
+        "status": "DRAFT",
+        "attributes": {
+            "young": true,
+            "white": true,
+            "water": false,
+            "key": 95,
+            "amount": "many"
+        },
+        "images": [
+            "similar-specific",
+            "along-large-nice",
+            "measure-take"
+        ],
+        "createdAt": "2026-05-12T05:00:19.273285",
+        "updatedAt": "2026-03-08T02:54:03.273335"
+    },
+    "94": {
+        "id": "94",
+        "sellerId": "23",
+        "categoryId": null,
+        "sku": "SKU-17731",
+        "name": "Realigned web-enabled access",
+        "description": "Car fast positive before look. Class learn now on with.",
+        "price": 7861.03,
+        "quantity": 158,
+        "weightKg": 70.97,
+        "status": "DRAFT",
+        "attributes": {
+            "major": 12,
+            "certainly": false
+        },
+        "images": [
+            "score-into-crime"
+        ],
+        "createdAt": "2025-03-02T04:53:16.274292",
+        "updatedAt": "2025-06-25T23:39:31.274337"
+    },
+    "95": {
+        "id": "95",
+        "sellerId": "3",
+        "categoryId": 56,
+        "sku": "SKU-57016",
+        "name": "Team-oriented full-range moderator",
+        "description": "International especially watch my some.",
+        "price": 4007.05,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": {
+            "store": false,
+            "be": "pressure",
+            "up": true
+        },
+        "images": [
+            "simply-work-around"
+        ],
+        "createdAt": "2025-12-20T14:33:31.275716",
+        "updatedAt": "2025-10-12T12:05:33.275816"
+    },
+    "96": {
+        "id": "96",
+        "sellerId": "82",
+        "categoryId": 94,
+        "sku": "SKU-50165",
+        "name": "Persistent regional analyzer",
+        "description": null,
+        "price": 361.58,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "DRAFT",
+        "attributes": {
+            "history": false,
+            "continue": 52,
+            "operation": "sea",
+            "audience": "option",
+            "security": true
+        },
+        "images": [
+            "democratic",
+            "good-edge-notice",
+            "range-mean-sing"
+        ],
+        "createdAt": "2026-08-22T15:47:39.278615",
+        "updatedAt": "2025-12-07T17:26:19.278699"
+    },
+    "97": {
+        "id": "97",
+        "sellerId": "69",
+        "categoryId": null,
+        "sku": "SKU-93355",
+        "name": "Future-proofed motivating software",
+        "description": "Approach health laugh may stop. Report question mouth factor per son war.",
+        "price": 2263.73,
+        "quantity": 117,
+        "weightKg": 57.92,
+        "status": "DRAFT",
+        "attributes": {
+            "table": "yeah",
+            "use": true
+        },
+        "images": [
+            "cup-wait-usually",
+            "begin-be-include"
+        ],
+        "createdAt": "2026-05-27T14:43:08.280707",
+        "updatedAt": "2025-10-14T15:08:53.280758"
+    },
+    "98": {
+        "id": "98",
+        "sellerId": "51",
+        "categoryId": 89,
+        "sku": "SKU-24112",
+        "name": "Grass-roots bifurcated standardization",
+        "description": null,
+        "price": 4428.24,
+        "quantity": 0,
+        "weightKg": 25.08,
+        "status": "DRAFT",
+        "attributes": {
+            "choose": "model",
+            "city": "two",
+            "democratic": "near",
+            "product": 49,
+            "finally": 87
+        },
+        "images": [
+            "rest-number-work",
+            "matter-hand-kitchen"
+        ],
+        "createdAt": "2025-06-12T04:58:56.282254",
+        "updatedAt": "2025-10-17T03:07:38.282317"
+    },
+    "99": {
+        "id": "99",
+        "sellerId": "46",
+        "categoryId": 35,
+        "sku": "SKU-04310",
+        "name": "Focused multi-state project",
+        "description": null,
+        "price": 931.0,
+        "quantity": 0,
+        "weightKg": 8.53,
+        "status": "ARCHIVED",
+        "attributes": null,
+        "images": [
+            "government-its"
+        ],
+        "createdAt": "2025-04-07T22:43:37.283045",
+        "updatedAt": "2025-01-30T22:08:23.283083"
+    },
+    "100": {
+        "id": "100",
+        "sellerId": "71",
+        "categoryId": 27,
+        "sku": "SKU-55798",
+        "name": "Reactive leadingedge knowledgebase",
+        "description": null,
+        "price": 2421.32,
+        "quantity": 0,
+        "weightKg": null,
+        "status": "OUT_OF_STOCK",
+        "attributes": null,
+        "images": [
+            "fly-our-cause-water"
+        ],
+        "createdAt": "2024-11-10T21:54:18.284080",
+        "updatedAt": "2026-02-17T20:50:30.284132"
+    }
+}

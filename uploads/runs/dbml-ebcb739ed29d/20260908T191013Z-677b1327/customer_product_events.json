@@ -1,0 +1,902 @@
+{
+    "1": {
+        "id": 1,
+        "customer_id": 90,
+        "product_id": 29,
+        "event_type": "how",
+        "session_id": "id-01883041",
+        "metadata": "{\"safe\": \"report\", \"future\": 42, \"town\": 92, \"purpose\": false, \"middle\": false}",
+        "occurred_at": "2025-10-19T14:18:52.106967"
+    },
+    "2": {
+        "id": 2,
+        "customer_id": 79,
+        "product_id": null,
+        "event_type": "third",
+        "session_id": "id-73343597",
+        "metadata": null,
+        "occurred_at": "2025-11-14T18:29:22.107225"
+    },
+    "3": {
+        "id": 3,
+        "customer_id": null,
+        "product_id": 5,
+        "event_type": "energy",
+        "session_id": null,
+        "metadata": "{\"lay\": 87, \"player\": 87, \"already\": true, \"red\": 3, \"morning\": \"sport\"}",
+        "occurred_at": "2025-12-14T02:34:39.107553"
+    },
+    "4": {
+        "id": 4,
+        "customer_id": 99,
+        "product_id": 89,
+        "event_type": "here",
+        "session_id": "id-25317504",
+        "metadata": null,
+        "occurred_at": "2025-06-17T15:20:59.107829"
+    },
+    "5": {
+        "id": 5,
+        "customer_id": 89,
+        "product_id": 4,
+        "event_type": "above",
+        "session_id": null,
+        "metadata": null,
+        "occurred_at": "2025-08-13T10:09:26.108039"
+    },
+    "6": {
+        "id": 6,
+        "customer_id": 98,
+        "product_id": 55,
+        "event_type": "stuff",
+        "session_id": "id-93701185",
+        "metadata": "{\"pretty\": false, \"onto\": true, \"same\": false, \"exist\": \"quickly\", \"affect\": false}",
+        "occurred_at": "2025-03-19T09:22:21.108422"
+    },
+    "7": {
+        "id": 7,
+        "customer_id": null,
+        "product_id": 98,
+        "event_type": "pressure",
+        "session_id": "id-52905509",
+        "metadata": "{\"hard\": true, \"will\": true}",
+        "occurred_at": "2024-12-31T17:40:15.108718"
+    },
+    "8": {
+        "id": 8,
+        "customer_id": 49,
+        "product_id": null,
+        "event_type": "claim",
+        "session_id": null,
+        "metadata": "{\"morning\": false, \"nice\": 38, \"likely\": false, \"claim\": true, \"information\": true}",
+        "occurred_at": "2026-08-22T01:25:45.109008"
+    },
+    "9": {
+        "id": 9,
+        "customer_id": 1,
+        "product_id": null,
+        "event_type": "appear",
+        "session_id": "id-63992416",
+        "metadata": null,
+        "occurred_at": "2026-04-09T19:10:47.109243"
+    },
+    "10": {
+        "id": 10,
+        "customer_id": null,
+        "product_id": 90,
+        "event_type": "yard",
+        "session_id": "id-11954062",
+        "metadata": null,
+        "occurred_at": "2025-09-08T20:18:13.109484"
+    },
+    "11": {
+        "id": 11,
+        "customer_id": null,
+        "product_id": 7,
+        "event_type": "sister",
+        "session_id": null,
+        "metadata": "{\"method\": 3, \"race\": false}",
+        "occurred_at": "2025-02-14T07:27:07.109745"
+    },
+    "12": {
+        "id": 12,
+        "customer_id": 51,
+        "product_id": null,
+        "event_type": "wait",
+        "session_id": "id-90880683",
+        "metadata": null,
+        "occurred_at": "2026-04-03T09:02:36.109982"
+    },
+    "13": {
+        "id": 13,
+        "customer_id": 63,
+        "product_id": null,
+        "event_type": "behind",
+        "session_id": "id-12179592",
+        "metadata": null,
+        "occurred_at": "2026-03-29T15:01:22.110215"
+    },
+    "14": {
+        "id": 14,
+        "customer_id": null,
+        "product_id": 63,
+        "event_type": "unit",
+        "session_id": null,
+        "metadata": null,
+        "occurred_at": "2024-10-29T13:40:19.110394"
+    },
+    "15": {
+        "id": 15,
+        "customer_id": 54,
+        "product_id": null,
+        "event_type": "once",
+        "session_id": null,
+        "metadata": null,
+        "occurred_at": "2025-12-21T08:47:08.110568"
+    },
+    "16": {
+        "id": 16,
+        "customer_id": null,
+        "product_id": 61,
+        "event_type": "church",
+        "session_id": "id-23312567",
+        "metadata": "{\"moment\": false, \"half\": 27}",
+        "occurred_at": "2025-07-26T21:34:46.110860"
+    },
+    "17": {
+        "id": 17,
+        "customer_id": null,
+        "product_id": 65,
+        "event_type": "thank",
+        "session_id": "id-38561627",
+        "metadata": "{\"scene\": false, \"every\": true, \"customer\": true}",
+        "occurred_at": "2026-01-11T06:06:12.111175"
+    },
+    "18": {
+        "id": 18,
+        "customer_id": 13,
+        "product_id": 62,
+        "event_type": "strong",
+        "session_id": "id-27732357",
+        "metadata": "{\"early\": 77, \"might\": \"travel\"}",
+        "occurred_at": "2026-08-23T05:27:11.111507"
+    },
+    "19": {
+        "id": 19,
+        "customer_id": 94,
+        "product_id": 93,
+        "event_type": "environmental",
+        "session_id": "id-21420942",
+        "metadata": null,
+        "occurred_at": "2025-04-18T15:28:19.111781"
+    },
+    "20": {
+        "id": 20,
+        "customer_id": 69,
+        "product_id": 39,
+        "event_type": "already",
+        "session_id": "id-79374158",
+        "metadata": "{\"lose\": false, \"prepare\": 28, \"practice\": false, \"character\": \"guess\"}",
+        "occurred_at": "2026-04-09T21:04:11.112193"
+    },
+    "21": {
+        "id": 21,
+        "customer_id": 44,
+        "product_id": null,
+        "event_type": "apply",
+        "session_id": "id-59253095",
+        "metadata": null,
+        "occurred_at": "2025-05-24T12:31:58.112460"
+    },
+    "22": {
+        "id": 22,
+        "customer_id": 48,
+        "product_id": 15,
+        "event_type": "her",
+        "session_id": "id-87799364",
+        "metadata": "{\"remain\": false, \"court\": \"middle\", \"develop\": 76, \"pay\": true}",
+        "occurred_at": "2025-03-18T12:50:18.112824"
+    },
+    "23": {
+        "id": 23,
+        "customer_id": 52,
+        "product_id": null,
+        "event_type": "long",
+        "session_id": "id-23816129",
+        "metadata": "{\"church\": \"bed\", \"education\": 51, \"body\": true}",
+        "occurred_at": "2024-10-23T16:51:18.113225"
+    },
+    "24": {
+        "id": 24,
+        "customer_id": null,
+        "product_id": 88,
+        "event_type": "receive",
+        "session_id": "id-13301075",
+        "metadata": "{\"cup\": false, \"young\": 78, \"require\": 34, \"could\": 39, \"ever\": true}",
+        "occurred_at": "2025-10-24T06:04:07.113621"
+    },
+    "25": {
+        "id": 25,
+        "customer_id": null,
+        "product_id": 28,
+        "event_type": "part",
+        "session_id": "id-48412322",
+        "metadata": "{\"course\": 5, \"total\": false, \"what\": \"along\", \"open\": \"member\", \"stock\": true}",
+        "occurred_at": "2026-07-14T20:47:19.114268"
+    },
+    "26": {
+        "id": 26,
+        "customer_id": null,
+        "product_id": 57,
+        "event_type": "need",
+        "session_id": "id-57094391",
+        "metadata": "{\"energy\": false, \"actually\": true}",
+        "occurred_at": "2025-08-17T14:31:35.115217"
+    },
+    "27": {
+        "id": 27,
+        "customer_id": null,
+        "product_id": 91,
+        "event_type": "head",
+        "session_id": null,
+        "metadata": "{\"or\": \"unit\", \"less\": 24}",
+        "occurred_at": "2024-12-07T18:41:48.115738"
+    },
+    "28": {
+        "id": 28,
+        "customer_id": 7,
+        "product_id": 37,
+        "event_type": "describe",
+        "session_id": "id-79213168",
+        "metadata": "{\"cultural\": true, \"how\": false, \"arm\": \"name\", \"according\": \"prepare\", \"take\": true}",
+        "occurred_at": "2024-12-13T02:01:59.116555"
+    },
+    "29": {
+        "id": 29,
+        "customer_id": null,
+        "product_id": 34,
+        "event_type": "determine",
+        "session_id": null,
+        "metadata": null,
+        "occurred_at": "2025-11-05T05:29:15.116865"
+    },
+    "30": {
+        "id": 30,
+        "customer_id": 61,
+        "product_id": null,
+        "event_type": "likely",
+        "session_id": "id-15193178",
+        "metadata": "{\"fish\": \"expect\", \"send\": \"piece\", \"off\": true, \"stop\": 62}",
+        "occurred_at": "2026-05-15T07:27:13.117472"
+    },
+    "31": {
+        "id": 31,
+        "customer_id": 17,
+        "product_id": 6,
+        "event_type": "summer",
+        "session_id": null,
+        "metadata": "{\"employee\": \"now\", \"about\": \"decade\", \"life\": \"pull\", \"fall\": \"rate\"}",
+        "occurred_at": "2025-12-17T02:48:14.118075"
+    },
+    "32": {
+        "id": 32,
+        "customer_id": null,
+        "product_id": 96,
+        "event_type": "left",
+        "session_id": null,
+        "metadata": "{\"view\": true, \"summer\": \"during\", \"of\": \"candidate\", \"big\": 86}",
+        "occurred_at": "2026-06-18T02:16:23.118539"
+    },
+    "33": {
+        "id": 33,
+        "customer_id": 65,
+        "product_id": 16,
+        "event_type": "student",
+        "session_id": "id-37049462",
+        "metadata": "{\"follow\": false, \"hit\": \"form\", \"foot\": true, \"less\": 79, \"method\": 77}",
+        "occurred_at": "2026-03-12T02:07:43.119230"
+    },
+    "34": {
+        "id": 34,
+        "customer_id": null,
+        "product_id": 94,
+        "event_type": "administration",
+        "session_id": "id-05355882",
+        "metadata": "{\"too\": false, \"whose\": \"everything\", \"old\": false, \"blood\": 11}",
+        "occurred_at": "2025-12-11T21:03:07.119866"
+    },
+    "35": {
+        "id": 35,
+        "customer_id": null,
+        "product_id": 14,
+        "event_type": "capital",
+        "session_id": "id-80829385",
+        "metadata": null,
+        "occurred_at": "2025-06-10T00:50:09.120174"
+    },
+    "36": {
+        "id": 36,
+        "customer_id": null,
+        "product_id": 68,
+        "event_type": "article",
+        "session_id": "id-28477982",
+        "metadata": "{\"grow\": \"myself\", \"mention\": false, \"health\": \"discuss\", \"majority\": false}",
+        "occurred_at": "2025-06-17T22:59:51.120463"
+    },
+    "37": {
+        "id": 37,
+        "customer_id": null,
+        "product_id": 95,
+        "event_type": "hot",
+        "session_id": null,
+        "metadata": "{\"last\": 89, \"financial\": 54}",
+        "occurred_at": "2026-03-22T17:07:57.120870"
+    },
+    "38": {
+        "id": 38,
+        "customer_id": null,
+        "product_id": 11,
+        "event_type": "full",
+        "session_id": null,
+        "metadata": "{\"usually\": false, \"surface\": false, \"easy\": \"direction\", \"six\": \"along\"}",
+        "occurred_at": "2024-12-09T09:36:25.121110"
+    },
+    "39": {
+        "id": 39,
+        "customer_id": 11,
+        "product_id": 24,
+        "event_type": "like",
+        "session_id": "id-06667063",
+        "metadata": null,
+        "occurred_at": "2026-02-09T19:50:57.121418"
+    },
+    "40": {
+        "id": 40,
+        "customer_id": 35,
+        "product_id": 43,
+        "event_type": "southern",
+        "session_id": null,
+        "metadata": null,
+        "occurred_at": "2025-06-13T06:26:13.121628"
+    },
+    "41": {
+        "id": 41,
+        "customer_id": 83,
+        "product_id": 27,
+        "event_type": "western",
+        "session_id": null,
+        "metadata": "{\"early\": true, \"black\": true, \"story\": false}",
+        "occurred_at": "2025-11-13T21:35:22.122007"
+    },
+    "42": {
+        "id": 42,
+        "customer_id": 82,
+        "product_id": 22,
+        "event_type": "serious",
+        "session_id": "id-61195530",
+        "metadata": "{\"physical\": \"election\", \"might\": false, \"she\": \"build\", \"thought\": true, \"especially\": true}",
+        "occurred_at": "2025-01-13T15:52:49.122572"
+    },
+    "43": {
+        "id": 43,
+        "customer_id": 86,
+        "product_id": null,
+        "event_type": "art",
+        "session_id": null,
+        "metadata": null,
+        "occurred_at": "2025-08-02T18:24:36.122777"
+    },
+    "44": {
+        "id": 44,
+        "customer_id": null,
+        "product_id": 23,
+        "event_type": "drug",
+        "session_id": "id-77917037",
+        "metadata": "{\"owner\": true, \"reach\": false}",
+        "occurred_at": "2026-06-23T03:49:35.123345"
+    },
+    "45": {
+        "id": 45,
+        "customer_id": null,
+        "product_id": 18,
+        "event_type": "ahead",
+        "session_id": "id-61892004",
+        "metadata": "{\"wide\": \"hospital\", \"nation\": 100}",
+        "occurred_at": "2025-04-09T00:31:28.123718"
+    },
+    "46": {
+        "id": 46,
+        "customer_id": 53,
+        "product_id": null,
+        "event_type": "answer",
+        "session_id": "id-72162474",
+        "metadata": "{\"care\": true, \"lawyer\": \"operation\", \"expect\": 53, \"mean\": false, \"choice\": true}",
+        "occurred_at": "2025-07-15T06:24:52.124207"
+    },
+    "47": {
+        "id": 47,
+        "customer_id": 96,
+        "product_id": null,
+        "event_type": "until",
+        "session_id": "id-50652990",
+        "metadata": "{\"government\": \"sense\", \"vote\": true, \"if\": true, \"whole\": true}",
+        "occurred_at": "2024-12-28T23:17:07.124781"
+    },
+    "48": {
+        "id": 48,
+        "customer_id": 4,
+        "product_id": null,
+        "event_type": "let",
+        "session_id": "id-91207209",
+        "metadata": "{\"hair\": 56, \"official\": 41, \"recently\": true, \"agency\": false, \"east\": false}",
+        "occurred_at": "2025-12-22T14:49:38.125383"
+    },
+    "49": {
+        "id": 49,
+        "customer_id": null,
+        "product_id": 71,
+        "event_type": "safe",
+        "session_id": null,
+        "metadata": null,
+        "occurred_at": "2026-09-07T12:38:43.125597"
+    },
+    "50": {
+        "id": 50,
+        "customer_id": 45,
+        "product_id": 79,
+        "event_type": "science",
+        "session_id": null,
+        "metadata": "{\"full\": true, \"wife\": \"note\", \"bit\": false, \"PM\": false, \"suffer\": \"strategy\"}",
+        "occurred_at": "2024-12-11T19:01:22.126033"
+    },
+    "51": {
+        "id": 51,
+        "customer_id": 68,
+        "product_id": null,
+        "event_type": "to",
+        "session_id": "id-68445657",
+        "metadata": "{\"six\": 99, \"serve\": 40}",
+        "occurred_at": "2025-04-06T14:36:32.126325"
+    },
+    "52": {
+        "id": 52,
+        "customer_id": 72,
+        "product_id": 60,
+        "event_type": "state",
+        "session_id": "id-17442054",
+        "metadata": "{\"around\": \"with\", \"provide\": false, \"well\": false, \"walk\": false, \"hope\": false}",
+        "occurred_at": "2026-06-08T22:24:52.126703"
+    },
+    "53": {
+        "id": 53,
+        "customer_id": 9,
+        "product_id": null,
+        "event_type": "rock",
+        "session_id": "id-56740920",
+        "metadata": "{\"but\": 17, \"indeed\": 12, \"moment\": 42, \"four\": 36, \"simply\": true}",
+        "occurred_at": "2025-01-04T09:56:28.127070"
+    },
+    "54": {
+        "id": 54,
+        "customer_id": null,
+        "product_id": 83,
+        "event_type": "respond",
+        "session_id": null,
+        "metadata": "{\"eight\": false, \"window\": false, \"away\": \"door\", \"usually\": \"even\"}",
+        "occurred_at": "2025-05-30T12:31:18.127384"
+    },
+    "55": {
+        "id": 55,
+        "customer_id": 3,
+        "product_id": 97,
+        "event_type": "treat",
+        "session_id": "id-14058067",
+        "metadata": null,
+        "occurred_at": "2025-02-10T13:51:55.127910"
+    },
+    "56": {
+        "id": 56,
+        "customer_id": 33,
+        "product_id": 52,
+        "event_type": "after",
+        "session_id": null,
+        "metadata": "{\"own\": 43, \"threat\": 37}",
+        "occurred_at": "2025-03-15T23:06:48.128227"
+    },
+    "57": {
+        "id": 57,
+        "customer_id": null,
+        "product_id": 75,
+        "event_type": "step",
+        "session_id": null,
+        "metadata": "{\"stock\": true, \"lead\": 34, \"for\": \"natural\"}",
+        "occurred_at": "2026-05-17T15:36:01.128475"
+    },
+    "58": {
+        "id": 58,
+        "customer_id": 18,
+        "product_id": null,
+        "event_type": "even",
+        "session_id": null,
+        "metadata": "{\"accept\": 66, \"add\": 34, \"visit\": false, \"always\": 62, \"final\": true}",
+        "occurred_at": "2024-10-13T21:30:00.128759"
+    },
+    "59": {
+        "id": 59,
+        "customer_id": 22,
+        "product_id": 47,
+        "event_type": "itself",
+        "session_id": "id-45497683",
+        "metadata": null,
+        "occurred_at": "2024-11-19T20:46:28.129023"
+    },
+    "60": {
+        "id": 60,
+        "customer_id": null,
+        "product_id": 64,
+        "event_type": "find",
+        "session_id": "id-87525604",
+        "metadata": "{\"want\": \"ok\", \"partner\": \"point\"}",
+        "occurred_at": "2024-10-11T22:56:18.129307"
+    },
+    "61": {
+        "id": 61,
+        "customer_id": 76,
+        "product_id": null,
+        "event_type": "change",
+        "session_id": null,
+        "metadata": "{\"trade\": false, \"individual\": true, \"center\": false, \"life\": true}",
+        "occurred_at": "2026-05-04T19:29:12.129571"
+    },
+    "62": {
+        "id": 62,
+        "customer_id": 34,
+        "product_id": 46,
+        "event_type": "as",
+        "session_id": null,
+        "metadata": "{\"because\": false, \"nice\": 81, \"same\": true}",
+        "occurred_at": "2025-04-26T07:20:28.129903"
+    },
+    "63": {
+        "id": 63,
+        "customer_id": 16,
+        "product_id": 25,
+        "event_type": "play",
+        "session_id": null,
+        "metadata": null,
+        "occurred_at": "2025-09-05T17:56:32.130113"
+    },
+    "64": {
+        "id": 64,
+        "customer_id": 71,
+        "product_id": 21,
+        "event_type": "glass",
+        "session_id": "id-11812165",
+        "metadata": null,
+        "occurred_at": "2025-03-21T15:42:35.130381"
+    },
+    "65": {
+        "id": 65,
+        "customer_id": null,
+        "product_id": 69,
+        "event_type": "cost",
+        "session_id": "id-50815959",
+        "metadata": null,
+        "occurred_at": "2025-09-10T05:48:03.130610"
+    },
+    "66": {
+        "id": 66,
+        "customer_id": null,
+        "product_id": 53,
+        "event_type": "agency",
+        "session_id": "id-43150717",
+        "metadata": "{\"establish\": \"avoid\", \"project\": 69, \"return\": false, \"medical\": true, \"member\": false}",
+        "occurred_at": "2024-11-09T05:24:17.130979"
+    },
+    "67": {
+        "id": 67,
+        "customer_id": 19,
+        "product_id": null,
+        "event_type": "space",
+        "session_id": "id-63103231",
+        "metadata": null,
+        "occurred_at": "2026-02-22T03:07:21.131275"
+    },
+    "68": {
+        "id": 68,
+        "customer_id": 26,
+        "product_id": 48,
+        "event_type": "past",
+        "session_id": "id-76702546",
+        "metadata": "{\"black\": 48, \"Mrs\": 51}",
+        "occurred_at": "2024-11-21T20:21:07.131792"
+    },
+    "69": {
+        "id": 69,
+        "customer_id": 6,
+        "product_id": 38,
+        "event_type": "wife",
+        "session_id": "id-44696458",
+        "metadata": "{\"policy\": 34, \"song\": \"couple\", \"enter\": false, \"foot\": true}",
+        "occurred_at": "2026-08-25T23:02:21.132156"
+    },
+    "70": {
+        "id": 70,
+        "customer_id": 77,
+        "product_id": null,
+        "event_type": "year",
+        "session_id": "id-83281137",
+        "metadata": "{\"project\": false, \"expert\": true, \"skill\": 27, \"responsibility\": false}",
+        "occurred_at": "2024-11-22T22:30:14.132444"
+    },
+    "71": {
+        "id": 71,
+        "customer_id": 29,
+        "product_id": null,
+        "event_type": "speak",
+        "session_id": null,
+        "metadata": null,
+        "occurred_at": "2025-12-03T19:52:07.132656"
+    },
+    "72": {
+        "id": 72,
+        "customer_id": 24,
+        "product_id": 80,
+        "event_type": "mind",
+        "session_id": "id-92975914",
+        "metadata": null,
+        "occurred_at": "2026-04-14T09:16:57.132953"
+    },
+    "73": {
+        "id": 73,
+        "customer_id": null,
+        "product_id": 49,
+        "event_type": "whole",
+        "session_id": "id-48940094",
+        "metadata": null,
+        "occurred_at": "2025-05-01T01:03:31.133154"
+    },
+    "74": {
+        "id": 74,
+        "customer_id": 64,
+        "product_id": 76,
+        "event_type": "if",
+        "session_id": "id-58463924",
+        "metadata": "{\"opportunity\": false, \"threat\": 7}",
+        "occurred_at": "2024-12-07T15:10:42.133525"
+    },
+    "75": {
+        "id": 75,
+        "customer_id": 73,
+        "product_id": null,
+        "event_type": "most",
+        "session_id": "id-78073767",
+        "metadata": null,
+        "occurred_at": "2025-08-14T08:23:50.133808"
+    },
+    "76": {
+        "id": 76,
+        "customer_id": 31,
+        "product_id": 70,
+        "event_type": "kid",
+        "session_id": "id-49737805",
+        "metadata": "{\"energy\": 27, \"tough\": 16}",
+        "occurred_at": "2025-01-16T20:20:38.134134"
+    },
+    "77": {
+        "id": 77,
+        "customer_id": null,
+        "product_id": 42,
+        "event_type": "have",
+        "session_id": null,
+        "metadata": null,
+        "occurred_at": "2026-07-24T05:22:58.134307"
+    },
+    "78": {
+        "id": 78,
+        "customer_id": 39,
+        "product_id": 100,
+        "event_type": "brother",
+        "session_id": null,
+        "metadata": null,
+        "occurred_at": "2026-07-23T02:20:02.134511"
+    },
+    "79": {
+        "id": 79,
+        "customer_id": 67,
+        "product_id": null,
+        "event_type": "order",
+        "session_id": "id-18716289",
+        "metadata": "{\"likely\": false, \"letter\": \"learn\", \"surface\": \"lot\", \"lay\": false, \"rule\": false}",
+        "occurred_at": "2026-07-08T12:48:13.134848"
+    },
+    "80": {
+        "id": 80,
+        "customer_id": 100,
+        "product_id": 1,
+        "event_type": "some",
+        "session_id": null,
+        "metadata": "{\"art\": 92, \"popular\": 21, \"per\": 16, \"plant\": 88, \"wall\": 16}",
+        "occurred_at": "2026-07-07T19:49:22.135168"
+    },
+    "81": {
+        "id": 81,
+        "customer_id": 56,
+        "product_id": 81,
+        "event_type": "common",
+        "session_id": null,
+        "metadata": "{\"husband\": false, \"environment\": false, \"guess\": 34, \"really\": 77}",
+        "occurred_at": "2025-02-09T06:58:53.135469"
+    },
+    "82": {
+        "id": 82,
+        "customer_id": 41,
+        "product_id": 54,
+        "event_type": "popular",
+        "session_id": "id-31769708",
+        "metadata": "{\"student\": 73, \"kitchen\": \"soldier\", \"tough\": false, \"from\": false, \"but\": true}",
+        "occurred_at": "2025-11-04T15:55:36.135949"
+    },
+    "83": {
+        "id": 83,
+        "customer_id": 32,
+        "product_id": null,
+        "event_type": "production",
+        "session_id": null,
+        "metadata": "{\"house\": true, \"read\": true, \"similar\": \"stop\", \"difference\": true}",
+        "occurred_at": "2026-07-08T23:42:51.136214"
+    },
+    "84": {
+        "id": 84,
+        "customer_id": 50,
+        "product_id": null,
+        "event_type": "vote",
+        "session_id": "id-96704477",
+        "metadata": null,
+        "occurred_at": "2024-10-01T10:26:03.136439"
+    },
+    "85": {
+        "id": 85,
+        "customer_id": 37,
+        "product_id": 12,
+        "event_type": "medical",
+        "session_id": "id-14057702",
+        "metadata": "{\"his\": 72, \"affect\": true, \"bed\": \"here\", \"home\": false}",
+        "occurred_at": "2026-03-27T05:11:20.136792"
+    },
+    "86": {
+        "id": 86,
+        "customer_id": 30,
+        "product_id": null,
+        "event_type": "establish",
+        "session_id": "id-94099857",
+        "metadata": "{\"task\": true, \"cause\": \"hospital\", \"improve\": 80, \"direction\": 64}",
+        "occurred_at": "2026-08-25T12:14:19.137073"
+    },
+    "87": {
+        "id": 87,
+        "customer_id": 66,
+        "product_id": null,
+        "event_type": "evening",
+        "session_id": "id-48455576",
+        "metadata": null,
+        "occurred_at": "2025-09-29T12:26:08.137348"
+    },
+    "88": {
+        "id": 88,
+        "customer_id": null,
+        "product_id": 72,
+        "event_type": "year",
+        "session_id": "id-63354205",
+        "metadata": "{\"agreement\": 73, \"way\": false, \"dinner\": 10, \"action\": true}",
+        "occurred_at": "2024-11-17T04:49:18.137688"
+    },
+    "89": {
+        "id": 89,
+        "customer_id": 93,
+        "product_id": null,
+        "event_type": "listen",
+        "session_id": null,
+        "metadata": "{\"college\": true, \"without\": false}",
+        "occurred_at": "2026-05-12T19:53:01.137994"
+    },
+    "90": {
+        "id": 90,
+        "customer_id": 21,
+        "product_id": null,
+        "event_type": "many",
+        "session_id": "id-28276958",
+        "metadata": null,
+        "occurred_at": "2026-06-01T01:58:20.138220"
+    },
+    "91": {
+        "id": 91,
+        "customer_id": 70,
+        "product_id": null,
+        "event_type": "up",
+        "session_id": "id-87089426",
+        "metadata": null,
+        "occurred_at": "2024-11-06T02:11:43.138445"
+    },
+    "92": {
+        "id": 92,
+        "customer_id": null,
+        "product_id": 51,
+        "event_type": "technology",
+        "session_id": null,
+        "metadata": "{\"interesting\": 37, \"easy\": 96, \"wish\": true, \"talk\": 64}",
+        "occurred_at": "2026-04-20T16:56:15.138715"
+    },
+    "93": {
+        "id": 93,
+        "customer_id": null,
+        "product_id": 2,
+        "event_type": "now",
+        "session_id": null,
+        "metadata": "{\"allow\": false, \"provide\": true, \"star\": \"majority\", \"learn\": \"responsibility\", \"type\": false}",
+        "occurred_at": "2025-03-01T23:02:06.139003"
+    },
+    "94": {
+        "id": 94,
+        "customer_id": 5,
+        "product_id": 67,
+        "event_type": "everything",
+        "session_id": "id-82943500",
+        "metadata": null,
+        "occurred_at": "2025-08-25T23:45:01.139270"
+    },
+    "95": {
+        "id": 95,
+        "customer_id": 38,
+        "product_id": null,
+        "event_type": "meet",
+        "session_id": "id-96165377",
+        "metadata": null,
+        "occurred_at": "2026-05-23T23:12:45.139458"
+    },
+    "96": {
+        "id": 96,
+        "customer_id": 81,
+        "product_id": null,
+        "event_type": "truth",
+        "session_id": "id-78424716",
+        "metadata": null,
+        "occurred_at": "2025-10-09T03:04:30.139720"
+    },
+    "97": {
+        "id": 97,
+        "customer_id": 85,
+        "product_id": 44,
+        "event_type": "field",
+        "session_id": "id-91916369",
+        "metadata": "{\"goal\": true, \"top\": false, \"right\": 80, \"suggest\": false, \"gun\": \"policy\"}",
+        "occurred_at": "2024-12-09T22:00:34.140094"
+    },
+    "98": {
+        "id": 98,
+        "customer_id": null,
+        "product_id": 35,
+        "event_type": "control",
+        "session_id": "id-50169156",
+        "metadata": null,
+        "occurred_at": "2025-09-06T05:11:46.140284"
+    },
+    "99": {
+        "id": 99,
+        "customer_id": 36,
+        "product_id": 82,
+        "event_type": "position",
+        "session_id": null,
+        "metadata": "{\"maybe\": true, \"assume\": false, \"probably\": \"Mr\", \"change\": true, \"argue\": false}",
+        "occurred_at": "2025-02-11T13:08:17.140670"
+    },
+    "100": {
+        "id": 100,
+        "customer_id": 97,
+        "product_id": 92,
+        "event_type": "relationship",
+        "session_id": "id-00813349",
+        "metadata": "{\"affect\": 28, \"detail\": true, \"spend\": false, \"firm\": 7}",
+        "occurred_at": "2025-07-03T01:49:15.141037"
+    }
+}

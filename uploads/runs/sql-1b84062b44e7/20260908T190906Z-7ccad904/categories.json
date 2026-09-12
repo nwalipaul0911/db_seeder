@@ -1,0 +1,702 @@
+{
+    "1": {
+        "id": "1",
+        "name": "Innovative zero-defect forecast",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2026-09-04T21:18:30.227901"
+    },
+    "2": {
+        "id": "2",
+        "name": "Persistent composite interface",
+        "description": "Try ready tough less position bed may conference.",
+        "parent_id": null,
+        "created_at": "2025-03-06T12:00:34.228113"
+    },
+    "3": {
+        "id": "3",
+        "name": "Reduced tangible moratorium",
+        "description": "Including late condition opportunity Republican dark.",
+        "parent_id": "2",
+        "created_at": "2026-06-08T23:44:07.228284"
+    },
+    "4": {
+        "id": "4",
+        "name": "Persevering background extranet",
+        "description": "Responsibility but box last. Be religious risk window partner civil.",
+        "parent_id": "3",
+        "created_at": "2026-05-19T07:34:09.228390"
+    },
+    "5": {
+        "id": "5",
+        "name": "Reactive homogeneous analyzer",
+        "description": "Not process change than condition Republican.",
+        "parent_id": null,
+        "created_at": "2025-01-29T19:03:02.228477"
+    },
+    "6": {
+        "id": "6",
+        "name": "Operative fault-tolerant function",
+        "description": "Phone brother capital dark performance. Activity marriage material space part.",
+        "parent_id": "1",
+        "created_at": "2026-06-22T13:31:19.228580"
+    },
+    "7": {
+        "id": "7",
+        "name": "Proactive disintermediate data-warehouse",
+        "description": "Law kind over according think everything pick. Any challenge president already take.",
+        "parent_id": "4",
+        "created_at": "2026-06-25T06:19:24.228683"
+    },
+    "8": {
+        "id": "8",
+        "name": "Synchronized object-oriented portal",
+        "description": "Turn any indicate condition public particularly.",
+        "parent_id": null,
+        "created_at": "2025-02-25T17:22:54.228767"
+    },
+    "9": {
+        "id": "9",
+        "name": "Team-oriented tangible policy",
+        "description": "Concern lay often use behavior federal happy. Star serve successful assume likely business.",
+        "parent_id": "8",
+        "created_at": "2024-09-21T01:24:47.228868"
+    },
+    "10": {
+        "id": "10",
+        "name": "Grass-roots full-range moderator",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2025-04-10T05:41:24.228932"
+    },
+    "11": {
+        "id": "11",
+        "name": "Open-source multi-tasking database",
+        "description": "Around number without more because right painting small.",
+        "parent_id": null,
+        "created_at": "2026-03-04T21:11:15.229015"
+    },
+    "12": {
+        "id": "12",
+        "name": "Triple-buffered executive interface",
+        "description": "Employee offer perhaps until pass market. Marriage space this discussion fact cover brother let.",
+        "parent_id": "5",
+        "created_at": "2025-10-21T03:24:14.229119"
+    },
+    "13": {
+        "id": "13",
+        "name": "Decentralized user-facing database",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2026-06-04T00:50:57.229181"
+    },
+    "14": {
+        "id": "14",
+        "name": "Seamless intangible installation",
+        "description": "Glass south defense political real effort.",
+        "parent_id": null,
+        "created_at": "2025-08-31T08:29:23.229266"
+    },
+    "15": {
+        "id": "15",
+        "name": "Cloned fault-tolerant framework",
+        "description": "Food accept rate game right pattern ahead. Create street two look.",
+        "parent_id": null,
+        "created_at": "2026-06-29T09:32:24.229360"
+    },
+    "16": {
+        "id": "16",
+        "name": "Phased 5thgeneration project",
+        "description": null,
+        "parent_id": "6",
+        "created_at": "2025-06-30T10:08:43.229447"
+    },
+    "17": {
+        "id": "17",
+        "name": "Devolved mission-critical collaboration",
+        "description": "Throughout Mr friend six including sea strong. North question new affect officer.",
+        "parent_id": "10",
+        "created_at": "2026-06-27T10:14:28.229554"
+    },
+    "18": {
+        "id": "18",
+        "name": "Managed heuristic architecture",
+        "description": "Subject fund heart move coach.",
+        "parent_id": "9",
+        "created_at": "2026-08-23T18:23:27.229651"
+    },
+    "19": {
+        "id": "19",
+        "name": "Robust human-resource contingency",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2026-07-30T05:21:47.229713"
+    },
+    "20": {
+        "id": "20",
+        "name": "Right-sized bifurcated toolset",
+        "description": "Report even beautiful theory he stop.",
+        "parent_id": null,
+        "created_at": "2026-02-22T10:49:41.229824"
+    },
+    "21": {
+        "id": "21",
+        "name": "Innovative didactic moderator",
+        "description": "Born size sing tree.",
+        "parent_id": "7",
+        "created_at": "2026-07-01T09:16:16.229923"
+    },
+    "22": {
+        "id": "22",
+        "name": "Organic motivating algorithm",
+        "description": null,
+        "parent_id": "17",
+        "created_at": "2025-04-29T07:04:38.229997"
+    },
+    "23": {
+        "id": "23",
+        "name": "Polarized motivating collaboration",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2025-07-08T02:33:23.230059"
+    },
+    "24": {
+        "id": "24",
+        "name": "Ergonomic global matrices",
+        "description": "Simply century the state visit. Day already hold ten.",
+        "parent_id": "23",
+        "created_at": "2026-02-26T05:49:53.230197"
+    },
+    "25": {
+        "id": "25",
+        "name": "Customizable 24hour function",
+        "description": "The four threat billion she seat against serve.",
+        "parent_id": "11",
+        "created_at": "2025-03-08T03:37:46.230329"
+    },
+    "26": {
+        "id": "26",
+        "name": "Sharable demand-driven Graphic Interface",
+        "description": "Expert mother significant provide evening.",
+        "parent_id": null,
+        "created_at": "2025-12-15T11:06:06.230415"
+    },
+    "27": {
+        "id": "27",
+        "name": "Diverse even-keeled budgetary management",
+        "description": "Nice bill my near even wall sound off.",
+        "parent_id": null,
+        "created_at": "2025-08-24T19:00:57.230500"
+    },
+    "28": {
+        "id": "28",
+        "name": "Down-sized asynchronous function",
+        "description": "Music anything ahead tough anyone himself. Interview condition other or.",
+        "parent_id": "19",
+        "created_at": "2025-12-07T21:39:19.230605"
+    },
+    "29": {
+        "id": "29",
+        "name": "Team-oriented tangible knowledge user",
+        "description": "Fine stage require provide move wind. Nothing behavior sort recognize best financial popular.",
+        "parent_id": null,
+        "created_at": "2026-05-21T16:58:42.230698"
+    },
+    "30": {
+        "id": "30",
+        "name": "Visionary maximized leverage",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2025-06-30T23:51:53.230789"
+    },
+    "31": {
+        "id": "31",
+        "name": "Focused directional circuit",
+        "description": "Tree hot record professor small. Law air little goal leave color.",
+        "parent_id": "25",
+        "created_at": "2024-11-18T22:12:58.230967"
+    },
+    "32": {
+        "id": "32",
+        "name": "Visionary grid-enabled portal",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2025-04-06T08:57:45.231029"
+    },
+    "33": {
+        "id": "33",
+        "name": "Re-engineered clear-thinking migration",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2025-11-15T11:06:18.231085"
+    },
+    "34": {
+        "id": "34",
+        "name": "Customer-focused impactful structure",
+        "description": "News audience few leave opportunity draw.",
+        "parent_id": null,
+        "created_at": "2024-11-20T02:59:42.231165"
+    },
+    "35": {
+        "id": "35",
+        "name": "Fully-configurable neutral complexity",
+        "description": "At decade really issue woman note. Name door production back us off.",
+        "parent_id": "12",
+        "created_at": "2025-07-07T01:15:33.231342"
+    },
+    "36": {
+        "id": "36",
+        "name": "Pre-emptive bifurcated parallelism",
+        "description": "Foot best knowledge final image our rate. Side her management produce bed stage thought tough.",
+        "parent_id": "22",
+        "created_at": "2025-01-18T13:24:23.231449"
+    },
+    "37": {
+        "id": "37",
+        "name": "Sharable 24hour system engine",
+        "description": "Laugh factor past language.",
+        "parent_id": null,
+        "created_at": "2025-04-05T07:37:01.231530"
+    },
+    "38": {
+        "id": "38",
+        "name": "Expanded systemic functionalities",
+        "description": "Some quickly truth view response trip wrong.",
+        "parent_id": null,
+        "created_at": "2025-08-01T22:04:05.231610"
+    },
+    "39": {
+        "id": "39",
+        "name": "Reduced 24/7 pricing structure",
+        "description": null,
+        "parent_id": "24",
+        "created_at": "2025-09-28T22:34:44.231689"
+    },
+    "40": {
+        "id": "40",
+        "name": "Profound impactful capacity",
+        "description": "Hard nature apply reflect.",
+        "parent_id": null,
+        "created_at": "2025-05-03T11:23:18.231768"
+    },
+    "41": {
+        "id": "41",
+        "name": "Multi-channeled bifurcated forecast",
+        "description": null,
+        "parent_id": "31",
+        "created_at": "2025-05-22T19:15:16.231844"
+    },
+    "42": {
+        "id": "42",
+        "name": "Assimilated disintermediate Internet solution",
+        "description": "Personal Republican image itself deep community. Could his under style.",
+        "parent_id": "40",
+        "created_at": "2024-12-23T13:41:44.231963"
+    },
+    "43": {
+        "id": "43",
+        "name": "Distributed executive secured line",
+        "description": null,
+        "parent_id": "35",
+        "created_at": "2025-07-15T03:52:31.232041"
+    },
+    "44": {
+        "id": "44",
+        "name": "De-engineered client-driven access",
+        "description": "Century those price.",
+        "parent_id": null,
+        "created_at": "2025-09-25T05:11:28.232123"
+    },
+    "45": {
+        "id": "45",
+        "name": "Devolved attitude-oriented challenge",
+        "description": "Throw receive us perhaps lawyer interest star. Green control painting official suggest door.",
+        "parent_id": null,
+        "created_at": "2026-05-12T05:45:56.232218"
+    },
+    "46": {
+        "id": "46",
+        "name": "Profit-focused encompassing installation",
+        "description": "Happen within nothing relate both loss real. Room money teacher seek.",
+        "parent_id": null,
+        "created_at": "2025-12-12T20:03:49.232308"
+    },
+    "47": {
+        "id": "47",
+        "name": "Grass-roots maximized model",
+        "description": "Three because line score whether back plant.",
+        "parent_id": null,
+        "created_at": "2024-09-29T17:54:15.232389"
+    },
+    "48": {
+        "id": "48",
+        "name": "Reduced fault-tolerant pricing structure",
+        "description": "Movement action law town off former.",
+        "parent_id": "34",
+        "created_at": "2026-06-16T12:22:03.232491"
+    },
+    "49": {
+        "id": "49",
+        "name": "Multi-channeled explicit frame",
+        "description": "Reason our fight.",
+        "parent_id": "33",
+        "created_at": "2024-12-25T22:38:18.232591"
+    },
+    "50": {
+        "id": "50",
+        "name": "Re-contextualized empowering approach",
+        "description": "Official of prevent factor say agree machine. Measure surface everyone car.",
+        "parent_id": null,
+        "created_at": "2026-03-18T09:07:27.232683"
+    },
+    "51": {
+        "id": "51",
+        "name": "Grass-roots even-keeled extranet",
+        "description": "Page travel school process.",
+        "parent_id": "43",
+        "created_at": "2025-07-17T03:42:00.232782"
+    },
+    "52": {
+        "id": "52",
+        "name": "Multi-layered context-sensitive firmware",
+        "description": "Congress month almost worker whose other start.",
+        "parent_id": "36",
+        "created_at": "2026-05-16T00:15:28.232882"
+    },
+    "53": {
+        "id": "53",
+        "name": "Proactive web-enabled installation",
+        "description": "Produce rise cold official success. Politics sense break.",
+        "parent_id": "45",
+        "created_at": "2024-11-13T20:19:47.232994"
+    },
+    "54": {
+        "id": "54",
+        "name": "Down-sized maximized initiative",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2025-01-16T00:55:33.233053"
+    },
+    "55": {
+        "id": "55",
+        "name": "Phased exuding leverage",
+        "description": "Here relationship listen certain that. Eye something high.",
+        "parent_id": null,
+        "created_at": "2026-02-17T01:08:35.233165"
+    },
+    "56": {
+        "id": "56",
+        "name": "Intuitive multi-tasking software",
+        "description": "Truth PM what it.",
+        "parent_id": null,
+        "created_at": "2024-11-30T03:06:04.233268"
+    },
+    "57": {
+        "id": "57",
+        "name": "Streamlined encompassing groupware",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2025-10-16T19:14:34.233326"
+    },
+    "58": {
+        "id": "58",
+        "name": "Future-proofed encompassing website",
+        "description": "Pressure hospital significant see same.",
+        "parent_id": null,
+        "created_at": "2025-09-03T12:16:31.233407"
+    },
+    "59": {
+        "id": "59",
+        "name": "Reverse-engineered zero administration core",
+        "description": "Question year finish action across attack. Best billion land detail exist cover.",
+        "parent_id": "49",
+        "created_at": "2025-09-18T19:39:25.233522"
+    },
+    "60": {
+        "id": "60",
+        "name": "Assimilated regional array",
+        "description": null,
+        "parent_id": "26",
+        "created_at": "2026-03-29T23:08:51.233607"
+    },
+    "61": {
+        "id": "61",
+        "name": "Centralized radical protocol",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2025-02-16T12:26:17.233664"
+    },
+    "62": {
+        "id": "62",
+        "name": "Extended radical productivity",
+        "description": "Beat painting heavy shake.",
+        "parent_id": null,
+        "created_at": "2026-03-23T15:05:39.233742"
+    },
+    "63": {
+        "id": "63",
+        "name": "Stand-alone non-volatile website",
+        "description": "Receive education level view.",
+        "parent_id": null,
+        "created_at": "2026-05-31T03:06:43.233821"
+    },
+    "64": {
+        "id": "64",
+        "name": "Sharable logistical focus group",
+        "description": "Either sit everyone artist home you. Western enough key man up.",
+        "parent_id": null,
+        "created_at": "2024-12-02T18:49:11.233910"
+    },
+    "65": {
+        "id": "65",
+        "name": "Seamless hybrid conglomeration",
+        "description": "Century shoulder despite poor. Resource billion authority number economy knowledge.",
+        "parent_id": null,
+        "created_at": "2025-03-17T07:01:06.234001"
+    },
+    "66": {
+        "id": "66",
+        "name": "Proactive coherent projection",
+        "description": "Professor entire record.",
+        "parent_id": null,
+        "created_at": "2025-09-02T17:27:55.234085"
+    },
+    "67": {
+        "id": "67",
+        "name": "Object-based object-oriented ability",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2025-08-10T11:43:18.234148"
+    },
+    "68": {
+        "id": "68",
+        "name": "Profound tertiary throughput",
+        "description": "Job such sit size music about west. Building movement yard four field area young.",
+        "parent_id": "57",
+        "created_at": "2025-07-07T20:34:33.234271"
+    },
+    "69": {
+        "id": "69",
+        "name": "Stand-alone background hierarchy",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2026-03-09T11:11:02.234331"
+    },
+    "70": {
+        "id": "70",
+        "name": "Public-key global artificial intelligence",
+        "description": "Possible computer always his course. To piece grow be plan same.",
+        "parent_id": null,
+        "created_at": "2026-07-18T03:01:28.234420"
+    },
+    "71": {
+        "id": "71",
+        "name": "Devolved 5thgeneration core",
+        "description": "Draw home society poor matter who speech whom.",
+        "parent_id": null,
+        "created_at": "2026-02-11T18:55:56.234504"
+    },
+    "72": {
+        "id": "72",
+        "name": "Ameliorated 5thgeneration Graphical User Interface",
+        "description": "Skin amount brother southern project learn.",
+        "parent_id": "68",
+        "created_at": "2025-07-10T17:42:08.234705"
+    },
+    "73": {
+        "id": "73",
+        "name": "Synergistic national collaboration",
+        "description": "Under already center president likely. Animal red candidate common anyone film soldier lay.",
+        "parent_id": null,
+        "created_at": "2026-01-01T08:37:34.234972"
+    },
+    "74": {
+        "id": "74",
+        "name": "Down-sized optimizing architecture",
+        "description": null,
+        "parent_id": "70",
+        "created_at": "2026-02-12T21:11:30.235103"
+    },
+    "75": {
+        "id": "75",
+        "name": "Customer-focused bifurcated methodology",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2025-01-29T00:20:55.235181"
+    },
+    "76": {
+        "id": "76",
+        "name": "Right-sized reciprocal definition",
+        "description": "International specific word question food.",
+        "parent_id": null,
+        "created_at": "2025-12-16T02:20:05.235277"
+    },
+    "77": {
+        "id": "77",
+        "name": "Synergized object-oriented moratorium",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2026-03-01T10:40:41.235359"
+    },
+    "78": {
+        "id": "78",
+        "name": "Devolved fresh-thinking utilization",
+        "description": "Or friend building.",
+        "parent_id": null,
+        "created_at": "2025-04-21T04:25:19.235542"
+    },
+    "79": {
+        "id": "79",
+        "name": "Digitized web-enabled instruction set",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2024-10-20T11:32:16.235628"
+    },
+    "80": {
+        "id": "80",
+        "name": "Down-sized tangible hub",
+        "description": "Just understand American beyond. Partner sing administration main according conference become prepare.",
+        "parent_id": "37",
+        "created_at": "2025-11-19T00:48:01.235828"
+    },
+    "81": {
+        "id": "81",
+        "name": "Horizontal intangible solution",
+        "description": "Deal policy mission include. Particular also conference matter.",
+        "parent_id": "56",
+        "created_at": "2025-08-19T14:08:52.235973"
+    },
+    "82": {
+        "id": "82",
+        "name": "Cross-group responsive toolset",
+        "description": "Industry newspaper court worry with peace.",
+        "parent_id": null,
+        "created_at": "2026-04-22T23:16:31.236180"
+    },
+    "83": {
+        "id": "83",
+        "name": "Virtual needs-based middleware",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2025-04-21T01:21:22.236334"
+    },
+    "84": {
+        "id": "84",
+        "name": "Face-to-face maximized throughput",
+        "description": null,
+        "parent_id": "83",
+        "created_at": "2025-10-10T14:15:55.236428"
+    },
+    "85": {
+        "id": "85",
+        "name": "Self-enabling stable database",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2026-06-10T07:15:19.236490"
+    },
+    "86": {
+        "id": "86",
+        "name": "Grass-roots actuating core",
+        "description": "Rate why listen computer.",
+        "parent_id": "82",
+        "created_at": "2025-11-07T04:54:53.236638"
+    },
+    "87": {
+        "id": "87",
+        "name": "Synchronized 6thgeneration application",
+        "description": null,
+        "parent_id": "75",
+        "created_at": "2025-04-28T01:50:54.236736"
+    },
+    "88": {
+        "id": "88",
+        "name": "Stand-alone high-level forecast",
+        "description": "Edge pattern three law bit appear.",
+        "parent_id": null,
+        "created_at": "2026-07-10T12:43:03.236820"
+    },
+    "89": {
+        "id": "89",
+        "name": "Public-key context-sensitive complexity",
+        "description": "Method audience dog know often industry section.",
+        "parent_id": "86",
+        "created_at": "2025-02-18T20:33:51.236938"
+    },
+    "90": {
+        "id": "90",
+        "name": "Inverse discrete time-frame",
+        "description": "Direction down include customer through available.",
+        "parent_id": "80",
+        "created_at": "2025-08-07T09:45:51.237053"
+    },
+    "91": {
+        "id": "91",
+        "name": "Reduced mobile application",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2025-02-16T13:50:36.237113"
+    },
+    "92": {
+        "id": "92",
+        "name": "Optional client-server data-warehouse",
+        "description": "Concern health leader create grow especially from. Realize arrive carry.",
+        "parent_id": "72",
+        "created_at": "2025-05-18T05:29:32.237237"
+    },
+    "93": {
+        "id": "93",
+        "name": "Persistent logistical instruction set",
+        "description": "Detail far church some well town.",
+        "parent_id": null,
+        "created_at": "2026-07-07T06:44:41.237319"
+    },
+    "94": {
+        "id": "94",
+        "name": "Re-engineered neutral emulation",
+        "description": "Tax majority yet option student evidence.",
+        "parent_id": "28",
+        "created_at": "2026-05-12T02:29:39.237436"
+    },
+    "95": {
+        "id": "95",
+        "name": "Upgradable interactive support",
+        "description": "Force often through option chance.",
+        "parent_id": null,
+        "created_at": "2026-01-31T06:56:40.237519"
+    },
+    "96": {
+        "id": "96",
+        "name": "Re-engineered 24hour instruction set",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2026-06-14T08:10:18.237605"
+    },
+    "97": {
+        "id": "97",
+        "name": "Balanced 6thgeneration leverage",
+        "description": null,
+        "parent_id": "30",
+        "created_at": "2025-04-05T13:24:08.237707"
+    },
+    "98": {
+        "id": "98",
+        "name": "Upgradable zero administration middleware",
+        "description": "Most look something start laugh drive.",
+        "parent_id": null,
+        "created_at": "2026-04-29T01:11:33.237802"
+    },
+    "99": {
+        "id": "99",
+        "name": "Realigned web-enabled access",
+        "description": null,
+        "parent_id": null,
+        "created_at": "2025-06-22T12:08:13.237869"
+    },
+    "100": {
+        "id": "100",
+        "name": "Team-oriented upward-trending installation",
+        "description": "Grow dream your administration.",
+        "parent_id": "97",
+        "created_at": "2026-03-31T23:07:03.237991"
+    }
+}

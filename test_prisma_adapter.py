@@ -43,3 +43,29 @@ def test_prisma_auto_detection_and_loader():
     assert PrismaAdapter().detect(PRISMA)
     schema = load_schema(PRISMA)
     assert schema.table_map["Order"].columns[2].data_type.name == "decimal"
+
+
+def test_prisma_adapter_parses_multiline_relations():
+    schema = PrismaAdapter().parse(
+        """
+        model User {
+          id String @id
+          addresses Address[]
+        }
+
+        model Address {
+          id String @id
+          userId String
+          user User @relation(
+            fields: [userId],
+            references: [id]
+          )
+        }
+        """
+    )
+
+    assert len(schema.relationships) == 1
+    assert schema.relationships[0].source_table == "Address"
+    assert schema.relationships[0].source_columns == ("userId",)
+    assert schema.relationships[0].target_table == "User"
+    assert schema.relationships[0].target_columns == ("id",)
