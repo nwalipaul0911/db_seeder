@@ -69,3 +69,31 @@ def test_prisma_adapter_parses_multiline_relations():
     assert schema.relationships[0].source_columns == ("userId",)
     assert schema.relationships[0].target_table == "User"
     assert schema.relationships[0].target_columns == ("id",)
+
+
+def test_prisma_adapter_parses_composite_constraints():
+    schema = PrismaAdapter().parse(
+        """
+        model OrderItem {
+          orderId String
+          productId String
+          order Order @relation(fields: [orderId], references: [id])
+          product Product @relation(fields: [productId], references: [id])
+
+          @@id([orderId, productId])
+        }
+
+        model Order {
+          id String @id
+          items OrderItem[]
+        }
+
+        model Product {
+          id String @id
+          items OrderItem[]
+        }
+        """
+    )
+
+    assert schema.table_map["OrderItem"].primary_key == ("orderId", "productId")
+    assert schema.table_map["OrderItem"].primary_key[0].startswith("[") is False

@@ -256,112 +256,6 @@
         border-top: 1px solid var(--soft-line);
       }
 
-      .history {
-        margin-top: 38px;
-        padding-top: 28px;
-        border-top: 1px solid var(--soft-line);
-      }
-
-      #historyList {
-        display: grid;
-        gap: 10px;
-        margin: 16px 0 0;
-        padding: 0;
-        list-style: none;
-      }
-
-      .history-item {
-        border: 1px solid var(--line);
-        border-radius: 8px;
-        overflow: hidden;
-      }
-
-      .history-item summary {
-        display: flex;
-        justify-content: space-between;
-        gap: 12px;
-        padding: 12px 16px;
-        cursor: pointer;
-        background: #f6f8f4;
-        font-size: 13px;
-        font-weight: 800;
-      }
-
-      .history-meta {
-        padding: 14px 16px;
-        color: var(--muted);
-        font-family: 'DM Mono', monospace;
-        font-size: 11px;
-      }
-
-      .history-files {
-        display: grid;
-        gap: 8px;
-        margin: 12px 0 0;
-        padding: 0;
-        list-style: none;
-      }
-
-      .history-file {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 10px;
-        padding: 8px 0;
-        border-top: 1px solid var(--soft-line);
-      }
-
-      .history-file a {
-        color: var(--teal-dark);
-        font-family: 'DM Mono', monospace;
-        font-size: 11px;
-        overflow-wrap: anywhere;
-      }
-
-      .history-download {
-        display: inline-block;
-        margin-top: 12px;
-        color: var(--accent-dark);
-        font-size: 12px;
-        font-weight: 800;
-      }
-
-      .history-toolbar {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 12px;
-        margin-top: 16px;
-      }
-
-      .history-select-all {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        color: var(--muted);
-        font-size: 12px;
-        font-weight: 800;
-      }
-
-      .history-clear {
-        min-height: 34px;
-        padding: 7px 10px;
-        background: transparent;
-        color: var(--accent-dark);
-        font-size: 11px;
-      }
-
-      .history-clear:hover {
-        background: #fff0eb;
-      }
-
-      .history-run-check {
-        flex: 0 0 auto;
-        width: 16px;
-        min-height: 16px;
-        margin: 0;
-      }
-
       #resultList {
         display: grid;
         gap: 10px;
@@ -466,17 +360,14 @@
     <div class="container">
       <p class="eyebrow">Schema to synthetic data</p>
       <h1>DB Seeder</h1>
-      <p class="intro">Paste or upload a DBML, SQL DDL, or Prisma schema. Validate it first, then generate relational JSON you can inspect or download as one archive.</p>
+      <p><a href="/sql">Open SQL workspace</a></p>
+      <p class="intro">Paste or upload a DBML, SQL DDL, or Prisma schema. Validate it first, then generate a relational SQLite database you can download or inspect in the SQL workspace.</p>
 
       <form id="seedForm" method="POST" action="/generate">
         <div class="control-grid">
           <div class="field">
-            <label for="rows_per_table">Rows per table</label>
+            <label for="rows_per_table">Max rows per table</label>
             <input id="rows_per_table" name="rows_per_table" type="number" min="1" value="100" />
-          </div>
-          <div class="field">
-            <label for="output_name">Output folder</label>
-            <input id="output_name" name="output_name" type="text" value="generated_data" />
           </div>
           <div class="field file-field">
             <label for="dbml_file">Schema file</label>
@@ -499,10 +390,6 @@
               <option value="mysql">MySQL</option>
             </select>
           </div>
-          <div class="field file-field">
-            <label for="config_json">Advanced configuration (JSON)</label>
-            <textarea id="config_json" name="config_json" rows="3" placeholder='{"Num_of_entries":{"orders":50},"xor_groups":{}}'></textarea>
-          </div>
         </div>
 
         <div class="editor">
@@ -522,25 +409,14 @@
 
       <div id="status" class="status"></div>
       <p id="downloadContainer" hidden>
-        <a id="downloadLink" class="download-link" href="">Download all table data (.zip)</a>
+        <a id="downloadLink" class="download-link" href="">Download SQLite database</a>
       </p>
       <section class="results" aria-live="polite">
         <div class="results-header">
           <h2>Generated tables</h2>
-          <p class="hint">expand a file to inspect its JSON</p>
+          <p class="hint">rows are stored in the generated SQLite database</p>
         </div>
         <ul id="resultList"></ul>
-      </section>
-      <section class="history" aria-live="polite">
-        <div class="results-header">
-          <h2>Seed history</h2>
-          <p class="hint">previous runs stay available here</p>
-        </div>
-        <div class="history-toolbar">
-          <label class="history-select-all"><input id="selectAllHistory" type="checkbox" /> Select all</label>
-          <button class="history-clear" id="clearSelectedHistory" type="button">Clear checked history</button>
-        </div>
-        <ul id="historyList"></ul>
       </section>
     </div>
 
@@ -551,119 +427,6 @@
   email varchar [unique]
   created_at datetime
 }`;
-
-      function pathPart(value) {
-        return encodeURIComponent(value || '').replace(/%2F/g, '/');
-      }
-
-      function renderHistory(history) {
-        const historyList = document.getElementById('historyList');
-        document.getElementById('selectAllHistory').checked = false;
-        historyList.innerHTML = '';
-        if (!history.length) {
-          historyList.innerHTML = '<li class="hint">No seeded runs yet.</li>';
-          return;
-        }
-
-        history.forEach(run => {
-          const item = document.createElement('li');
-          item.className = 'history-item';
-          const details = document.createElement('details');
-          const summary = document.createElement('summary');
-          const checkbox = document.createElement('input');
-          checkbox.className = 'history-run-check';
-          checkbox.type = 'checkbox';
-          checkbox.dataset.schemaKey = run.schema_key;
-          checkbox.dataset.runId = run.run_id;
-          const date = new Date(run.created_at).toLocaleString();
-          const dateLabel = document.createElement('span');
-          dateLabel.textContent = date;
-          const tableCount = document.createElement('span');
-          tableCount.textContent = `${run.files.length} tables`;
-          summary.prepend(checkbox);
-          summary.append(dateLabel, tableCount);
-          details.appendChild(summary);
-
-          const meta = document.createElement('div');
-          meta.className = 'history-meta';
-          meta.textContent = `${run.source_format.toUpperCase()} · ${run.run_id}`;
-          const files = document.createElement('ul');
-          files.className = 'history-files';
-          run.files.forEach(file => {
-            const fileItem = document.createElement('li');
-            fileItem.className = 'history-file';
-            const fileLink = document.createElement('a');
-            fileLink.href = `/view/${pathPart(run.output_path)}/${pathPart(file.name)}`;
-            fileLink.target = '_blank';
-            fileLink.rel = 'noreferrer';
-            fileLink.textContent = file.name;
-            const rowCount = document.createElement('span');
-            rowCount.textContent = `${file.row_count.toLocaleString()} rows`;
-            fileItem.append(fileLink, rowCount);
-            files.appendChild(fileItem);
-          });
-          meta.appendChild(files);
-          const download = document.createElement('a');
-          download.className = 'history-download';
-          download.href = `/download/${pathPart(run.output_path)}/${pathPart(run.archive_name)}`;
-          download.textContent = 'Download this run (.zip)';
-          meta.appendChild(download);
-          const clearButton = document.createElement('button');
-          clearButton.className = 'history-clear';
-          clearButton.type = 'button';
-          clearButton.textContent = 'Clear this run';
-          clearButton.addEventListener('click', async event => {
-            event.preventDefault();
-            if (!window.confirm('Clear this seeded run?')) return;
-            await deleteHistoryRuns([{ schema_key: run.schema_key, run_id: run.run_id }]);
-          });
-          meta.appendChild(clearButton);
-          details.appendChild(meta);
-          item.appendChild(details);
-          historyList.appendChild(item);
-        });
-      }
-
-      async function loadHistory() {
-        const response = await fetch('/history');
-        if (!response.ok) throw new Error('Unable to load seed history');
-        renderHistory(await response.json());
-      }
-
-      async function deleteHistoryRuns(runs) {
-        const response = await fetch('/history/delete', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ runs }),
-        });
-        const data = await response.json();
-        if (!response.ok) throw new Error(data.error || 'Unable to clear history');
-        await loadHistory();
-      }
-
-      document.getElementById('selectAllHistory').addEventListener('change', function () {
-        document.querySelectorAll('.history-run-check').forEach(checkbox => {
-          checkbox.checked = this.checked;
-        });
-      });
-
-      document.getElementById('clearSelectedHistory').addEventListener('click', async function () {
-        const runs = [...document.querySelectorAll('.history-run-check:checked')].map(checkbox => ({
-          schema_key: checkbox.dataset.schemaKey,
-          run_id: checkbox.dataset.runId,
-        }));
-        if (!runs.length) return;
-        if (!window.confirm(`Clear ${runs.length} selected seeded run(s)?`)) return;
-        try {
-          await deleteHistoryRuns(runs);
-        } catch (error) {
-          document.getElementById('historyList').innerHTML = `<li class="status error">${error.message}</li>`;
-        }
-      });
-
-      loadHistory().catch(error => {
-        document.getElementById('historyList').innerHTML = `<li class="status error">${error.message}</li>`;
-      });
 
       document.getElementById('dbml_file').addEventListener('change', async function () {
         const file = this.files[0];
@@ -743,60 +506,15 @@
           const outputRoot = data.output_root || '';
           const downloadContainer = document.getElementById('downloadContainer');
           const downloadLink = document.getElementById('downloadLink');
-          downloadLink.href = `/download/${encodeURIComponent(outputRoot)}/${encodeURIComponent(data.archive_name)}`;
+          downloadLink.href = `/download/${encodeURIComponent(outputRoot)}/${encodeURIComponent(data.database_name)}`;
           downloadContainer.hidden = false;
 
-          data.files.forEach(file => {
+          Object.entries(data.row_counts || {}).forEach(([file, rowCount]) => {
             const li = document.createElement('li');
             li.className = 'json-item';
-
-            const details = document.createElement('details');
-            const summary = document.createElement('summary');
-            const rowCount = data.row_counts?.[file] ?? 0;
-            summary.textContent = `${file} · ${rowCount.toLocaleString()} rows`;
-            details.appendChild(summary);
-
-            const viewer = document.createElement('div');
-            viewer.className = 'json-viewer';
-            const textArea = document.createElement('textarea');
-            textArea.readOnly = true;
-            textArea.setAttribute('aria-label', `${file} contents`);
-            textArea.value = 'Loading...';
-
-            const copyButton = document.createElement('button');
-            copyButton.type = 'button';
-            copyButton.className = 'copy-button';
-            copyButton.textContent = 'Copy JSON';
-            copyButton.addEventListener('click', async () => {
-              try {
-                await navigator.clipboard.writeText(textArea.value);
-                copyButton.textContent = 'Copied';
-                setTimeout(() => { copyButton.textContent = 'Copy JSON'; }, 1500);
-              } catch (error) {
-                copyButton.textContent = 'Copy failed';
-              }
-            });
-
-            viewer.appendChild(textArea);
-            viewer.appendChild(copyButton);
-            details.appendChild(viewer);
-            details.addEventListener('toggle', async () => {
-              if (!details.open || textArea.dataset.loaded) return;
-              try {
-                const response = await fetch(`/view/${encodeURIComponent(outputRoot)}/${encodeURIComponent(file)}`);
-                if (!response.ok) throw new Error('Unable to load JSON');
-                const json = await response.json();
-                textArea.value = JSON.stringify(json, null, 2);
-                textArea.dataset.loaded = 'true';
-              } catch (error) {
-                textArea.value = error.message;
-              }
-            });
-
-            li.appendChild(details);
+            li.textContent = `${file} · ${rowCount.toLocaleString()} rows`;
             resultList.appendChild(li);
           });
-          loadHistory().catch(() => {});
         } catch (error) {
           statusEl.className = 'status error';
           statusEl.textContent = error.message;

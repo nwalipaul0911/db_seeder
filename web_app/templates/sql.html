@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SQL Workspace | DB Seeder</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+      :root { --ink: #172121; --muted: #687373; --paper: #f4f6f1; --surface: #fff; --line: #d9dfd8; --accent: #e75d3f; --teal: #137c72; --code: #172525; }
+      * { box-sizing: border-box; }
+      body { min-width: 320px; margin: 0; color: var(--ink); background: var(--paper); background-image: linear-gradient(rgba(23,33,33,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(23,33,33,.035) 1px, transparent 1px); background-size: 28px 28px; font-family: Manrope, sans-serif; }
+      .container { width: min(1320px, calc(100% - 32px)); margin: 32px auto; padding: clamp(22px, 4vw, 46px); background: rgba(255,255,255,.95); border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 24px 60px rgba(23,33,33,.1); }
+      .topbar, .toolbar, .results-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+      .topbar { align-items: flex-start; margin-bottom: 28px; }
+      .eyebrow, .hint, select, button, .meta { font-family: 'DM Mono', monospace; }
+      .eyebrow { margin: 0 0 8px; color: #bd4029; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+      h1 { margin: 0; font-size: clamp(2rem, 5vw, 4rem); line-height: 1; letter-spacing: -.04em; }
+      .intro { max-width: 700px; margin: 14px 0 0; color: var(--muted); line-height: 1.6; }
+      .back { color: #0b5c55; font-size: 13px; font-weight: 800; text-decoration: none; }
+      .workspace { display: grid; grid-template-columns: minmax(220px, .7fr) minmax(0, 2fr); gap: 18px; }
+      .panel { min-width: 0; border-top: 1px solid var(--line); padding-top: 20px; }
+      label { display: grid; gap: 8px; color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+      select, button { min-height: 44px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; font-size: 12px; }
+      select { width: 100%; color: var(--ink); background: var(--surface); }
+      button { border-color: transparent; background: var(--accent); color: #fff; cursor: pointer; font-weight: 800; }
+      button:hover { background: #bd4029; }
+      button.secondary { border-color: var(--line); background: #fff; color: var(--ink); }
+      textarea { width: 100%; min-height: 250px; padding: 18px; resize: vertical; border: 1px solid #344b4a; border-radius: 10px; background: var(--code); color: #dceae3; font: 13px/1.65 'DM Mono', monospace; }
+      .toolbar { margin: 12px 0 0; justify-content: flex-start; }
+      .status { min-height: 24px; margin-top: 12px; color: var(--muted); font-size: 13px; }
+      .status.error { color: #92341f; }
+      .meta { color: var(--muted); font-size: 11px; }
+      .table-list { display: grid; gap: 7px; margin: 18px 0 0; padding: 0; list-style: none; }
+      .table-list button { display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 38px; padding: 8px 10px; border-color: var(--line); background: #f6f8f4; color: var(--ink); text-align: left; font-size: 11px; }
+      .table-list button:hover { border-color: var(--teal); background: #e8f4ef; }
+      .table-list span { color: var(--muted); }
+      .table-wrap { max-height: 390px; margin-top: 14px; overflow: auto; border: 1px solid var(--line); border-radius: 8px; }
+      table { width: 100%; border-collapse: collapse; font-size: 12px; white-space: nowrap; }
+      th, td { padding: 10px 12px; border-bottom: 1px solid #e9ede8; text-align: left; }
+      th { position: sticky; top: 0; background: #f0f3ee; font-family: 'DM Mono', monospace; font-size: 11px; }
+      td { max-width: 360px; overflow: hidden; text-overflow: ellipsis; }
+      @media (max-width: 760px) { .workspace { grid-template-columns: 1fr; } .topbar { flex-direction: column; } .container { width: min(100% - 20px, 1320px); margin: 10px auto; } }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="topbar">
+        <div><p class="eyebrow">Relational data browser</p><h1>SQL workspace</h1><p class="intro">Choose any stored seed run, write a read-only query, and inspect the result directly from its SQLite database.</p></div>
+        <a class="back" href="/">Back to seeder</a>
+      </div>
+      <div class="workspace">
+        <section class="panel">
+          <label for="runSelect">Database run<select id="runSelect"><option value="">Loading runs...</option></select></label>
+          <p id="runMeta" class="meta"></p>
+          <ul id="tableList" class="table-list" aria-label="Tables in selected run"></ul>
+        </section>
+        <section class="panel">
+          <label for="query">SQL query<textarea id="query" spellcheck="false">SELECT name FROM sqlite_master WHERE type = 'table' ORDER BY name;</textarea></label>
+          <div class="toolbar"><button id="runQuery" type="button">Run query</button><button id="clearQuery" class="secondary" type="button">Clear</button><span class="hint">Read-only queries only</span></div>
+          <div id="status" class="status" role="status"></div>
+          <div id="result" class="table-wrap" hidden></div>
+        </section>
+      </div>
+    </main>
+    <script>
+      const runSelect = document.getElementById('runSelect');
+      const runMeta = document.getElementById('runMeta');
+      const tableList = document.getElementById('tableList');
+      const query = document.getElementById('query');
+      const status = document.getElementById('status');
+      const result = document.getElementById('result');
+
+      function setStatus(message, error = false) { status.textContent = message; status.className = error ? 'status error' : 'status'; }
+      function renderRows(columns, rows) {
+        if (!columns.length) { result.hidden = false; result.innerHTML = '<p class="meta">Query completed with no columns.</p>'; return; }
+        const head = columns.map(column => `<th>${escapeHtml(column)}</th>`).join('');
+        const body = rows.map(row => `<tr>${columns.map(column => `<td>${escapeHtml(formatValue(row[column]))}</td>`).join('')}</tr>`).join('');
+        result.innerHTML = `<table><thead><tr>${head}</tr></thead><tbody>${body || '<tr><td colspan="' + columns.length + '">No rows returned.</td></tr>'}</tbody></table>`;
+        result.hidden = false;
+      }
+      function formatValue(value) { return value === null ? 'NULL' : typeof value === 'object' ? JSON.stringify(value) : String(value); }
+      function escapeHtml(value) { return value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;'); }
+      let runs = [];
+      function renderTables() {
+        const run = runs.find(item => `${item.schema_key}/${item.run_id}` === runSelect.value);
+        tableList.innerHTML = '';
+        if (!run) return;
+        Object.entries(run.row_counts || {}).sort(([a], [b]) => a.localeCompare(b)).forEach(([table, count]) => {
+          const item = document.createElement('li');
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.innerHTML = `<strong>${escapeHtml(table)}</strong><span>${count.toLocaleString()} rows</span>`;
+          button.addEventListener('click', () => {
+            query.value = `SELECT * FROM "${table.replaceAll('"', '""')}" LIMIT 100;`;
+            query.focus();
+          });
+          item.appendChild(button);
+          tableList.appendChild(item);
+        });
+      }
+      async function loadRuns() {
+        const response = await fetch('/api/sql/runs');
+        runs = await response.json();
+        runSelect.innerHTML = runs.length ? runs.map(run => `<option value="${run.schema_key}/${run.run_id}">${run.label}</option>`).join('') : '<option value="">No SQLite runs found</option>';
+        updateMeta();
+      }
+      function updateMeta() { const option = runSelect.selectedOptions[0]; runMeta.textContent = option?.dataset?.meta || (runSelect.value ? 'SQLite database selected' : ''); renderTables(); }
+      runSelect.addEventListener('change', updateMeta);
+      document.getElementById('clearQuery').addEventListener('click', () => { query.value = ''; result.hidden = true; setStatus(''); });
+      document.getElementById('runQuery').addEventListener('click', async () => {
+        if (!runSelect.value) return setStatus('Choose a database run first.', true);
+        setStatus('Running query...');
+        try {
+          const response = await fetch('/api/sql/query', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({run: runSelect.value, query: query.value}) });
+          const data = await response.json();
+          if (!response.ok) throw new Error(data.error || 'Query failed');
+          renderRows(data.columns, data.rows);
+          setStatus(`${data.row_count.toLocaleString()} row${data.row_count === 1 ? '' : 's'} returned.`);
+        } catch (error) { result.hidden = true; setStatus(error.message, true); }
+      });
+      loadRuns().catch(error => setStatus(error.message, true));
+    </script>
+  </body>
+</html>

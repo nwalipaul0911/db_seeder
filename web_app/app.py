@@ -3,17 +3,20 @@ import json
 import hashlib
 import shutil
 import os
+import re
+import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
 from uuid import uuid4
-from zipfile import ZIP_DEFLATED, ZipFile
 
 from flask import Flask, jsonify, render_template, request, send_file
 from werkzeug.utils import secure_filename
 import yaml
 
 from seeder_engine.main import seed
+from seeder_engine.database import store_seeded_data
 from seeder_engine.schema_loader import adapter_for_source
+from seeder_engine.schema_loader import load_schema_file
 from seeder_engine.schema_validator import (
     SchemaValidationError,
     validate_schema as validate_input_schema,
@@ -29,6 +32,8 @@ app = Flask(__name__, template_folder=str(PACKAGE_DIR / "templates"))
 configure_logging(PROJECT_DIR / "logs")
 app.config["UPLOAD_FOLDER"] = os.path.join(PROJECT_DIR, "uploads")
 os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
+
+READ_ONLY_SQL_RE = re.compile(r"^(?:SELECT|WITH|EXPLAIN|PRAGMA)\b", re.IGNORECASE)
 
 
 def schema_identity(schema_text: str, schema_format: str, dialect: str) -> str:
@@ -85,17 +90,19 @@ def generate_from_schema(schema_text: str, rows_per_table: int, output_dir: Path
     schema_path = output_dir / schema_filename(resolved_format)
     schema_path.write_text(schema_text, encoding="utf-8")
 
-    seed(str(schema_path), str(config_path), str(output_dir), resolved_format, dialect)
-    json_files = sorted(output_dir.glob("*.json"))
-    archive_path = output_dir / "generated_data.zip"
-    with ZipFile(archive_path, "w", compression=ZIP_DEFLATED) as archive:
-        for json_file in json_files:
-            archive.write(json_file, arcname=json_file.name)
-    row_counts = {
-        json_file.name: len(json.loads(json_file.read_text(encoding="utf-8")))
-        for json_file in json_files
-    }
-    return [json_file.name for json_file in json_files], archive_path.name, row_counts
+    generated_data = seed(
+        str(schema_path),
+        str(config_path),
+        None,
+        resolved_format,
+        dialect,
+        persist_json=False,
+    )
+    schema = load_schema_file(schema_path, resolved_format, dialect)
+    database_name = "seeded_data.sqlite3"
+    database_path = output_dir / database_name
+    row_counts = store_seeded_data(schema, generated_data, database_path)
+    return database_name, row_counts
 
 
 def cleanup_history(current_run=None):
@@ -120,6 +127,144 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/sql")
+def sql_workspace():
+    return render_template("sql.html")
+
+
+def sql_database_path(run: str):
+    parts = run.split("/")
+    if len(parts) != 2 or any(not part or part in {".", ".."} for part in parts):
+        return None
+    runs_root = (Path(app.config["UPLOAD_FOLDER"]) / "runs").resolve()
+    run_dir = (runs_root / parts[0] / parts[1]).resolve()
+    if runs_root not in run_dir.parents:
+        return None
+    database_path = run_dir / "seeded_data.sqlite3"
+    manifest_path = run_dir / "manifest.json"
+    if not manifest_path.is_file():
+        return None
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+    if manifest.get("schema_key") != parts[0] or manifest.get("run_id") != parts[1]:
+        return None
+    if not database_path.is_file():
+        materialize_legacy_json(run_dir, database_path)
+    if not database_path.is_file():
+        return None
+    return database_path
+
+
+def materialize_legacy_json(run_dir: Path, database_path: Path):
+    """Make old JSON-only runs queryable without changing their source files."""
+    tables = {}
+    for json_path in sorted(run_dir.glob("*.json")):
+        if json_path.name == "manifest.json":
+            continue
+        try:
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        if isinstance(payload, dict) and payload and all(isinstance(row, dict) for row in payload.values()):
+            tables[json_path.stem] = list(payload.values())
+    if not tables:
+        return
+    temporary_path = database_path.with_name(f".{database_path.name}.legacy.tmp")
+    try:
+        with sqlite3.connect(temporary_path) as connection:
+            for table_name, rows in tables.items():
+                columns = sorted({name for row in rows for name in row})
+                if not columns:
+                    continue
+                quoted_table = '"' + table_name.replace('"', '""') + '"'
+                quoted_columns = ", ".join('"' + name.replace('"', '""') + '" TEXT' for name in columns)
+                connection.execute(f"CREATE TABLE {quoted_table} ({quoted_columns})")
+                placeholders = ", ".join("?" for _ in columns)
+                values = [
+                    [json.dumps(row.get(name), separators=(",", ":")) if isinstance(row.get(name), (dict, list)) else row.get(name) for name in columns]
+                    for row in rows
+                ]
+                connection.executemany(
+                    f"INSERT INTO {quoted_table} ({', '.join('"' + name.replace('"', '""') + '"' for name in columns)}) VALUES ({placeholders})",
+                    values,
+                )
+        os.replace(temporary_path, database_path)
+    finally:
+        temporary_path.unlink(missing_ok=True)
+
+
+@app.route("/api/sql/runs")
+def sql_runs():
+    runs_root = Path(app.config["UPLOAD_FOLDER"]) / "runs"
+    runs = []
+    for manifest_path in runs_root.glob("*/*/manifest.json"):
+        run_dir = manifest_path.parent
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        database_path = sql_database_path(f"{run_dir.parent.name}/{run_dir.name}")
+        if database_path is None:
+            continue
+        row_counts = manifest.get("row_counts", {})
+        if not row_counts:
+            try:
+                with sqlite3.connect(database_path) as connection:
+                    table_names = [
+                        row[0] for row in connection.execute(
+                            "SELECT name FROM sqlite_master WHERE type = 'table' ORDER BY name"
+                        )
+                    ]
+                    row_counts = {
+                        table: connection.execute(
+                            f'SELECT COUNT(*) FROM "{table.replace(chr(34), chr(34) * 2)}"'
+                        ).fetchone()[0]
+                        for table in table_names
+                    }
+            except sqlite3.Error:
+                continue
+        runs.append({
+            "schema_key": manifest.get("schema_key", run_dir.parent.name),
+            "run_id": manifest.get("run_id", run_dir.name),
+            "label": f"{manifest.get('source_format', 'schema').upper()} · {manifest.get('run_id', run_dir.name)}",
+            "created_at": manifest.get("created_at", ""),
+            "row_counts": row_counts,
+        })
+    runs.sort(key=lambda run: run["created_at"], reverse=True)
+    return jsonify(runs)
+
+
+@app.route("/api/sql/query", methods=["POST"])
+def run_sql_query():
+    payload = request.get_json(silent=True) or {}
+    run = payload.get("run")
+    query = payload.get("query", "")
+    if not isinstance(run, str) or not isinstance(query, str):
+        return jsonify({"error": "A database run and SQL query are required."}), 400
+    query = query.strip()
+    if not query or not READ_ONLY_SQL_RE.match(query):
+        return jsonify({"error": "Only read-only SELECT, WITH, EXPLAIN, and PRAGMA queries are allowed."}), 400
+    if query.rstrip().endswith(";"):
+        query = query.rstrip()[:-1].rstrip()
+    if ";" in query:
+        return jsonify({"error": "Only one SQL statement may be executed at a time."}), 400
+    database_path = sql_database_path(run)
+    if database_path is None:
+        return jsonify({"error": "Database run not found."}), 404
+    try:
+        uri = f"file:{database_path}?mode=ro"
+        with sqlite3.connect(uri, uri=True) as connection:
+            connection.row_factory = sqlite3.Row
+            cursor = connection.execute(query)
+            columns = [description[0] for description in cursor.description or ()]
+            rows = [dict(row) for row in cursor.fetchall()]
+    except sqlite3.Error as exc:
+        return jsonify({"error": str(exc)}), 400
+    return jsonify({"columns": columns, "rows": rows, "row_count": len(rows)})
+
+
 @app.route("/history")
 def seed_history():
     runs_root = Path(app.config["UPLOAD_FOLDER"]) / "runs"
@@ -131,17 +276,26 @@ def seed_history():
         try:
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
             output_dir = manifest_path.parent
-            json_files = sorted(
-                path for path in output_dir.glob("*.json") if path.name != "manifest.json"
-            )
-            manifest["files"] = [
-                {
-                    "name": path.name,
-                    "row_count": len(json.loads(path.read_text(encoding="utf-8"))),
-                }
-                for path in json_files
-            ]
-            manifest["archive_name"] = "generated_data.zip"
+            if manifest.get("row_counts"):
+                manifest["files"] = [
+                    {"name": table, "row_count": count}
+                    for table, count in sorted(manifest["row_counts"].items())
+                ]
+            else:
+                json_files = sorted(
+                    path for path in output_dir.glob("*.json") if path.name != "manifest.json"
+                )
+                manifest["files"] = [
+                    {
+                        "name": path.name,
+                        "row_count": len(json.loads(path.read_text(encoding="utf-8"))),
+                    }
+                    for path in json_files
+                ]
+            if "database_name" not in manifest:
+                database_path = output_dir / "seeded_data.sqlite3"
+                if database_path.is_file():
+                    manifest["database_name"] = database_path.name
             history.append(manifest)
         except (OSError, ValueError, TypeError):
             logger.warning("Skipping unreadable history manifest %s", manifest_path, exc_info=True)
@@ -260,7 +414,7 @@ def generate_data():
         )
         source_path = schema_dir / schema_filename(resolved_format)
         source_path.write_text(dbml_text, encoding="utf-8")
-        files, archive_name, row_counts = generate_from_schema(
+        database_name, row_counts = generate_from_schema(
             dbml_text, rows_per_table, session_dir, resolved_format, dialect, config_overrides
         )
         manifest = {
@@ -272,6 +426,8 @@ def generate_data():
             "output_path": str(session_dir.relative_to(Path(app.config["UPLOAD_FOLDER"]))),
             "output_name": secure_filename(output_name) or "generated_data",
             "created_at": datetime.now(timezone.utc).isoformat(),
+            "database_name": database_name,
+            "row_counts": row_counts,
         }
         (session_dir / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
         cleanup_history(session_dir)
@@ -283,14 +439,13 @@ def generate_data():
     relative_root = os.path.relpath(session_dir, Path(app.config["UPLOAD_FOLDER"]))
     return jsonify({
         "message": "Data generated successfully",
-        "files": files,
         "row_counts": row_counts,
-        "archive_name": archive_name,
+        "database_name": database_name,
         "output_dir": str(session_dir),
         "output_root": relative_root,
         "schema_key": schema_key,
         "run_id": run_id,
-        "row_count": len(files) * rows_per_table,
+        "row_count": sum(row_counts.values()),
     })
 
 

@@ -1,6 +1,6 @@
 # DB Seeder
 
-Generate realistic fake JSON data from [DBML](https://dbml.dbdiagram.io/), SQL DDL, or Prisma schemas. The seeder walks tables in foreign-key order, honors unique and composite-unique constraints, and writes one JSON file per table.
+Generate realistic fake data from [DBML](https://dbml.dbdiagram.io/), SQL DDL, or Prisma schemas. The seeder walks tables in foreign-key order, honors unique and composite-unique constraints, and can persist rows in a relational SQLite database.
 
 ## Requirements
 
@@ -35,8 +35,7 @@ uploads/
   runs/<format-hash>/<run-id>/
     schema.<format>
     manifest.json
-    <table>.json
-    generated_data.zip
+    seeded_data.sqlite3
 ```
 
 The schema key is derived from the schema content, format, and SQL dialect. Each generation receives a unique run ID, so repeated generations never overwrite earlier output, even when they use the same output name.
@@ -77,7 +76,7 @@ The browser UI can be started with:
 python app.py
 ```
 
-Then open `http://127.0.0.1:5000` to paste or upload DBML and generate data.
+Then open `http://127.0.0.1:5000` to paste or upload DBML and generate data. Open `http://127.0.0.1:5000/sql` for the read-only SQL workspace.
 
 ## Logging
 
@@ -96,8 +95,9 @@ In the web UI:
 - Paste a schema or upload a `.dbml`, `.sql`, or `.prisma` file.
 - Choose the schema format and SQL dialect, then set the rows per table.
 - Use **Validate schema** before generation to check table, enum, and reference counts.
-- Use **Generate data** to inspect each generated JSON table or download all tables as a ZIP archive.
-- Use **Seed history** to reopen data from previous runs. Each run can be downloaded, its table JSON can be viewed, or the run can be cleared individually.
+- Use **Generate data** to create a SQLite database containing one table per schema table, then download the database file.
+- Use **Seed history** to revisit previous runs. Each database can be downloaded or the run can be cleared individually.
+- Use the **SQL workspace** to select any stored SQLite run and execute read-only `SELECT`, `WITH`, `EXPLAIN`, or `PRAGMA` queries.
 - Select multiple history entries, or use **Select all**, and choose **Clear checked history** to remove them together.
 
 Each generation receives a unique run ID. History is bounded by `SEEDER_MAX_RUNS` (100 by default) and can also be cleared manually.
@@ -138,7 +138,11 @@ For each column:
 
 If a unique combination cannot be found after 100 attempts, a warning is printed and that row is skipped.
 
-## Output format
+## Output formats
+
+The web app stores generated rows in `seeded_data.sqlite3`. SQLite foreign-key enforcement is enabled, and generated primary keys, unique constraints, indexes, and relationships are created from the parsed schema.
+
+The command-line seeder continues to write JSON files for compatibility:
 
 Each file is a JSON object keyed by row ID:
 

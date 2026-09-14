@@ -222,7 +222,7 @@ class PrismaAdapter:
         if not match:
             return
         attribute_name, arguments = match.groups()
-        columns = self._list_argument(arguments.split(",", 1)[0])
+        columns = self._list_argument(arguments)
         if attribute_name == "id":
             builder["primary_key"] = tuple(columns)
         else:

@@ -357,6 +357,17 @@ def generate_value(col_name: str, col_type):
     base, params = parse_sql_type(str(type_name))
     scale = params[1] if len(params) >= 2 else (params[0] if base in {"decimal", "numeric"} and len(params) == 1 else None)
 
+    temporal_prefixes = (
+        "created", "updated", "modified", "deleted", "published", "started",
+        "completed", "expired", "expires", "due", "opened", "closed",
+    )
+    temporal_name = any(
+        n == prefix or n.startswith(f"{prefix}_")
+        for prefix in temporal_prefixes
+    ) and n.endswith(("_at", "_on", "_date"))
+    if temporal_name and base not in {"date", "datetime", "timestamp", "timestamptz", "time"}:
+        return generate_timestamp()
+
     if "birth" in n.split("_") and base in DATE_TYPES:
         return generate_birth_date()
 

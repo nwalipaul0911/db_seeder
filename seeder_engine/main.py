@@ -55,6 +55,22 @@ XOR_NOTE_RE = re.compile(
 )
 USER_GROUP_XOR = ("user_id", "group_id")
 
+GEOGRAPHY_PROFILES = (
+    {
+        "country": "United States",
+        "regions": (
+            ("California", "Los Angeles", "90001"),
+            ("New York", "New York", "10001"),
+            ("Texas", "Houston", "77001"),
+            ("Florida", "Miami", "33101"),
+            ("Illinois", "Chicago", "60601"),
+            ("Washington", "Seattle", "98101"),
+            ("Georgia", "Atlanta", "30301"),
+            ("Colorado", "Denver", "80202"),
+        ),
+    },
+)
+
 # Earlier event -> later event, by column-name prefix.
 TIMESTAMP_ORDER = (
     "created",
@@ -635,6 +651,45 @@ def apply_inherited_context(entry, table, fk_map, generated_data, table_data):
                 break
 
 
+def apply_geographic_consistency(entry, columns):
+    """Keep country, region, city, and postal fields from one location profile."""
+    names = {column.name.lower(): column.name for column in columns}
+    country_name = next(
+        (name for normalized, name in names.items() if normalized in {"country", "country_name"}),
+        None,
+    )
+    state_name = next(
+        (name for normalized, name in names.items() if normalized in {"state", "state_name", "province", "region"}),
+        None,
+    )
+    city_name = next(
+        (name for normalized, name in names.items() if normalized in {"city", "city_name", "town"}),
+        None,
+    )
+    postal_name = next(
+        (name for normalized, name in names.items() if normalized in {"postal_code", "postcode", "postalcode", "zip", "zipcode", "zip_code"}),
+        None,
+    )
+    if not any((country_name, state_name, city_name, postal_name)):
+        return
+
+    existing_country = str(entry.get(country_name, "")).strip().lower() if country_name else ""
+    profile = next(
+        (profile for profile in GEOGRAPHY_PROFILES if profile["country"].lower() == existing_country),
+        None,
+    ) or random.choice(GEOGRAPHY_PROFILES)
+    region, city, postal_code = random.choice(profile["regions"])
+
+    if country_name and entry.get(country_name) is not None:
+        entry[country_name] = profile["country"]
+    if state_name and entry.get(state_name) is not None:
+        entry[state_name] = region
+    if city_name and entry.get(city_name) is not None:
+        entry[city_name] = city
+    if postal_name and entry.get(postal_name) is not None:
+        entry[postal_name] = postal_code
+
+
 def apply_identity(entry: dict, table_name: str, pending_uniques: list):
     """If a row has a person name and an email, make the email match the name."""
     name = None
@@ -749,7 +804,7 @@ def generate_column_value(
     table_name = table.name
     fks = fk_map.get(table_name, {})
 
-    if column.pk:
+    if column.pk and col_name not in fks:
         if column_base_type(column) in INTEGER_TYPES:
             return int(row_id)
         if column_base_type(column) == "uuid":
@@ -958,6 +1013,7 @@ def seed_table(table: Table, enums, fk_map, generated_data, entries, config):
             apply_inherited_context(
                 entry, table, fk_map, generated_data, table_data
             )
+            apply_geographic_consistency(entry, table.columns)
             apply_timestamp_order(entry, table.columns)
             apply_identity(entry, table.name, pending_uniques)
             _prefer_unused_enum_fk_pairs(
@@ -1100,7 +1156,14 @@ def sync_current_versions(tables: List[Table], fk_map, generated_data):
 # ======================================================
 
 
-def seed(schema_path, config_path, output_dir, schema_format="auto", dialect="sqlite"):
+def seed(
+    schema_path,
+    config_path,
+    output_dir=None,
+    schema_format="auto",
+    dialect="sqlite",
+    persist_json=True,
+):
     configure_logging()
     logger.info(
         "Starting seed: schema=%s config=%s output=%s format=%s dialect=%s",
@@ -1143,10 +1206,13 @@ def seed(schema_path, config_path, output_dir, schema_format="auto", dialect="sq
     sync_current_versions(tables, fk_map, generated_data)
     validate_generated_native_types(schema, generated_data)
 
-    for name, rows in generated_data.items():
-        save_json(name, rows, output_dir)
+    if persist_json:
+        if output_dir is None:
+            raise ValueError("output_dir is required when persist_json is enabled")
+        for name, rows in generated_data.items():
+            save_json(name, rows, output_dir)
 
-    logger.info("Seed completed: %d tables written to %s", len(generated_data), output_dir)
+    logger.info("Seed completed: %d tables generated", len(generated_data))
     return generated_data
 
 
