@@ -31,7 +31,6 @@ The web app keeps uploaded inputs and generated runs isolated:
 
 ```text
 uploads/
-  schemas/<format-hash>/schema.<format>
   runs/<format-hash>/<run-id>/
     schema.<format>
     manifest.json
@@ -39,6 +38,19 @@ uploads/
 ```
 
 The schema key is derived from the schema content, format, and SQL dialect. Each generation receives a unique run ID, so repeated generations never overwrite earlier output, even when they use the same output name.
+
+### S3 run storage
+
+Set `SEEDER_S3_BUCKET` to store run bundles in S3 instead of the local `uploads/runs` directory. The optional `SEEDER_S3_PREFIX` defaults to `runs`. AWS credentials and region are read by `boto3` in the usual way; `AWS_ENDPOINT_URL` can be used for an S3-compatible service.
+
+```bash
+SEEDER_S3_BUCKET=my-seeder-runs \
+SEEDER_S3_PREFIX=production \
+AWS_DEFAULT_REGION=us-east-1 \
+python3 app.py
+```
+
+Objects are stored as `<prefix>/<schema-key>/<run-id>/schema.<format>`, alongside the manifest, config, and generated database. No separate schema archive is created.
 
 ### Command-line options
 

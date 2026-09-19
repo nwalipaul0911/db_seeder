@@ -64,7 +64,9 @@ class DBMLAdapter:
             return DataType(name="enum", enum_name=raw_type.name)
         return DataType(name=str(raw_type).lower())
 
-    def _convert_table(self, table: Any, relationships: tuple[Relationship, ...]) -> Table:
+    def _convert_table(
+        self, table: Any, relationships: tuple[Relationship, ...]
+    ) -> Table:
         table_relationships = [
             relationship
             for relationship in relationships

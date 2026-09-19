@@ -15,7 +15,9 @@ class SQLiteSeedStore:
     def __init__(self, path: str | Path):
         self.path = Path(path)
 
-    def write(self, schema: Schema, generated_data: dict[str, dict[str, dict[str, Any]]]) -> dict[str, int]:
+    def write(
+        self, schema: Schema, generated_data: dict[str, dict[str, dict[str, Any]]]
+    ) -> dict[str, int]:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         temporary_path = self.path.with_name(f".{self.path.name}.tmp")
         temporary_path.unlink(missing_ok=True)
@@ -53,16 +55,17 @@ class SQLiteSeedStore:
             for relationship in schema.relationships:
                 if relationship.source_table != table.name:
                     continue
-                source = ", ".join(self._quote(name) for name in relationship.source_columns)
-                target = ", ".join(self._quote(name) for name in relationship.target_columns)
+                source = ", ".join(
+                    self._quote(name) for name in relationship.source_columns
+                )
+                target = ", ".join(
+                    self._quote(name) for name in relationship.target_columns
+                )
                 columns.append(
                     f"FOREIGN KEY ({source}) REFERENCES "
                     f"{self._quote(relationship.target_table)} ({target})"
                 )
-            ddl = (
-                f"CREATE TABLE {self._quote(table.name)} ("
-                f"{', '.join(columns)})"
-            )
+            ddl = f"CREATE TABLE {self._quote(table.name)} (" f"{', '.join(columns)})"
             connection.execute(ddl)
             for index in table.indexes:
                 unique = "UNIQUE " if index.unique else ""
@@ -85,7 +88,10 @@ class SQLiteSeedStore:
         placeholders = ", ".join("?" for _ in column_names)
         quoted_columns = ", ".join(self._quote(name) for name in column_names)
         values = [
-            [self._sqlite_value(row.get(column.name), column) for column in table.columns]
+            [
+                self._sqlite_value(row.get(column.name), column)
+                for column in table.columns
+            ]
             for row in rows.values()
         ]
         connection.executemany(

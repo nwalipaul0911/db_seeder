@@ -42,7 +42,7 @@ def test_sql_adapter_detects_ddl():
 
 
 def test_sqlite_adapter_handles_string_constraint_values():
-  source = """
+    source = """
   PRAGMA foreign_keys = ON;
   CREATE TABLE users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -56,27 +56,27 @@ def test_sqlite_adapter_handles_string_constraint_values():
   CREATE INDEX idx_orders_user ON orders(user_id);
   """
 
-  schema = SQLAdapter("sqlite").parse(source)
+    schema = SQLAdapter("sqlite").parse(source)
 
-  assert schema.table_map["users"].columns[1].default == "'customer'"
-  assert schema.table_map["users"].constraints[0]["type"] == "check"
-  assert schema.relationships[0].target_table == "users"
-  assert schema.table_map["orders"].indexes[0].columns == ("user_id",)
+    assert schema.table_map["users"].columns[1].default == "'customer'"
+    assert schema.table_map["users"].constraints[0]["type"] == "check"
+    assert schema.relationships[0].target_table == "users"
+    assert schema.table_map["orders"].indexes[0].columns == ("user_id",)
 
 
 def test_repository_mysql_schema_validates():
-  source = open("schema_mysql.sql", encoding="utf-8").read()
+    source = open("schema_mysql.sql", encoding="utf-8").read()
 
-  summary = validate_schema(source, source_format="sql", dialect="mysql")
+    summary = validate_schema(source, source_format="sql", dialect="mysql")
 
-  assert summary["table_count"] == 11
-  assert summary["reference_count"] == 15
-  schema = SQLAdapter("mysql").parse(source)
-  assert schema.table_map["users"].indexes[0].columns == ("role",)
+    assert summary["table_count"] == 11
+    assert summary["reference_count"] == 15
+    schema = SQLAdapter("mysql").parse(source)
+    assert schema.table_map["users"].indexes[0].columns == ("role",)
 
 
 def test_sql_adapter_preserves_checks_composite_uniques_and_enums():
-  source = """
+    source = """
   CREATE TYPE status AS ENUM ('active', 'inactive');
   CREATE TABLE accounts (
     id INTEGER PRIMARY KEY,
@@ -88,24 +88,27 @@ def test_sql_adapter_preserves_checks_composite_uniques_and_enums():
   );
   """
 
-  schema = SQLAdapter("postgres").parse(source)
-  account = schema.table_map["accounts"]
+    schema = SQLAdapter("postgres").parse(source)
+    account = schema.table_map["accounts"]
 
-  assert schema.enum_map["status"].values == ("active", "inactive")
-  assert account.columns[1].data_type.enum_name == "status"
-  assert {constraint["type"] for constraint in account.constraints} == {"check", "unique"}
-  assert any(
-    index.unique and index.columns == ("email", "status")
-    for index in account.indexes
-  )
-  assert any(constraint.get("column") == "age" for constraint in account.constraints)
+    assert schema.enum_map["status"].values == ("active", "inactive")
+    assert account.columns[1].data_type.enum_name == "status"
+    assert {constraint["type"] for constraint in account.constraints} == {
+        "check",
+        "unique",
+    }
+    assert any(
+        index.unique and index.columns == ("email", "status")
+        for index in account.indexes
+    )
+    assert any(constraint.get("column") == "age" for constraint in account.constraints)
 
 
 def test_repository_postgres_schema_validates():
-  source = open("schemas/schema.sql", encoding="utf-8").read()
+    source = open("schemas/schema.sql", encoding="utf-8").read()
 
-  summary = validate_schema(source, source_format="sql", dialect="postgres")
+    summary = validate_schema(source, source_format="sql", dialect="postgres")
 
-  assert summary["table_count"] == 11
-  assert summary["enum_count"] == 3
-  assert summary["reference_count"] == 15
+    assert summary["table_count"] == 11
+    assert summary["enum_count"] == 3
+    assert summary["reference_count"] == 15

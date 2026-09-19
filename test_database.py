@@ -39,7 +39,9 @@ def test_store_seeded_data_creates_relational_sqlite_database(tmp_path):
     with sqlite3.connect(database_path) as connection:
         assert connection.execute("SELECT name FROM users").fetchone() == ("Ada",)
         assert connection.execute("SELECT user_id FROM posts").fetchone() == (1,)
-        assert connection.execute("SELECT metadata FROM posts").fetchone() == ('{"featured":true}',)
+        assert connection.execute("SELECT metadata FROM posts").fetchone() == (
+            '{"featured":true}',
+        )
         assert connection.execute("PRAGMA foreign_key_check").fetchall() == []
 
 
@@ -95,7 +97,9 @@ def test_seed_generates_foreign_keys_for_composite_primary_keys(tmp_path):
     from seeder_engine.schema_loader import load_schema_file
 
     schema = load_schema_file(schema_path, "sql", "postgres")
-    generated = seed(schema_path, config_path, None, "sql", "postgres", persist_json=False)
+    generated = seed(
+        schema_path, config_path, None, "sql", "postgres", persist_json=False
+    )
     store_seeded_data(schema, generated, tmp_path / "seeded.sqlite3")
 
     with sqlite3.connect(tmp_path / "seeded.sqlite3") as connection:

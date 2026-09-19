@@ -3,7 +3,16 @@
 import re
 from typing import Any
 
-from .schema_ir import Column, DataType, ForeignKey, Index, Enum, Relationship, Schema, Table
+from .schema_ir import (
+    Column,
+    DataType,
+    ForeignKey,
+    Index,
+    Enum,
+    Relationship,
+    Schema,
+    Table,
+)
 
 
 _BLOCK_RE = re.compile(r"(?ms)^\s*(model|enum)\s+(\w+)\s*\{(.*?)^\s*\}")
@@ -76,7 +85,8 @@ class PrismaAdapter:
         tables = []
         for model_name, builder in table_builders.items():
             table_relationships = [
-                relation for relation in relationships
+                relation
+                for relation in relationships
                 if relation.source_table == model_name
             ]
             references = {
@@ -166,7 +176,7 @@ class PrismaAdapter:
 
     def _parse_field(self, line: str, enum_names: set[str]):
         parts = line.split(None, 2)
-        if len(parts) < 2 or parts[0].startswith("@"): 
+        if len(parts) < 2 or parts[0].startswith("@"):
             return None
         name, raw_type = parts[0], parts[1]
         attribute_text = parts[2] if len(parts) == 3 else ""
@@ -175,9 +185,15 @@ class PrismaAdapter:
         base_type = raw_type.rstrip("[]?")
         attributes = self._attributes(attribute_text)
         scalar_types = {
-            "String": "string", "Int": "int", "BigInt": "bigint",
-            "Float": "decimal", "Decimal": "decimal", "Boolean": "bool",
-            "DateTime": "timestamp", "Json": "json", "Bytes": "binary",
+            "String": "string",
+            "Int": "int",
+            "BigInt": "bigint",
+            "Float": "decimal",
+            "Decimal": "decimal",
+            "Boolean": "bool",
+            "DateTime": "timestamp",
+            "Json": "json",
+            "Bytes": "binary",
         }
         if base_type not in scalar_types and base_type not in enum_names:
             return None
@@ -207,15 +223,18 @@ class PrismaAdapter:
                     default = argument
                 else:
                     default = self._literal(argument)
-        return Column(
-            name=name,
-            data_type=data_type,
-            pk=primary_key,
-            nullable=not primary_key and is_optional,
-            default=default,
-            unique=unique,
-            generated=generated,
-        ), attributes
+        return (
+            Column(
+                name=name,
+                data_type=data_type,
+                pk=primary_key,
+                nullable=not primary_key and is_optional,
+                default=default,
+                unique=unique,
+                generated=generated,
+            ),
+            attributes,
+        )
 
     def _parse_model_attribute(self, line: str, builder: dict[str, Any]):
         match = re.match(r"@@(id|unique|index)\s*\((.*)\)", line)
@@ -230,7 +249,9 @@ class PrismaAdapter:
                 Index(columns=tuple(columns), unique=attribute_name == "unique")
             )
             if attribute_name == "unique":
-                builder["constraints"].append({"type": "unique", "columns": tuple(columns)})
+                builder["constraints"].append(
+                    {"type": "unique", "columns": tuple(columns)}
+                )
 
     def _relation_spec(self, model_name, column, attributes):
         for name, argument in attributes:
@@ -283,7 +304,7 @@ class PrismaAdapter:
                     depth -= 1
                     if depth == 0:
                         break
-            attributes.append((match.group(1), text[start + 1:end]))
+            attributes.append((match.group(1), text[start + 1 : end]))
         return attributes
 
     @staticmethod

@@ -235,7 +235,9 @@ def validate_generated_native_types(schema, generated_data):
                     try:
                         UUID(str(value))
                     except (ValueError, TypeError, AttributeError) as exc:
-                        raise ValueError(f"{table.name}.{name} is not a valid UUID") from exc
+                        raise ValueError(
+                            f"{table.name}.{name} is not a valid UUID"
+                        ) from exc
                 if column.data_type.is_array and not isinstance(value, list):
                     raise ValueError(f"{table.name}.{name} must be emitted as an array")
                 if base in {"json", "jsonb"} and not isinstance(value, (dict, list)):
@@ -296,26 +298,37 @@ def evaluate_default(value, column):
     text = str(value).strip()
     normalized = text.strip("'\"").strip().lower()
     base = column_base_type(column)
-    if normalized in {"now()", "current_timestamp", "current_timestamp()", "localtimestamp"}:
+    if normalized in {
+        "now()",
+        "current_timestamp",
+        "current_timestamp()",
+        "localtimestamp",
+    }:
         return generate_timestamp()
     if normalized in {"gen_random_uuid()", "uuid_generate_v4()", "uuid()", "cuid()"}:
         return generate_value(column.name, "uuid")
     if base in {"json", "jsonb"}:
-        json_text = re.sub(r"^cast\((.*)\s+as\s+jsonb\)$", r"\1", normalized, flags=re.I)
+        json_text = re.sub(
+            r"^cast\((.*)\s+as\s+jsonb\)$", r"\1", normalized, flags=re.I
+        )
         json_text = json_text.replace("::jsonb", "").strip().strip("'")
         try:
             return json.loads(json_text)
         except (TypeError, json.JSONDecodeError):
             return {}
     if getattr(column.data_type, "is_array", False):
-        array_text = normalized.replace("::text[]", "").replace("::varchar[]", "").strip()
+        array_text = (
+            normalized.replace("::text[]", "").replace("::varchar[]", "").strip()
+        )
         if array_text in {"{}", "array[]", "array[]::text[]"}:
             return []
         try:
             return json.loads(array_text)
         except (TypeError, json.JSONDecodeError):
             return []
-    return coerce_default(value, str(column.type), column.data_type.enum_name is not None)
+    return coerce_default(
+        value, str(column.type), column.data_type.enum_name is not None
+    )
 
 
 def parse_xor_from_note(note) -> List[Tuple[str, str]]:
@@ -564,7 +577,9 @@ def apply_flag_timestamps(entry: dict, columns):
                         entry[col.name] = generate_value(col.name, col_type)
 
 
-def apply_verb_alignment(entry: dict, columns, fk_map, table_name, generated_data, table_data):
+def apply_verb_alignment(
+    entry: dict, columns, fk_map, table_name, generated_data, table_data
+):
     """If updated_at is null, updated_by* is null; same for revoked/deleted."""
     names = [c.name for c in columns]
     for col in columns:
@@ -589,7 +604,11 @@ def apply_timestamp_order(entry: dict, columns):
     col_by_name = {c.name: c for c in columns}
     for col in columns:
         prefix = timestamp_prefix(col.name)
-        if prefix is None or prefix not in TIMESTAMP_ORDER or entry.get(col.name) is None:
+        if (
+            prefix is None
+            or prefix not in TIMESTAMP_ORDER
+            or entry.get(col.name) is None
+        ):
             continue
         dated.append((TIMESTAMP_ORDER.index(prefix), col.name))
     dated.sort()
@@ -623,8 +642,7 @@ def apply_inherited_context(entry, table, fk_map, generated_data, table_data):
     inherit = [
         c.name
         for c in table.columns
-        if c.name.lower() in INHERIT_COLUMNS
-        or c.name.lower().endswith("_currency")
+        if c.name.lower() in INHERIT_COLUMNS or c.name.lower().endswith("_currency")
     ]
     if not inherit:
         return
@@ -655,27 +673,50 @@ def apply_geographic_consistency(entry, columns):
     """Keep country, region, city, and postal fields from one location profile."""
     names = {column.name.lower(): column.name for column in columns}
     country_name = next(
-        (name for normalized, name in names.items() if normalized in {"country", "country_name"}),
+        (
+            name
+            for normalized, name in names.items()
+            if normalized in {"country", "country_name"}
+        ),
         None,
     )
     state_name = next(
-        (name for normalized, name in names.items() if normalized in {"state", "state_name", "province", "region"}),
+        (
+            name
+            for normalized, name in names.items()
+            if normalized in {"state", "state_name", "province", "region"}
+        ),
         None,
     )
     city_name = next(
-        (name for normalized, name in names.items() if normalized in {"city", "city_name", "town"}),
+        (
+            name
+            for normalized, name in names.items()
+            if normalized in {"city", "city_name", "town"}
+        ),
         None,
     )
     postal_name = next(
-        (name for normalized, name in names.items() if normalized in {"postal_code", "postcode", "postalcode", "zip", "zipcode", "zip_code"}),
+        (
+            name
+            for normalized, name in names.items()
+            if normalized
+            in {"postal_code", "postcode", "postalcode", "zip", "zipcode", "zip_code"}
+        ),
         None,
     )
     if not any((country_name, state_name, city_name, postal_name)):
         return
 
-    existing_country = str(entry.get(country_name, "")).strip().lower() if country_name else ""
+    existing_country = (
+        str(entry.get(country_name, "")).strip().lower() if country_name else ""
+    )
     profile = next(
-        (profile for profile in GEOGRAPHY_PROFILES if profile["country"].lower() == existing_country),
+        (
+            profile
+            for profile in GEOGRAPHY_PROFILES
+            if profile["country"].lower() == existing_country
+        ),
         None,
     ) or random.choice(GEOGRAPHY_PROFILES)
     region, city, postal_code = random.choice(profile["regions"])
@@ -722,9 +763,7 @@ def apply_identity(entry: dict, table_name: str, pending_uniques: list):
         email = f"{local}.{random.randint(1, 99999)}@example.com"
         if email not in used and email not in pending:
             entry[email_col] = email
-            pending_uniques[:] = [
-                (k, v) for k, v in pending_uniques if k != ukey
-            ]
+            pending_uniques[:] = [(k, v) for k, v in pending_uniques if k != ukey]
             pending_uniques.append((ukey, email))
             return
     entry[email_col] = f"{local}.{row_suffix()}@example.com"
@@ -734,7 +773,9 @@ def row_suffix():
     return f"{random.randint(100000, 999999)}"
 
 
-def apply_entity_refs(entry: dict, columns, generated_data, action_col=None, current_table=None):
+def apply_entity_refs(
+    entry: dict, columns, generated_data, action_col=None, current_table=None
+):
     tables = [
         n for n, rows in generated_data.items() if rows and n != current_table
     ] or [n for n, rows in generated_data.items() if rows]
@@ -911,9 +952,7 @@ def _prefer_unused_enum_fk_pairs(entry, table, fk_map, enums, pending_pairs: lis
     fks = fk_map.get(table.name, {})
     enum_cols = [c for c in table.columns if c.data_type.enum_name is not None]
     fk_cols = [
-        c.name
-        for c in table.columns
-        if c.name in fks and entry.get(c.name) is not None
+        c.name for c in table.columns if c.name in fks and entry.get(c.name) is not None
     ]
     if not enum_cols or not fk_cols:
         return
@@ -957,7 +996,9 @@ def seed_table(table: Table, enums, fk_map, generated_data, entries, config):
             aborted = False
 
             for column in table.columns:
-                if is_sequence_version(column.name) or (column.generated and not column.pk):
+                if is_sequence_version(column.name) or (
+                    column.generated and not column.pk
+                ):
                     continue
                 value = generate_column_value(
                     column,
@@ -1010,22 +1051,15 @@ def seed_table(table: Table, enums, fk_map, generated_data, entries, config):
             apply_verb_alignment(
                 entry, table.columns, fk_map, table.name, generated_data, table_data
             )
-            apply_inherited_context(
-                entry, table, fk_map, generated_data, table_data
-            )
+            apply_inherited_context(entry, table, fk_map, generated_data, table_data)
             apply_geographic_consistency(entry, table.columns)
             apply_timestamp_order(entry, table.columns)
             apply_identity(entry, table.name, pending_uniques)
-            _prefer_unused_enum_fk_pairs(
-                entry, table, fk_map, enums, pending_pairs
-            )
+            _prefer_unused_enum_fk_pairs(entry, table, fk_map, enums, pending_pairs)
 
             # Restore NOT NULL columns that consistency may have cleared.
             for column in table.columns:
-                if (
-                    entry.get(column.name) is None
-                    and (column.not_null or column.pk)
-                ):
+                if entry.get(column.name) is None and (column.not_null or column.pk):
                     entry[column.name] = generate_column_value(
                         column,
                         table,
@@ -1116,9 +1150,7 @@ def sync_current_versions(tables: List[Table], fk_map, generated_data):
             )
             if fk_to_parent is None:
                 continue
-            seq_cols = [
-                c.name for c in child.columns if is_sequence_version(c.name)
-            ]
+            seq_cols = [c.name for c in child.columns if is_sequence_version(c.name)]
             if not seq_cols:
                 continue
             seq_col = seq_cols[0]
@@ -1139,15 +1171,18 @@ def sync_current_versions(tables: List[Table], fk_map, generated_data):
                 else:
                     for current_col in current_cols:
                         if row.get(current_col) in (None, 0):
-                            row[current_col] = coerce_default(
-                                next(
-                                    c.default
-                                    for c in table.columns
-                                    if c.name == current_col
-                                ),
-                                "int",
-                                False,
-                            ) or 1
+                            row[current_col] = (
+                                coerce_default(
+                                    next(
+                                        c.default
+                                        for c in table.columns
+                                        if c.name == current_col
+                                    ),
+                                    "int",
+                                    False,
+                                )
+                                or 1
+                            )
             break
 
 
@@ -1185,7 +1220,11 @@ def seed(
     enums = schema.enum_map
     fk_map = build_fk_map_from_schema(schema)
     tables = topo_sort_tables(list(schema.tables), fk_map)
-    logger.info("Loaded schema with %d tables and %d relationships", len(tables), len(schema.relationships))
+    logger.info(
+        "Loaded schema with %d tables and %d relationships",
+        len(tables),
+        len(schema.relationships),
+    )
     generated_data = {}
 
     for table in tables:
@@ -1200,7 +1239,11 @@ def seed(
             entries=entries,
             config=config,
         )
-        logger.info("Generated %d rows for table %s", len(generated_data[table.name]), table.name)
+        logger.info(
+            "Generated %d rows for table %s",
+            len(generated_data[table.name]),
+            table.name,
+        )
 
     fill_entity_refs(tables, generated_data)
     sync_current_versions(tables, fk_map, generated_data)
@@ -1222,8 +1265,12 @@ def main():
     parser.add_argument("--schema", type=str, default="schema.dbml")
     parser.add_argument("--config", type=str, default="config.yaml")
     parser.add_argument("--output", type=str, default="data")
-    parser.add_argument("--format", choices=("auto", "dbml", "sql", "prisma"), default="auto")
-    parser.add_argument("--dialect", choices=("sqlite", "postgres", "mysql"), default="sqlite")
+    parser.add_argument(
+        "--format", choices=("auto", "dbml", "sql", "prisma"), default="auto"
+    )
+    parser.add_argument(
+        "--dialect", choices=("sqlite", "postgres", "mysql"), default="sqlite"
+    )
     args = parser.parse_args()
     try:
         seed(args.schema, args.config, args.output, args.format, args.dialect)

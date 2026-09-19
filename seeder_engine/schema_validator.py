@@ -32,7 +32,9 @@ def _build_fk_map(relationships):
     return foreign_keys
 
 
-def _check_circular_dependencies(table_names: set[str], foreign_keys: list[dict[str, str]]):
+def _check_circular_dependencies(
+    table_names: set[str], foreign_keys: list[dict[str, str]]
+):
     graph = defaultdict(set)
     for foreign_key in foreign_keys:
         source = foreign_key["table"]
@@ -70,7 +72,9 @@ def validate_schema(
     try:
         schema = load_schema(schema_text, source_format, dialect)
     except Exception as exc:
-        logger.exception("Schema parsing failed: format=%s dialect=%s", source_format, dialect)
+        logger.exception(
+            "Schema parsing failed: format=%s dialect=%s", source_format, dialect
+        )
         raise SchemaValidationError(f"DBML parse failed: {exc}") from exc
 
     table_names = [table.name for table in schema.tables]
@@ -94,14 +98,17 @@ def validate_schema(
                 f"{', '.join(duplicate_columns)}."
             )
         table_summaries.append(
-            {"name": table.name, "columns": column_names, "column_count": len(column_names)}
+            {
+                "name": table.name,
+                "columns": column_names,
+                "column_count": len(column_names),
+            }
         )
 
     foreign_keys = _build_fk_map(schema.relationships)
     known_tables = set(table_names)
     known_columns = {
-        table.name: {column.name for column in table.columns}
-        for table in schema.tables
+        table.name: {column.name for column in table.columns} for table in schema.tables
     }
     for foreign_key in foreign_keys:
         if foreign_key["target_table"] not in known_tables:
@@ -109,7 +116,10 @@ def validate_schema(
                 f"Foreign key '{foreign_key['table']}.{foreign_key['column']}' "
                 f"references missing table '{foreign_key['target_table']}'."
             )
-        if foreign_key["target_column"] not in known_columns[foreign_key["target_table"]]:
+        if (
+            foreign_key["target_column"]
+            not in known_columns[foreign_key["target_table"]]
+        ):
             raise SchemaValidationError(
                 f"Foreign key '{foreign_key['table']}.{foreign_key['column']}' "
                 f"references missing column "

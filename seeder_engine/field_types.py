@@ -51,9 +51,7 @@ TEXT_TYPES = {
 
 BOOL_TYPES = {"bool", "boolean"}
 
-TYPE_PARAM_RE = re.compile(
-    r"^([a-zA-Z][a-zA-Z0-9_ ]+?)(?:\s*\(([^)]*)\))?$"
-)
+TYPE_PARAM_RE = re.compile(r"^([a-zA-Z][a-zA-Z0-9_ ]+?)(?:\s*\(([^)]*)\))?$")
 
 ISO_CURRENCIES = (
     "USD",
@@ -130,9 +128,7 @@ def _slug():
 
 def _json_object():
     return {
-        fake.word(): random.choice(
-            [fake.word(), random.randint(1, 100), True, False]
-        )
+        fake.word(): random.choice([fake.word(), random.randint(1, 100), True, False])
         for _ in range(random.randint(2, 5))
     }
 
@@ -348,24 +344,49 @@ def generate_value(col_name: str, col_type):
     n = _normalize(col_name)
     is_array = bool(getattr(col_type, "is_array", False))
     if is_array:
-        element_type = getattr(col_type, "element_type", None) or getattr(col_type, "name", "text")
-        return [generate_value(col_name, element_type) for _ in range(random.randint(1, 3))]
+        element_type = getattr(col_type, "element_type", None) or getattr(
+            col_type, "name", "text"
+        )
+        return [
+            generate_value(col_name, element_type) for _ in range(random.randint(1, 3))
+        ]
     enum_values = getattr(col_type, "enum_values", ())
     if enum_values:
         return random.choice(enum_values)
     type_name = getattr(col_type, "name", col_type)
     base, params = parse_sql_type(str(type_name))
-    scale = params[1] if len(params) >= 2 else (params[0] if base in {"decimal", "numeric"} and len(params) == 1 else None)
+    scale = (
+        params[1]
+        if len(params) >= 2
+        else (
+            params[0] if base in {"decimal", "numeric"} and len(params) == 1 else None
+        )
+    )
 
     temporal_prefixes = (
-        "created", "updated", "modified", "deleted", "published", "started",
-        "completed", "expired", "expires", "due", "opened", "closed",
+        "created",
+        "updated",
+        "modified",
+        "deleted",
+        "published",
+        "started",
+        "completed",
+        "expired",
+        "expires",
+        "due",
+        "opened",
+        "closed",
     )
     temporal_name = any(
-        n == prefix or n.startswith(f"{prefix}_")
-        for prefix in temporal_prefixes
+        n == prefix or n.startswith(f"{prefix}_") for prefix in temporal_prefixes
     ) and n.endswith(("_at", "_on", "_date"))
-    if temporal_name and base not in {"date", "datetime", "timestamp", "timestamptz", "time"}:
+    if temporal_name and base not in {
+        "date",
+        "datetime",
+        "timestamp",
+        "timestamptz",
+        "time",
+    }:
         return generate_timestamp()
 
     if "birth" in n.split("_") and base in DATE_TYPES:

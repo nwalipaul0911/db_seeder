@@ -6,7 +6,16 @@ from typing import Any
 from sqlglot import expressions as exp
 from sqlglot import parse
 
-from .schema_ir import Column, DataType, Enum, ForeignKey, Index, Relationship, Schema, Table
+from .schema_ir import (
+    Column,
+    DataType,
+    Enum,
+    ForeignKey,
+    Index,
+    Relationship,
+    Schema,
+    Table,
+)
 
 
 class SQLAdapter:
@@ -30,23 +39,40 @@ class SQLAdapter:
         enums: list[Enum] = []
 
         for statement in statements:
-            if isinstance(statement, exp.Create) and statement.args.get("kind") == "TYPE":
+            if (
+                isinstance(statement, exp.Create)
+                and statement.args.get("kind") == "TYPE"
+            ):
                 enum = self._parse_enum(statement)
                 if enum is not None:
                     enums.append(enum)
-            elif isinstance(statement, exp.Create) and statement.args.get("kind") == "TABLE":
-                self._parse_create_table(statement, table_builders, relationships, indexes)
-            elif isinstance(statement, exp.Create) and statement.args.get("kind") == "INDEX":
+            elif (
+                isinstance(statement, exp.Create)
+                and statement.args.get("kind") == "TABLE"
+            ):
+                self._parse_create_table(
+                    statement, table_builders, relationships, indexes
+                )
+            elif (
+                isinstance(statement, exp.Create)
+                and statement.args.get("kind") == "INDEX"
+            ):
                 indexes.append(self._parse_index(statement))
 
         tables = []
         for table_name, builder in table_builders.items():
             table_indexes = tuple(
-                index for index in indexes if index.name and index.name.startswith(f"{table_name}:")
+                index
+                for index in indexes
+                if index.name and index.name.startswith(f"{table_name}:")
             )
             all_indexes = table_indexes + tuple(builder.get("indexes", []))
             cleaned_indexes = tuple(
-                Index(columns=index.columns, unique=index.unique, name=index.name.split(":", 1)[-1])
+                Index(
+                    columns=index.columns,
+                    unique=index.unique,
+                    name=index.name.split(":", 1)[-1],
+                )
                 for index in all_indexes
             )
             table_relationships = [
@@ -59,21 +85,30 @@ class SQLAdapter:
                     columns=relationship.source_columns,
                     target_table=relationship.target_table,
                     target_columns=relationship.target_columns,
-                    on_delete=relationship.cardinality if relationship.cardinality in {"CASCADE", "RESTRICT", "SET NULL"} else None,
+                    on_delete=(
+                        relationship.cardinality
+                        if relationship.cardinality
+                        in {"CASCADE", "RESTRICT", "SET NULL"}
+                        else None
+                    ),
                 )
                 for relationship in table_relationships
                 for column in relationship.source_columns
             }
             columns = tuple(
-                column if column.references is not None else Column(
-                    name=column.name,
-                    data_type=column.data_type,
-                    pk=column.pk,
-                    nullable=column.nullable,
-                    default=column.default,
-                    unique=column.unique,
-                    generated=column.generated,
-                    references=references.get(column.name),
+                (
+                    column
+                    if column.references is not None
+                    else Column(
+                        name=column.name,
+                        data_type=column.data_type,
+                        pk=column.pk,
+                        nullable=column.nullable,
+                        default=column.default,
+                        unique=column.unique,
+                        generated=column.generated,
+                        references=references.get(column.name),
+                    )
                 )
                 for column in builder["columns"]
             )
@@ -129,7 +164,10 @@ class SQLAdapter:
             if isinstance(item, exp.IndexColumnConstraint):
                 builder.setdefault("indexes", []).append(
                     Index(
-                        columns=tuple(self._name(expression.this) for expression in item.expressions),
+                        columns=tuple(
+                            self._name(expression.this)
+                            for expression in item.expressions
+                        ),
                         unique=False,
                         name=self._name(item.this),
                     )
@@ -173,9 +211,18 @@ class SQLAdapter:
 
     def _parse_column(self, definition) -> tuple[Column, list[dict[str, Any]]]:
         constraints = definition.args.get("constraints", [])
-        primary_key = any(isinstance(item.args.get("kind"), exp.PrimaryKeyColumnConstraint) for item in constraints)
-        unique = any(isinstance(item.args.get("kind"), exp.UniqueColumnConstraint) for item in constraints)
-        not_null = any(isinstance(item.args.get("kind"), exp.NotNullColumnConstraint) for item in constraints)
+        primary_key = any(
+            isinstance(item.args.get("kind"), exp.PrimaryKeyColumnConstraint)
+            for item in constraints
+        )
+        unique = any(
+            isinstance(item.args.get("kind"), exp.UniqueColumnConstraint)
+            for item in constraints
+        )
+        not_null = any(
+            isinstance(item.args.get("kind"), exp.NotNullColumnConstraint)
+            for item in constraints
+        )
         default = None
         checks = []
         for item in constraints:
@@ -183,20 +230,29 @@ class SQLAdapter:
             if isinstance(constraint, exp.DefaultColumnConstraint):
                 default = self._sql(constraint.this)
             elif isinstance(constraint, exp.CheckColumnConstraint):
-                checks.append({"type": "check", "expression": self._sql(constraint.this), "column": definition.name})
+                checks.append(
+                    {
+                        "type": "check",
+                        "expression": self._sql(constraint.this),
+                        "column": definition.name,
+                    }
+                )
         generated = any(
             type(item.args.get("kind")).__name__ == "ComputedColumnConstraint"
             for item in constraints
         )
-        return Column(
-            name=definition.name,
-            data_type=self._parse_type(definition.args["kind"]),
-            pk=primary_key,
-            nullable=not (primary_key or not_null),
-            default=default,
-            unique=unique,
-            generated=generated,
-        ), checks
+        return (
+            Column(
+                name=definition.name,
+                data_type=self._parse_type(definition.args["kind"]),
+                pk=primary_key,
+                nullable=not (primary_key or not_null),
+                default=default,
+                unique=unique,
+                generated=generated,
+            ),
+            checks,
+        )
 
     def _parse_type(self, data_type) -> DataType:
         if data_type.this == exp.DType.ARRAY:
@@ -221,23 +277,33 @@ class SQLAdapter:
                 if isinstance(literal, exp.Literal) and literal.is_string
             )
             return DataType(name="enum", enum_values=values)
-        name = data_type.this.name.lower() if hasattr(data_type.this, "name") else str(data_type.this).lower()
+        name = (
+            data_type.this.name.lower()
+            if hasattr(data_type.this, "name")
+            else str(data_type.this).lower()
+        )
         parameters = tuple(
             int(parameter.this.this)
             for parameter in data_type.expressions
-            if isinstance(parameter, exp.DataTypeParam) and isinstance(parameter.this, exp.Literal) and not parameter.this.is_string
+            if isinstance(parameter, exp.DataTypeParam)
+            and isinstance(parameter.this, exp.Literal)
+            and not parameter.this.is_string
         )
         return DataType(name=name, parameters=parameters)
 
     def _parse_foreign_key(self, source_table: str, definition) -> Relationship:
         reference = definition.args["reference"]
         target = reference.this.this
-        options = " ".join(self._sql(option).upper() for option in reference.args.get("options", []))
+        options = " ".join(
+            self._sql(option).upper() for option in reference.args.get("options", [])
+        )
         return Relationship(
             source_table=source_table,
             source_columns=tuple(self._column_names(definition.expressions)),
             target_table=self._name(target),
-            target_columns=tuple(self._name(column) for column in reference.this.expressions),
+            target_columns=tuple(
+                self._name(column) for column in reference.this.expressions
+            ),
             cardinality=options or "many-to-one",
         )
 
@@ -252,7 +318,9 @@ class SQLAdapter:
             source_table=source_table,
             source_columns=(source_column,),
             target_table=self._name(target),
-            target_columns=tuple(self._name(column) for column in reference.this.expressions),
+            target_columns=tuple(
+                self._name(column) for column in reference.this.expressions
+            ),
             cardinality=options or "many-to-one",
         )
 
@@ -263,9 +331,15 @@ class SQLAdapter:
                 builder["primary_key"] = names
             elif isinstance(expression, exp.UniqueColumnConstraint):
                 columns = self._column_names(expression.this.expressions)
-                builder["constraints"].append({"type": "unique", "columns": tuple(columns)})
+                builder["constraints"].append(
+                    {"type": "unique", "columns": tuple(columns)}
+                )
                 builder.setdefault("indexes", []).append(
-                    Index(columns=tuple(columns), unique=True, name=constraint.name or "unique")
+                    Index(
+                        columns=tuple(columns),
+                        unique=True,
+                        name=constraint.name or "unique",
+                    )
                 )
             elif isinstance(expression, exp.ForeignKey):
                 relationships.append(self._parse_foreign_key(table_name, expression))
@@ -300,4 +374,7 @@ class SQLAdapter:
 
     @staticmethod
     def _column_names(expressions) -> list[str]:
-        return [expression.name if hasattr(expression, "name") else str(expression) for expression in expressions]
+        return [
+            expression.name if hasattr(expression, "name") else str(expression)
+            for expression in expressions
+        ]

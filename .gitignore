@@ -11,6 +11,7 @@ report.md
 test_engine.py
 .ruff_cache/
 venv
+.env
 schema.dbml
 plan.md
 issues.md

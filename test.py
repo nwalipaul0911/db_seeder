@@ -297,26 +297,26 @@ def test_flag_timestamp_alignment(all_data, dbml_obj):
                 continue
             for r_id, row in rows.items():
                 if row.get(col.name):
-                    assert row.get(ts_name) is not None, (
-                        f"{table.name}[{r_id}]: {col.name}=true but {ts_name} is null"
-                    )
+                    assert (
+                        row.get(ts_name) is not None
+                    ), f"{table.name}[{r_id}]: {col.name}=true but {ts_name} is null"
                 else:
-                    assert row.get(ts_name) is None, (
-                        f"{table.name}[{r_id}]: {col.name}=false but {ts_name} is set"
-                    )
+                    assert (
+                        row.get(ts_name) is None
+                    ), f"{table.name}[{r_id}]: {col.name}=false but {ts_name} is set"
 
         if "is_active" in names:
             for r_id, row in rows.items():
                 if row.get("is_active"):
                     for col in table.columns:
                         if col.name.lower().startswith("revoked"):
-                            assert row.get(col.name) is None, (
-                                f"{table.name}[{r_id}]: is_active but {col.name} is set"
-                            )
+                            assert (
+                                row.get(col.name) is None
+                            ), f"{table.name}[{r_id}]: is_active but {col.name} is set"
                 elif "revoked_at" in names:
-                    assert row.get("revoked_at") is not None, (
-                        f"{table.name}[{r_id}]: inactive but revoked_at is null"
-                    )
+                    assert (
+                        row.get("revoked_at") is not None
+                    ), f"{table.name}[{r_id}]: inactive but revoked_at is null"
 
 
 def test_entity_type_id_pairs(all_data, dbml_obj):
@@ -331,18 +331,18 @@ def test_entity_type_id_pairs(all_data, dbml_obj):
                 entity_id = row.get(id_col)
                 if target is None or entity_id is None:
                     continue
-                assert target in all_data, (
-                    f"{table.name}[{r_id}].{type_col}={target} is not a seeded table"
-                )
+                assert (
+                    target in all_data
+                ), f"{table.name}[{r_id}].{type_col}={target} is not a seeded table"
                 ids = {
                     str(r.get(k))
                     for r in all_data[target].values()
                     for k in r
                     if k.endswith("_id") or k == "id"
                 }
-                assert str(entity_id) in ids, (
-                    f"{table.name}[{r_id}].{id_col}={entity_id} not found in {target}"
-                )
+                assert (
+                    str(entity_id) in ids
+                ), f"{table.name}[{r_id}].{id_col}={entity_id} not found in {target}"
 
 
 def test_version_sequences(all_data, dbml_obj, fk_map):
@@ -352,9 +352,7 @@ def test_version_sequences(all_data, dbml_obj, fk_map):
             if not index.unique:
                 continue
             cols = [
-                s.name
-                for s in getattr(index, "subjects", [])
-                if hasattr(s, "name")
+                s.name for s in getattr(index, "subjects", []) if hasattr(s, "name")
             ]
             version_cols = [c for c in cols if is_sequence_version(c)]
             fk_cols = [c for c in cols if c in fk_map.get(table.name, {})]
@@ -458,6 +456,6 @@ def test_nullable_columns_are_sometimes_null(all_data, dbml_obj):
             if n.startswith("revoked"):
                 continue
             values = [row.get(col.name) for row in rows.values()]
-            assert any(v is None for v in values), (
-                f"{table.name}.{col.name} is nullable but never null"
-            )
+            assert any(
+                v is None for v in values
+            ), f"{table.name}.{col.name} is nullable but never null"
