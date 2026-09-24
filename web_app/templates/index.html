@@ -3,523 +3,230 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DBML Data Seeder</title>
+    <title>Seedwork | Synthetic data for real schemas</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
 
       :root {
         --ink: #172121;
-        --muted: #687373;
+        --muted: #667371;
         --paper: #f4f6f1;
         --surface: #ffffff;
         --line: #d9dfd8;
-        --soft-line: #e9ede8;
         --accent: #e75d3f;
         --accent-dark: #bd4029;
         --teal: #137c72;
-        --teal-dark: #0b5c55;
         --code: #172525;
-        --shadow: 0 24px 60px rgba(23, 33, 33, 0.10);
+        --code-muted: #7d9390;
+        --shadow: 0 24px 60px rgba(23, 33, 33, 0.12);
       }
 
-      * {
-        box-sizing: border-box;
-      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
 
       body {
         min-width: 320px;
         margin: 0;
+        color: var(--ink);
         background-color: var(--paper);
         background-image: linear-gradient(rgba(23, 33, 33, 0.035) 1px, transparent 1px),
           linear-gradient(90deg, rgba(23, 33, 33, 0.035) 1px, transparent 1px);
         background-size: 28px 28px;
-        color: var(--ink);
         font-family: 'Manrope', 'Trebuchet MS', sans-serif;
       }
 
-      .container {
-        width: min(1180px, calc(100% - 32px));
-        margin: 42px auto;
-        padding: clamp(22px, 4vw, 52px);
-        background: rgba(255, 255, 255, 0.94);
-        border: 1px solid rgba(217, 223, 216, 0.9);
-        border-radius: 18px;
-        box-shadow: var(--shadow);
-      }
+      a { color: inherit; }
+      .shell { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
 
-      .eyebrow {
-        margin: 0 0 10px;
-        color: var(--accent-dark);
-        font-family: 'DM Mono', monospace;
-        font-size: 11px;
-        font-weight: 500;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-      }
-
-      h1 {
-        max-width: 680px;
-        margin: 0;
-        font-size: clamp(2rem, 5vw, 4.5rem);
-        line-height: 0.98;
-        letter-spacing: -0.04em;
-      }
-
-      .intro {
-        max-width: 650px;
-        margin: 16px 0 38px;
-        color: var(--muted);
-        font-size: 15px;
-        line-height: 1.65;
-      }
-
-      form {
-        display: grid;
-        gap: 22px;
-      }
-
-      .control-grid {
-        display: grid;
-        grid-template-columns: minmax(130px, 0.7fr) minmax(180px, 1fr) minmax(220px, 1.4fr);
-        gap: 14px;
-      }
-
-      .field {
-        display: grid;
-        min-width: 0;
-        gap: 7px;
-      }
-
-      .field label {
-        color: var(--muted);
-        font-size: 11px;
-        font-weight: 800;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-      }
-
-      input,
-      select,
-      button {
-        min-width: 0;
-        min-height: 44px;
-        padding: 11px 13px;
-        border: 1px solid var(--line);
-        border-radius: 8px;
-        font: inherit;
-        font-size: 13px;
-      }
-
-      input,
-      select {
-        width: 100%;
-        color: var(--ink);
-        background: var(--surface);
-      }
-
-      input:focus,
-      select:focus,
-      textarea:focus,
-      button:focus-visible {
-        outline: 3px solid rgba(231, 93, 63, 0.18);
-        outline-offset: 2px;
-        border-color: var(--accent);
-      }
-
-      button {
-        border-color: transparent;
-        background: var(--accent);
-        color: #fff;
-        cursor: pointer;
-        font-weight: 800;
-        transition: transform 150ms ease, background 150ms ease;
-      }
-
-      button:hover {
-        background: var(--accent-dark);
-        transform: translateY(-1px);
-      }
-
-      button.secondary {
-        border-color: var(--line);
-        background: var(--surface);
-        color: var(--ink);
-      }
-
-      button.secondary:hover {
-        background: #f0f3ee;
-      }
-
-      .editor {
-        display: grid;
-        gap: 10px;
-      }
-
-      .editor-header,
-      .results-header {
+      .site-header {
         display: flex;
-        align-items: baseline;
+        align-items: center;
         justify-content: space-between;
-        gap: 16px;
+        min-height: 86px;
+        border-bottom: 1px solid rgba(217, 223, 216, 0.8);
       }
 
-      .editor-header h2,
-      .results-header h2 {
-        margin: 0;
-        font-size: 16px;
-        letter-spacing: -0.02em;
-      }
-
-      .hint {
-        margin: 0;
-        color: var(--muted);
-        font-family: 'DM Mono', monospace;
-        font-size: 11px;
-      }
-
-      textarea {
-        width: 100%;
-        min-height: 360px;
-        padding: 18px;
-        resize: vertical;
-        border: 1px solid #344b4a;
-        border-radius: 10px;
-        background: var(--code);
-        color: #dceae3;
-        font-family: 'DM Mono', monospace;
-        font-size: 13px;
-        line-height: 1.65;
-        tab-size: 2;
-      }
-
-      #dbml_text::placeholder {
-        color: #7d9390;
-      }
-
-      .actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-      }
-
-      .status {
-        display: none;
-        margin-top: 28px;
-        padding: 14px 16px;
-        border-left: 4px solid var(--teal);
-        border-radius: 6px;
-        font-size: 13px;
-        line-height: 1.5;
-      }
-
-      .status {
-        overflow-wrap: anywhere;
-      }
-
-      .status.success {
-        display: block;
-        background: #e8f4ef;
-        color: #075e55;
-      }
-
-      .status.error {
-        display: block;
-        border-left-color: var(--accent);
-        background: #fff0eb;
-        color: #92341f;
-      }
-
-      #downloadContainer {
-        margin: 20px 0 0;
-      }
-
-      .download-link {
+      .brand {
         display: inline-flex;
         align-items: center;
-        min-height: 44px;
-        padding: 10px 14px;
-        border-radius: 8px;
-        background: var(--teal);
-        color: #fff;
-        font-size: 13px;
+        gap: 10px;
+        color: var(--ink);
+        font-size: 14px;
         font-weight: 800;
         text-decoration: none;
       }
 
-      .download-link:hover {
-        background: var(--teal-dark);
-      }
-
-      .results {
-        margin-top: 38px;
-        padding-top: 28px;
-        border-top: 1px solid var(--soft-line);
-      }
-
-      #resultList {
+      .brand-mark {
         display: grid;
-        gap: 10px;
-        margin: 16px 0 0;
-        padding: 0;
-        list-style: none;
-      }
-
-      .json-item {
-        min-width: 0;
-        border: 1px solid var(--line);
+        width: 30px;
+        height: 30px;
+        place-items: center;
         border-radius: 8px;
-        overflow: hidden;
-      }
-
-      .json-item summary {
-        padding: 12px 16px;
-        cursor: pointer;
-        color: var(--ink);
+        background: var(--ink);
+        color: #dceae3;
         font-family: 'DM Mono', monospace;
-        font-size: 12px;
-        font-weight: 500;
-        background: #f6f8f4;
-        overflow-wrap: anywhere;
+        font-size: 13px;
       }
 
-      .json-viewer {
-        padding: 12px;
-        background: var(--surface);
+      .header-nav { display: flex; align-items: center; gap: 24px; color: var(--muted); font-size: 12px; font-weight: 700; }
+      .header-nav a { text-decoration: none; }
+      .header-nav a:hover { color: var(--accent-dark); }
+      .header-nav .nav-action { padding: 10px 14px; border-radius: 7px; background: var(--accent); color: #fff; }
+      .header-nav .nav-action:hover { color: #fff; background: var(--accent-dark); }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.05fr) minmax(360px, 0.95fr);
+        gap: clamp(42px, 7vw, 92px);
+        align-items: center;
+        min-height: 610px;
+        padding: 76px 0 88px;
       }
 
-      .json-viewer textarea {
-        width: 100%;
-        height: 320px;
-        min-height: 0;
-        resize: vertical;
-        margin-bottom: 10px;
-        background: #f3f6f2;
-        color: var(--ink);
-        border-color: var(--line);
-      }
+      .eyebrow { margin: 0 0 18px; color: var(--accent-dark); font-family: 'DM Mono', monospace; font-size: 11px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; }
+      h1 { max-width: 650px; margin: 0; font-size: clamp(3rem, 6vw, 5.8rem); line-height: 0.94; letter-spacing: -0.055em; }
+      .hero-copy { max-width: 540px; margin: 26px 0 32px; color: var(--muted); font-size: 16px; line-height: 1.7; }
+      .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
 
-      .copy-button {
-        background: var(--teal);
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 48px;
+        padding: 12px 18px;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 800;
+        text-decoration: none;
+        transition: transform 150ms ease, background 150ms ease;
       }
+      .button:hover { transform: translateY(-2px); }
+      .button-primary { background: var(--accent); color: #fff; }
+      .button-primary:hover { background: var(--accent-dark); }
+      .button-secondary { border-color: var(--line); background: var(--surface); color: var(--ink); }
+      .button-secondary:hover { background: #edf1ec; }
+      .hero-note { display: flex; align-items: center; gap: 9px; margin: 24px 0 0; color: var(--muted); font-family: 'DM Mono', monospace; font-size: 11px; }
+      .hero-note::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--teal); box-shadow: 0 0 0 4px rgba(19, 124, 114, 0.12); }
 
-      .copy-button:hover {
-        background: var(--teal-dark);
-      }
+      .schema-preview { position: relative; padding: 18px; border-radius: 14px; background: var(--code); box-shadow: var(--shadow); transform: rotate(1.5deg); }
+      .schema-preview::before { content: 'LIVE PREVIEW'; position: absolute; top: -13px; right: 22px; padding: 7px 10px; border-radius: 5px; background: var(--teal); color: #fff; font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.1em; }
+      .window-bar { display: flex; gap: 6px; padding: 2px 0 18px; }
+      .window-bar span { width: 8px; height: 8px; border-radius: 50%; background: #68807a; }
+      .window-bar span:first-child { background: var(--accent); }
+      pre { overflow: auto; margin: 0; color: #dceae3; font-family: 'DM Mono', monospace; font-size: 12px; line-height: 1.8; }
+      .token-muted { color: var(--code-muted); }
+      .token-accent { color: #ff9a79; }
+      .token-teal { color: #73d1bd; }
+      .token-gold { color: #e7c77f; }
+
+      .stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+      .stat { padding: 24px 20px 25px 0; }
+      .stat + .stat { padding-left: 28px; border-left: 1px solid var(--line); }
+      .stat strong { display: block; margin-bottom: 6px; font-size: 18px; }
+      .stat span { color: var(--muted); font-size: 12px; line-height: 1.5; }
+
+      .section { padding: 100px 0; }
+      .section-heading { display: flex; justify-content: space-between; gap: 40px; align-items: end; margin-bottom: 42px; }
+      h2 { max-width: 600px; margin: 0; font-size: clamp(2rem, 4vw, 3.3rem); line-height: 1; letter-spacing: -0.045em; }
+      .section-heading p { max-width: 350px; margin: 0; color: var(--muted); font-size: 14px; line-height: 1.65; }
+      .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); }
+      .feature { min-height: 250px; padding: 28px 28px 20px 0; border-bottom: 1px solid var(--line); }
+      .feature + .feature { padding-left: 28px; border-left: 1px solid var(--line); }
+      .feature-number { color: var(--accent-dark); font-family: 'DM Mono', monospace; font-size: 11px; }
+      .feature h3 { margin: 54px 0 10px; font-size: 18px; letter-spacing: -0.02em; }
+      .feature p { max-width: 280px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.65; }
+
+      .cta-band { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: center; margin: 0 0 80px; padding: 38px 42px; border-radius: 12px; background: var(--code); color: #fff; }
+      .cta-band h2 { max-width: 600px; font-size: clamp(1.8rem, 4vw, 3rem); }
+      .cta-band p { margin: 10px 0 0; color: #a9bbb4; font-size: 13px; }
+      .cta-band .button-primary { background: #f07758; white-space: nowrap; }
+      .cta-band .button-primary:hover { background: #ff8a6a; }
+      footer { padding: 24px 0 36px; border-top: 1px solid var(--line); color: var(--muted); font-family: 'DM Mono', monospace; font-size: 11px; }
+      footer .shell { display: flex; justify-content: space-between; gap: 20px; }
 
       @media (max-width: 800px) {
-        .container {
-          width: min(100% - 20px, 680px);
-          margin: 10px auto;
-          padding: 24px 18px;
-          border-radius: 14px;
-        }
-
-        .control-grid {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-
-        .field.file-field {
-          grid-column: 1 / -1;
-        }
+        .hero { grid-template-columns: 1fr; min-height: 0; padding: 64px 0 72px; }
+        .schema-preview { max-width: 600px; width: 100%; margin: 0 auto; }
+        .section { padding: 72px 0; }
+        .section-heading { display: block; }
+        .section-heading p { margin-top: 18px; }
       }
 
-      @media (max-width: 520px) {
-        .control-grid {
-          grid-template-columns: 1fr;
-        }
-
-        .field.file-field {
-          grid-column: auto;
-        }
-
-        .actions {
-          display: grid;
-          grid-template-columns: 1fr;
-        }
-
-        .actions button {
-          width: 100%;
-        }
-
-        textarea {
-          min-height: 280px;
-          padding: 14px;
-          font-size: 12px;
-        }
-
-        .editor-header,
-        .results-header {
-          align-items: flex-start;
-          flex-direction: column;
-          gap: 5px;
-        }
+      @media (max-width: 560px) {
+        .shell { width: min(100% - 28px, 480px); }
+        .site-header { min-height: 70px; }
+        .header-nav { gap: 12px; }
+        .header-nav a:not(.nav-action) { display: none; }
+        h1 { font-size: clamp(2.8rem, 15vw, 4.2rem); }
+        .hero-copy { font-size: 14px; }
+        .stats, .feature-grid { grid-template-columns: 1fr; }
+        .stat, .stat + .stat { padding: 20px 0; border-left: 0; }
+        .stat + .stat { border-top: 1px solid var(--line); }
+        .feature, .feature + .feature { min-height: 0; padding: 24px 0; border-left: 0; }
+        .feature + .feature { border-top: 1px solid var(--line); }
+        .feature h3 { margin-top: 28px; }
+        .cta-band { display: block; margin-bottom: 56px; padding: 28px 24px; }
+        .cta-band .button { margin-top: 24px; }
+        footer .shell { display: block; }
+        footer span + span { display: block; margin-top: 8px; }
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <p class="eyebrow">Schema to synthetic data</p>
-      <h1>DB Seeder</h1>
-      <p><a href="/sql">Open SQL workspace</a></p>
-      <p class="intro">Paste or upload a DBML, SQL DDL, or Prisma schema. Validate it first, then generate a relational SQLite database you can download or inspect in the SQL workspace.</p>
+    <header class="site-header shell">
+      <a class="brand" href="/" aria-label="Seedwork home"><span class="brand-mark">&gt;_</span><span>Seedwork</span></a>
+      <nav class="header-nav" aria-label="Main navigation">
+        <a href="#workflow">How it works</a>
+        <a href="/sql">SQL explorer</a>
+        <a class="nav-action" href="/seeder">Open seeder</a>
+      </nav>
+    </header>
 
-      <form id="seedForm" method="POST" action="/generate">
-        <div class="control-grid">
-          <div class="field">
-            <label for="rows_per_table">Max rows per table</label>
-            <input id="rows_per_table" name="rows_per_table" type="number" min="1" value="100" />
-          </div>
-          <div class="field file-field">
-            <label for="dbml_file">Schema file</label>
-            <input id="dbml_file" name="dbml_file" type="file" accept=".dbml,.sql,.prisma,text/plain" />
-          </div>
-          <div class="field">
-            <label for="schema_format">Format</label>
-            <select id="schema_format" name="schema_format">
-              <option value="auto">Auto-detect</option>
-              <option value="dbml">DBML</option>
-              <option value="sql">SQL DDL</option>
-              <option value="prisma">Prisma</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="dialect">SQL dialect</label>
-            <select id="dialect" name="dialect">
-              <option value="sqlite">SQLite</option>
-              <option value="postgres">PostgreSQL</option>
-              <option value="mysql">MySQL</option>
-            </select>
-          </div>
+    <main>
+      <section class="hero shell">
+        <div>
+          <p class="eyebrow">Schema to synthetic data</p>
+          <h1>Build a database worth testing.</h1>
+          <p class="hero-copy">Turn DBML, SQL DDL, or Prisma schemas into realistic relational data. Validate the shape, tune the volume, and download a ready-to-query SQLite database.</p>
+          <div class="hero-actions"><a class="button button-primary" href="/seeder">Start seeding <span aria-hidden="true">&nbsp;-></span></a><a class="button button-secondary" href="#workflow">See the workflow</a></div>
+          <p class="hero-note">Local-first · deterministic · developer friendly</p>
         </div>
-
-        <div class="editor">
-          <div class="editor-header">
-            <h2>Schema input</h2>
-            <p class="hint">paste source or choose a file above</p>
-          </div>
-          <textarea id="dbml_text" name="dbml_text" placeholder="Paste DBML, SQL DDL, or Prisma schema here..."></textarea>
+        <div class="schema-preview" aria-label="Example schema preview">
+          <div class="window-bar" aria-hidden="true"><span></span><span></span><span></span></div>
+          <pre><span class="token-muted">01</span> <span class="token-accent">Table</span> users {
+<span class="token-muted">02</span>   id         <span class="token-teal">int</span> [pk, increment]
+<span class="token-muted">03</span>   name       <span class="token-teal">varchar</span>
+<span class="token-muted">04</span>   email      <span class="token-teal">varchar</span> [unique]
+<span class="token-muted">05</span>   created_at <span class="token-teal">datetime</span>
+<span class="token-muted">06</span> }
+<span class="token-muted">07</span>
+<span class="token-muted">08</span> <span class="token-accent">Table</span> orders {
+<span class="token-muted">09</span>   id         <span class="token-teal">int</span> [pk]
+<span class="token-muted">10</span>   user_id    <span class="token-teal">int</span>
+<span class="token-muted">11</span>   total      <span class="token-gold">decimal</span>
+<span class="token-muted">12</span> }</pre>
         </div>
-
-        <div class="actions">
-          <button type="submit">Generate data</button>
-          <button class="secondary" type="button" id="validateSchema">Validate schema</button>
-          <button class="secondary" type="button" id="loadSample">Load sample</button>
-        </div>
-      </form>
-
-      <div id="status" class="status"></div>
-      <p id="downloadContainer" hidden>
-        <a id="downloadLink" class="download-link" href="">Download SQLite database</a>
-      </p>
-      <section class="results" aria-live="polite">
-        <div class="results-header">
-          <h2>Generated tables</h2>
-          <p class="hint">rows are stored in the generated SQLite database</p>
-        </div>
-        <ul id="resultList"></ul>
       </section>
-    </div>
 
-    <script>
-      const sample = `Table users {
-  id int [pk, increment]
-  name varchar
-  email varchar [unique]
-  created_at datetime
-}`;
+      <section class="stats shell" aria-label="Seeder capabilities">
+        <div class="stat"><strong>3 schema formats</strong><span>DBML, SQL DDL, and Prisma are all welcome.</span></div>
+        <div class="stat"><strong>Relational by default</strong><span>Foreign keys and dependencies stay intact.</span></div>
+        <div class="stat"><strong>One useful output</strong><span>A SQLite database ready for inspection.</span></div>
+      </section>
 
-      document.getElementById('dbml_file').addEventListener('change', async function () {
-        const file = this.files[0];
-        const statusEl = document.getElementById('status');
-        const schemaText = document.getElementById('dbml_text');
-        const formatSelect = document.getElementById('schema_format');
+      <section class="section shell" id="workflow">
+        <div class="section-heading"><h2>From schema file to useful test data in three moves.</h2><p>Keep your test setup close to the model you already maintain. Seedwork handles the translation and leaves you with something you can actually query.</p></div>
+        <div class="feature-grid">
+          <article class="feature"><span class="feature-number">01 / INPUT</span><h3>Bring your schema</h3><p>Paste a schema directly or upload the file your project already uses.</p></article>
+          <article class="feature"><span class="feature-number">02 / SHAPE</span><h3>Validate before you generate</h3><p>Catch missing references and unsupported structures before data enters the pipeline.</p></article>
+          <article class="feature"><span class="feature-number">03 / EXPLORE</span><h3>Query the result</h3><p>Download the SQLite database or inspect generated runs in the SQL workspace.</p></article>
+        </div>
+      </section>
 
-        if (!file) return;
+      <section class="cta-band shell"><div><h2>Your next fixture starts with the schema.</h2><p>Open the seeder and generate a database in a few seconds.</p></div><a class="button button-primary" href="/seeder">Open the seeder <span aria-hidden="true">&nbsp;-></span></a></section>
+    </main>
 
-        try {
-          schemaText.value = await file.text();
-          const extension = file.name.split('.').pop().toLowerCase();
-          const formatByExtension = { dbml: 'dbml', sql: 'sql', prisma: 'prisma' };
-          if (formatSelect.value === 'auto' && formatByExtension[extension]) {
-            formatSelect.value = formatByExtension[extension];
-          }
-          statusEl.className = 'status success';
-          statusEl.textContent = `Loaded ${file.name}. Review the schema, then validate or generate.`;
-          statusEl.style.display = 'block';
-        } catch (error) {
-          statusEl.className = 'status error';
-          statusEl.textContent = `Unable to read ${file.name}: ${error.message}`;
-          statusEl.style.display = 'block';
-        }
-      });
-
-      document.getElementById('loadSample').addEventListener('click', function () {
-        document.getElementById('dbml_text').value = sample;
-      });
-
-      document.getElementById('validateSchema').addEventListener('click', async function () {
-        const formData = new FormData(document.getElementById('seedForm'));
-        const statusEl = document.getElementById('status');
-        statusEl.className = 'status';
-        statusEl.textContent = 'Validating schema...';
-        statusEl.style.display = 'block';
-
-        try {
-          const response = await fetch('/validate', { method: 'POST', body: formData });
-          const data = await response.json();
-          if (!response.ok) throw new Error(data.error || 'Schema validation failed');
-          statusEl.className = 'status success';
-          statusEl.textContent = `Valid schema: ${data.table_count} tables, ${data.enum_count} enums, ${data.reference_count} references.`;
-        } catch (error) {
-          statusEl.className = 'status error';
-          statusEl.textContent = error.message;
-        }
-      });
-
-      document.getElementById('seedForm').addEventListener('submit', async function (event) {
-        event.preventDefault();
-        const formData = new FormData(this);
-        const statusEl = document.getElementById('status');
-        const resultList = document.getElementById('resultList');
-
-        statusEl.className = 'status';
-        statusEl.textContent = 'Generating...';
-        statusEl.style.display = 'block';
-        document.getElementById('downloadContainer').hidden = true;
-        resultList.innerHTML = '';
-
-        try {
-          const response = await fetch('/generate', {
-            method: 'POST',
-            body: formData,
-          });
-
-          const data = await response.json();
-
-          if (!response.ok) {
-            throw new Error(data.error || 'Generation failed');
-          }
-
-          statusEl.className = 'status success';
-          statusEl.textContent = data.message;
-
-          const outputRoot = data.output_root || '';
-          const downloadContainer = document.getElementById('downloadContainer');
-          const downloadLink = document.getElementById('downloadLink');
-          downloadLink.href = `/download/${encodeURIComponent(outputRoot)}/${encodeURIComponent(data.database_name)}`;
-          downloadContainer.hidden = false;
-
-          Object.entries(data.row_counts || {}).forEach(([file, rowCount]) => {
-            const li = document.createElement('li');
-            li.className = 'json-item';
-            li.textContent = `${file} · ${rowCount.toLocaleString()} rows`;
-            resultList.appendChild(li);
-          });
-        } catch (error) {
-          statusEl.className = 'status error';
-          statusEl.textContent = error.message;
-        }
-      });
-    </script>
+    <footer><div class="shell"><span>SEEDWORK / SYNTHETIC DATA TOOLKIT</span><span>Built for schemas that keep changing.</span></div></footer>
   </body>
 </html>

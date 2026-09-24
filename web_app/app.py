@@ -300,9 +300,13 @@ def cleanup_history(current_run=None):
 
 @app.route("/")
 def index():
-    """Serve the main schema upload and generation page."""
+    """Serve the app landing page."""
     return render_template("index.html")
 
+@app.route("/seeder")
+def seeder():
+    """Serve the seeder page."""
+    return render_template("seeder.html")
 
 @app.route("/sql")
 def sql_workspace():
@@ -801,5 +805,5 @@ if __name__ == "__main__":
     app.run(
         debug=os.environ.get("FLASK_DEBUG", "0").lower() in {"1", "true", "yes"},
         host="0.0.0.0",
-        port=5000,
+        port=8000,
     )

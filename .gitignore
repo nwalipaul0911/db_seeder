@@ -8,7 +8,6 @@ output/
 logs/
 schemas/
 report.md
-test_engine.py
 .ruff_cache/
 venv
 .env
